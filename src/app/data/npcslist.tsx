@@ -22,4 +22,10 @@ export const npcs: MonsterEntry[] = [
         link: 'http://tgdmb.com/viewtopic.php?p=165139',
         challengeRating: 1/6
     },
+    {
+        name: 'Olga, Neutral Evil Human Witch 6',
+        author: 'Koumei',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=103097#103097',
+        challengeRating: 6
+    },
 ]

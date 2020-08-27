@@ -467,7 +467,26 @@ export const feats: Entry[] = [
             link: link,
             author: 'Koumei'
         }
-    })
+    }),
+    ...[
+        'Dread Touch of the Abyss',
+        'Born in Darkness',
+        'Afternoon Shadows',
+        'In the End',
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'Koumei',
+            link: 'http://tgdmb.com/viewtopic.php?p=131636#131636',
+            relatedLinks: [{title: 'Shadowcaster', link: 'http://tgdmb.com/viewtopic.php?p=127294#127294'}]
+        }
+    }),
+    {
+        name: 'Imbue Darkness',
+        author: 'Koumei',
+        link: 'http://tgdmb.com/viewtopic.php?p=132122#132122',
+        relatedLinks: [{title: 'Shadowcaster', link: 'http://tgdmb.com/viewtopic.php?p=127294#127294'}]
+    }
 ];
 
 export const featCollections: Entry[] = [

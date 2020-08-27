@@ -836,4 +836,120 @@ export const baseClasses: Entry[] = [
         author: 'Prak',
         link: 'http://www.tgdmb.com/viewtopic.php?p=417543#417543',
     },
+    {
+        name: 'Ninja (Old)',
+        author: 'Koumei',
+        link: 'http://www.tgdmb.com/viewtopic.php?t=50367',
+    },
+    {
+        name: 'Ninja, Revised',
+        author: 'Koumei',
+        link: 'http://tgdmb.com/viewtopic.php?p=232386#232386',
+    },
+    {
+        name: 'Swashbuckler (Old)',
+        author: 'Koumei',
+        link: 'http://www.tgdmb.com/viewtopic.php?t=50350',
+    },
+    {
+        name: 'Swashbuckler, Revised',
+        author: 'Koumei',
+        link: 'http://tgdmb.com/viewtopic.php?p=232624#232624',
+    },
+    {
+        name: 'Witch v1',
+        author: 'Koumei',
+        link: 'http://www.tgdmb.com/viewtopic.php?t=50003',
+    },
+    {
+        name: 'Witch v2',
+        author: 'Koumei',
+        link: 'http://tgdmb.com/viewtopic.php?p=534641#534641',
+    },
+    {
+        name: 'New Fighter *PATHFINDER*',
+        author: 'Covent',
+        link: 'http://tgdmb.com/viewtopic.php?t=56533',
+    },
+    {
+        name: 'Nightmare Seeker',
+        author: 'koz',
+        link: 'http://www.tgdmb.com/viewtopic.php?t=49467',
+    },
+    {
+        name: 'Ninja Rogue',
+        author: 'Kaelik',
+        link: 'http://tgdmb.com/viewtopic.php?t=56375',
+    },
+    {
+        name: 'Nymph Sustainer',
+        author: 'JonSetanta',
+        link: 'http://tgdmb.com/viewtopic.php?t=51801',
+    },
+    {
+        name: 'Overlord',
+        author: 'Koumei',
+        link: 'http://tgdmb.com/viewtopic.php?p=140728#140728',
+    },
+    {
+        name: 'Sohei',
+        author: 'Koumei',
+        link: 'http://tgdmb.com/viewtopic.php?t=50005',
+    },
+    {
+        name: 'Warmage (Old)',
+        author: 'Koumei',
+        link: 'http://tgdmb.com/viewtopic.php?t=50032',
+    },
+    {
+        name: 'Warmage, Take 2',
+        author: 'Koumei',
+        link: 'http://www.tgdmb.com/viewtopic.php?t=54502',
+    },
+    {
+        name: 'Shadowcaster',
+        author: 'Koumei',
+        link: 'http://tgdmb.com/viewtopic.php?t=50587',
+    },
+    {
+        name: 'Untamed Psychic',
+        author: 'Koumei',
+        link: 'http://tgdmb.com/viewtopic.php?t=50979',
+    },
+    {
+        name: 'Time Mage',
+        author: 'Koumei',
+        link: 'http://tgdmb.com/viewtopic.php?t=50995',
+    },
+    {
+        name: 'Paladin',
+        author: 'Koumei',
+        link: 'http://tgdmb.com/viewtopic.php?t=50873',
+    },
+    {
+        name: 'Pact Knight',
+        author: 'tenngu',
+        link: 'https://docs.google.com/document/d/1PWi1wwzjXGFWNdhlD1K1VeaBB9mBjkdSjaMtwKt8Z10/edit',
+    },
+    {
+        name: 'Paladin (Alt name: Champion, Crusader)',
+        author: 'God_of_Awesome',
+        link: 'http://www.tgdmb.com/viewtopic.php?t=50775',
+    },
+    {
+        name: 'Paladin',
+        author: 'Hicks',
+        link: 'http://tgdmb.com/viewtopic.php?t=49591',
+    },
+    {
+        name: 'Paladin',
+        author: 'IGTN',
+        link: 'http://www.tgdmb.com/viewtopic.php?t=50021',
+        wikiLink: 'https://dnd-wiki.org/wiki/Paladin,_Tome_%283.5e_Class%29'
+    },
+    {
+        name: 'Paladin',
+        author: 'Lokathor',
+        link: 'http://tgdmb.com/viewtopic.php?t=56455',
+    },
 ];

@@ -198,7 +198,7 @@ export const races: Entry[] = [
     link: "https://docs.google.com/document/d/1CKMbTQCiAs6Kr1Bf4hf0KuwZItnsc1dnC4HYy1BQOuE/edit#heading=h.amp2mqajxbx",
   },
   {
-    name: "True Dragon, Dragon Monster Class",
+    name: "True Dragon",
     author: "Hicks",
     link: "http://tgdmb.com/viewtopic.php?t=50217",
   },
@@ -294,4 +294,9 @@ export const races: Entry[] = [
       link: "http://tgdmb.com/viewtopic.php?p=527470#527470"
     }
   })),
+  {
+    name: "Troll (Discworld)",
+    author: "Koumei",
+    link: "http://tgdmb.com/viewtopic.php?p=141343#141343",
+  },
 ];

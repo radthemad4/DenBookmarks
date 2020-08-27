@@ -784,5 +784,71 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     minimumStartingLevel: 5,
   },
   ...koumeiMonsterPrcs,
-  
+  {
+    name: 'Monster Rider',
+    author: 'Judging__Eagle',
+    link: 'http://tgdmb.com/viewtopic.php?t=49075',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Multi-class',
+    author: 'RobbyPants',
+    link: 'http://www.tgdmb.com/viewtopic.php?t=57197',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Mummy Lord',
+    author: 'Maxus',
+    link: 'http://tgdmb.com/viewtopic.php?p=86959#86959',
+    wikiLinks: [
+      { title: 'Mummy Template', link: 'https://dnd-wiki.org/wiki/Mummy_(3.5e_Template)' },
+      { title: 'Mummy Paragon', link: 'https://dnd-wiki.org/wiki/Mummy_Paragon_(3.5e_Racial_Paragon_Class)' },
+      { title: 'Mummy Lord', link: 'https://dnd-wiki.org/wiki/Mummy_Lord_(3.5e_Prestige_Class)' },
+    ],
+    minimumStartingLevel: 11
+  },
+  {
+    name: 'Ninja-Pirate',
+    author: 'Koumei',
+    link: 'http://tgdmb.com/viewtopic.php?p=232679#232679',
+    minimumStartingLevel: 6,
+    relatedLinks: [
+      { title: 'Ninja', link: 'http://tgdmb.com/viewtopic.php?p=232386#232386' },
+      { title: 'Swashbuckler', link: 'http://tgdmb.com/viewtopic.php?p=232624#232624' },
+    ]
+  },
+  {
+    name: 'Mystic Ninja of the Shadow Veil Sacred Path',
+    author: 'Koumei',
+    link: 'http://tgdmb.com/viewtopic.php?p=245106#245106',
+    minimumStartingLevel: 7,
+    relatedLinks: [
+      { title: 'Ninja', link: 'http://tgdmb.com/viewtopic.php?p=232386#232386' },
+    ]
+  },
+  {
+    name: 'Mystic Theurge',
+    author: 'Leress',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=53291#53291',
+    minimumStartingLevel: 7,
+  },
+  {
+    name: 'Naga Apostle (evil Rainbow Servant variant)',
+    author: 'PhaedrusXY',
+    link: 'http://tgdmb.com/viewtopic.php?t=50751',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Nightstalker',
+    author: 'Wiseman',
+    link: 'http://tgdmb.com/viewtopic.php?t=55828',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Void Witch',
+    author: 'Koumei',
+    link: 'http://tgdmb.com/viewtopic.php?p=131636#131636',
+    relatedLinks: [{title: 'Shadowcaster', link: 'http://tgdmb.com/viewtopic.php?p=127294#127294'}],
+    minimumStartingLevel: 8,
+  },
 ];

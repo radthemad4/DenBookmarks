@@ -147,4 +147,14 @@ export const racialParagons: Entry[] = [
     author: 'Surgo',
     link: 'https://dnd-wiki.org/wiki/Lich_Paragon_(3.5e_Racial_Paragon_Class)',
   },
+  {
+    name: 'Mummy Paragon',
+    author: 'Maxus',
+    link: 'http://tgdmb.com/viewtopic.php?p=86287#86287',
+    wikiLinks: [
+      { title: 'Mummy Template', link: 'https://dnd-wiki.org/wiki/Mummy_(3.5e_Template)' },
+      { title: 'Mummy Paragon', link: 'https://dnd-wiki.org/wiki/Mummy_Paragon_(3.5e_Racial_Paragon_Class)' },
+      { title: 'Mummy Lord', link: 'https://dnd-wiki.org/wiki/Mummy_Lord_(3.5e_Prestige_Class)' },
+    ],
+  },
 ];

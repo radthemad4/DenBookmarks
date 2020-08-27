@@ -77,5 +77,10 @@ export const spheres: Entry[] = [
             link: 'http://www.tgdmb.com/viewtopic.php?p=28831#28831',
             wikiLink: element.wikiLink
         }
-    })
+    }),
+    {
+        name: 'Time',
+        author: 'PhaedrusXY',
+        link: 'http://tgdmb.com/viewtopic.php?p=139550#139550'
+    },
 ];

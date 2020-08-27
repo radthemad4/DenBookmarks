@@ -445,4 +445,18 @@ export const scalingFeats: Entry[] = [
     author: 'ubernoob',
     link: 'http://tgdmb.com/viewtopic.php?p=157747#157747',
   },
+  ...['Hellscarred Ninja [Jutsu]', 'Elemental Shinobi [Jutsu]',].map((name) => {
+    return {
+      name: name,
+      author: 'Koumei',
+      link: 'http://tgdmb.com/viewtopic.php?p=232651#232651',
+    }
+  }),
+  ...['Ghost Fist Ninja [Jutsu]', 'Ninja of the Mystic Paths [Jutsu]',].map((name) => {
+    return {
+      name: name,
+      author: 'Koumei',
+      link: 'http://tgdmb.com/viewtopic.php?p=245106#245106',
+    }
+  }),
 ];
