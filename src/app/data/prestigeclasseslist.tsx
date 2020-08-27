@@ -1,0 +1,788 @@
+import { Entry, PrestigeClassEntry } from "../entry";
+import React from "react";
+import { koumeiMonsterPrcs } from "./koumeimonsterprcslist";
+
+export const prestigeClasses: PrestigeClassEntry[] = [
+  {
+    name: 'Arch-Golem Execution Girlfriend',
+    author: "Koumei",
+    link: "http://tgdmb.com/viewtopic.php?p=141531#141531",
+    relatedLinks: [{ title: "Robot Girl", link: "http://tgdmb.com/viewtopic.php?t=50551" }],
+    minimumStartingLevel: 6,
+  },
+  {
+    name: "Daineko",
+    author: "Koumei",
+    link: "http://tgdmb.com/viewtopic.php?p=141532#141532",
+    minimumStartingLevel: 6,
+  },
+  {
+    name: "Web-Slinging Killer",
+    author: "Koumei",
+    link: "http://tgdmb.com/viewtopic.php?p=141532#141532",
+    minimumStartingLevel: 6,
+  },
+  {
+    name: "Anethema",
+    author: "Koumei",
+    link: "http://tgdmb.com/viewtopic.php?p=141534#141534",
+    minimumStartingLevel: 8,
+  },
+  ...["Marilith/Lilend PrC", "Beauty Queen"].map((value, index) => {
+    return {
+      name: value,
+      author: "Koumei",
+      link: "http://tgdmb.com/viewtopic.php?p=141535#141535",
+      minimumStartingLevel: 6,
+    }
+  }),
+  {
+    name: "Overgrown",
+    author: "Koumei",
+    link: "http://tgdmb.com/viewtopic.php?p=141534#141534",
+    minimumStartingLevel: 6,
+  },
+  {
+    name: "Irikara Heretic",
+    author: "AndreiChekov",
+    link: "http://tgdmb.com/viewtopic.php?p=439047#439047",
+    minimumStartingLevel: 6,
+  },
+  ...['Fearless Rescuer', 'Scholar of Ancient Lore', 'Explorer of the Deep', 'Agent of Shadows', 'Great Healer'].map((value) => {
+    return {
+      name: value,
+      author: 'Wiseman',
+      link: 'http://tgdmb.com/viewtopic.php?p=405124#405124',
+      minimumStartingLevel: 11,
+    }
+  }),
+  {
+    name: "Aquan Champion",
+    author: "Judging__Eagle",
+    link: "http://tgdmb.com/viewtopic.php?p=38986#38986",
+    minimumStartingLevel: 6,
+  },
+  ...[
+    {
+      name: "Corpselight Whisperer",
+      link: "https://dnd-wiki.org/wiki/Corpselight_Whisperer_%283.5e_Prestige_Class%29",
+      minimumStartingLevel: 7,
+    },
+    {
+      name: "Uttercold Assault Necromancer",
+      link: "https://dnd-wiki.org/wiki/Uttercold_Assault_Necromancer_%283.5e_Prestige_Class%29",
+      minimumStartingLevel: 7,
+    },
+    {
+      name: "Boneblade Reaper",
+      link: "https://dnd-wiki.org/wiki/Boneblade_Reaper_(3.5e_Prestige_Class)#Boneblade_Reaper",
+      minimumStartingLevel: 7,
+    },
+    {
+      name: "Skindancer",
+      link: "https://dnd-wiki.org/wiki/Skindancer_%283.5e_Prestige_Class%29",
+      minimumStartingLevel: 8,
+    },
+    {
+      name: "Stranger with the Burning Eyes",
+      link: "https://dnd-wiki.org/wiki/Stranger_with_the_Burning_Eyes_(3.5e_Prestige_Class)",
+      minimumStartingLevel: 10,
+    },
+    {
+      name: "Master of the Seven Necromantic Mysteries",
+      link: "https://dnd-wiki.org/wiki/Master_of_the_Seven_Necromantic_Mysteries_(3.5e_Prestige_Class)",
+      minimumStartingLevel: 10,
+    },
+    {
+      name: "Death King",
+      link: "https://dnd-wiki.org/wiki/Death_King_(3.5e_Prestige_Class)",
+      minimumStartingLevel: 9,
+    },
+  ].map((element) => {
+    return {
+      name: element.name,
+      author: "Frank and K",
+      link: 'https://www.tgdmb.com/viewtopic.php?p=34249#34249',
+      wikiLink: element.link,
+      minimumStartingLevel: element.minimumStartingLevel,
+    }
+  }),
+  ...[
+    {
+      name: "Widow Queen",
+      link: "https://dnd-wiki.org/wiki/Widow_Queen_(3.5e_Prestige_Class)",
+      minimumStartingLevel: 7,
+    },
+    {
+      name: "Bone Rider",
+      link: "https://dnd-wiki.org/wiki/Bone_Rider_(3.5e_Prestige_Class)",
+      minimumStartingLevel: 5,
+    },
+    {
+      name: "Thief of Souls",
+      link: "https://dnd-wiki.org/wiki/Thief_of_Souls_(3.5e_Prestige_Class)",
+      minimumStartingLevel: 7,
+    },
+    {
+      name: "Lurker in the Swarm",
+      link: "https://dnd-wiki.org/wiki/Lurker_in_the_Swarm_(3.5e_Prestige_Class)",
+      minimumStartingLevel: 7,
+    },
+    {
+      name: "Heartless Mage",
+      link: "https://dnd-wiki.org/wiki/Heartless_Mage_(3.5e_Prestige_Class)",
+      minimumStartingLevel: 10,
+    },
+    {
+      name: "Speaker for the Dead",
+      link: "https://dnd-wiki.org/wiki/Speaker_for_the_Dead_(3.5e_Prestige_Class)",
+      minimumStartingLevel: 7,
+    },
+    {
+      name: "Lord of the Damned",
+      link: "https://dnd-wiki.org/wiki/Lord_of_the_Damned_(3.5e_Prestige_Class)",
+      minimumStartingLevel: 7,
+    },
+  ].map((element) => {
+    return {
+      name: element.name,
+      author: "Frank and K",
+      link: 'https://www.tgdmb.com/viewtopic.php?p=34250#34250',
+      wikiLink: element.link,
+      minimumStartingLevel: element.minimumStartingLevel,
+    }
+  }),
+  ...[9, 10].map((minimumStartingLevel) => {
+    return {
+      name: "Soul Merchant",
+      author: "Frank and K",
+      link: 'https://www.tgdmb.com/viewtopic.php?p=34250#34250',
+      wikiLink: "https://dnd-wiki.org/wiki/Soul_Merchant_(3.5e_Prestige_Class)",
+      minimumStartingLevel: minimumStartingLevel,
+      note: <span><a href='https://dnd-wiki.org/wiki/Summoner_(3.5e_Class)'>Tome Summoners</a> can enter at 9</span>
+    }
+  }),
+  {
+    name: "Boneblade Reaper, Dungeonomicon Version",
+    author: "Frank and K",
+    link: "https://dnd-wiki.org/wiki/Boneblade_Reaper_(3.5e_Prestige_Class)#Boneblade_Reaper.2C_Dungeonomicon_Version",
+    relatedLinks: [{ title: "Monk", link: 'https://dnd-wiki.org/wiki/Monk,_Tome_(3.5e_Class)' }],
+    minimumStartingLevel: 7,
+  },
+  ...[
+    {
+      name: 'Hellwalker',
+      wikiLink: 'https://dnd-wiki.org/wiki/Hellwalker_(3.5e_Prestige_Class)',
+      minimumStartingLevel: 6,
+    },
+    {
+      name: 'Seer of the Tempest',
+      wikiLink: 'https://dnd-wiki.org/wiki/Seer_of_the_Tempest_(3.5e_Prestige_Class)',
+      minimumStartingLevel: 7,
+    },
+    {
+      name: 'Barrister of the Nine',
+      wikiLink: 'https://dnd-wiki.org/wiki/Barrister_of_the_Nine_(3.5e_Prestige_Class)',
+      minimumStartingLevel: 10,
+    },
+    {
+      name: 'Celestial Beacon',
+      wikiLink: 'https://dnd-wiki.org/wiki/Celestial_Beacon_(3.5e_Prestige_Class)',
+      minimumStartingLevel: 8,
+    },
+  ].map((element) => {
+    return {
+      name: element.name,
+      author: 'Frank and K',
+      link: 'http://www.tgdmb.com/viewtopic.php?p=28830#28830',
+      wikiLink: element.wikiLink,
+      minimumStartingLevel: element.minimumStartingLevel
+    }
+  }),
+  {
+    name: 'Boatman of Styx',
+    author: 'Frank and K',
+    link: 'https://dnd-wiki.org/wiki/Boatman_of_Styx_(3.5e_Prestige_Class)',
+    minimumStartingLevel: 6,
+  },
+  ...[
+    {
+      name: 'Defiler of Temples',
+      wikiLink: 'https://dnd-wiki.org/wiki/Defiler_of_Temples_(3.5e_Prestige_Class)',
+      minimumStartingLevel: 7,
+    },
+    {
+      name: 'Ninja of Gax',
+      wikiLink: 'https://dnd-wiki.org/wiki/Ninja_of_Gax_(3.5e_Prestige_Class)',
+      minimumStartingLevel: 7,
+    },
+    {
+      name: 'Elothar Warrior of Bladereach',
+      wikiLink: 'https://dnd-wiki.org/wiki/Elothar_Warrior_of_Bladereach_(3.5e_Prestige_Class)',
+      minimumStartingLevel: 7,
+    },
+    {
+      name: 'Dungeon Veteran',
+      wikiLink: 'https://dnd-wiki.org/wiki/Dungeon_Veteran_(3.5e_Prestige_Class)',
+      minimumStartingLevel: 7,
+    },
+    {
+      name: 'Master of Snake Mountain',
+      wikiLink: 'https://dnd-wiki.org/wiki/Master_of_Snake_Mountain_(3.5e_Prestige_Class)',
+      minimumStartingLevel: 7,
+    },
+    {
+      name: 'Seeker of the Lost Wizard Traditions',
+      wikiLink: 'https://dnd-wiki.org/wiki/Seeker_of_the_Lost_Wizard_Traditions_(3.5e_Prestige_Class)',
+      minimumStartingLevel: 7,
+    },
+  ].map((element) => {
+    return {
+      name: element.name,
+      author: 'Frank and K',
+      link: 'http://www.tgdmb.com/viewtopic.php?p=28550#28550',
+      wikiLink: element.wikiLink,
+      minimumStartingLevel: element.minimumStartingLevel
+    }
+  }),
+  {
+    name: 'Progenitor of the Gith',
+    author: 'Frank and K',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=28553#28553',
+    wikiLink: 'https://dnd-wiki.org/wiki/Progenitor_of_the_Gith_(3.5e_Prestige_Class)',
+    minimumStartingLevel: 5,
+  },
+  {
+    name: 'Monitor',
+    author: 'Frank and K',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=28553#28553',
+    wikiLink: 'https://dnd-wiki.org/wiki/Monitor_(3.5e_Prestige_Class)',
+    minimumStartingLevel: 7,
+  },
+  ...[
+    {
+      name: 'Death Knight',
+      wikiLink: 'https://dnd-wiki.org/wiki/Death_Knight_(3.5e_Prestige_Class)',
+      minimumStartingLevel: 7,
+    },
+    {
+      name: 'Demon Samurai',
+      wikiLink: 'https://dnd-wiki.org/wiki/Demon_Samurai_(3.5e_Prestige_Class)',
+      minimumStartingLevel: 6,
+    },
+    {
+      name: 'Dragon Lancer',
+      wikiLink: 'https://dnd-wiki.org/wiki/Dragon_Lancer_(3.5e_Prestige_Class)',
+      minimumStartingLevel: 10,
+    },
+    {
+      name: 'Legendary Strategist',
+      wikiLink: 'https://dnd-wiki.org/wiki/Legendary_Strategist_(3.5e_Prestige_Class)',
+      minimumStartingLevel: 7,
+    },
+  ].map((element) => {
+    return {
+      name: element.name,
+      author: 'Frank and K',
+      link: 'http://www.tgdmb.com/viewtopic.php?p=33297#33297',
+      wikiLink: element.wikiLink,
+      minimumStartingLevel: element.minimumStartingLevel,
+    }
+  }),
+  ...[
+    { name: 'Defender of the Woods [Tome of Trees]', minimumStartingLevel: 8 },
+    { name: 'Holy Crusader [Tome of Virtue]', minimumStartingLevel: 6 },
+    { name: 'Golem-Knight of Mechanus [Book of Gears]', minimumStartingLevel: 8 },
+    { name: 'Lunar Knight', minimumStartingLevel: 8 },
+    { name: 'Crusader of the Elemental Forces', minimumStartingLevel: 11 },
+  ].map(({ name, minimumStartingLevel }) => {
+    return {
+      name: `${name} (Knight PrC)`,
+      author: 'Koumei',
+      link: 'http://www.tgdmb.com/viewtopic.php?t=50018',
+      relatedLinks: [{ title: 'Knight', link: 'https://dnd-wiki.org/wiki/Knight,_Tome_(3.5e_Class)' }],
+      minimumStartingLevel: minimumStartingLevel,
+    }
+  }),
+  {
+    name: `Scaled Veteran of the Ages (Knight PrC)`,
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=109441#109441',
+    relatedLinks: [{ title: 'Knight', link: 'https://dnd-wiki.org/wiki/Knight,_Tome_(3.5e_Class)' }],
+    minimumStartingLevel: 11,
+  },
+  ...[
+    { name: 'Arcane Archer', minimumStartingLevel: 7 },
+    { name: 'Bladesinger', minimumStartingLevel: 3 },
+    { name: 'The Seeker of the Misty Isle fix (same as Complete Divine, but has full casting)', minimumStartingLevel: 6 },
+  ].map(({ name, minimumStartingLevel }) => {
+    return {
+      name: name,
+      author: 'Iaimeki',
+      link: 'http://www.tgdmb.com/viewtopic.php?p=50446#50446',
+      minimumStartingLevel: minimumStartingLevel
+    }
+  }),
+  ...[
+    { name: 'Arcane Trickster', minimumStartingLevel: 3 },
+    { name: 'Eldritch Knight', minimumStartingLevel: 3 },
+    { name: 'Mystic Theurge', minimumStartingLevel: 3 },
+    { name: 'Dragon Disciple', minimumStartingLevel: 6 },
+    { name: 'Rage Mage', minimumStartingLevel: 3 },
+    { name: 'Rage Mage (Take Two)', minimumStartingLevel: 12 },
+  ].map(({ name, minimumStartingLevel }) => {
+    return {
+      name: name,
+      author: 'Iaimeki',
+      link: 'http://www.tgdmb.com/viewtopic.php?p=50378#50378',
+      minimumStartingLevel: minimumStartingLevel
+    }
+  }),
+  {
+    name: 'Archanamach',
+    author: 'Calibron',
+    link: 'http://tgdmb.com/viewtopic.php?t=48580',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Beast Master',
+    author: 'krusk',
+    link: 'http://tgdmb.com/viewtopic.php?t=57177',
+    minimumStartingLevel: 3,
+  },
+  {
+    name: 'Berserker',
+    author: 'CatharzGodfoot',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=170571#170571',
+    minimumStartingLevel: 5,
+  },
+  ...[
+    { name: 'Berzerker', minimumStartingLevel: 4 },
+    { name: 'Arcane Bloodspiller', minimumStartingLevel: 9 },
+  ].map(({ name, minimumStartingLevel }) => {
+    return {
+      name: name,
+      author: 'Judging__Eagle',
+      link: 'http://www.tgdmb.com/viewtopic.php?t=48751',
+      minimumStartingLevel: minimumStartingLevel
+    };
+  }),
+  {
+    name: 'Berzerker-Magus',
+    author: 'Judging__Eagle',
+    link: 'http://tgdmb.com/viewtopic.php?t=39284',
+    minimumStartingLevel: 8,
+  },
+  {
+    name: 'Big Boss',
+    author: 'DSMatticus',
+    link: 'http://tgdmb.com/viewtopic.php?t=55892',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Final Boss',
+    author: 'Dean',
+    link: 'http://tgdmb.com/viewtopic.php?p=430870#430870',
+    minimumStartingLevel: 4,
+  },
+  {
+    name: 'Staged Boss',
+    author: 'DSMatticus',
+    link: 'http://tgdmb.com/viewtopic.php?p=431553#431553',
+  },
+  {
+    name: 'Ogre Mage',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=55676#55676',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Meteor Ninja',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=55720#55720',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Big Nob',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=55779#55779',
+    minimumStartingLevel: 7,
+  },
+  {
+    name: 'Blade Fighter',
+    author: 'Judging__Eagle',
+    link: 'http://www.tgdmb.com/viewtopic.php?t=48678',
+    minimumStartingLevel: 4,
+  },
+  {
+    name: 'Scion of the Dying Embers',
+    author: 'Wiseman',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=423212#423212',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Executioner',
+    author: 'Wiseman',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=423212#423212',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Bone Acolyte of Chemosh',
+    author: 'Wiseman',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=505060#505060',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Knight of the Crown',
+    author: 'Wiseman',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=505062#505062',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Knight of the Rose',
+    author: 'Wiseman',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=512349#512349',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Tribal Shaman ',
+    author: 'Wiseman',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=505108#505108',
+    minimumStartingLevel: 4,
+  },
+  {
+    name: 'Knight of the Thorn',
+    author: 'Wiseman',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=516858#516858',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: "Fire Ogre Paragon",
+    author: "Wiseman",
+    link: "http://www.tgdmb.com/viewtopic.php?p=505818#505818",
+    minimumStartingLevel: 4,
+  },
+  {
+    name: "Storm Ogre Paragon",
+    author: "Wiseman",
+    link: "http://www.tgdmb.com/viewtopic.php?p=505820#505820",
+    minimumStartingLevel: 4,
+  },
+  {
+    name: 'Champion of Koganusan',
+    author: 'LR',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=293389#293389',
+    minimumStartingLevel: 6,
+  },
+  ...[
+    { name: 'Enlightened Disciple of Wel Hung Temple, Long Wang Province', minimumStartingLevel: 6 },
+    { name: 'Maelstrom of Fiery Ki', minimumStartingLevel: 8 },
+  ].map(({ name, minimumStartingLevel }) => {
+    return {
+      name: name,
+      author: 'Koumei',
+      link: 'http://www.tgdmb.com/viewtopic.php?p=104278#104278',
+      relatedLinks: [{ title: 'Sohei', link: 'http://www.tgdmb.com/viewtopic.php?t=50005' }],
+      minimumStartingLevel: minimumStartingLevel
+    };
+  }),
+  {
+    name: 'Arcane Strategist',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=293389#293389',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Ninja Pirate(Old)',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=104278#104278',
+    minimumStartingLevel: 6,
+    relatedLinks: [
+      { title: 'Ninja (Old)', link: 'http://www.tgdmb.com/viewtopic.php?t=50367' },
+      { title: 'Swashbuckler (Old)', link: 'http://www.tgdmb.com/viewtopic.php?t=50350' },
+    ]
+  },
+  {
+    name: 'Chaos Sorcerer',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=104278#104278',
+    minimumStartingLevel: 6,
+    relatedLinks: [
+      { title: 'Untamed Psychic', link: 'http://tgdmb.com/viewtopic.php?t=50979' },
+    ]
+  },
+  {
+    name: 'Mecha Pilot',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=104278#104278',
+    minimumStartingLevel: 5,
+    relatedLinks: [
+      { title: 'Gadgeteer', link: 'http://tgdmb.com/viewtopic.php?p=245446#245446' },
+    ]
+  },
+  {
+    name: 'Glitch Pokemaster',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=144506#144506',
+    minimumStartingLevel: 8,
+    relatedLinks: [
+      {
+        title: 'Pokémaster ',
+        link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class'
+      },
+      {
+        title: 'Missingno',
+        link: 'https://dnd-wiki.org/wiki/Missingno._(3.5e_Monster)'
+      }
+    ]
+  },
+  {
+    name: 'Door Opener',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=146758#146758',
+    minimumStartingLevel: 4,
+  },
+  {
+    name: 'Witch of the Sparkling Heart',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=151315#151315',
+    minimumStartingLevel: 8,
+  },
+  {
+    name: 'Vampire Count',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=151315#151315',
+    minimumStartingLevel: 6,
+    relatedLinks: [{ title: 'Vampire Template', link: 'https://dnd-wiki.org/wiki/Vampire,_Tome_(3.5e_Template)' }]
+  },
+  {
+    name: 'Initiate of Zod',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=168795#168795',
+    minimumStartingLevel: 6,
+    relatedLinks: [{ title: 'Monk', link: 'https://dnd-wiki.org/wiki/Monk,_Tome_(3.5e_Class)' }]
+  },
+  {
+    name: 'Jesus',
+    author: "Koumei's friend who has no den account",
+    link: 'https://tgdmb.com/viewtopic.php?p=171313#171313',
+    minimumStartingLevel: 6,
+  },
+  ...[
+    { name: 'Arachne', minimumStartingLevel: 8 },
+    { name: 'Ocular Adept', minimumStartingLevel: 6 },
+  ].map(({ name, minimumStartingLevel }) => {
+    return {
+      name: name,
+      author: 'Koumei',
+      link: 'http://tgdmb.com/viewtopic.php?p=479366#479366',
+      minimumStartingLevel: minimumStartingLevel
+    };
+  }),
+  ...[
+    { name: 'Elemental Archon', minimumStartingLevel: 6 },
+    { name: 'Illithid Mastermind', minimumStartingLevel: 11 },
+  ].map(({ name, minimumStartingLevel }) => {
+    return {
+      name: name,
+      author: 'Koumei',
+      link: 'http://tgdmb.com/viewtopic.php?p=479372#479372',
+      minimumStartingLevel: minimumStartingLevel
+    };
+  }),
+  ...[
+    { name: 'Horned Harbringer', minimumStartingLevel: 6 },
+    { name: 'Pale Master', minimumStartingLevel: 6 },
+    { name: 'Master of Shrouds', minimumStartingLevel: 6 },
+  ].map(({ name, minimumStartingLevel }) => {
+    return {
+      name: name,
+      author: 'Koumei',
+      link: 'http://tgdmb.com/viewtopic.php?p=479378#479378',
+      minimumStartingLevel: minimumStartingLevel
+    };
+  }),
+  ...[
+    { name: 'Entropic Adept', minimumStartingLevel: 8 },
+    { name: 'Talontar Blightlord', minimumStartingLevel: 6 },
+    { name: 'Telflammar Shadowlord', minimumStartingLevel: 8 },
+  ].map(({ name, minimumStartingLevel }) => {
+    return {
+      name: name,
+      author: 'Koumei',
+      link: 'http://tgdmb.com/viewtopic.php?p=479366#479366',
+      minimumStartingLevel: minimumStartingLevel
+    };
+  }),
+  {
+    name: 'Wraith Hurler',
+    author: 'Koumei',
+    link: 'https://www.tgdmb.com/viewtopic.php?p=314046#314046',
+    minimumStartingLevel: 6
+  },
+  {
+    name: 'Demon Blade',
+    author: 'Koumei',
+    link: 'https://www.tgdmb.com/viewtopic.php?p=314260#314260',
+    minimumStartingLevel: 6,
+    relatedLinks: [{ title: 'Soldier', link: 'https://dnd-wiki.org/wiki/Soldier,_Tome_(3.5e_Class)' }]
+  },
+  {
+    name: 'Death Knight',
+    author: 'Judging__Eagle',
+    link: 'http://www.tgdmb.com/viewtopic.php?t=49246',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Game Hunter',
+    author: 'God_of_Awesome',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=148040#148040',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Death Poacher',
+    author: 'God_of_Awesome',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=149177#149177',
+    minimumStartingLevel: 2,
+  },
+  {
+    name: 'Master of the Nine',
+    author: 'krusk',
+    link: 'http://tgdmb.com/viewtopic.php?p=524466#524466',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Distressing Damsel',
+    author: 'Koumei',
+    link: 'http://tgdmb.com/viewtopic.php?t=55029',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Driller',
+    author: 'shirak',
+    link: 'http://tgdmb.com/viewtopic.php?t=51078',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Drunken Master',
+    author: 'Maxus',
+    link: 'http://tgdmb.com/viewtopic.php?p=60053#60053',
+    wikiLink: 'https://dnd-wiki.org/wiki/Drunken_Master,_Tome_(3.5e_Prestige_Class)',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Soulknife',
+    author: 'Maj',
+    link: 'http://www.niftymessageboard.com/viewtopic.php?p=144343',
+    minimumStartingLevel: 4,
+  },
+  ...[
+    { name: 'Shadow Siphon', link: 'http://tgdmb.com/viewtopic.php?p=154018#154018' },
+    { name: 'Ethereal Siphon', link: 'http://tgdmb.com/viewtopic.php?p=449214#449214' },
+  ].map(({ name, link }) => {
+    return {
+      name: name,
+      author: 'Kaelik',
+      link: link,
+      minimumStartingLevel: 11,
+      relatedLinks: [
+        { title: 'Elemental Siphon', link: 'http://tgdmb.com/viewtopic.php?p=154017#154017' },
+      ]
+    }
+  }),
+  {
+    name: 'Endbringer',
+    author: 'Dominicius',
+    link: 'http://tgdmb.com/viewtopic.php?p=227152',
+    minimumStartingLevel: 16,
+  },
+  {
+    name: 'Endbringer',
+    author: 'Prak',
+    link: 'http://tgdmb.com/viewtopic.php?p=225917#225917',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Spectre Knight',
+    author: 'Maxus',
+    link: 'http://tgdmb.com/viewtopic.php?p=450316#450316',
+    minimumStartingLevel: 6
+  },
+  {
+    name: 'Treasure Knight',
+    author: 'Maxus',
+    link: 'http://tgdmb.com/viewtopic.php?p=450455#450455',
+    minimumStartingLevel: 6
+  },
+  ...[
+    { name: 'Gargantuan Creature', minimumStartingLevel: 6 },
+    { name: 'Monster in the Closet', minimumStartingLevel: 4 },
+    { name: 'Kiting Flyer', minimumStartingLevel: 6 },
+    { name: 'Force of Nature', minimumStartingLevel: 6 },
+  ].map(({ name, minimumStartingLevel }) => {
+    return {
+      name: name,
+      author: 'Koumei',
+      link: 'http://www.tgdmb.com/viewtopic.php?p=105399#105399',
+      minimumStartingLevel: minimumStartingLevel
+    };
+  }),
+  {
+    name: 'Gentle Monk',
+    author: 'Maxus',
+    link: 'http://tgdmb.com/viewtopic.php?t=49163',
+    minimumStartingLevel: 7
+  },
+  {
+    name: 'Giant Frog (Knight PrC)',
+    author: 'CatharzGodfoot',
+    link: 'http://tgdmb.com/viewtopic.php?t=51001',
+    relatedLinks: [{ title: 'Knight', link: 'https://dnd-wiki.org/wiki/Knight,_Tome_(3.5e_Class)' }],
+    minimumStartingLevel: 11,
+  },
+  {
+    name: 'Hell Rider (Old)',
+    author: 'Prak',
+    link: 'http://tgdmb.com/viewtopic.php?t=39601',
+    relatedLinks: [{ title: 'Revision', link: 'http://tgdmb.com/viewtopic.php?p=156606#156606' }],
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Hell Rider Revised',
+    author: 'Prak',
+    link: 'http://tgdmb.com/viewtopic.php?p=156606#156606',
+    minimumStartingLevel: 7,
+  },
+  {
+    name: 'Hergian',
+    author: 'virgil',
+    link: 'http://tgdmb.com/viewtopic.php?t=48621',
+    minimumStartingLevel: 5,
+  },
+  {
+    name: 'Invisible Blade',
+    author: 'Brobdingnagian',
+    link: 'http://tgdmb.com/viewtopic.php?t=39224',
+    minimumStartingLevel: 4,
+  },
+  {
+    name: 'Invisible Blade',
+    author: 'CatharzGodfoot',
+    link: 'http://tgdmb.com/viewtopic.php?t=49221',
+    minimumStartingLevel: 5,
+  },
+  {
+    name: 'Master of Chains',
+    author: 'Maxus',
+    link: 'http://www.tgdmb.com/viewtopic.php?t=50184',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Master Thrower',
+    author: 'Judging__Eagle',
+    link: 'http://tgdmb.com/viewtopic.php?t=39304',
+    minimumStartingLevel: 5,
+  },
+  ...koumeiMonsterPrcs,
+  
+];
