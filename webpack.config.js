@@ -13,13 +13,12 @@ module.exports = {
       scalingfeats: './src/app/pages/scalingfeats.tsx',
       alternateclassfeatures: './src/app/pages/alternateclassfeatures.tsx',
       backgrounds: './src/app/pages/backgrounds.tsx',
+      classabilitycomponents: './src/app/pages/classabilitycomponents.tsx',
       equipment: './src/app/pages/equipment.tsx',
       monsters: './src/app/pages/monsters.tsx',
       npcs: './src/app/pages/npcs.tsx',
       sourcebooks: './src/app/pages/sourcebooks.tsx',
       variantrules: './src/app/pages/variantrules.tsx',
-      spells: './src/app/pages/spells.tsx',
-      spheres: './src/app/pages/spheres.tsx',
       templates: './src/app/pages/templates.tsx',
       singlepage: './src/app/pages/singlepage.tsx',
       eiji: './src/app/pages/eiji.tsx',
@@ -89,6 +88,12 @@ module.exports = {
       chunks: ['backgrounds']
     }),
     new HtmlWebpackPlugin({
+      title: 'Class Ability Components',
+      filename: './gamingdenbookmarks/Class_Ability_Components.html',
+      template: 'src/templates/index.html',
+      chunks: ['classabilitycomponents']
+    }),
+    new HtmlWebpackPlugin({
       title: 'Equipment',
       filename: './gamingdenbookmarks/Equipment.html',
       template: 'src/templates/index.html',
@@ -117,18 +122,6 @@ module.exports = {
       filename: './gamingdenbookmarks/Variant_Rules.html',
       template: 'src/templates/index.html',
       chunks: ['variantrules']
-    }),
-    new HtmlWebpackPlugin({
-      title: 'Spells',
-      filename: './gamingdenbookmarks/Spells.html',
-      template: 'src/templates/index.html',
-      chunks: ['spells']
-    }),
-    new HtmlWebpackPlugin({
-      title: 'Spheres',
-      filename: './gamingdenbookmarks/Spheres.html',
-      template: 'src/templates/index.html',
-      chunks: ['spheres']
     }),
     new HtmlWebpackPlugin({
       title: 'Templates',

@@ -1,4 +1,4 @@
-import { PrestigeClassEntry } from "../entry";
+import { PrestigeClassEntry, MonsterEntry } from "../entry";
 
 export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
     ...[
@@ -526,6 +526,42 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'http://www.tgdmb.com/viewtopic.php?p=544750#544750',
             minimumStartingLevel: 9
         },
+        {
+            name: 'Manticore PrC: Manticore Scout',
+            link: 'http://tgdmb.com/viewtopic.php?p=544769#544769',
+            minimumStartingLevel: 7
+        },
+        {
+            name: 'Marrash PrC: Blight of Yeenoghu',
+            link: 'http://tgdmb.com/viewtopic.php?p=544769#544769',
+            minimumStartingLevel: 7
+        },
+        {
+            name: 'Medusa PrC: Statue Collector',
+            link: 'http://tgdmb.com/viewtopic.php?p=544769#544769',
+            minimumStartingLevel: 11
+        },
+        ...[
+            { name: "Sha'ir", link: 'http://tgdmb.com/viewtopic.php?p=544778#544778' },
+            { name: 'Elemental Master', link: 'http://tgdmb.com/viewtopic.php?p=544780#544780' },
+            { name: 'Mephit King', link: 'http://tgdmb.com/viewtopic.php?p=544781#544781' },
+        ].map(({ name, link }) => {
+            return {
+                name: `Mephit PrC: ${name}`,
+                link: link,
+                minimumStartingLevel: 4
+            }
+        }),
+        ...[
+            { name: "Facsimile", link: 'http://tgdmb.com/viewtopic.php?p=544783#544783' },
+            { name: "Pandora's Box", link: 'http://tgdmb.com/viewtopic.php?p=544785#544785' },
+        ].map(({ name, link }) => {
+            return {
+                name: `Mimic PrC: ${name}`,
+                link: link,
+                minimumStartingLevel: 6
+            }
+        }),
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name: name,

@@ -28,4 +28,22 @@ export const npcs: MonsterEntry[] = [
         link: 'http://www.tgdmb.com/viewtopic.php?p=103097#103097',
         challengeRating: 6
     },
+    {
+        name: 'Arnir, Male human Rogue 5/Shadowdancer 2',
+        author: 'Surgo',
+        link: 'https://dnd-wiki.org/wiki/Shadowdancer,_Tome_(3.5e_Prestige_Class)',
+        challengeRating: 7
+    },
+    {
+        name: 'Hakor, CE Catharz Conduit 9',
+        author: 'Surgo?',
+        link: 'https://dnd-wiki.org/wiki/Conduit_of_the_Lower_Planes_(3.5e_Class)#Conduits_in_the_Game',
+        challengeRating: 9
+    },
+    {
+        name: 'Volodni Stormlord',
+        author: 'PhaedrusXY',
+        link: 'http://tgdmb.com/viewtopic.php?p=134347#134347',
+        challengeRating: 10
+    },
 ]

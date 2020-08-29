@@ -40,10 +40,16 @@ export const racialParagons: Entry[] = [
     name: "Lizardfolk Paragon",
     author: "Surgo",
     link: "https://dnd-wiki.org/wiki/Lizardfolk_Paragon_%283.5e_Racial_Paragon_Class%29",
-    relatedLinks: [{
-      title: "Lizardfolk",
-      link: "https://dnd-wiki.org/wiki/Lizardfolk_Variant_%283.5e_Race%29",
-    }]
+    relatedLinks: [
+      {
+        title: "Lizardfolk",
+        link: "https://dnd-wiki.org/wiki/Lizardfolk_Variant_%283.5e_Race%29",
+      },
+      {
+        title: 'Thread',
+        link: 'http://tgdmb.com/viewtopic.php?t=50006'
+      }
+    ]
   },
   {
     name: "Githyanki Paragon",

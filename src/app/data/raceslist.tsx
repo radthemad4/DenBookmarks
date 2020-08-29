@@ -93,6 +93,10 @@ export const races: Entry[] = [
       {
         title: "Lizardfolk Paragon",
         link: "https://dnd-wiki.org/wiki/Lizardfolk_Paragon_%283.5e_Racial_Paragon_Class%29"
+      },
+      {
+        title: 'Thread',
+        link: 'http://tgdmb.com/viewtopic.php?t=50006'
       }
     ]
   },
@@ -128,8 +132,8 @@ export const races: Entry[] = [
     link: "http://tgdmb.com/viewtopic.php?p=132973",
     wikiLink: "https://dnd-wiki.org/wiki/Githyanki/Githzerai_%283.5e_Race%29",
     relatedLinks: [
-      {title: 'Githyanki Paragon', link: 'https://dnd-wiki.org/wiki/Githyanki_Paragon_%283.5e_Racial_Paragon_Class%29'},
-      {title: 'Githzerai Paragon', link: 'http://tgdmb.com/viewtopic.php?p=133215#133215'},
+      { title: 'Githyanki Paragon', link: 'https://dnd-wiki.org/wiki/Githyanki_Paragon_%283.5e_Racial_Paragon_Class%29' },
+      { title: 'Githzerai Paragon', link: 'http://tgdmb.com/viewtopic.php?p=133215#133215' },
     ]
   },
   {
@@ -299,4 +303,20 @@ export const races: Entry[] = [
     author: "Koumei",
     link: "http://tgdmb.com/viewtopic.php?p=141343#141343",
   },
+  ...([
+    'Orc', 'Nekomata', 'Empusa', 'Alraune',
+    'Mothman', 'Marionette', 'Ghost', 'Vampire',
+    'Angel', 'Jack'
+  ].map((name) => {
+    return {
+      name: `${name} (Disgaea)`,
+      author: "Koumei",
+      link: "http://www.tgdmb.com/viewtopic.php?p=154675#154675"
+    }
+  })),
+  {
+    name: 'Prinny (Disgaea)',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=154324#154324',
+    author: 'Koumei'
+  }
 ];

@@ -77,4 +77,25 @@ export const spells: Entry[] = [
             wikiLink: element.wikiLink
         }
     }),
+    ...[
+        "Ashe's Thaumaturgic Boost (Sorcerer/Wizard 4)",
+        "Ashe's Transformative Counterspell (Druid 5, Sorcerer/Wizard 5)",
+        "Demise Unseen (Cleric 9, Druid 9)",
+        "Elush's Elusion (Ranger 3, Paladin 3, Sorcerer/Wizard 3)",
+        "Elush's Eye-Blasting Explosion (Sorcerer/Wizard 2)",
+        'Hijacking Dispel (Cleric 8, Druid 8)',
+        'Hijack Spell (Bard 3, Sorcerer/Wizard 3)',
+        "Ishara's Enticing Directive (Sorcerer/Wizard 1)",
+        "Luck's Touch (Cleric 9, Sorcerer/Wizard 9)",
+        "Phantasmagorical Image (Bard 9, Sorcerer/Wizard 9)",
+        "Winds of Memory (Sorcerer/Wizard 9)",
+        "Word of Blinding (Sorcerer/Wizard 5)",
+        "Word of Catatonia (Bard 7, Sorcerer/Wizard 7)",
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'koz',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=123198#123198',
+        }
+    }),
 ];

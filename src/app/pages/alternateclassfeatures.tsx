@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { EntryList } from '../entry';
 import { acfs } from '../data/acfslist';
-// import { koumeiMonsterPrcsBBCode } from '../data/koumeimonsterprcslist'
+import { koumeiMonsterPrcsBBCode } from '../data/koumeimonsterprcslist'
 
 export const ACFsDiv = () => {
     return <div>

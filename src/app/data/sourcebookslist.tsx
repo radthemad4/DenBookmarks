@@ -48,4 +48,19 @@ export const sourcebooks: Entry[] = [
         author: "Iaimeki",
         link: "http://www.tgdmb.com/viewtopic.php?p=50379#50379"
     },
+    {
+        name: "Book of Elements",
+        author: 'IGTN',
+        link: "http://tgdmb.com/viewtopic.php?p=164835#164835",
+        wikiLink: 'https://dnd-wiki.org/wiki/Book_of_Elements_(3.5e_Sourcebook)'
+    },
+    {
+        name: 'Roleplaying in the Disgaeaverse',
+        author: 'Koumei',
+        link: 'https://www.scribd.com/document/156510306/Roleplaying-in-the-Disgaeaverse',
+        relatedLinks: [
+            {title: 'Mediafire Mirror', link: 'https://www.mediafire.com/file/8639xwza1o28tw0/156510306-Roleplaying-in-the-Disgaeaverse.pdf/file'},
+            {title: 'Thread', link: 'http://www.tgdmb.com/viewtopic.php?t=51315'},
+        ]
+    }
 ];

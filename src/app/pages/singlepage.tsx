@@ -15,14 +15,13 @@ import { FeatsDiv } from './feats';
 import { ScalingFeatsDiv } from './scalingfeats';
 import { BackgroundsDiv } from './backgrounds';
 import { ACFsDiv } from './alternateclassfeatures';
-import { SpellsDiv } from './spells';
-import { SpheresDiv } from './spheres';
 import { EquipmentDiv } from './equipment';
 import { NPCsDiv } from './npcs';
 import { MonstersDiv } from './monsters';
 import { TemplatesDiv } from './templates';
 import { SourcebooksDiv } from './sourcebooks';
 import { VariantRulesDiv } from './variantrules';
+import { ClassAbilityComponentsDiv } from './classabilitycomponents';
 
 ReactDOM.render(
     <div style={{ padding: "1em" }}>
@@ -36,16 +35,13 @@ ReactDOM.render(
             <NPCClasssesDiv />
         </div>
         <div>
-            <h1>Character Options</h1>
             <FeatsDiv />
             <ScalingFeatsDiv />
             <ACFsDiv />
             <BackgroundsDiv />
         </div>
         <div>
-            <h1>Class Ability Components</h1>
-            <SpellsDiv />
-            <SpheresDiv />
+            <ClassAbilityComponentsDiv />
         </div>
         <EquipmentDiv />
         <NPCsDiv />

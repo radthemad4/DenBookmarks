@@ -848,7 +848,203 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     name: 'Void Witch',
     author: 'Koumei',
     link: 'http://tgdmb.com/viewtopic.php?p=131636#131636',
-    relatedLinks: [{title: 'Shadowcaster', link: 'http://tgdmb.com/viewtopic.php?p=127294#127294'}],
+    relatedLinks: [{ title: 'Shadow Caster', link: 'http://tgdmb.com/viewtopic.php?p=127294#127294' }],
     minimumStartingLevel: 8,
+  },
+  {
+    name: 'Perfect Minion',
+    author: 'Koumei',
+    link: 'http://tgdmb.com/viewtopic.php?p=316687#316687',
+    minimumStartingLevel: 2,
+  },
+  {
+    name: 'Performer',
+    author: 'Judging__Eagle',
+    link: 'http://tgdmb.com/viewtopic.php?t=50540',
+    minimumStartingLevel: 6,
+  },
+  ...['Reaping Mauler', 'Pure Brawler'].map((name) => {
+    return {
+      name: name,
+      author: 'Koumei',
+      link: 'http://tgdmb.com/viewtopic.php?t=51157',
+      minimumStartingLevel: 6,
+    }
+  }),
+  {
+    name: 'Sanctum Mage',
+    author: 'Judging__Eagle',
+    link: 'http://tgdmb.com/viewtopic.php?t=39133',
+    minimumStartingLevel: 11,
+  },
+  {
+    name: 'Rune Knight',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=154716#154716',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Divine Comedian',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=162657#162657',
+    minimumStartingLevel: 6,
+    relatedLinks: [
+      {title: 'Angel', link: 'http://www.tgdmb.com/viewtopic.php?p=154675#154675'},
+      {title: 'Jester', link: 'https://dnd-wiki.org/wiki/Jester_(3.5e_Class)'},
+    ]
+  },
+  {
+    name: 'Straight-Edge Vegan',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=162657#162657',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Your Mum',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=162662#162662',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Hell Warden',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=163970#163970',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Rockstar',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=176146#176146',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Haunted Armour (Knight PrC)',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=179431#179431',
+    minimumStartingLevel: 11,
+    relatedLinks: [{title: 'Knight', link: 'https://dnd-wiki.org/wiki/Knight,_Tome_(3.5e_Class)'}]
+  },
+  {
+    name: 'Bear Cavalry',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=179432#179432',
+    minimumStartingLevel: 11,
+    relatedLinks: [{title: 'Knight', link: 'https://dnd-wiki.org/wiki/Knight,_Tome_(3.5e_Class)'}]
+  },
+  {
+    name: 'Ice Queen / Sizzler (Prestige Class)',
+    author: 'Josh_Kablack',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=226807#226807',
+    minimumStartingLevel: 6,
+    relatedLinks: [
+      {title: 'Empusa', link: 'http://www.tgdmb.com/viewtopic.php?p=154675#154675'},
+      {title: 'Fire Mage', link: 'https://dnd-wiki.org/wiki/Fire_Mage_(3.5e_Class)'},
+      {title: 'Revised Fire Mage', link: 'http://tgdmb.com/viewtopic.php?t=52437'},
+      {title: 'Snowscaper', link: 'https://dnd-wiki.org/wiki/Snowscaper_(3.5e_Class)'},
+    ]
+  },
+  {
+    name: 'Prism Mage',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=227228#227228',
+    minimumStartingLevel: 6,
+    relatedLinks: [
+      {title: 'Fire Mage', link: 'https://dnd-wiki.org/wiki/Fire_Mage_(3.5e_Class)'},
+      {title: 'Revised Fire Mage', link: 'http://tgdmb.com/viewtopic.php?t=52437'},
+      {title: 'Snowscaper', link: 'https://dnd-wiki.org/wiki/Snowscaper_(3.5e_Class)'},
+      {title: 'Green Mage', link: 'https://dnd-wiki.org/wiki/Green_Mage_(3.5e_Class)'},
+      {title: 'Revised Green Mage', link: 'http://tgdmb.com/viewtopic.php?t=52444'},
+    ]
+  },
+  {
+    name: 'Hero!',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=235956#235956',
+    minimumStartingLevel: 8,
+  },
+  {
+    name: 'Delinquent',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=235956#235956',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Aristocratic Demon',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=235956#235956',
+    minimumStartingLevel: 8,
+  },
+  {
+    name: 'Fallen',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=235956#235956',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Eternal Flame',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=236707#236707',
+    minimumStartingLevel: 16,
+    relatedLinks: [
+      {title: 'Fire Mage', link: 'https://dnd-wiki.org/wiki/Fire_Mage_(3.5e_Class)'},
+      {title: 'Revised Fire Mage', link: 'http://tgdmb.com/viewtopic.php?t=52437'},
+    ]
+  },
+  {
+    name: 'Cyclone Rider',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=236764#236764',
+    minimumStartingLevel: 16,
+    relatedLinks: [
+      {title: 'Green Mage', link: 'https://dnd-wiki.org/wiki/Green_Mage_(3.5e_Class)'},
+      {title: 'Revised Green Mage', link: 'http://tgdmb.com/viewtopic.php?t=52444'},
+    ]
+  },
+  {
+    name: 'Cyclone Rider',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=236764#236764',
+    minimumStartingLevel: 16,
+    relatedLinks: [
+      {title: 'Snowscaper', link: 'https://dnd-wiki.org/wiki/Snowscaper_(3.5e_Class)'},
+    ]
+  },
+  {
+    name: 'Star Child',
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=237179#237179',
+    minimumStartingLevel: 16,
+    relatedLinks: [{title: 'Star Mage', link: 'http://www.tgdmb.com/viewtopic.php?p=154965#154965'},]
+  },
+  {
+    name: 'Shadowdancer',
+    author: 'Surgo',
+    link: 'https://dnd-wiki.org/wiki/Shadowdancer,_Tome_(3.5e_Prestige_Class)',
+    relatedLinks: [{title: 'Thread', link: 'http://www.tgdmb.com/viewtopic.php?t=50008'}],
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Son of Sparda',
+    author: 'Manxome',
+    link: 'http://tgdmb.com/viewtopic.php?t=48999',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Soul Bound',
+    author: 'Cielingcat',
+    link: 'http://tgdmb.com/viewtopic.php?t=50583',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Spellherd',
+    author: 'Vebyast',
+    link: 'http://tgdmb.com/viewtopic.php?t=51103',
+    minimumStartingLevel: 8,
+  },
+  {
+    name: 'Spirit Wave Disciple',
+    author: 'Maxus',
+    link: 'http://tgdmb.com/viewtopic.php?t=49172',
+    minimumStartingLevel: 6,
   },
 ];

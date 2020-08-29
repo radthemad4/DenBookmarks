@@ -243,11 +243,12 @@ export const feats: Entry[] = [
             name: 'Wings of Evil [Fiend]',
             wikiLink: 'https://dnd-wiki.org/wiki/Wings_of_Evil_(3.5e_Feat)'
         },
-    ].map((element) => {
+    ].map(({name, wikiLink}) => {
         return {
-            name: element.name,
+            name: name,
             author: 'Frank and K',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=28831#28831'
+            link: 'http://www.tgdmb.com/viewtopic.php?p=28831#28831',
+            wikiLink: wikiLink
         }
     }),
     ...[
@@ -486,7 +487,114 @@ export const feats: Entry[] = [
         author: 'Koumei',
         link: 'http://tgdmb.com/viewtopic.php?p=132122#132122',
         relatedLinks: [{title: 'Shadowcaster', link: 'http://tgdmb.com/viewtopic.php?p=127294#127294'}]
-    }
+    },
+    ...[
+        'Visceral Splatter [Minion]',
+        'Stringy Muscles [Minion]',
+        'Clot [Minion]',
+        'Fine Red Mist [Minion]',
+        'Iron Bones [Minion]',
+        'Crueller Harvest [Minion]',
+        'Flailing Death [Minion]',
+        'Cruellest Harvest [Minion]',
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'Koumei',
+            link: 'http://tgdmb.com/viewtopic.php?p=316687#316687',
+        }
+    }),
+    ...[
+        'Pile the Masses [Minion]',
+        'Clog the Rivers with our Dead [Minion]',
+        'Cruel Harvest [Minion]',
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'SunTzuWarmaster',
+            link: 'http://tgdmb.com/viewtopic.php?p=316687#316687',
+        }
+    }),
+    ...[
+        'The Dead One Threw a Rock',
+        'Trooper',
+        'Pile the Masses',
+        'Clog their Rivers with our Dead',
+        'Cruel Harvest',
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'SunTzuWarmaster',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=32766#32766',
+        }
+    }),
+    {
+        name: "We've got explosives!",
+        author: 'Fwib',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=32767#32767',
+    },
+    {
+        name: 'Arcane Meltdown',
+        author: 'Koumei',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=32768#32768',
+    },
+    ...[
+        'Disgusting Habits',
+        'Exotic Weapon Master',
+        'Useful in Death',
+        'Fat Lootz',
+        'Leader of Peons',
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'SunTzuWarmaster',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=32772#32772',
+        }
+    }),
+    {
+        name: 'Target Practice',
+        author: 'SunTzuWarmaster',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=32777#32777',
+    },
+    ...[
+        'Foolish Exotic Weapon Selection',
+        'I drank oil',
+        "The Little One's Curse",
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'Koumei',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=32790#32790',
+        }
+    }),
+    ...[
+        "I Know Something You Don't Know",
+        'Unbreakable',
+        "Incredibly Irritating",
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'Amra',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=92321#92321',
+        }
+    }),
+    ...[
+        "Soldier's Stance",
+        "Mighty Soldier's Stance",
+        "Fantastic Soldier's Stance",
+        "Giant Soldier's Stance",
+        "Epic Soldier's Stance",
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'CatharzGodfoot',
+            link: 'http://tgdmb.com/viewtopic.php?p=218443#218443',
+            relatedLinks: [
+                {title: 'Soldier', link: 'http://tgdmb.com/viewtopic.php?t=50949'},
+                {title: 'Wiki', link: 'https://dnd-wiki.org/wiki/Soldier_(3.5e_Class)'},
+            ],
+        }
+    }),
 ];
 
 export const featCollections: Entry[] = [

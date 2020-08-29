@@ -58,7 +58,12 @@ export const lesserBoGMagicItems: Entry[] = [
             author: "Koumei",
             link: 'http://tgdmb.com/viewtopic.php?p=405123#405123'
         }
-    })
+    }),
+    {
+        name: 'Aid Rod',
+        author: "Koumei",
+        link: 'http://www.tgdmb.com/viewtopic.php?p=155236#155236'
+    },
 ];
 
 export const mediumBoGMagicItems: Entry[] = [
@@ -91,7 +96,26 @@ export const mediumBoGMagicItems: Entry[] = [
             author: "Koumei",
             link: 'http://tgdmb.com/viewtopic.php?p=405123#405123'
         }
-    })
+    }),
+    {
+        name: "Syringe",
+        author: "Koumei",
+        link: "http://www.tgdmb.com/viewtopic.php?p=154820#154820",
+    },
+    {
+        name: "Thunder Drum",
+        author: "Koumei",
+        link: "http://www.tgdmb.com/viewtopic.php?p=154938#154938",
+    },
+    ...[
+        'Sexy Underwear', 'Gatling Gun', 'Magic Wand', 'UFO-Yoink!', 'Aid Staff'
+    ].map((value) => {
+        return {
+            name: value,
+            author: "Koumei",
+            link: 'http://www.tgdmb.com/viewtopic.php?p=155236#155236'
+        }
+    }),
 ];
 
 export const greaterBoGMagicItems: Entry[] = [
@@ -121,11 +145,29 @@ export const greaterBoGMagicItems: Entry[] = [
             author: "Koumei",
             link: 'http://tgdmb.com/viewtopic.php?p=405123#405123'
         }
-    })
+    }),
+    ...[
+        'Remote Control', 'Emperor Drill', 
+    ].map((value) => {
+        return {
+            name: value,
+            author: "Koumei",
+            link: 'http://www.tgdmb.com/viewtopic.php?p=155236#155236'
+        }
+    }),
+    ...[
+        'Purgatory', "Maxwell's Silver Hammer", "Occam's Razor"
+    ].map((value) => {
+        return {
+            name: value,
+            author: "Koumei",
+            link: 'http://www.tgdmb.com/viewtopic.php?p=248061#248061'
+        }
+    }),
 ];
 
 export const uncategorizedItems: Entry[] = [
-    ...["Orbs", "Berries", "Seeds", "Scarves and Glasses"].map((value)=>{
+    ...["Orbs", "Berries", "Seeds", "Scarves and Glasses"].map((value) => {
         return {
             name: value,
             author: "Wiseman",
@@ -137,5 +179,32 @@ export const uncategorizedItems: Entry[] = [
         author: "Frank and K",
         link: 'http://www.tgdmb.com/viewtopic.php?p=34253#34253',
         wikiLink: 'https://dnd-wiki.org/wiki/Tome_of_Necromancy_(3.5e_Sourcebook)/New_Rules#Necromantic_Equipment'
-    }
+    },
+    {
+        name: 'Rifle Demon',
+        author: 'Koumei',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=154820#154820',
+    },
+    ...[
+        "Chocolate (consumable)", "Chocolate Cake (consumable)", "Carrot Cake (consumable)",
+        "Teacake (consumable)", 'Cheesecake (consumable)', 'Mille Feuille (consumable)',
+        'Green Teacake (consumable)', 'Strawberry Cheesecake (consumable)', 'Seven Layer Cake (consumable)',
+        'Pavlova (consumable)', 'Angel Soufflé (consumable)', 'Geo Pyramids'
+    ].map((value) => {
+        return {
+            name: value,
+            author: "Koumei",
+            link: 'http://www.tgdmb.com/viewtopic.php?p=155236#155236'
+        }
+    }),
+    ...[
+        'Fickle Hand of Fate', 'Staff of the Insect Nation', "Occam's Razor",
+        "Sandman's One-String Bass", 'Invisible Hand of the Free Market'
+    ].map((value) => {
+        return {
+            name: value,
+            author: "Koumei",
+            link: 'http://www.tgdmb.com/viewtopic.php?p=248061#248061'
+        }
+    }),
 ];

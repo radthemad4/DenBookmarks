@@ -83,4 +83,119 @@ export const spheres: Entry[] = [
         author: 'PhaedrusXY',
         link: 'http://tgdmb.com/viewtopic.php?p=139550#139550'
     },
+    ...[
+        {
+            name: 'Permafrost',
+            wikiLink: 'https://dnd-wiki.org/wiki/Permafrost_(3.5e_Sphere)'
+        },
+        {
+            name: 'Radiance',
+            wikiLink: 'https://dnd-wiki.org/wiki/Radiance_(3.5e_Sphere)'
+        },
+    ].map((element) => {
+        return {
+            name: element.name,
+            author: 'IGTN',
+            link: 'http://tgdmb.com/viewtopic.php?p=165845#165845',
+            wikiLink: element.wikiLink
+        }
+    }),
+    {
+        name: 'Lies',
+        author: 'Hicks',
+        link: 'http://tgdmb.com/viewtopic.php?t=50458'
+    },
+    {
+        name: 'koz',
+        author: 'Truth',
+        link: 'http://tgdmb.com/viewtopic.php?p=122972#122972'
+    },
+    ...['Cheating', 'Snake', 'Stealing'].map((name) => {
+        return {
+            name: name,
+            author: 'koz',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=123198#123198',
+        }
+    }),
+    {
+        name: 'Teleportation',
+        author: 'Hicks',
+        link: 'http://tgdmb.com/viewtopic.php?p=534091#534091'
+    },
+    ...[
+        'Electricity', 'Gravity', 'Magnetism', 'Plasma ',
+        'Sonics', 'Vacuum', 'Acid', 'Magma', 'Metal'
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'Darth Rabbitt',
+            link: 'http://tgdmb.com/viewtopic.php?p=540615#540615',
+        }
+    }),
+    {
+        name: 'Life',
+        author: 'Hicks',
+        link: 'http://tgdmb.com/viewtopic.php?p=543812#543812'
+    },
+    {
+        name: 'Badgers',
+        author: 'Rejakor',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=100914#100914'
+    },
+    ...['Trickery', 'Aegis'].map((name) => {
+        return {
+            name: name,
+            author: 'Akula',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=100982#100982',
+        }
+    }),
+    {
+        name: 'Ravenous Butterfly',
+        author: 'Murtak',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=101119#101119'
+    },
+    {
+        name: 'Aegis',
+        author: 'Avoraciopoctules',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=101119#101119'
+    },
+    {
+        name: 'Trickery ',
+        author: 'Avoraciopoctules',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=101119#101119'
+    },
+    {
+        name: 'Eye',
+        author: 'Avoraciopoctules',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=113068#113068'
+    },
+    ...['Valor', 'Peace'].map((name) => {
+        return {
+            name: name,
+            author: 'Avoraciopoctules',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=144258#144258',
+        }
+    }),
+    ...['Virtue', 'Purification'].map((name) => {
+        return {
+            name: name,
+            author: 'Avoraciopoctules',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=144336#144336',
+        }
+    }),
+    {
+        name: 'Tempest',
+        author: 'Avoraciopoctules',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=144494#144494'
+    },
+    {
+        name: 'Crusader',
+        author: 'For Valor',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=144808#144808'
+    },
+    {
+        name: 'Prototype',
+        author: 'Prak',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=182473#182473'
+    },
 ];

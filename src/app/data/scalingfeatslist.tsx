@@ -459,4 +459,11 @@ export const scalingFeats: Entry[] = [
       link: 'http://tgdmb.com/viewtopic.php?p=245106#245106',
     }
   }),
+  ...['Two-Handed Defence [Combat]', 'Galloping Grappler: [Combat]'].map((name)=>{
+    return {
+      name: name,
+      author: 'Koumei',
+      link: 'http://tgdmb.com/viewtopic.php?t=51157',
+    }
+  }),
 ];

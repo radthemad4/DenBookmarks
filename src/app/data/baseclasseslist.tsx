@@ -661,7 +661,8 @@ export const baseClasses: Entry[] = [
     {
         name: 'Green Mage',
         author: 'FrankTrollman',
-        link: 'https://dnd-wiki.org/wiki/Green_Mage_(3.5e_Class)',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=154521#154521',
+        wikiLink: 'https://dnd-wiki.org/wiki/Green_Mage_(3.5e_Class)',
     },
     {
         name: 'Green Mage, Revised',
@@ -907,7 +908,7 @@ export const baseClasses: Entry[] = [
         link: 'http://www.tgdmb.com/viewtopic.php?t=54502',
     },
     {
-        name: 'Shadowcaster',
+        name: 'Shadow Caster',
         author: 'Koumei',
         link: 'http://tgdmb.com/viewtopic.php?t=50587',
     },
@@ -951,5 +952,250 @@ export const baseClasses: Entry[] = [
         name: 'Paladin',
         author: 'Lokathor',
         link: 'http://tgdmb.com/viewtopic.php?t=56455',
+    },
+    {
+        name: 'Hedge Witch',
+        author: 'Hicks',
+        link: 'http://tgdmb.com/viewtopic.php?t=57640',
+    },
+    {
+        name: 'Pokemon Trainer',
+        author: 'Kaelik',
+        link: 'http://tgdmb.com/viewtopic.php?p=532930#532930',
+    },
+    {
+        name: 'Pokemon Trainer',
+        author: 'radthemad4',
+        link: 'http://tgdmb.com/viewtopic.php?t=57449',
+    },
+    {
+        name: 'Psion',
+        author: 'koz',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=82956',
+    },
+    {
+        name: 'Psychic',
+        author: 'JonSetanta',
+        link: 'http://tgdmb.com/viewtopic.php?t=56603',
+    },
+    {
+        name: 'Psychic',
+        author: 'Kaelik',
+        link: 'http://tgdmb.com/viewtopic.php?t=57056',
+    },
+    {
+        name: 'Psychoanalyst',
+        author: 'Judging__Eagle',
+        link: 'http://tgdmb.com/viewtopic.php?t=40177',
+    },
+    {
+        name: 'Quantum Mage',
+        author: 'Kaelik',
+        link: 'http://tgdmb.com/viewtopic.php?t=56872',
+    },
+    {
+        name: 'Ranger',
+        author: 'Talisman',
+        link: 'http://tgdmb.com/viewtopic.php?t=48770',
+    },
+    {
+        name: 'Ranger',
+        author: 'ZER0',
+        link: 'http://www.tgdmb.com/viewtopic.php?t=49226',
+    },
+    {
+        name: 'Ranger',
+        author: 'ZER0',
+        link: 'http://www.tgdmb.com/viewtopic.php?t=49226',
+    },
+    {
+        name: 'Rogue',
+        author: 'erik',
+        link: 'http://www.tgdmb.com/viewtopic.php?t=55063',
+    },
+    {
+        name: 'Runelord',
+        author: 'the_taken',
+        link: 'http://tgdmb.com/viewtopic.php?t=40380',
+    },
+    {
+        name: 'Runic Knight',
+        author: 'Leress',
+        link: 'http://tgdmb.com/viewtopic.php?t=40766',
+    },
+    {
+        name: 'Sacred Fist',
+        author: 'Koumei',
+        link: 'http://tgdmb.com/viewtopic.php?t=51585',
+    },
+    {
+        name: 'Sand Mage',
+        author: 'Josh_Kablack',
+        link: 'http://tgdmb.com/viewtopic.php?t=51851',
+    },
+    {
+        name: 'Star Mage',
+        author: 'FrankTrollman',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=154965#154965',
+    },
+    {
+        name: 'Geomancer',
+        author: 'Koumei',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=155079#155079',
+    },
+    ...[
+        {
+            name: 'Snowsoul',
+            wikiLink: 'https://dnd-wiki.org/wiki/Snowsoul_(3.5e_Class)',
+        },
+        {
+            name: 'Windseeker',
+            wikiLink: 'https://dnd-wiki.org/wiki/Windseeker_(3.5e_Class)',
+        },
+        {
+            name: 'Alchemist',
+            wikiLink: 'https://dnd-wiki.org/wiki/Alchemist_(3.5e_Class)',
+        },
+        {
+            name: 'Shadowcaster',
+            wikiLink: 'https://dnd-wiki.org/wiki/Shadowcaster_(3.5e_Class)',
+        },
+    ].map(({ name, wikiLink }) => {
+        return {
+            name: name,
+            author: 'IGTN',
+            link: 'http://tgdmb.com/viewtopic.php?p=164835#164835',
+            wikiLink: wikiLink
+        }
+    }),
+    {
+        name: 'White Mage',
+        author: 'Quantumboost',
+        link: 'http://tgdmb.com/viewtopic.php?p=127246',
+    },
+    {
+        name: 'Shadow Warrior (Incomplete)',
+        author: 'Cielingcat',
+        link: 'http://tgdmb.com/viewtopic.php?t=40704',
+    },
+    {
+        name: 'Voidweaver',
+        author: 'Bigode',
+        link: 'http://tgdmb.com/viewtopic.php?p=40748#40748',
+    },
+    {
+        name: 'Snowscaper',
+        author: 'Maxus',
+        link: 'http://www.tgdmb.com/viewtopic.php?t=50012',
+        wikiLink: 'https://dnd-wiki.org/wiki/Snowscaper_(3.5e_Class)'
+    },
+    {
+        name: 'Soldier',
+        author: 'Frank',
+        link: 'http://tgdmb.com/viewtopic.php?t=50949',
+        wikiLink: 'https://dnd-wiki.org/wiki/Soldier_(3.5e_Class)',
+    },
+    {
+        name: 'Sorcerer',
+        author: 'Covent',
+        link: 'http://tgdmb.com/viewtopic.php?t=56716',
+    },
+    {
+        name: 'Sorcerer [RETRACTED]',
+        author: 'Hicks',
+        link: 'https://www.tgdmb.com/viewtopic.php?t=56871',
+    },
+    {
+        name: 'Sorcerer',
+        author: 'Kaelik',
+        link: 'http://tgdmb.com/viewtopic.php?t=56529',
+    },
+    {
+        name: 'Soulborn',
+        author: 'FrankTrollman',
+        link: 'http://www.tgdmb.com/viewtopic.php?t=50472',
+        wikiLink: 'https://dnd-wiki.org/wiki/Soulborn_(3.5e_Class)',
+        relatedLinks: [{
+            title: 'A feat to switch out soulmelds as a Full-Round Action',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=131466#131466'
+        }]
+    },
+    {
+        name: 'Speaker',
+        author: 'koz',
+        link: 'http://www.tgdmb.com/viewtopic.php?t=49674',
+    },
+    {
+        name: 'Spectral Lantern',
+        author: 'Prak',
+        link: 'http://tgdmb.com/viewtopic.php?t=50818',
+    },
+    {
+        name: 'Speedened',
+        author: 'Vebyast',
+        link: 'http://tgdmb.com/viewtopic.php?p=143103#143103',
+        wikiLink: 'https://dnd-wiki.org/wiki/User:Vebyast/Speedened_(3.5e_Class)',
+        note: 'Wiki link is more recent'
+    },
+    {
+        name: 'Spell Breaker',
+        author: 'Hicks',
+        link: 'http://www.tgdmb.com/viewtopic.php?t=49619',
+    },
+    {
+        name: 'Spell Scourge',
+        author: 'Judging__Eagle',
+        link: 'http://www.tgdmb.com/viewtopic.php?t=50064',
+    },
+    {
+        name: 'Spell Scourge',
+        author: 'Judging__Eagle',
+        link: 'http://www.tgdmb.com/viewtopic.php?t=50064',
+    },
+    {
+        name: 'Spellthief',
+        author: 'RelentlessImp',
+        link: 'http://tgdmb.com/viewtopic.php?t=56079',
+    },
+    {
+        name: 'Sphereless Carthaz Conduit',
+        author: 'radthemad4',
+        link: 'http://tgdmb.com/viewtopic.php?t=57090',
+    },
+    {
+        name: 'Spirit Ranger',
+        author: 'Orion',
+        link: 'http://www.tgdmb.com/viewtopic.php?t=48474',
+    },
+    {
+        name: 'Spirit Shaman',
+        author: 'Mask_De_H',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=105974',
+    },
+    {
+        name: 'Spirit Shaman',
+        author: 'FrankTrollman',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=105974#105974',
+        wikiLink: 'https://dnd-wiki.org/wiki/Spirit_Shaman_(3.5e_Class)'
+    },
+    {
+        name: 'Spirit Shaman',
+        author: 'Kaelik',
+        link: 'http://tgdmb.com/viewtopic.php?t=56211',
+    },
+    {
+        name: 'Spirit Shaman',
+        author: 'koz',
+        link: 'http://www.tgdmb.com/viewtopic.php?t=49462',
+    },
+    {
+        name: 'Storm Lord',
+        author: 'Kaelik',
+        link: 'http://tgdmb.com/viewtopic.php?t=50797',
+    },
+    {
+        name: 'Suu',
+        author: 'Talisman',
+        link: 'http://www.tgdmb.com/viewtopic.php?t=49303',
     },
 ];

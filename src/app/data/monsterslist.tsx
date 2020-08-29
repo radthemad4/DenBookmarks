@@ -31,4 +31,10 @@ export const monsters: MonsterEntry[] = [
         link: 'http://www.tgdmb.com/viewtopic.php?p=313803#313803',
         challengeRating: 4,
     },
+    {
+        name: 'Rifle Demon',
+        author: 'Koumei',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=154820#154820',
+        challengeRating: 10
+    },
 ]

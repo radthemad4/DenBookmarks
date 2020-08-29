@@ -1,5 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import { ClassAbilityComponentsIndexDiv } from './classabilitycomponents';
 
 ReactDOM.render(
   <div style={{padding:"1em"}}>
@@ -55,18 +56,7 @@ ReactDOM.render(
               <li><a href="./gamingdenbookmarks/Backgrounds.html">Backgrounds</a></li>
             </ul>
           </div>
-          <div>
-            <h2>Class Ability Components</h2>
-            <ul>
-              <li>Domains</li>
-              <li>Knight Orders</li>
-              <li><a href='./gamingdenbookmarks/Spells.html'>Spells</a></li>
-              <li><a href='./gamingdenbookmarks/Spheres.html'>Spheres</a></li>
-              <li>Tome Monk Fighting Styles</li>
-              <li>Kaelik Cleric Domains</li>
-              <li>Kaelik Cleric Spells</li>
-            </ul>
-          </div>
+          <ClassAbilityComponentsIndexDiv/>
           <div>
             <h2><a href="./gamingdenbookmarks/Equipment.html">Equipment</a></h2>
           </div>
