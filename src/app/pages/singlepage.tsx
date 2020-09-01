@@ -22,13 +22,13 @@ import { TemplatesDiv } from './templates';
 import { SourcebooksDiv } from './sourcebooks';
 import { VariantRulesDiv } from './variantrules';
 import { ClassAbilityComponentsDiv } from './classabilitycomponents';
+import { OtherEntriesDiv } from './other';
 
 ReactDOM.render(
     <div style={{ padding: "1em" }}>
         <a href="..\Gaming_Den_Bookmarks.html">Back to Main Page</a>
         <RacesDiv />
         <div>
-            <h1>Classes</h1>
             <BaseClassesDiv />
             <PrestigeClassesDiv />
             <RacialParagonsDiv />
@@ -41,14 +41,16 @@ ReactDOM.render(
             <BackgroundsDiv />
         </div>
         <div>
+            <h1>Class Ability Components</h1>
             <ClassAbilityComponentsDiv />
         </div>
         <EquipmentDiv />
         <NPCsDiv />
         <MonstersDiv />
         <TemplatesDiv />
-        <SourcebooksDiv/>
-        <VariantRulesDiv/>
+        <SourcebooksDiv />
+        <VariantRulesDiv />
+        <OtherEntriesDiv />
     </div>,
     document.getElementById("root")
 );

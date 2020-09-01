@@ -282,7 +282,7 @@ export const baseClasses: Entry[] = [
         link: 'http://tgdmb.com/viewtopic.php?p=438426#438426',
     },
     {
-        name: 'Super Saiyan',
+        name: 'Z-Warrior/Super Saiyan',
         author: 'zeruslord',
         link: 'http://tgdmb.com/viewtopic.php?t=49208',
     },
@@ -605,6 +605,7 @@ export const baseClasses: Entry[] = [
         name: 'Warlock (Spherelock)',
         author: 'Cielingcat',
         link: 'http://www.tgdmb.com/viewtopic.php?p=40229#40229',
+        wikiLink: 'https://dnd-wiki.org/wiki/Warlock_(3.5e_Class)'
     },
     {
         name: 'Force Mage',
@@ -642,6 +643,12 @@ export const baseClasses: Entry[] = [
         name: 'Genie',
         author: 'FrankTrollman',
         link: 'https://dnd-wiki.org/wiki/Genie_(3.5e_Class)',
+    },
+    {
+        name: 'Genie',
+        author: 'IGTN',
+        link: 'https://dnd-wiki.org/wiki/Book_of_Elements_(3.5e_Sourcebook)/Elementals_with_Class/Genie',
+        note: "As Frank's, but with added Shadow and multielement Genies"
     },
     {
         name: 'Genkotsuken (Shadow Warrior)',
@@ -1012,6 +1019,7 @@ export const baseClasses: Entry[] = [
         name: 'Rogue',
         author: 'erik',
         link: 'http://www.tgdmb.com/viewtopic.php?t=55063',
+        wikiLink: 'https://dnd-wiki.org/wiki/Rogue,_Tome_(3.5e_Class)'
     },
     {
         name: 'Runelord',
@@ -1197,5 +1205,103 @@ export const baseClasses: Entry[] = [
         name: 'Suu',
         author: 'Talisman',
         link: 'http://www.tgdmb.com/viewtopic.php?t=49303',
+    },
+    {
+        name: 'Telekinetic',
+        author: 'SunTzuWarmaster',
+        link: 'http://tgdmb.com/viewtopic.php?p=40030#40030',
+    },
+    {
+        name: 'Thief Acrobat, Revised',
+        author: 'Josh_Kablack',
+        link: 'http://www.tgdmb.com/viewtopic.php?t=52419',
+    },
+    {
+        name: 'Totemist',
+        author: 'FrankTrollman',
+        link: 'http://www.tgdmb.com/viewtopic.php?t=50483',
+        wikiLink: 'https://dnd-wiki.org/wiki/Totemist_(3.5e_Class)'
+    },
+    {
+        name: 'Warden',
+        author: 'erik',
+        link: 'http://tgdmb.com/viewtopic.php?t=55288',
+    },
+    {
+        name: 'Rogue',
+        author: 'Miryafa',
+        link: 'http://tgdmb.com/viewtopic.php?t=54401',
+        wikiLink: 'https://dnd-wiki.org/wiki/Rogue_2.0_(3.5e_Class)'
+    },
+    {
+        name: 'Warlock',
+        author: 'Grek',
+        link: 'http://tgdmb.com/viewtopic.php?t=54048',
+    },
+    {
+        name: 'Warlock',
+        author: 'Kaelik',
+        link: 'http://tgdmb.com/viewtopic.php?t=50768',
+    },
+    {
+        name: 'Warper',
+        author: 'Pixels',
+        link: 'http://tgdmb.com/viewtopic.php?t=51545',
+    },
+    {
+        name: 'Warper',
+        author: 'PhaedrusXY',
+        link: 'http://tgdmb.com/viewtopic.php?p=359728#359728',
+    },
+    {
+        name: 'White Mage',
+        author: 'God_of_Awesome',
+        link: 'http://www.tgdmb.com/viewtopic.php?t=50746',
+    },
+    {
+        name: 'Wintersmith',
+        author: 'Dominicius',
+        link: 'http://www.tgdmb.com/viewtopic.php?t=53451',
+        wikiLink: 'https://dnd-wiki.org/wiki/Wintersmith_(3.5e_Class)'
+    },
+    {
+        name: 'Wizard',
+        author: 'Kaelik',
+        link: 'http://tgdmb.com/viewtopic.php?t=55867',
+    },
+    {
+        name: 'Wizard',
+        author: 'Kaelik',
+        link: 'http://tgdmb.com/viewtopic.php?t=55867',
+    },
+    {
+        name: 'Vorpal Knight',
+        author: 'Sasaisen',
+        link: 'http://tgdmb.com/viewtopic.php?t=57611',
+    },
+    {
+        name: 'Weather Mage',
+        author: 'Prak',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=374057#374057',
+    },
+    {
+        name: 'Speedster',
+        author: 'Prak',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=374189#374189',
+    },
+    {
+        name: 'Paragon',
+        author: 'Prak',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=441208#441208',
+    },
+    {
+        name: 'Toa',
+        author: 'Wiseman',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=509419#509419',
+    },
+    {
+        name: 'Shadowcaster',
+        author: 'FrankTrollman',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=53397#53397',
     },
 ];

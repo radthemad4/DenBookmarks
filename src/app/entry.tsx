@@ -60,7 +60,7 @@ export function PrestigeClassEntryList(props: { entries: PrestigeClassEntry[] })
 }
 
 export interface MonsterEntry extends Entry {
-    challengeRating: number
+    challengeRating?: number
 }
 
 export function MonsterEntryList(props: { entries: MonsterEntry[] }): JSX.Element {
@@ -68,13 +68,21 @@ export function MonsterEntryList(props: { entries: MonsterEntry[] }): JSX.Elemen
     let challengeRatings: number[] = [];
     let challengeRatingToEntriesMap = new Map<number, MonsterEntry[]>()
 
+    let nullCREntries: MonsterEntry[] = [];
+
     for (let monsterEntry of props.entries) {
-        if (challengeRatingToEntriesMap.has(monsterEntry.challengeRating)) {
-            challengeRatingToEntriesMap.get(monsterEntry.challengeRating).push(monsterEntry);
-        } else {
-            challengeRatings.push(monsterEntry.challengeRating);
-            challengeRatingToEntriesMap.set(monsterEntry.challengeRating, [monsterEntry]);
+
+        if (monsterEntry.challengeRating != null) {
+            if (challengeRatingToEntriesMap.has(monsterEntry.challengeRating)) {
+                challengeRatingToEntriesMap.get(monsterEntry.challengeRating).push(monsterEntry);
+            } else {
+                challengeRatings.push(monsterEntry.challengeRating);
+                challengeRatingToEntriesMap.set(monsterEntry.challengeRating, [monsterEntry]);
+            }
+        }else{
+            nullCREntries.push(monsterEntry);
         }
+        
     }
 
     challengeRatings.sort(function (a, b) {
@@ -82,6 +90,7 @@ export function MonsterEntryList(props: { entries: MonsterEntry[] }): JSX.Elemen
     });
 
     return (<div>
+        <EntryList entries={nullCREntries} shouldSort={true}></EntryList>
         {challengeRatings.map((challengeRating) => {
             return <div>
                 <h3>CR {challengeRating}</h3>

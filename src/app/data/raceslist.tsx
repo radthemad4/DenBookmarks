@@ -142,22 +142,22 @@ export const races: Entry[] = [
     link: "http://tgdmb.com/viewtopic.php?p=141532#141532",
   },
   {
-    name: "Aranea, Web-Slinging Killer PrC",
+    name: "Aranea",
     author: "Koumei",
     link: "http://tgdmb.com/viewtopic.php?p=141532#141532",
   },
   {
-    name: "Yuan-ti Halfblood, Anethema PrC",
+    name: "Yuan-ti Halfblood",
     author: "Koumei",
     link: "http://tgdmb.com/viewtopic.php?p=141534#141534",
   },
   {
-    name: "Empusa, Marilith/Lilend PrC, Beauty Queen PrC",
+    name: "Empusa",
     author: "Koumei",
     link: "http://tgdmb.com/viewtopic.php?p=141534#141534",
   },
   {
-    name: "Vaxt, Overgrown PrC",
+    name: "VaxtC",
     author: "Koumei",
     link: "http://tgdmb.com/viewtopic.php?p=141534#141534",
   },
@@ -318,5 +318,121 @@ export const races: Entry[] = [
     name: 'Prinny (Disgaea)',
     link: 'http://www.tgdmb.com/viewtopic.php?p=154324#154324',
     author: 'Koumei'
-  }
+  },
+  {
+    name: 'Hoplite',
+    link: 'http://tgdmb.com/viewtopic.php?p=136761#136761',
+    author: 'Maxus'
+  },
+  ...[
+    { name: 'Gria', link: 'http://www.tgdmb.com/viewtopic.php?p=457540#457540' },
+    { name: 'Matoran', link: 'http://www.tgdmb.com/viewtopic.php?p=468716#468716' },
+    { name: 'Witch', link: 'http://www.tgdmb.com/viewtopic.php?p=424325#424325' },
+    { name: 'Zenythri', link: 'http://tgdmb.com/viewtopic.php?p=413827#413827' },
+    { name: 'Kappa', link: 'http://tgdmb.com/viewtopic.php?p=489536#489536' },
+    { name: 'Merfolk', link: 'http://www.tgdmb.com/viewtopic.php?p=465680#465680' },
+  ].map(({ name, link }) => {
+    return {
+      name: name,
+      link: link,
+      author: 'Wiseman'
+    }
+  }),
+  {
+    name: 'Were-Espeon',
+    link: 'http://tgdmb.com/viewtopic.php?p=62582#62582',
+    author: 'Koumei',
+    relatedLinks: [
+      { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
+    ]
+  },
+  {
+    name: 'Were-Sneasel',
+    link: 'http://tgdmb.com/viewtopic.php?p=62592#62592',
+    author: 'Koumei',
+    relatedLinks: [
+      { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
+    ]
+  },
+  {
+    name: 'Were-Umbreon',
+    link: 'http://tgdmb.com/viewtopic.php?p=62633#62633',
+    author: 'Koumei',
+    relatedLinks: [
+      { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
+    ]
+  },
+  {
+    name: 'Were-Metang',
+    link: 'http://tgdmb.com/viewtopic.php?p=62728#62728',
+    author: 'Koumei',
+    relatedLinks: [
+      { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
+    ]
+  },
+  {
+    name: 'Castlewatch Gargoyles',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=169292#169292',
+    author: 'Prak',
+  },
+  {
+    name: 'Apiar',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=311987#311987',
+    author: 'Prak',
+  },
+  {
+    name: 'Nosgothian Vampire, Fledgling',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=140281#140281',
+    author: 'Prak',
+    relatedLinks: [{ title: 'Adult', link: 'http://www.tgdmb.com/viewtopic.php?p=140612#140612' }]
+  },
+  {
+    name: 'Atlantean',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=441595#441595',
+    author: 'Prak',
+  },
+  {
+    name: 'Constructoid',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=441609#441609',
+    author: 'Prak',
+  },
+  {
+    name: 'Igor',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=126414#126414',
+    author: 'Prak',
+  },
+  {
+    name: 'Nac Mac Feegle (Pictsies)',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=126429#126429',
+    author: 'Prak',
+  },
+  {
+    name: 'Troll (Discworld)',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=460460#460460',
+    author: 'Prak',
+  },
+  ...(["Kappa", "Kitsune", "Nekomata", "Tanuki", 'Tengu', 'Usagi', 'Yuki-Onna'].map((value) => {
+    return {
+      name: value,
+      author: "Prak",
+      link: "http://www.tgdmb.com/viewtopic.php?p=155933#155933"
+    }
+  })),
+  ...(["Xuan", "Wu", "Yak Folk", "Naga", 'Balu',].map((value) => {
+    return {
+      name: value,
+      author: "Prak",
+      link: "http://www.tgdmb.com/viewtopic.php?p=155935#155935"
+    }
+  })),
+  {
+    name: 'Cybertronian (Minimum Character Level 4)',
+    link: 'http://tgdmb.com/viewtopic.php?p=443375#443375',
+    author: 'Prak',
+  },
+  {
+    name: 'Race Revisions and Race Trait system',
+    link: 'http://tgdmb.com/viewtopic.php?t=56113',
+    author: 'AcidBlades',
+  },
 ];

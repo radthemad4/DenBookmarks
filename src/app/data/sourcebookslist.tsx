@@ -31,7 +31,7 @@ export const sourcebooks: Entry[] = [
         author: "Frank and K",
         link: "http://www.tgdmb.com/viewtopic.php?t=35813",
         wikiLink: "http://www.dnd-wiki.org/wiki/Book_of_Gears_%283.5e_Sourcebook%29",
-        note: <span>only partially complete, also see Red_Rob's <a href = "http://tgdmb.com/viewtopic.php?t=53704">Complete Tome Items and Wish Economy</a> (<a href="https://dnd-wiki.org/wiki/Tome_Magic_Items_%283.5e_Variant_Rule%29">wiki</a>) and <a href="http://www.tgdmb.com/viewtopic.php?t=53563">Simplified Tome Armour</a> (<a href="https://dnd-wiki.org/wiki/Tome_Armor_(3.5e_Variant_Rule%29">wiki</a>)</span>
+        note: <span>only partially complete but worth reading, also see Red_Rob's <a href = "http://tgdmb.com/viewtopic.php?t=53704">Complete Tome Items and Wish Economy</a> (<a href="https://dnd-wiki.org/wiki/Tome_Magic_Items_%283.5e_Variant_Rule%29">wiki</a>) and <a href="http://www.tgdmb.com/viewtopic.php?t=53563">Simplified Tome Armour</a> (<a href="https://dnd-wiki.org/wiki/Tome_Armor_(3.5e_Variant_Rule%29">wiki</a>)</span>
     },
     {
         name: "Pokemon Mystery Dungeon D20",
@@ -62,5 +62,31 @@ export const sourcebooks: Entry[] = [
             {title: 'Mediafire Mirror', link: 'https://www.mediafire.com/file/8639xwza1o28tw0/156510306-Roleplaying-in-the-Disgaeaverse.pdf/file'},
             {title: 'Thread', link: 'http://www.tgdmb.com/viewtopic.php?t=51315'},
         ]
-    }
+    },
+    {
+        name: 'Comprehensive Tome Errata',
+        author: 'Kaelik',
+        link: 'https://www.tgdmb.com/viewtopic.php?t=51121'
+    },
+    {
+        name: 'Dungeon Crusade (Warhammer in D&D)',
+        link: 'http://tgdmb.com/viewtopic.php?t=55650',
+        author: 'Koumei'
+    },
+    {
+        name: "krusk's ToB Hack",
+        link: 'http://tgdmb.com/viewtopic.php?t=57319',
+        author: 'krusk'
+    },
+    {
+        name: "Scrolls of Lascivious Smut",
+        link: 'http://tgdmb.com/viewtopic.php?t=56946',
+        author: 'Prak'
+    },
+    {
+        name: "Tome of Prowess",
+        link: 'https://dnd-wiki.org/wiki/Tome_of_Prowess_(3.5e_Sourcebook)',
+        author: 'Tarkisflux',
+        relatedLinks: [{title: 'Den Thread', link: 'https://www.tgdmb.com/viewtopic.php?t=53127'}]
+    },
 ];

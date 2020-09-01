@@ -53,4 +53,10 @@ export const npcClasses: Entry[] = [
         author: 'Koumei',
         link: 'http://tgdmb.com/viewtopic.php?p=316687#316687',
     },
+    {
+        name: 'Team Rocket Grunt',
+        author: 'Koumei',
+        link: 'http://tgdmb.com/viewtopic.php?p=285695#285695',
+        relatedLinks: [{ title: 'Pokémaster ', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }],
+    },
 ];

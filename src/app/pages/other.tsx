@@ -1,19 +1,19 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import { otherEntries } from '../data/otherEntriesList';
 import { EntryList } from '../entry';
-import { acfs } from '../data/acfslist';
 
-export const ACFsDiv = () => {
+export const OtherEntriesDiv = () => {
     return <div>
-        <h2>Alternate Class Features</h2>
-        <EntryList entries={acfs} shouldSort={true} />
+        <h2>Other</h2>
+        <EntryList entries={otherEntries} shouldSort={true} />
     </div>
 }
 
 ReactDOM.render(
     <div style={{ padding: "1em" }}>
         <a href="..\Gaming_Den_Bookmarks.html">Back to Main Page</a>
-        <ACFsDiv/>
+        <OtherEntriesDiv />
     </div>,
     document.getElementById("root")
 );

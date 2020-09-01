@@ -5,14 +5,12 @@ export const backgrounds: Entry[] = [
         name: 'Raised by Humans',
         author: "Koumei",
         link: "http://tgdmb.com/viewtopic.php?p=141532#141532",
-        prereqs: 'any non-human'
     },
     ...['Spider-Born', 'Web Fetishist'].map((value) => {
         return {
             name: value,
             author: "Nachtigallerator",
             link: "http://tgdmb.com/viewtopic.php?p=141533#141533",
-            prereqs: [{ title: 'Aranea', link: "http://tgdmb.com/viewtopic.php?p=141533#141533" }]
         }
     }),
     {
@@ -20,7 +18,6 @@ export const backgrounds: Entry[] = [
         author: "Koumei",
         link: "http://tgdmb.com/viewtopic.php?p=141534#141534",
         relatedLinks: [{ title: "Yuan-Ti Halfblood", link: "http://tgdmb.com/viewtopic.php?p=141534#141534" }],
-        prereqs: "Yuan-Ti"
     },
     {
         name: "Death Cult",
@@ -31,7 +28,6 @@ export const backgrounds: Entry[] = [
         name: "Tainted One",
         author: "Koumei",
         link: "http://tgdmb.com/viewtopic.php?p=141534#141534",
-        prereqs: ['Human, or a non-Yuan-Ti that looks like a human']
     },
     {
         name: "Overlord's Vassal",
@@ -42,19 +38,18 @@ export const backgrounds: Entry[] = [
         name: "Penitent",
         author: "Koumei",
         link: "http://tgdmb.com/viewtopic.php?p=141535#141535",
-        prereqs: "Planetouched or Empusa"
     },
     {
         name: "House Plant",
         author: "Nachtigallerator",
         link: "http://tgdmb.com/viewtopic.php?p=141536#141536",
-        prereqs: [{ title: 'Vaxt', link: "http://tgdmb.com/viewtopic.php?p=141536#141536" }]
     },
     ...['Center Stage', 'Outlaw', 'Refugee', 'Wanderer', 'Craftsman', 'Scholar', 'Farmer'].map((value) => {
         return {
             name: value,
             author: "Wiseman",
             link: "http://tgdmb.com/viewtopic.php?p=405125#405125",
+            relatedLinks: [{title: 'Pokemon Mystery Dungeon D20', link: 'http://tgdmb.com/viewtopic.php?t=55558'}]
         }
     }),
     ...[
@@ -118,4 +113,9 @@ export const backgrounds: Entry[] = [
             wikiLink: element.wikiLink
         }
     }),
+    {
+        name: "Dungeonborn",
+        author: 'Libertad',
+        link: 'http://tgdmb.com/viewtopic.php?p=246649#246649',
+    },
 ];

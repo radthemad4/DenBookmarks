@@ -1,6 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { ClassAbilityComponentsIndexDiv } from './classabilitycomponents';
+import { koumeiMonsterPrcsBBCode } from '../data/koumeimonsterprcslist';
 
 ReactDOM.render(
   <div style={{padding:"1em"}}>
@@ -13,7 +14,7 @@ ReactDOM.render(
         <li>The <a href="http://www.tgdmb.com/viewtopic.php?t=28828">Tome of Fiends</a> (<a href="http://www.dnd-wiki.org/wiki/Tome_of_Fiends_%283.5e_Sourcebook%29">wiki</a>)</li>
         <li>The <a href="http://www.tgdmb.com/viewtopic.php?t=28547">Dungeonomicon</a> (<a href="http://www.dnd-wiki.org/wiki/Dungeonomicon_%283.5e_Sourcebook%29">wiki</a>)</li>
         <li><a href="http://www.tgdmb.com/viewtopic.php?t=33294">Races of War</a> (<a href="http://www.dnd-wiki.org/wiki/Races_of_War_%283.5e_Sourcebook%29">wiki</a>)</li>
-        <li><a href="http://www.tgdmb.com/viewtopic.php?t=35813">Book of Gears</a> (<a href="http://www.dnd-wiki.org/wiki/Book_of_Gears_%283.5e_Sourcebook%29">wiki</a>) (only partially complete, use Red_Rob's)</li>
+        <li><a href="http://www.tgdmb.com/viewtopic.php?t=35813">Book of Gears</a> (<a href="http://www.dnd-wiki.org/wiki/Book_of_Gears_%283.5e_Sourcebook%29">wiki</a>) (only partially complete but worth reading, use Red_Rob's)</li>
       </ul>
 
       <div>Unofficial Extras</div>
@@ -69,12 +70,12 @@ ReactDOM.render(
         <div>
           <h2><a href="./gamingdenbookmarks/Sourcebooks.html">Sourcebooks</a></h2>
           <h2><a href="./gamingdenbookmarks/Variant_Rules.html">Variant Rules</a></h2>
-          <h2>Other</h2>
+          <h2><a href="./gamingdenbookmarks/Other.html">Other</a></h2>
         </div>                
       </div>
 
     </div>
-
+    {/* <pre>{koumeiMonsterPrcsBBCode()}</pre> */}
   </div>,
   document.getElementById("root")
 );

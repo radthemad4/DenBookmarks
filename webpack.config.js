@@ -20,6 +20,7 @@ module.exports = {
       sourcebooks: './src/app/pages/sourcebooks.tsx',
       variantrules: './src/app/pages/variantrules.tsx',
       templates: './src/app/pages/templates.tsx',
+      other: './src/app/pages/other.tsx',
       singlepage: './src/app/pages/singlepage.tsx',
       eiji: './src/app/pages/eiji.tsx',
     },
@@ -134,6 +135,18 @@ module.exports = {
       filename: './gamingdenbookmarks/Single_Page.html',
       template: 'src/templates/index.html',
       chunks: ['singlepage']
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Templates',
+      filename: './gamingdenbookmarks/Templates.html',
+      template: 'src/templates/index.html',
+      chunks: ['templates']
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Other',
+      filename: './gamingdenbookmarks/Other.html',
+      template: 'src/templates/index.html',
+      chunks: ['other']
     }),
     new HtmlWebpackPlugin({
       title: 'Eiji',

@@ -373,7 +373,7 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         },
         {
             name: 'Genie: Efreeti PrC: Solar Overlord',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544347#544347',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=544352#544352',
             minimumStartingLevel: 11
         },
         ...[
@@ -393,12 +393,12 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         },
         {
             name: 'Genie: Marid PrC: Rainmaker',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544408#544408',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=544411#544411',
             minimumStartingLevel: 11
         },
         {
             name: 'Genie: Qorrashi PrC: Blessing of the Blizzards',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544408#544408',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=544435#544435',
             minimumStartingLevel: 8
         },
         ...[
@@ -562,6 +562,47 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
                 minimumStartingLevel: 6
             }
         }),
+        ...[
+            { name: "Far Realm Caller", link: 'http://tgdmb.com/viewtopic.php?p=544798#544798' },
+            { name: "Illithid Mastermind", link: 'http://tgdmb.com/viewtopic.php?p=544799#544799' },
+            { name: "Mind Owner", link: 'http://tgdmb.com/viewtopic.php?p=544800#544800' },
+        ].map(({ name, link }) => {
+            return {
+                name: `Mind Flayer PrC: ${name}`,
+                link: link,
+                minimumStartingLevel: 11
+            }
+        }),
+        {
+            name: 'Minotaur PrC: Maze Stalker',
+            link: 'http://tgdmb.com/viewtopic.php?p=544802#544802',
+            minimumStartingLevel: 6
+        },
+        {
+            name: 'Moon Dog PrC: Very Good Dog',
+            link: 'http://tgdmb.com/viewtopic.php?p=544803#544803',
+            minimumStartingLevel: 14
+        },
+        ...[
+            { name: "Saboteur", link: 'http://tgdmb.com/viewtopic.php?p=544804#544804' },
+            { name: "Tide Master", link: 'http://tgdmb.com/viewtopic.php?p=544805#544805' },
+        ].map(({ name, link }) => {
+            return {
+                name: `Moonrat PrC: ${name}`,
+                link: link,
+                minimumStartingLevel: 1
+            }
+        }),
+        {
+            name: 'Mummy PrC: Mummy Lord',
+            link: 'http://tgdmb.com/viewtopic.php?p=544812#544812',
+            minimumStartingLevel: 7
+        },
+        {
+            name: 'Myconid Sovereign PrC: Mushroom King',
+            link: 'http://tgdmb.com/viewtopic.php?p=544828#544828',
+            minimumStartingLevel: 8
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name: name,

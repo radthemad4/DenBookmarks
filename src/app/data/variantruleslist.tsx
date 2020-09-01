@@ -14,8 +14,38 @@ export const variantRules: Entry[] = [
         link: "http://www.tgdmb.com/viewtopic.php?t=55252"
     },
     {
+        name: "Craft Skill Rewrite",
+        author: "Maxus",
+        link: "http://www.tgdmb.com/viewtopic.php?t=49363"
+    },
+    {
         name: "Alternative Item Bonus Progression",
         author: "Kaelik",
         link: "tgdmb.com/viewtopic.php?t=56878"
-    }
+    },
+    {
+        name: "Skill Changes",
+        author: "Iaimeki",
+        link: "http://www.tgdmb.com/viewtopic.php?t=29292"
+    },
+    {
+        name: "Evocations should be lower level",
+        author: 'FrankTrollman',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=162379#162379',
+    },
+    {
+        name: "Fixing Jump",
+        author: 'IGTN',
+        link: 'http://www.tgdmb.com/viewtopic.php?t=49283',
+    },
+    {
+        name: "Miracle fix",
+        author: 'Quantumboost',
+        link: 'http://www.tgdmb.com/viewtopic.php?t=50036',
+    },
+    {
+        name: "Stealth Rules",
+        author: 'Kaelik',
+        link: 'http://tgdmb.com/viewtopic.php?p=494432',
+    },
 ];

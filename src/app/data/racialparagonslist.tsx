@@ -163,4 +163,40 @@ export const racialParagons: Entry[] = [
       { title: 'Mummy Lord', link: 'https://dnd-wiki.org/wiki/Mummy_Lord_(3.5e_Prestige_Class)' },
     ],
   },
+  {
+    name: "True Dragon",
+    author: "Hicks",
+    link: "http://tgdmb.com/viewtopic.php?t=50217",
+  },
+  {
+    name: 'Nosgothian Vampire, Adult',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=140612#140612',
+    author: 'Prak',
+    relatedLinks: [{ title: 'Fledgeling', link: 'http://www.tgdmb.com/viewtopic.php?p=140281#140281' }]
+  },
+  {
+    name: "Revenant Paragon",
+    author: "Maxus",
+    link: "http://www.tgdmb.com/viewtopic.php?p=162371#162371",
+    relatedLinks: [{ title: 'Revenant Template', link: 'https://dnd-wiki.org/wiki/Revenant_(3.5e_Template)' }]
+  },
+  {
+    name: "Spirit Knight Paragon",
+    author: "Maxus",
+    link: "http://tgdmb.com/viewtopic.php?p=63461#63461",
+  },
+  ...[
+    'Elf Paragon', 'Gnome Paragon', 'Halfling Paragon', 'Goblin Paragon', 
+  ].map((name) => {
+    return {
+      name: name,
+      author: "Orion",
+      link: "http://www.tgdmb.com/viewtopic.php?p=297518#297518"
+    }
+  }),
+  {
+    name: "Dwarf Paragon",
+    author: "Orion",
+    link: "http://www.tgdmb.com/viewtopic.php?p=297525#297525",
+  },
 ];

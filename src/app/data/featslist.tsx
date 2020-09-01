@@ -1,4 +1,5 @@
 import { Entry } from "../entry";
+import React from "react";
 
 export const feats: Entry[] = [
     {
@@ -243,7 +244,7 @@ export const feats: Entry[] = [
             name: 'Wings of Evil [Fiend]',
             wikiLink: 'https://dnd-wiki.org/wiki/Wings_of_Evil_(3.5e_Feat)'
         },
-    ].map(({name, wikiLink}) => {
+    ].map(({ name, wikiLink }) => {
         return {
             name: name,
             author: 'Frank and K',
@@ -299,14 +300,14 @@ export const feats: Entry[] = [
             link: 'http://www.tgdmb.com/viewtopic.php?p=520732#520732',
         }
     }),
-    ...['Monk of the Dark Moon [Order]','Monk of the Long Death [Order]'].map((element) => {
+    ...['Monk of the Dark Moon [Order]', 'Monk of the Long Death [Order]'].map((element) => {
         return {
             name: element,
             author: 'Koumei',
             link: 'http://tgdmb.com/viewtopic.php?p=479366#479366',
         }
     }),
-    ...['Dabbler','Master of a School'].map((element) => {
+    ...['Dabbler', 'Master of a School'].map((element) => {
         return {
             name: element,
             author: 'krusk',
@@ -319,7 +320,7 @@ export const feats: Entry[] = [
             author: 'Kaelik',
             link: 'http://tgdmb.com/viewtopic.php?p=154018#154018',
             relatedLinks: [
-                {title: 'Elemental Siphon', link: 'http://tgdmb.com/viewtopic.php?p=154017#154017'},
+                { title: 'Elemental Siphon', link: 'http://tgdmb.com/viewtopic.php?p=154017#154017' },
             ]
         }
     }),
@@ -328,8 +329,8 @@ export const feats: Entry[] = [
         author: 'Kaelik',
         link: 'http://tgdmb.com/viewtopic.php?p=154018#154018',
         relatedLinks: [
-            {title: 'Elemental Siphon', link: 'http://tgdmb.com/viewtopic.php?p=154017#154017'},
-            {title: 'Ethereal Siphon', link: 'http://tgdmb.com/viewtopic.php?p=449214#449214'},
+            { title: 'Elemental Siphon', link: 'http://tgdmb.com/viewtopic.php?p=154017#154017' },
+            { title: 'Ethereal Siphon', link: 'http://tgdmb.com/viewtopic.php?p=449214#449214' },
         ]
     },
     {
@@ -337,12 +338,12 @@ export const feats: Entry[] = [
         author: 'Kaelik',
         link: 'http://tgdmb.com/viewtopic.php?p=154018#154018',
         relatedLinks: [
-            {title: 'Elemental Siphon', link: 'http://tgdmb.com/viewtopic.php?p=154017#154017'},
-            {title: 'Shadow Siphon', link: 'http://tgdmb.com/viewtopic.php?p=154018#154018'},
+            { title: 'Elemental Siphon', link: 'http://tgdmb.com/viewtopic.php?p=154017#154017' },
+            { title: 'Shadow Siphon', link: 'http://tgdmb.com/viewtopic.php?p=154018#154018' },
         ]
     },
     ...[
-        ...['Cosmopolitan Insect [Monstrous]','Expanded Targeting [Monstrous]'].map((name) => {
+        ...['Cosmopolitan Insect [Monstrous]', 'Expanded Targeting [Monstrous]'].map((name) => {
             return {
                 name: name,
                 link: 'http://www.tgdmb.com/viewtopic.php?p=543836#543836',
@@ -356,7 +357,7 @@ export const feats: Entry[] = [
             name: "Leftovers [Monstrous]",
             link: "http://www.tgdmb.com/viewtopic.php?p=543876#543876",
         },
-        ...['Hellfire Gullet [Monstrous]','Hellfrost Wyrm [Monstrous]'].map((name) => {
+        ...['Hellfire Gullet [Monstrous]', 'Hellfrost Wyrm [Monstrous]'].map((name) => {
             return {
                 name: name,
                 link: 'http://www.tgdmb.com/viewtopic.php?p=543878#543878',
@@ -370,7 +371,7 @@ export const feats: Entry[] = [
             name: "Arachnoversity [Monstrous]",
             link: "http://www.tgdmb.com/viewtopic.php?p=543892#543892",
         },
-        ...['Auras of Contentment [Monstrous]','Ghostly Guard Dog [Monstrous]'].map((name) => {
+        ...['Auras of Contentment [Monstrous]', 'Ghostly Guard Dog [Monstrous]'].map((name) => {
             return {
                 name: name,
                 link: 'http://www.tgdmb.com/viewtopic.php?p=543909#543909',
@@ -416,7 +417,7 @@ export const feats: Entry[] = [
             name: "Fiendish Trickery [Monstrous]",
             link: "http://www.tgdmb.com/viewtopic.php?p=543980#543980",
         },
-        ...['Blow Kiss [Monstrous]','Heart Breaker [Monstrous]', 'Prehensile Tail [Monstrous]'].map((name) => {
+        ...['Blow Kiss [Monstrous]', 'Heart Breaker [Monstrous]', 'Prehensile Tail [Monstrous]'].map((name) => {
             return {
                 name: name,
                 link: 'http://www.tgdmb.com/viewtopic.php?p=544048#544048',
@@ -446,7 +447,7 @@ export const feats: Entry[] = [
             name: "Greater Entangle [Monstrous]",
             link: "http://www.tgdmb.com/viewtopic.php?p=544134#544134",
         },
-        ...['Just Sign Here [Monstrous]','Hidden Clause [Monstrous]', 'Legally Binding [Monstrous]'].map((name) => {
+        ...['Just Sign Here [Monstrous]', 'Hidden Clause [Monstrous]', 'Legally Binding [Monstrous]'].map((name) => {
             return {
                 name: name,
                 link: 'http://www.tgdmb.com/viewtopic.php?p=544150#544150',
@@ -456,13 +457,13 @@ export const feats: Entry[] = [
             name: "Regular Summons [Monstrous]",
             link: "http://www.tgdmb.com/viewtopic.php?p=544469#544469",
         },
-        ...['Coven Decorator [Monstrous]','Curse Crafter [Monstrous]'].map((name) => {
+        ...['Coven Decorator [Monstrous]', 'Curse Crafter [Monstrous]'].map((name) => {
             return {
                 name: name,
                 link: 'http://www.tgdmb.com/viewtopic.php?p=544520#544520',
             }
         }),
-    ].map(({name, link}) => {
+    ].map(({ name, link }) => {
         return {
             name: name,
             link: link,
@@ -479,14 +480,14 @@ export const feats: Entry[] = [
             name: name,
             author: 'Koumei',
             link: 'http://tgdmb.com/viewtopic.php?p=131636#131636',
-            relatedLinks: [{title: 'Shadowcaster', link: 'http://tgdmb.com/viewtopic.php?p=127294#127294'}]
+            relatedLinks: [{ title: 'Shadowcaster', link: 'http://tgdmb.com/viewtopic.php?p=127294#127294' }]
         }
     }),
     {
         name: 'Imbue Darkness',
         author: 'Koumei',
         link: 'http://tgdmb.com/viewtopic.php?p=132122#132122',
-        relatedLinks: [{title: 'Shadowcaster', link: 'http://tgdmb.com/viewtopic.php?p=127294#127294'}]
+        relatedLinks: [{ title: 'Shadowcaster', link: 'http://tgdmb.com/viewtopic.php?p=127294#127294' }]
     },
     ...[
         'Visceral Splatter [Minion]',
@@ -590,11 +591,400 @@ export const feats: Entry[] = [
             author: 'CatharzGodfoot',
             link: 'http://tgdmb.com/viewtopic.php?p=218443#218443',
             relatedLinks: [
-                {title: 'Soldier', link: 'http://tgdmb.com/viewtopic.php?t=50949'},
-                {title: 'Wiki', link: 'https://dnd-wiki.org/wiki/Soldier_(3.5e_Class)'},
+                { title: 'Soldier', link: 'http://tgdmb.com/viewtopic.php?t=50949' },
+                { title: 'Wiki', link: 'https://dnd-wiki.org/wiki/Soldier_(3.5e_Class)' },
             ],
         }
     }),
+    {
+        name: 'Spidersight [Fiend]',
+        author: 'Prak',
+        link: 'http://tgdmb.com/viewtopic.php?p=382776#382776',
+    },
+    ...[
+        'Liminal Being',
+        'An Ice Personality [Arcane, Divine]',
+        'Great Balls of Fire [Arcane, Divine]',
+        'Healing Hands [Divine]',
+        'Hot Headed (Arcane, Divine)',
+        'Hurting Hands [Divine]',
+        'Magical Sleuth [Arcane]',
+        "Nystul's Spying Apparatus [Arcane]",
+        "Obiken's Mystical Hand [Arcane]",
+        'Potion Weaponizer [Arcane, Divine]',
+        'This Little Light of Mine [Arcane, Divine]',
+        "Triaj's Sight [Divine]",
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'Prak',
+            link: 'http://tgdmb.com/viewtopic.php?p=476334#476334',
+        }
+    }),
+    ...[
+        {
+            name: "Spider-fiend [Fiend]",
+            link: "https://dnd-wiki.org/wiki/Spider-Fiend_(3.5e_Feat)",
+        },
+        {
+            name: "Agony Caress [Fiend]",
+            link: "https://dnd-wiki.org/wiki/Agony_Caress_(3.5e_Feat)",
+        },
+        {
+            name: "Hard Freeze [Fiend]",
+            link: "https://dnd-wiki.org/wiki/Hard_Freeze_(3.5e_Feat)",
+        },
+        {
+            name: "Evil Eye [Fiend]",
+            link: "https://dnd-wiki.org/wiki/Evil_Eye_(3.5e_Feat)",
+        },
+        {
+            name: "Projectile Vomiting (Acid) [Fiend]",
+            link: "https://dnd-wiki.org/wiki/Projectile_Vomiting,_Acid_(3.5e_Feat)",
+        },
+    ].map(({ name, link }) => {
+        return {
+            name: name,
+            author: "Maxus",
+            link: 'http://tgdmb.com/viewtopic.php?p=95455#95455',
+            wikiLink: link
+        }
+    }),
+    ...[
+        'Water Demon [Fiend]',
+        'Touch of the Styx [Fiend]',
+        'Curse of Babel [Fiend]',
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'Maxus',
+            link: 'http://tgdmb.com/viewtopic.php?p=95455#95455',
+        }
+    }),
+    {
+        name: 'Bat Out of Hell [Fiend]',
+        author: 'Maxus',
+        link: 'http://tgdmb.com/viewtopic.php?p=95458#95458',
+        wikiLink: 'https://dnd-wiki.org/wiki/Bat_Out_of_Hell_(3.5e_Feat)'
+    },
+    {
+        name: 'Energy Eater [Monster]',
+        author: 'Maxus',
+        link: 'http://tgdmb.com/viewtopic.php?p=95458#95458',
+    },
+    {
+        name: 'Web Spinner [Fiend]',
+        author: 'Maxus',
+        link: 'http://tgdmb.com/viewtopic.php?p=95476#95476',
+        wikiLink: 'https://dnd-wiki.org/wiki/Webspinner_(3.5e_Feat)'
+    },
+    {
+        name: 'Hellish Humidity [Fiend]',
+        author: 'Maxus',
+        link: 'http://tgdmb.com/viewtopic.php?p=95476#95476',
+    },
+    {
+        name: 'Speed Freak [Fiend, Celestial]',
+        author: 'Maxus',
+        link: 'http://tgdmb.com/viewtopic.php?p=130452#130452',
+    },
+    {
+        name: 'Incendiary Boils[Fiend]',
+        author: 'Avoraciopoctules',
+        link: 'http://tgdmb.com/viewtopic.php?p=132031#132031',
+    },
+    {
+        name: 'Blessed of Koumei',
+        author: 'Koumei',
+        link: 'http://tgdmb.com/viewtopic.php?p=398013#398013',
+    },
+    ...[
+        'Shaped Spell [Metamagic]',
+        'Strong Spell [Metamagic]',
+        'Quicken Spell [Metamagic]',
+        'Spell Timing [Metamagic]',
+        'Duration Spell [Metamagic]',
+        'Subtle Spell [Metamagic]',
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'AlphaNerd',
+            link: 'http://tgdmb.com/viewtopic.php?p=315832#315832',
+            note: <span>Also available <a href='http://tgdmb.com/viewtopic.php?p=144442#144442'>here</a></span>
+        }
+    }),
+    ...[
+        'Eldritch Magick [Metamagic]',
+        'Enhance Element [Metamagic]',
+        'Energy Alteration [Metamagic]',
+        'Greenbound Sumnmoning [Metamagic]',
+        'Mana Drain [Metamagic]',
+        'Negative Energy Infusion [Metamagic]',
+        'Piercing Spell [Metamagic]',
+        'Soothing Spell [Metamagic]',
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'Red_Rob',
+            link: 'http://tgdmb.com/viewtopic.php?p=315832#315832',
+        }
+    }),
+    ...[
+        'Anger Point [Monstrous]',
+        'Arena Trap [Monstrous]',
+        'Battle Armour [Monstrous]',
+        'Beautiful Idol [Monstrous][Idol]',
+        'Clear Sky [Monstrous]',
+        'Cool Idol [Monstrous][Idol]',
+        'Cursed Body [Monstrous]',
+        'Cute Charm [Monstrous]',
+        'Cute Idol [Monstrous][Idol]',
+        'Drought [Monstrous]',
+        'Dry Skin [Monstrous]',
+        'Eerie Emanation [Monstrous]',
+        'Flood Warning [Monstrous]',
+        'Hero [Monstrous]',
+        'HM Slave [Monstrous]',
+        'Hydration [Monstrous]',
+        'Insight [Monstrous][Psionic]',
+        'Insomnia [Monstrous]',
+        'Jagged Edge [Monstrous]',
+        'Levitate [Monstrous]',
+        'Lightning Rod [Monstrous]',
+        'Liquid Ooze [Monstrous]',
+        'Magma Blood [Monstrous]',
+        'Me First! [Monstrous]',
+        'Mean [Monstrous]',
+        'Melee Opportunist [Monstrous]',
+        'Mood Maker [Monstrous]',
+        'Moxie [Mosntrous]',
+        'Oblivious [Monstrous]',
+        'Poison Point [Monstrous]',
+        'Pressure [Monstrous]',
+        'Rock Head [Monstrous]',
+        'Sand Veil [Monstrous]',
+        'Sandstream [Monstrous]',
+        'Scrappy [Monstrous]',
+        'Smart Idol [Monstrous][Idol]',
+        'Static [Monstrous]',
+        'Sturdy Build [Monstrous]',
+        'Swift Swim [Monstrous]',
+        'Synchronise [Monstrous]',
+        'Tough Idol [Monstrous] [Idol]',
+        'Walking Winter [Monstrous]',
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'Koumei',
+            link: 'http://tgdmb.com/viewtopic.php?p=280502#280502',
+            relatedLinks: [{ title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },]
+        }
+    }),
+    {
+        name: 'Hidden Power [Monstrous]',
+        author: 'Koumei',
+        link: 'http://tgdmb.com/viewtopic.php?p=281990#281990',
+        relatedLinks: [{ title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },]
+    },
+    {
+        name: "Espeon's Awakening (Monstrous)",
+        link: 'http://tgdmb.com/viewtopic.php?p=62582#62582',
+        author: 'Koumei',
+        relatedLinks: [
+            { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
+        ]
+    },
+    {
+        name: "Sneasel's Awakening (Monstrous)",
+        link: 'http://tgdmb.com/viewtopic.php?p=62592#62592',
+        author: 'Koumei',
+        relatedLinks: [
+            { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
+        ]
+    },
+    {
+        name: "Weavile's Awakening (Monstrous)",
+        link: 'http://tgdmb.com/viewtopic.php?p=62592#62592',
+        author: 'Koumei',
+        relatedLinks: [
+            { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
+        ]
+    },
+    {
+        name: "Umbreon's Awakening (Monstrous)",
+        link: 'http://tgdmb.com/viewtopic.php?p=62633#62633',
+        author: 'Koumei',
+        relatedLinks: [
+            { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
+        ]
+    },
+    {
+        name: 'Metagross Evolution',
+        link: 'http://tgdmb.com/viewtopic.php?p=62728#62728',
+        author: 'Koumei',
+        relatedLinks: [
+            { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
+        ]
+    },
+    ...[
+        'Totemic Power',
+        'Cosmic Support',
+        'Cosmic Awareness',
+        'Cosmic Control',
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'Prak',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=441128#441128',
+        }
+    }),
+    ...[
+        'Nethar Symbiote Bond',
+        'Aggressive Protoplasm[Symbiote]',
+        'Constricting Symbiote[Symbiote]',
+        'Enhanced Chameleonic Ability[Symbiote]',
+        'Extra Biomass[Symbiote]',
+        'Greasy Protoplasm[Symbiote]',
+        'Limb Shaping[Symbiote]',
+        'Pincers[Symbiote]',
+        'Shards of the Symbiote[Symbiote]',
+        'Share Symbiote[Symbiote]',
+        'Symbiote Domination[Symbiote]',
+        'Weapon Shaping[Symbiote]',
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'Prak',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=495227#495227',
+        }
+    }),
+    {
+        name: 'Igor',
+        author: 'Koumei',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=126426#126426',
+    },
+    ...[
+        'Gargantuan Size',
+        'Colossal Size',
+        'Immense Size',
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'Prak',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=460460#460460',
+        }
+    }),
+    ...[
+        'Versatile Magical Warrior [General]',
+        'Focused Magical Warrior [General]',
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'Prak',
+            link: 'http://tgdmb.com/viewtopic.php?p=383896#383896',
+        }
+    }),
+    {
+        name: "Extra Swarm Form [Undead]",
+        author: "Prak",
+        link: "http://www.tgdmb.com/viewtopic.php?p=162382#162382"
+    },
+    {
+        name: "Mindhound (Psionic, Regional--Scarlet Brotherhood)",
+        author: "Prak",
+        link: "http://www.tgdmb.com/viewtopic.php?p=371289#371289"
+    },
+    {
+        name: "Psihawk (Psionic, Regional--Scarlet Brotherhood)",
+        author: "Prak",
+        link: "http://www.tgdmb.com/viewtopic.php?p=371310#371310"
+    },
+    ...[
+        'Unoerthly Cave Looter (Regional--Barrier Peaks)',
+        'Tainted by Unoerthly Magics (Regional--Barrier Peaks)',
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'Prak',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=372314#372314',
+        }
+    }),
+    {
+        name: "Craft Cybertronian [Item] (Item Creation)",
+        author: "Prak",
+        link: "http://tgdmb.com/viewtopic.php?p=443375#443375"
+    },
+    ...[
+        'Linked-Con (Leadership)',
+        'Brainmaster',
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'Prak',
+            link: 'http://tgdmb.com/viewtopic.php?p=443443#443443',
+            relatedLinks: [{ title: 'Cybertronian', link: 'http://tgdmb.com/viewtopic.php?p=443375#443375' }]
+        }
+    }),
+    ...[
+        'Cobra School (Tactical)',
+        'Way of the Flaming Fist (Tactical)',
+        'Cheetah School Monk (Tactical)'
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'Dean',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=51223#51223',
+            relatedLinks: [{ title: 'Monk', link: 'https://dnd-wiki.org/wiki/Monk,_Tome_(3.5e_Class)' }]
+        }
+    }),
+    ...[
+        'Cobra School Student',
+        'Cobra School Master'
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'Dean',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=51997#51997',
+            relatedLinks: [{ title: 'Monk', link: 'https://dnd-wiki.org/wiki/Monk,_Tome_(3.5e_Class)' }]
+        }
+    }),
+    {
+        name: 'Cobra School Initiate',
+        author: 'Dean',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=51997#51997'
+    },
+    ...[
+        'Snake School[Monk]',
+        'Cheetah School[Monk]',
+        'Bo-staff Style[Monk]',
+        'Bow Style[Monk]',
+        'The Way of the Sword[Monk]',
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'SunTzuWarmaster',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=51997#51997',
+            relatedLinks: [{ title: 'Monk', link: 'https://dnd-wiki.org/wiki/Monk,_Tome_(3.5e_Class)' }]
+        }
+    }),
+    {
+        name: 'Way of the Flaming Fist',
+        author: 'SunTzuWarmaster',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=52156#52156',
+        relatedLinks: [{ title: 'Monk', link: 'https://dnd-wiki.org/wiki/Monk,_Tome_(3.5e_Class)' }]
+    },
+    {
+        name: 'Bo-Staff Master',
+        author: 'Dean',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=52175#52175',
+        relatedLinks: [{ title: 'Monk', link: 'https://dnd-wiki.org/wiki/Monk,_Tome_(3.5e_Class)' }]
+    },
+    {
+        name: 'Way of the Flaming Fist',
+        author: 'Dean',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=52332#52332',
+        relatedLinks: [{ title: 'Monk', link: 'https://dnd-wiki.org/wiki/Monk,_Tome_(3.5e_Class)' }]
+    },
 ];
 
 export const featCollections: Entry[] = [
@@ -608,6 +998,33 @@ export const featCollections: Entry[] = [
         author: "Frank and K",
         link: 'https://www.tgdmb.com/viewtopic.php?p=34251#34251',
         wikiLink: "https://dnd-wiki.org/wiki/Tome_of_Necromancy_(3.5e_Sourcebook)/Necromancers_with_Style"
+    },
+    {
+        name: "A Feat Per Level List",
+        author: "Koumei",
+        link: "http://tgdmb.com/viewtopic.php?t=57248"
+    },
+    {
+        name: 'Stuff For the Tabletop Game for New Players',
+        author: 'Koumei',
+        link: 'http://tgdmb.com/viewtopic.php?p=435197#435197',
+        relatedLinks: [{ title: 'A Feat Per Level List is more recent', link: 'http://tgdmb.com/viewtopic.php?t=57248' }]
+    },
+    {
+        name: "Feat/Level List, Take Two",
+        author: "virgil",
+        link: "http://tgdmb.com/viewtopic.php?t=57049"
+    },
+    {
+        name: 'Preliminary Feat/Level List',
+        author: 'virgil',
+        link: 'http://tgdmb.com/viewtopic.php?t=56656',
+        relatedLinks: [{ title: 'Feat/Level List, Take Two', link: 'http://tgdmb.com/viewtopic.php?t=57049' }]
+    },
+    {
+        name: "Achievement Feats",
+        author: "Koumei",
+        link: "http://tgdmb.com/viewtopic.php?p=87970#87970"
     },
 
 ]

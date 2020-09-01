@@ -106,8 +106,8 @@ export const spheres: Entry[] = [
         link: 'http://tgdmb.com/viewtopic.php?t=50458'
     },
     {
-        name: 'koz',
-        author: 'Truth',
+        name: 'Truth',
+        author: 'koz',
         link: 'http://tgdmb.com/viewtopic.php?p=122972#122972'
     },
     ...['Cheating', 'Snake', 'Stealing'].map((name) => {
@@ -197,5 +197,109 @@ export const spheres: Entry[] = [
         name: 'Prototype',
         author: 'Prak',
         link: 'http://www.tgdmb.com/viewtopic.php?p=182473#182473'
+    },
+    ...['Spider', 'Web'].map((name) => {
+        return {
+            name: name,
+            author: 'Prak',
+            link: 'http://tgdmb.com/viewtopic.php?p=382776#382776',
+        }
+    }),
+    {
+        name: 'Time',
+        author: 'PhaedrusXY',
+        link: 'http://tgdmb.com/viewtopic.php?p=133561#133561'
+    },
+    {
+        name: 'Storm',
+        author: 'Maxus',
+        link: 'http://tgdmb.com/viewtopic.php?p=95458#95458',
+    },
+    {
+        name: 'Psionics',
+        author: 'Quantumboost',
+        link: 'http://tgdmb.com/viewtopic.php?p=133024#133024',
+    },
+    ...['Majesty', 'Magi',].map((name) => {
+        return {
+            name: name,
+            author: 'CatharzGodfoot',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=90608#90608',
+        }
+    }),
+    ...['Courage', 'Healing',].map((name) => {
+        return {
+            name: name,
+            author: 'koz',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=90619#90619',
+        }
+    }),
+    ...[
+        'Martyr', 'Unicorns & Rainbows', 'Rainbows & Unicorns'
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'CatharzGodfoot',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=90621#90621',
+        }
+    }),
+    {
+        name: 'Judgement',
+        author: 'CatharzGodfoot',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=90632#90632',
+    },
+    {
+        name: 'Prayer',
+        author: 'koz',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=90633#90633',
+    },
+    {
+        name: 'Black Dragon',
+        author: 'Prak',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=90648#90648',
+    },
+    ...[
+        'Illusion', 'Shadow', 'Rainbow Unicorn', 'Black Dragon',
+        'Blue Dragon', 'Green Dragon', 'Red Dragon', 'White Dragon',
+        'Gold Dragon'
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'CatharzGodfoot',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=248454#248454',
+        }
+    }),
+    {
+        name: 'Deception',
+        author: 'Maxus',
+        link: 'http://tgdmb.com/viewtopic.php?p=59910#59910',
+    },
+    ...['Earth', 'Stone', 'Metal',].map((name) => {
+        return {
+            name: name,
+            author: 'Prak',
+            link: 'http://tgdmb.com/viewtopic.php?p=158692#158692',
+        }
+    }),
+    {
+        name: 'Wind (Old)',
+        author: 'Kaelik',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=102602#102602',
+    },
+    {
+        name: 'Wind',
+        author: 'Kaelik',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=456186#456186',
+        wikiLink: 'https://dnd-wiki.org/wiki/Wind_(3.5e_Sphere)'
+    },
+    {
+        name: 'Travel',
+        author: 'Prak',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=442428#442428',
+    },
+    {
+        name: 'Beastshaper',
+        author: 'Prak',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=501164#501164',
     },
 ];
