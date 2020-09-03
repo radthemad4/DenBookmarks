@@ -49,11 +49,6 @@ export const npcClasses: Entry[] = [
         link: 'http://tgdmb.com/viewtopic.php?p=316687#316687',
     },
     {
-        name: 'Perfect Minion',
-        author: 'Koumei',
-        link: 'http://tgdmb.com/viewtopic.php?p=316687#316687',
-    },
-    {
         name: 'Team Rocket Grunt',
         author: 'Koumei',
         link: 'http://tgdmb.com/viewtopic.php?p=285695#285695',

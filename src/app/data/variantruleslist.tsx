@@ -21,7 +21,7 @@ export const variantRules: Entry[] = [
     {
         name: "Alternative Item Bonus Progression",
         author: "Kaelik",
-        link: "tgdmb.com/viewtopic.php?t=56878"
+        link: "http://tgdmb.com/viewtopic.php?t=56878"
     },
     {
         name: "Skill Changes",

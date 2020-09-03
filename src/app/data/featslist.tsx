@@ -519,7 +519,6 @@ export const feats: Entry[] = [
     ...[
         'The Dead One Threw a Rock',
         'Trooper',
-        'Pile the Masses',
         'Clog their Rivers with our Dead',
         'Cruel Harvest',
     ].map((name) => {

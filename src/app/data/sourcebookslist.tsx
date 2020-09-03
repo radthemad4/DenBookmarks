@@ -90,12 +90,6 @@ export const sourcebooks: Entry[] = [
         relatedLinks: [{title: 'Den Thread', link: 'https://www.tgdmb.com/viewtopic.php?t=53127'}]
     },
     {
-        name: "Tome of Prowess",
-        link: 'https://dnd-wiki.org/wiki/Tome_of_Prowess_(3.5e_Sourcebook)',
-        author: 'Tarkisflux',
-        relatedLinks: [{title: 'Den Thread', link: 'https://www.tgdmb.com/viewtopic.php?t=53127'}]
-    },
-    {
         name: 'AwesomeTome PDF',
         author: 'Aktariel',
         link: 'https://github.com/ideologysec/awesometome/releases/tag/rev180',

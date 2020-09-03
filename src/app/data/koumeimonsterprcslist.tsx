@@ -603,6 +603,16 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'http://tgdmb.com/viewtopic.php?p=544828#544828',
             minimumStartingLevel: 8
         },
+        {
+            name: 'Neogi: Adult PrC: Neogi Powermonger',
+            link: 'http://tgdmb.com/viewtopic.php?p=544847#544847',
+            minimumStartingLevel: 6
+        },
+        {
+            name: 'Nereid PrC: Oceanic Questor',
+            link: 'http://tgdmb.com/viewtopic.php?p=544852#544852',
+            minimumStartingLevel: 6
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name: name,
