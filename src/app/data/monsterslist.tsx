@@ -1034,4 +1034,94 @@ export const monsters: MonsterEntry[] = [
         link: 'http://www.tgdmb.com/viewtopic.php?p=141936#141936',
         challengeRating: 5
     },
+    {
+        name: 'Taino',
+        author: 'virgil',
+        link: 'http://tgdmb.com/viewtopic.php?p=489974#489974',
+        challengeRating: 3
+    },
+    {
+        name: 'Scapegrace',
+        author: 'virgil',
+        link: 'http://tgdmb.com/viewtopic.php?p=476388#476388',
+        challengeRating: 1/3
+    },
+    {
+        name: 'Time Golem',
+        author: 'Prak',
+        link: 'http://tgdmb.com/viewtopic.php?p=427314#427314',
+        challengeRating: 7
+    },
+    {
+        name: 'X Golem',
+        author: 'Foxwarrior',
+        link: 'http://tgdmb.com/viewtopic.php?p=436610#436610',
+        challengeRating: 9
+    },
+    {
+        name: 'Your Mom',
+        author: 'DrPraetor',
+        link: 'http://tgdmb.com/viewtopic.php?p=295983#295983',
+        challengeRating: 7
+    },
+    ...[
+        {name: 'Cockatrice', challengeRating: 0.5},
+        {name: 'Gnoma Entite', challengeRating: 20},
+        {name: 'Hyena', challengeRating: 3},
+        {name: 'Wooly Gator', challengeRating: 2},
+        {name: 'Great Tortise', challengeRating: 10},
+        {name: 'Silicon Tortoise', challengeRating: 10},
+        {name: 'Wildsnake', challengeRating: 2},
+        {name: 'Werewolf', challengeRating: 5},
+        {name: 'Urstrix', challengeRating: 4},
+        {name: 'Storm Elemental', challengeRating: 13},
+        {name: 'Gigantoad', challengeRating: 4},
+        {name: 'Malboro Overking', challengeRating: 8},
+        {name: 'Garchimacera', challengeRating: 3},
+        {name: 'Gespenst', challengeRating: 7},
+        {name: 'Ghost', challengeRating: 2},
+        {name: 'Water Elemental', challengeRating: 13},
+        {name: 'Steeling', challengeRating: 1},
+        {name: 'Suriander', challengeRating: 6},
+        {name: 'Mimic', challengeRating: 1},
+        {name: 'Zombie', challengeRating: 3},
+        {name: 'Skeleton', challengeRating: 3},
+        {name: 'Battery Mimic', challengeRating: 4},
+        {name: 'Specter', challengeRating: 3},
+        {name: 'Tiny Battery', challengeRating: 1},
+        {name: 'Mimeo', challengeRating: 6},
+        {name: 'Belias the Gigas', challengeRating: 20},
+        {name: 'Exodus the Judge-Sal', challengeRating: 20},
+        {name: 'Zalera the Death Seraph', challengeRating: 20},
+        {name: 'Adrammelech the Wroth', challengeRating: 20},
+        {name: 'Mateus the Corrupt', challengeRating: 20},
+        {name: 'Garif', challengeRating: 1},
+        {name: 'Nu Mou', challengeRating: 1},
+        {name: 'Viera', challengeRating: 1},
+        {name: 'Moogle', challengeRating: 1},
+    ].map(({name,challengeRating})=> {
+        return {
+            name: `${name} (Ivalice D20)`,
+            author: 'Wiseman',
+            link: 'http://tgdmb.com/viewtopic.php?p=313514#313514',
+            challengeRating: challengeRating
+        }
+    }),
+    {
+        name: 'Simulacrum',
+        author: 'virgil',
+        link: 'http://tgdmb.com/viewtopic.php?p=292335#292335',
+        challengeRating: 3
+    },
+    ...[
+        {name: 'Lesser Mezzoloth', challengeRating: 6},
+        {name: 'Lesser Arcanoloth', challengeRating: 8},
+    ].map(({name,challengeRating})=> {
+        return {
+            name: name,
+            author: 'Avoraciopoctules',
+            link: 'http://tgdmb.com/viewtopic.php?p=259986#259986',
+            challengeRating: challengeRating
+        }
+    }),
 ]

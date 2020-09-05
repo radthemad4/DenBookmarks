@@ -57,4 +57,25 @@ export const otherEntries: Entry[] = [
         author: "Utterfail",
         link: "http://tgdmb.com/viewtopic.php?t=50839"
     },
+    {
+        name: "Magic Upon the Many Planes",
+        author: "Wiseman",
+        link: "http://tgdmb.com/viewtopic.php?t=55370"
+    },
+    {
+        name: "Koumei's PF Splat Project",
+        author: "Koumei",
+        link: "http://tgdmb.com/viewtopic.php?t=55153",
+        note: 'Stuff for PF Ninjas, Inquisitors and Witches'
+    },
+    {
+        name: "Libertad's Planar Revision Project",
+        author: "Libertad",
+        link: "http://tgdmb.com/viewtopic.php?t=53461",
+    },
+    {
+        name: "Intelligent Magic Item rules",
+        author: "Dominicius",
+        link: "http://tgdmb.com/viewtopic.php?t=53371",
+    },
 ];

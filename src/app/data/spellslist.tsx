@@ -127,7 +127,7 @@ export const spells: Entry[] = [
         name: 'Triplecast (Psychic 5)',
         author: 'virgil',
         link: 'http://tgdmb.com/viewtopic.php?p=523894#523894',
-        relatedLinks: [{title: 'Psychic', link: 'https://www.d20pfsrd.com/alternative-rule-systems/occult-adventures/occult-classes/psychic/'}]
+        relatedLinks: [{ title: 'Psychic', link: 'https://www.d20pfsrd.com/alternative-rule-systems/occult-adventures/occult-classes/psychic/' }]
     },
     {
         name: 'Mnemonic Enhancer (Sorcerer/Wizard 4)',
@@ -356,5 +356,79 @@ export const spells: Entry[] = [
         name: "Walking Head (Sorcerer/Wizard 1)",
         author: 'Prak',
         link: 'http://www.tgdmb.com/viewtopic.php?p=436329#436329',
+    },
+    {
+        name: "Blend (Sorcerer/Wizard 6)",
+        author: 'Maxus',
+        link: 'http://tgdmb.com/viewtopic.php?p=405483#405483',
+    },
+    ...[
+        "Missile Cascade (Sorcerer/Wizard 9)",
+        "Infinite Flames (Sorcerer/Wizard 9)",
+        "Godfucker (Sorcerer/Wizard 9)",
+        "Ruin Lightning (Sorcerer/Wizard 9)",
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'Mistborn',
+            link: 'http://tgdmb.com/viewtopic.php?p=317395#317395',
+        }
+    }),
+    {
+        name: "99 Fireballs (Sorcerer/Wizard 6)",
+        author: 'Grek',
+        link: 'http://tgdmb.com/viewtopic.php?p=317661#317661',
+    },
+    {
+        name: "Simulacrum (Sorcerer/Wizard 6)",
+        author: 'virgil',
+        link: 'http://tgdmb.com/viewtopic.php?p=292335#292335',
+    },
+    {
+        name: "Red Miles (Sorcerer/Wizard 9)",
+        author: 'Lokathor',
+        link: 'http://tgdmb.com/viewtopic.php?p=269983#269983',
+    },
+    {
+        name: "Great Void (Cleric 7, Druid 8, Sorcerer/Wizard 7)",
+        author: 'Lokathor',
+        link: 'http://tgdmb.com/viewtopic.php?p=270299#270299',
+    },
+    {
+        name: "Love's Pain, Mass (Cleric 9, Sorcerer/Wizard 9)",
+        author: 'Prak',
+        link: 'http://tgdmb.com/viewtopic.php?p=270452#270452',
+    },
+    ...[
+        "Summon Monster (Paladin 1, Cleric 1, Sorcerer/Wizard 1)",
+        "Summon Nature (Druid 1, Ranger 1)",
+        "Godfucker (Sorcerer/Wizard 9)",
+        "Ruin Lightning (Sorcerer/Wizard 9)",
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'Mistborn',
+            link: 'http://tgdmb.com/viewtopic.php?p=317395#317395',
+        }
+    }),
+    {
+        name: "Summon Monster (Paladin 1, Cleric 1, Sorcerer/Wizard 1)",
+        author: 'JonSetanta',
+        link: 'http://tgdmb.com/viewtopic.php?t=53216',
+    },
+    {
+        name: "Summon Nature (Druid 1, Ranger 1)",
+        author: 'JonSetanta',
+        link: 'http://tgdmb.com/viewtopic.php?t=53216',
+    },
+    {
+        name: "Summon Brute (Barbarian 1, Fighter 1, Ranger 1)",
+        author: 'JonSetanta',
+        link: 'http://tgdmb.com/viewtopic.php?t=53216',
+    },
+    {
+        name: "Summon Undead (Cleric 1, Paladin 1, Sorcerer/Wizard 1)",
+        author: 'JonSetanta',
+        link: 'http://tgdmb.com/viewtopic.php?t=53216',
     },
 ];

@@ -87,7 +87,10 @@ export const sourcebooks: Entry[] = [
         name: "Tome of Prowess",
         link: 'https://dnd-wiki.org/wiki/Tome_of_Prowess_(3.5e_Sourcebook)',
         author: 'Tarkisflux',
-        relatedLinks: [{title: 'Den Thread', link: 'https://www.tgdmb.com/viewtopic.php?t=53127'}]
+        relatedLinks: [
+            {title: 'Den Thread', link: 'https://www.tgdmb.com/viewtopic.php?t=53127'},
+            {title: 'Den Thread', link: 'http://tgdmb.com/viewtopic.php?t=49321'},
+        ]
     },
     {
         name: 'AwesomeTome PDF',
@@ -99,5 +102,15 @@ export const sourcebooks: Entry[] = [
         name: 'Family Tome',
         author: 'virgil',
         link: 'https://docs.google.com/document/d/1d14dFqYOb_saVBWiFPGgeWKg--0EyJ38Mw7CJBQSf0k/edit#heading=h.dkfn4lkh1dik',
+    },
+    {
+        name: 'Melinya: Mage in Black',
+        author: 'virgil',
+        link: 'http://tgdmb.com/viewtopic.php?t=56463',
+    },
+    {
+        name: 'Core Class Rebalance',
+        author: 'Hicks',
+        link: 'http://tgdmb.com/viewtopic.php?p=541847#541847',
     },
 ];

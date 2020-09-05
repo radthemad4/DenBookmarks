@@ -48,4 +48,14 @@ export const variantRules: Entry[] = [
         author: 'Kaelik',
         link: 'http://tgdmb.com/viewtopic.php?p=494432',
     },
+    {
+        name: "Trapmaking AKA Un-fucking D&D Traps",
+        author: 'Dominicius',
+        link: 'http://tgdmb.com/viewtopic.php?p=465968',
+    },
+    {
+        name: "Changing Leadership",
+        author: 'Sigil',
+        link: 'http://tgdmb.com/viewtopic.php?t=55138',
+    },
 ];

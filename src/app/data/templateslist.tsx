@@ -50,7 +50,8 @@ export const templates: Entry[] = [
         { name: "Death Knight", link: "http://www.tgdmb.com/viewtopic.php?p=441352#441352" },
         { name: "Half-Celestial (Half-Celestial Sword Archon, Half-Celestial Bralani Eladrin)", link: "http://tgdmb.com/viewtopic.php?p=395622#395622" },
         { name: "Half-Fiend/Half-Succubus", link: "http://tgdmb.com/viewtopic.php?p=395623#395623" },
-        { name: "Heartless", link: "http://www.tgdmb.com/viewtopic.php?p=510671#510671" },
+        { name: "Heartless", link: "http://tgdmb.com/viewtopic.php?p=521877#521877" },
+        { name: "Lesser Nobody ", link: "http://tgdmb.com/viewtopic.php?p=521878#521878" },
         { name: "Ghul", link: "http://tgdmb.com/viewtopic.php?p=425341#425341" },
         { name: "God", link: "http://www.tgdmb.com/viewtopic.php?p=428338#428338" },
         { name: "Lycanthrope", link: "http://tgdmb.com/viewtopic.php?p=403038#403038" },
@@ -85,5 +86,20 @@ export const templates: Entry[] = [
         name: 'Two Headed Creature',
         author: 'Kaelik',
         link: 'http://tgdmb.com/viewtopic.php?t=56782',
+    },
+    {
+        name: 'Heresiarch',
+        author: 'Wiseman',
+        link: 'http://tgdmb.com/viewtopic.php?p=302760#302760',
+    },
+    {
+        name: 'Axiomatic',
+        author: 'Wiseman',
+        link: 'http://tgdmb.com/viewtopic.php?p=304331#304331',
+    },
+    {
+        name: 'Undead',
+        author: 'Ektagliaresia',
+        link: 'http://tgdmb.com/viewtopic.php?p=256655#256655',
     },
 ];

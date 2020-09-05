@@ -359,7 +359,7 @@ export const baseClasses: Entry[] = [
     {
         name: 'Keyblade Master',
         author: 'Wiseman',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=520732#520732',
+        link: 'http://tgdmb.com/viewtopic.php?p=503541#503541',
     },
     {
         name: 'Chemmer',
@@ -771,11 +771,6 @@ export const baseClasses: Entry[] = [
         name: 'Invoker',
         author: 'Kaelik',
         link: 'http://tgdmb.com/viewtopic.php?t=50976',
-    },
-    {
-        name: 'Justiciar',
-        author: 'AndreiChekov',
-        link: 'http://tgdmb.com/viewtopic.php?t=55397',
     },
     {
         name: 'Justiciar',
@@ -1303,5 +1298,172 @@ export const baseClasses: Entry[] = [
         name: 'Shadowcaster',
         author: 'FrankTrollman',
         link: 'http://www.tgdmb.com/viewtopic.php?p=53397#53397',
+    },
+    {
+        name: 'Stalker',
+        author: 'Zaranthan',
+        link: 'http://tgdmb.com/viewtopic.php?p=380176#380176',
+    },
+    ...['Crusader', 'Knave', 'Magician', 'Monk'].map((name) => {
+        return {
+            name: name,
+            author: 'Hicks',
+            link: 'http://tgdmb.com/viewtopic.php?p=541847#541847'
+        }
+    }),
+    {
+        name: 'Celestial Initiate',
+        author: 'Grek',
+        link: 'http://tgdmb.com/viewtopic.php?p=380176#380176',
+        relatedLinks: [{title: 'Den Thread', link: 'http://tgdmb.com/viewtopic.php?p=407585'}]
+    },
+    {
+        name: 'Alternate Cleric [PF]',
+        author: 'hangar',
+        link: 'http://tgdmb.com/viewtopic.php?t=55224',
+    },
+    {
+        name: 'Requip User',
+        author: 'Wiseman',
+        link: 'http://tgdmb.com/viewtopic.php?t=54947',
+    },
+    {
+        name: 'Bushi aka Samurai',
+        author: 'JonSetanta',
+        link: 'http://tgdmb.com/viewtopic.php?t=54817',
+    },
+    {
+        name: 'Kenpachi',
+        author: 'JonSetanta',
+        link: 'http://tgdmb.com/viewtopic.php?t=54754',
+    },
+    {
+        name: 'Factotum',
+        author: 'Drift3r',
+        link: 'http://tgdmb.com/viewtopic.php?t=54811',
+    },
+    {
+        name: 'Cambion',
+        author: 'JonSetanta',
+        link: 'http://tgdmb.com/viewtopic.php?t=54795',
+    },
+    {
+        name: 'Arborist',
+        author: 'JonSetanta',
+        link: 'http://tgdmb.com/viewtopic.php?t=54759',
+    },
+    {
+        name: 'Sprite',
+        author: 'JonSetanta',
+        link: 'http://tgdmb.com/viewtopic.php?t=54771',
+    },
+    {
+        name: 'Shifter',
+        author: 'JonSetanta',
+        link: 'http://tgdmb.com/viewtopic.php?t=54772',
+    },
+    {
+        name: 'Kineticist',
+        author: 'JonSetanta',
+        link: 'http://tgdmb.com/viewtopic.php?t=54760',
+    },
+    {
+        name: 'Hell Knight',
+        author: 'JonSetanta',
+        link: 'http://tgdmb.com/viewtopic.php?t=54756',
+    },
+    {
+        name: 'Magic-User',
+        author: 'RadiantPhoenix',
+        link: 'http://tgdmb.com/viewtopic.php?p=347874#347874',
+    },
+    {
+        name: 'Binder',
+        author: 'koz, ubernoob, Bigode',
+        link: 'http://tgdmb.com/viewtopic.php?p=65599#65599',
+    },
+    {
+        name: 'Bullet Mage remake',
+        author: 'spongeknight',
+        link: 'http://tgdmb.com/viewtopic.php?t=54378',
+    },
+    {
+        name: 'Sandsculpter',
+        author: 'Giraffeking',
+        link: 'http://tgdmb.com/viewtopic.php?t=54351',
+    },
+    {
+        name: 'Sandsculpter',
+        author: 'Giraffeking',
+        link: 'http://tgdmb.com/viewtopic.php?t=54351',
+    },
+    {
+        name: 'Cleric',
+        author: 'Koumei',
+        link: 'http://tgdmb.com/viewtopic.php?t=53955',
+    },
+    ...['Beguiler', 'Necromancer', 'Summoner', 'Artificer'].map((name) => {
+        return {
+            name: name,
+            author: 'Chamomile',
+            link: 'http://tgdmb.com/viewtopic.php?p=316521#316521'
+        }
+    }),
+    {
+        name: 'Fighter',
+        author: 'Red_Rob',
+        link: 'http://tgdmb.com/viewtopic.php?t=53880',
+    },
+    {
+        name: 'Fighter',
+        author: 'Goldor',
+        link: 'http://tgdmb.com/viewtopic.php?p=289262#289262',
+    },
+    {
+        name: 'Divine Champion',
+        author: 'Giraffeking',
+        link: 'http://tgdmb.com/viewtopic.php?p=303149#303149',
+    },
+    {
+        name: 'Templar',
+        author: 'Tarkisflux, ThunderGod Cid',
+        link: 'https://dnd-wiki.org/wiki/Templar_(3.5e_Class)',
+        relatedLinks: [{title: 'Den Thread', link: 'http://tgdmb.com/viewtopic.php?t=53703'}]
+    },
+    {
+        name: 'Shapeshifter',
+        author: 'Ice9',
+        link: 'http://tgdmb.com/viewtopic.php?p=279583#279583',
+    },
+    {
+        name: 'Relaxed Warrior',
+        author: 'Foxwarrior',
+        link: 'https://dnd-wiki.org/wiki/Relaxed_Warrior_(3.5e_Class)',
+        relatedLinks: [{title: 'Den Thread', link: 'http://tgdmb.com/viewtopic.php?t=53425'}]
+    },
+    {
+        name: 'Warrior of Light',
+        author: 'Prak',
+        link: 'http://tgdmb.com/viewtopic.php?t=53388',
+    },
+    {
+        name: 'Dark Antihero',
+        author: 'JonSetanta',
+        link: 'http://tgdmb.com/viewtopic.php?t=53227',
+    },
+    {
+        name: 'Fighter',
+        author: 'Neurosis',
+        link: 'http://tgdmb.com/viewtopic.php?p=253267#253267',
+    },
+    {
+        name: 'Easy Fighter',
+        author: 'JonSetanta',
+        link: 'http://tgdmb.com/viewtopic.php?p=257977#257977',
+    },
+    {
+        name: 'Magister',
+        author: 'JonSetanta',
+        link: 'http://tgdmb.com/viewtopic.php?p=257362#257362',
     },
 ];

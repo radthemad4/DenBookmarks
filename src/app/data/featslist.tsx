@@ -297,7 +297,7 @@ export const feats: Entry[] = [
         return {
             name: element,
             author: 'Wiseman',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=520732#520732',
+            link: 'http://tgdmb.com/viewtopic.php?p=503541#503541',
         }
     }),
     ...['Monk of the Dark Moon [Order]', 'Monk of the Long Death [Order]'].map((element) => {
@@ -984,6 +984,66 @@ export const feats: Entry[] = [
         link: 'http://www.tgdmb.com/viewtopic.php?p=52332#52332',
         relatedLinks: [{ title: 'Monk', link: 'https://dnd-wiki.org/wiki/Monk,_Tome_(3.5e_Class)' }]
     },
+    ...[
+        'Rage [General]', 'Bardic Music [General]', 'Convincing Song [General]',
+        'Liberating Song [General]', 'Subliminal Song [General]', 'Animal Companion [General]'
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'Hicks',
+            link: 'http://tgdmb.com/viewtopic.php?p=541847#541847',
+        }
+    }),
+    {
+        name: 'Darkstalker [General]',
+        author: 'Wiseman',
+        link: 'http://tgdmb.com/viewtopic.php?p=367575#367575',
+    },
+    {
+        name: 'Master Plan [General]',
+        author: 'Wiseman',
+        link: 'http://tgdmb.com/viewtopic.php?p=309657#309657',
+    },
+    ...[
+        'Continual Study [General]', 'Sphere Access [General]', 'Expert Sphere Access [General]',
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'Dominicius',
+            link: 'http://tgdmb.com/viewtopic.php?p=263009#263009',
+        }
+    }),
+    ...[
+        'Werewolf [Racial]', 'Wolf Form [Evolution 3]', 'Werewolf Hide [Evolution 3]',
+        'Werewolf Fast Healing [Evolution 3]', 'Werewolf Hybrid Form [Evolution 6]',
+        'Werewolf Dire Form [Evolution 9]', 'Vampire [Racial]', "Vampire's Dark Gift [Evolution 3]",
+        'Vampire Fast Healing [Evolution 3]', "Vampire's Greater Dark Gift [Evolution 6]", 'Vampire Master [Evolution 9]',
+        'Cambion (Half-Fiend) [Racial]', 'Fiend Blood [Evolution 1]', 'Fiend Body [Evolution 1]', 'Darkness Eternal [Evolution 3]',
+        'Devil Wings [Evolution 6]', 'Nephilim (Half-Celestial) [Racial]', 'Celestial Blood [Evolution 1]', 'Celestial Body [Evolution 1]',
+        'Daylight Eternal [Evolution 3]', 'Angelic Wings [Evolution 6]', 'Sprite [Racial]', 'Sprite Invisibility [Evolution 1]',
+        'Grig Shape [Evolution 1]', 'Nixie Lung [Evolution 1]', 'Pixie Wings [Evolution 1]',
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'JonSetanta',
+            link: 'http://tgdmb.com/viewtopic.php?p=258529#258529',
+        }
+    }),
+    ...[
+        'Werewolf [Cures, Racial]', 'Werewolf Hybrid Form [Evolution]', 'Werewolf Hide [Evolution 3]',
+        'Dire Werewolf [Evolution 6]',
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'CatharzGodfoot',
+            link: 'http://tgdmb.com/viewtopic.php?p=258916#258916',
+        }
+    }),
+    {
+        name: 'Mechanicals [Racial]',
+        author: 'JonSetanta',
+        link: 'http://tgdmb.com/viewtopic.php?p=256521#256521',
+    },
 ];
 
 export const featCollections: Entry[] = [
@@ -1025,5 +1085,10 @@ export const featCollections: Entry[] = [
         author: "Koumei",
         link: "http://tgdmb.com/viewtopic.php?p=87970#87970"
     },
-
+    {
+        name: "Tome of Incredible Feats",
+        author: "DenizenKane",
+        link: "https://docs.google.com/document/d/1NX_M3Q5LrmpnxzFjais81YIm6IfH6iGrqbR72VVg4js/edit",
+        relatedLinks: [{ title: 'Den Thread', link: 'http://tgdmb.com/viewtopic.php?t=56941' }]
+    },
 ]

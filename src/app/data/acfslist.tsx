@@ -144,4 +144,16 @@ export const acfs: Entry[] = [
             relatedLinks: [{title: "IGTN's Paladin", link: 'https://dnd-wiki.org/wiki/Paladin,_Tome_%283.5e_Class%29'}]
         }
     }),
+    {
+        name: 'Yuan-ti Blackguard',
+        author: 'Prak',
+        link: 'http://tgdmb.com/viewtopic.php?p=449701#449701',
+        relatedLinks: [{ title: 'Blackguard', link: 'https://dnd-wiki.org/wiki/SRD:Blackguard' }]
+    },
+    {
+        name: 'Luckbringer Druid',
+        author: 'Sacrificial Lamb',
+        link: 'http://tgdmb.com/viewtopic.php?p=447582#447582',
+        relatedLinks: [{title: 'Druid', link: 'https://dnd-wiki.org/wiki/SRD:Druid'}]
+    },
 ];

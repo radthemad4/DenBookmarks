@@ -613,6 +613,26 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'http://tgdmb.com/viewtopic.php?p=544852#544852',
             minimumStartingLevel: 6
         },
+        {
+            name: 'Nerra PrC: Sillit',
+            link: 'http://tgdmb.com/viewtopic.php?p=544872#544872',
+            minimumStartingLevel: 9
+        },
+        {
+            name: 'Nethersight Mastiff PrC: Astral Fang',
+            link: 'http://tgdmb.com/viewtopic.php?p=544883#544883',
+            minimumStartingLevel: 10
+        },
+        {
+            name: 'Night Hag PrC: Covey Countess',
+            link: 'http://tgdmb.com/viewtopic.php?p=544885#544885',
+            minimumStartingLevel: 11
+        },
+        {
+            name: 'Nightmare PrC: Cauchemare',
+            link: 'http://tgdmb.com/viewtopic.php?p=544888#544888',
+            minimumStartingLevel: 7
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name: name,

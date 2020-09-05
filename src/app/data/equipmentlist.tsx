@@ -645,4 +645,20 @@ export const uncategorizedItems: Entry[] = [
         author: "virgil",
         link: "http://tgdmb.com/viewtopic.php?p=480900#480900",
     },
+    ...[
+        'Ring of Dumb Luck',
+        'The Gauntlets of Frail Might',
+        'Beer Goggles',
+    ].map((value) => {
+        return {
+            name: value,
+            author: "hyzmarca",
+            link: 'http://tgdmb.com/viewtopic.php?p=310093#310093'
+        }
+    }),
+    {
+        name: "Revised Tome Armors",
+        author: "Sigil",
+        link: "http://tgdmb.com/viewtopic.php?t=54024",
+    },
 ];

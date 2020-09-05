@@ -22,7 +22,6 @@ module.exports = {
       templates: './src/app/pages/templates.tsx',
       other: './src/app/pages/other.tsx',
       singlepage: './src/app/pages/singlepage.tsx',
-      eiji: './src/app/pages/eiji.tsx',
     },
   plugins: [
     new CleanWebpackPlugin({
@@ -147,12 +146,6 @@ module.exports = {
       filename: './gamingdenbookmarks/Other.html',
       template: 'src/templates/index.html',
       chunks: ['other']
-    }),
-    new HtmlWebpackPlugin({
-      title: 'Eiji',
-      filename: './gamingdenbookmarks/Eiji.html',
-      template: 'src/templates/index.html',
-      chunks: ['eiji']
     }),
   ],
   output: {

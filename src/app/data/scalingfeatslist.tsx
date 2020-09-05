@@ -1242,7 +1242,7 @@ export const scalingFeats: Entry[] = [
       name: name,
       author: 'Koumei',
       link: 'http://tgdmb.com/viewtopic.php?p=280502#280502',
-      relatedLinks: [{title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)'},]
+      relatedLinks: [{ title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },]
     }
   }),
   {
@@ -1279,7 +1279,7 @@ export const scalingFeats: Entry[] = [
     'Moilian Necromancer [Metamagic]', 'Pernicious Pyromancy [Metamagic]', 'Reckless Spellcasting [Metamagic]',
     'Tactical Mage [Metamagic]', 'Wand Mastery [Metamagic]', 'Supreme Aegis [Metamagic]',
     'Supreme Aegis [Metamagic]', 'Master Conjurer [Metamagic]', 'Great Oracle [Metamagic]',
-    'Energised Evocation [Metamagic]', 'False Reality [Metamagic]', ''
+    'Energised Evocation [Metamagic]', 'False Reality [Metamagic]',
   ].map((name) => {
     return {
       name: name,
@@ -1287,4 +1287,49 @@ export const scalingFeats: Entry[] = [
       link: 'http://www.tgdmb.com/viewtopic.php?p=82499#82499',
     }
   }),
+  ...[
+    'Forgemaster [Skill]', 'Stavecrafter [Metamagic]', 'Forge enchanted jewelry [Skill]',
+    'Master of the Loom [Skill]', 'Brew Potions [Metamagic]', 'Scribe Scrolls [Metamagic]',
+    'Craft Utility Item [Metamagic]',
+  ].map((name) => {
+    return {
+      name: name,
+      author: 'Red_Rob',
+      link: 'http://www.tgdmb.com/viewtopic.php?p=354303#354303',
+    }
+  }),
+  {
+    name: 'Animal Companion [Skill]',
+    author: 'AndreiChekov',
+    link: 'http://tgdmb.com/viewtopic.php?p=280238#280238',
+  },
+  {
+    name: 'Whip It Good [Combat]',
+    author: 'Libertad',
+    link: 'http://tgdmb.com/viewtopic.php?p=274648#274648',
+  },
+  {
+    name: 'Skilled Lasher [Skill]',
+    author: 'Koumei',
+    link: 'http://tgdmb.com/viewtopic.php?p=274720#274720',
+  },
+  {
+    name: 'Leap of the Heavens [Skill]',
+    author: 'Libertad',
+    link: 'http://tgdmb.com/viewtopic.php?p=270017#270017',
+  },
+  ...[
+    'Necromaster [Spellcasting]', 'Death Seeker [Spellcasting]', 'Blood Knight [Combat] ',
+  ].map((name) => {
+    return {
+      name: name,
+      author: 'Duke Flauros',
+      link: 'http://tgdmb.com/viewtopic.php?p=272144#272144',
+    }
+  }),
+  {
+    name: 'Blood Knight [Combat]',
+    author: 'Dominicius',
+    link: 'http://tgdmb.com/viewtopic.php?p=272967#272967',
+  },
 ];

@@ -358,7 +358,7 @@ export const prestigeClasses: PrestigeClassEntry[] = [
   },
   ...[
     { name: 'Berzerker', minimumStartingLevel: 4 },
-    { name: 'Arcane Bloodspiller', minimumStartingLevel: 9 },
+    { name: 'Bloodspiller', minimumStartingLevel: 9 },
   ].map(({ name, minimumStartingLevel }) => {
     return {
       name: name,
@@ -610,7 +610,7 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     return {
       name: name,
       author: 'Koumei',
-      link: 'http://tgdmb.com/viewtopic.php?p=479366#479366',
+      link: 'http://tgdmb.com/viewtopic.php?p=479451#479451',
       minimumStartingLevel: minimumStartingLevel
     };
   }),
@@ -1109,7 +1109,7 @@ export const prestigeClasses: PrestigeClassEntry[] = [
   {
     name: 'Undying Mercenary',
     author: 'Prak',
-    link: 'http://tgdmb.com/viewtopic.php?t=51103',
+    link: 'http://tgdmb.com/viewtopic.php?p=374108#374108',
     minimumStartingLevel: 5,
   },
   {
@@ -1183,5 +1183,49 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     author: 'Koumei',
     link: 'http://www.tgdmb.com/viewtopic.php?p=254951#254951',
     minimumStartingLevel: 8,
+  },
+  {
+    name: 'Master Trapper',
+    author: 'Dominicius',
+    link: 'http://tgdmb.com/viewtopic.php?p=465970#465970',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Aes Shee Noble',
+    author: 'JonSetanta',
+    link: 'http://tgdmb.com/viewtopic.php?t=54773',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Sexy Viking',
+    author: 'hyzmarca',
+    link: 'http://tgdmb.com/viewtopic.php?p=319689#319689',
+    minimumStartingLevel: 1,
+  },
+  {
+    name: 'Beast Totem Warrior',
+    author: 'Red_Rob',
+    link: 'http://tgdmb.com/viewtopic.php?p=299846#299846',
+    minimumStartingLevel: 11,
+  },
+  {
+    name: 'Wood Shaper',
+    author: 'complains',
+    link: 'http://tgdmb.com/viewtopic.php?p=286076#286076',
+    minimumStartingLevel: 6,
+  },
+  ...['Werewolf', 'Vampire', 'Cambion', 'Nephilim', 'Sprite'].map((name) => {
+    return {
+      name: name,
+      author: 'JonSetanta',
+      link: 'http://tgdmb.com/viewtopic.php?p=258529#258529',
+      minimumStartingLevel: 2,
+    }
+  }),
+  {
+    name: 'Werewolf',
+    author: 'CatharzGodfoot',
+    link: 'http://tgdmb.com/viewtopic.php?p=258916#258916',
+    minimumStartingLevel: 2,
   },
 ];

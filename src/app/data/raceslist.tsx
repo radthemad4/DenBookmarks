@@ -435,4 +435,42 @@ export const races: Entry[] = [
     link: 'http://tgdmb.com/viewtopic.php?t=56113',
     author: 'AcidBlades',
   },
+  ...[
+    'Human', 'Elf', 'Dwarf', 'Halfling', 'Orc', 'Ogre', 'Troll', 'Ratfolk', 'Goblin', 'Tengu',
+    'Tiefling', 'Aasimar', 'Gargoyle', 'Draconian', 'Catfolk', 'Thri-Kreen', 'Centaur',
+  ].map((name) => {
+    return {
+      name: name,
+      author: "DenizenKane",
+      link: 'https://docs.google.com/document/d/1Xw7fNl_7cns6t1ywrRagJNpGNYVeEiZgsv8SqkKlMAU/edit',
+      relatedLinks: [{ title: 'Den Thread', link: 'http://tgdmb.com/viewtopic.php?t=56941' }]
+    }
+  }),
+  ...[
+    'Doric', 'Flight-Adapted-Entity', 'Gnomon',
+  ].map((name) => {
+    return {
+      name: name,
+      author: "Prak",
+      link: 'http://tgdmb.com/viewtopic.php?p=417274#417274',
+    }
+  }),
+  ...[
+    'Organic Recombinant Constructs', 'Utero-Cons',,
+  ].map((name) => {
+    return {
+      name: name,
+      author: "Prak",
+      link: 'http://tgdmb.com/viewtopic.php?p=417276#417276',
+    }
+  }),
+  ...[
+    'Garif', 'Nu Mou', 'Viera', 'Moogle', 
+].map((name)=> {
+    return {
+        name: `${name}`,
+        author: 'Wiseman',
+        link: 'http://tgdmb.com/viewtopic.php?p=313514#313514',
+    }
+}),
 ];
