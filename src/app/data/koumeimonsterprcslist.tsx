@@ -633,6 +633,36 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'http://tgdmb.com/viewtopic.php?p=544888#544888',
             minimumStartingLevel: 7
         },
+        ...[
+            { name: "Cauchemare", link: 'http://tgdmb.com/viewtopic.php?p=544888#544888' },
+            { name: "Night Terror", link: 'http://tgdmb.com/viewtopic.php?p=544894#544894' },
+        ].map(({ name, link }) => {
+            return {
+                name: `Nightmare PrC: ${name}`,
+                link: link,
+                minimumStartingLevel: 7
+            }
+        }),
+        ...[
+            { name: "Summer Court Queen", link: 'http://tgdmb.com/viewtopic.php?p=544901#544901' },
+            { name: "Winter Court Queen", link: 'http://tgdmb.com/viewtopic.php?p=544902#544902' },
+        ].map(({ name, link }) => {
+            return {
+                name: `Nymph PrC: ${name}`,
+                link: link,
+                minimumStartingLevel: 9
+            }
+        }),
+        {
+            name: 'Ogre PrC: Creeping Mountain',
+            link: 'http://tgdmb.com/viewtopic.php?p=544907#544907',
+            minimumStartingLevel: 4
+        },
+        {
+            name: 'Ogre-Mage PrC: Taotieh',
+            link: 'http://tgdmb.com/viewtopic.php?p=544913#544913',
+            minimumStartingLevel: 9
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name: name,

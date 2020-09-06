@@ -456,7 +456,7 @@ export const races: Entry[] = [
     }
   }),
   ...[
-    'Organic Recombinant Constructs', 'Utero-Cons',,
+    'Organic Recombinant Constructs', 'Utero-Cons',
   ].map((name) => {
     return {
       name: name,
@@ -465,12 +465,12 @@ export const races: Entry[] = [
     }
   }),
   ...[
-    'Garif', 'Nu Mou', 'Viera', 'Moogle', 
-].map((name)=> {
+    'Garif', 'Nu Mou', 'Viera', 'Moogle',
+  ].map((name) => {
     return {
-        name: `${name}`,
-        author: 'Wiseman',
-        link: 'http://tgdmb.com/viewtopic.php?p=313514#313514',
+      name: 'name',
+      author: 'Wiseman',
+      link: 'http://tgdmb.com/viewtopic.php?p=313514#313514',
     }
-}),
+  }),
 ];
