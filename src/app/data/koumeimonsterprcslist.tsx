@@ -663,6 +663,16 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'http://tgdmb.com/viewtopic.php?p=544913#544913',
             minimumStartingLevel: 9
         },
+        {
+            name: 'Oread PrC: Mountain Whisperer',
+            link: 'http://tgdmb.com/viewtopic.php?p=544915#544915',
+            minimumStartingLevel: 9
+        },
+        {
+            name: 'Ormyrr PrC: Magic Seeker',
+            link: 'http://tgdmb.com/viewtopic.php?p=544925#544925',
+            minimumStartingLevel: 8
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name: name,
