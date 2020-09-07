@@ -468,7 +468,7 @@ export const races: Entry[] = [
     'Garif', 'Nu Mou', 'Viera', 'Moogle',
   ].map((name) => {
     return {
-      name: 'name',
+      name: name,
       author: 'Wiseman',
       link: 'http://tgdmb.com/viewtopic.php?p=313514#313514',
     }
