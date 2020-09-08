@@ -673,6 +673,21 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'http://tgdmb.com/viewtopic.php?p=544925#544925',
             minimumStartingLevel: 8
         },
+        {
+            name: 'Formian: Taskmaster PrC: Conscriptor',
+            link: 'http://tgdmb.com/viewtopic.php?p=544928#544928',
+            minimumStartingLevel: 9
+        },
+        {
+            name: 'Formian: Myrmarch PrC: Agent of the Colony',
+            link: 'http://tgdmb.com/viewtopic.php?p=544929#544929',
+            minimumStartingLevel: 12
+        },
+        {
+            name: 'Pegasus PrC: Protector of Dreams',
+            link: 'http://tgdmb.com/viewtopic.php?p=544937#544937',
+            minimumStartingLevel: 5
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name: name,
