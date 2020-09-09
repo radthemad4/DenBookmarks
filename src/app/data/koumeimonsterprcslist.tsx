@@ -688,6 +688,21 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'http://tgdmb.com/viewtopic.php?p=544937#544937',
             minimumStartingLevel: 5
         },
+        {
+            name: 'Pixie PrC: Fairy Archer',
+            link: 'http://tgdmb.com/viewtopic.php?p=544943#544943',
+            minimumStartingLevel: 6
+        },
+        {
+            name: 'Rakshasa: Naityan PrC: Champion of Ravana',
+            link: 'http://tgdmb.com/viewtopic.php?p=544954#544954',
+            minimumStartingLevel: 9
+        },
+        {
+            name: 'Rakshasa: Naztharune PrC: Phantom Feline',
+            link: 'http://tgdmb.com/viewtopic.php?p=544958#544958',
+            minimumStartingLevel: 13
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name: name,
