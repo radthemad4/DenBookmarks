@@ -718,6 +718,41 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'http://tgdmb.com/viewtopic.php?p=544977#544977',
             minimumStartingLevel: 3
         },
+        {
+            name: 'Awakened Porpoise PrC: Puppeteer',
+            link: 'http://tgdmb.com/viewtopic.php?p=544985#544985',
+            minimumStartingLevel: 3
+        },
+        ...[
+            { name: "Harvester", link: 'http://tgdmb.com/viewtopic.php?p=544986#544986' },
+            { name: "Verdant Sage", link: 'http://tgdmb.com/viewtopic.php?p=544987#544987' },
+        ].map(({ name, link }) => {
+            return {
+                name: `Awakened Tree (Huge) PrC: ${name}`,
+                link: link,
+                minimumStartingLevel: 7
+            }
+        }),
+        {
+            name: 'Saguaro Sentinel PrC: Warden of the Waste',
+            link: 'http://tgdmb.com/viewtopic.php?p=544988#544988',
+            minimumStartingLevel: 11
+        },
+        {
+            name: 'Salamander: Average PrC: Flameforger ',
+            link: 'http://tgdmb.com/viewtopic.php?p=544989#544989',
+            minimumStartingLevel: 8
+        },
+        ...[
+            { name: "Night Shark", link: 'http://tgdmb.com/viewtopic.php?p=544992#544992' },
+            { name: "Ocean Strike Leader", link: 'http://tgdmb.com/viewtopic.php?p=544993#544993' },
+        ].map(({ name, link }) => {
+            return {
+                name: `Sahuagin PrC: ${name}`,
+                link: link,
+                minimumStartingLevel: 3
+            }
+        }),
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name: name,

@@ -1044,6 +1044,11 @@ export const feats: Entry[] = [
         author: 'JonSetanta',
         link: 'http://tgdmb.com/viewtopic.php?p=256521#256521',
     },
+    {
+        name: 'Greatest Shark Friend [Monstrous]',
+        author: 'Koumei',
+        link: 'http://tgdmb.com/viewtopic.php?p=544993#544993',
+    },
 ];
 
 export const featCollections: Entry[] = [
