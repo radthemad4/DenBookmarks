@@ -1169,7 +1169,7 @@ export const prestigeClasses: PrestigeClassEntry[] = [
   {
     name: 'Swarmshifter',
     author: 'Prak',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=162302#162302',
+    link: 'http://www.tgdmb.com/viewtopic.php?p=162382#162382',
     minimumStartingLevel: 1,
   },
   {
