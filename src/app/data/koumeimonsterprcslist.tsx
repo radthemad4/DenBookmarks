@@ -703,6 +703,21 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'http://tgdmb.com/viewtopic.php?p=544958#544958',
             minimumStartingLevel: 13
         },
+        {
+            name: 'Reason Stealer PrC: Face Wearer',
+            link: 'http://tgdmb.com/viewtopic.php?p=544974#544974',
+            minimumStartingLevel: 7
+        },
+        {
+            name: 'Rejkar PrC: Great Goat God',
+            link: 'http://tgdmb.com/viewtopic.php?p=544976#544976',
+            minimumStartingLevel: 7
+        },
+        {
+            name: 'Rusalka PrC: Ice Sickle',
+            link: 'http://tgdmb.com/viewtopic.php?p=544977#544977',
+            minimumStartingLevel: 3
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name: name,

@@ -1,7 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { ClassAbilityComponentsIndexDiv } from './classabilitycomponents';
-import { koumeiMonsterPrcsBBCode } from '../data/koumeimonsterprcslist';
 
 ReactDOM.render(
   <div style={{padding:"1em"}}>
@@ -75,7 +74,6 @@ ReactDOM.render(
       </div>
 
     </div>
-    {/* <pre>{koumeiMonsterPrcsBBCode()}</pre> */}
   </div>,
   document.getElementById("root")
 );

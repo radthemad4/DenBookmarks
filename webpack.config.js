@@ -22,6 +22,7 @@ module.exports = {
       templates: './src/app/pages/templates.tsx',
       other: './src/app/pages/other.tsx',
       singlepage: './src/app/pages/singlepage.tsx',
+      koumeimonsterprcsindex: './src/app/pages/koumeimonsterprcsindex.tsx',
     },
   plugins: [
     new CleanWebpackPlugin({
@@ -146,6 +147,12 @@ module.exports = {
       filename: './gamingdenbookmarks/Other.html',
       template: 'src/templates/index.html',
       chunks: ['other']
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Koumei Monster PrCs Index',
+      filename: './gamingdenbookmarks/Koumei_Monster_PrCs_Index.html',
+      template: 'src/templates/index.html',
+      chunks: ['koumeimonsterprcsindex']
     }),
   ],
   output: {
