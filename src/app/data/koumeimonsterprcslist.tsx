@@ -773,6 +773,16 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'http://tgdmb.com/viewtopic.php?p=545012#545012',
             minimumStartingLevel: 7
         },
+        {
+            name: 'Sisiutl PrC: Chosen of Winalagalis',
+            link: 'http://tgdmb.com/viewtopic.php?p=545023#545023',
+            minimumStartingLevel: 11
+        },
+        {
+            name: 'Skull Lord PrC: Unholy Trinity',
+            link: 'http://tgdmb.com/viewtopic.php?p=545025#545025',
+            minimumStartingLevel: 9
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name: name,
