@@ -739,7 +739,7 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             minimumStartingLevel: 11
         },
         {
-            name: 'Salamander: Average PrC: Flameforger ',
+            name: 'Salamander: Average PrC: Flameforger',
             link: 'http://tgdmb.com/viewtopic.php?p=544989#544989',
             minimumStartingLevel: 8
         },
@@ -753,6 +753,26 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
                 minimumStartingLevel: 3
             }
         }),
+        {
+            name: 'Scyllan PrC: Sea Devil',
+            link: 'http://tgdmb.com/viewtopic.php?p=545006#545006',
+            minimumStartingLevel: 16
+        },
+        {
+            name: 'Shadow: Greater PrC: King of Shadows',
+            link: 'http://tgdmb.com/viewtopic.php?p=545010#545010',
+            minimumStartingLevel: 10
+        },
+        {
+            name: 'Shadow Mastiff PrC: Shadurakul',
+            link: 'http://tgdmb.com/viewtopic.php?p=545011#545011',
+            minimumStartingLevel: 7
+        },
+        {
+            name: 'Sirine PrC: Mind Changer',
+            link: 'http://tgdmb.com/viewtopic.php?p=545012#545012',
+            minimumStartingLevel: 7
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name: name,
