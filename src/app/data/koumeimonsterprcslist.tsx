@@ -783,6 +783,31 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'http://tgdmb.com/viewtopic.php?p=545025#545025',
             minimumStartingLevel: 9
         },
+        {
+            name: 'Slaad: Blue PrC: Battletoad',
+            link: 'http://tgdmb.com/viewtopic.php?p=545027#545027',
+            minimumStartingLevel: 10
+        },
+        {
+            name: 'Slaad: Green PrC: Giant Frog',
+            link: 'http://tgdmb.com/viewtopic.php?p=545028#545028',
+            minimumStartingLevel: 11
+        },
+        {
+            name: 'Slaad: Grey PrC: Death Slaad',
+            link: 'http://tgdmb.com/viewtopic.php?p=545029#545029',
+            minimumStartingLevel: 12
+        },
+        ...[
+            { name: "Spectral Reaper", link: 'http://tgdmb.com/viewtopic.php?p=545030#545030' },
+            { name: "Soul Eater", link: 'http://tgdmb.com/viewtopic.php?p=545031#545031' },
+        ].map(({ name, link }) => {
+            return {
+                name: `Spectre PrC: ${name}`,
+                link: link,
+                minimumStartingLevel: 10
+            }
+        }),
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name: name,
