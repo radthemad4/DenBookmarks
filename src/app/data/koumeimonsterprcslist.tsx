@@ -628,11 +628,6 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'http://tgdmb.com/viewtopic.php?p=544885#544885',
             minimumStartingLevel: 11
         },
-        {
-            name: 'Nightmare PrC: Cauchemare',
-            link: 'http://tgdmb.com/viewtopic.php?p=544888#544888',
-            minimumStartingLevel: 7
-        },
         ...[
             { name: "Cauchemare", link: 'http://tgdmb.com/viewtopic.php?p=544888#544888' },
             { name: "Night Terror", link: 'http://tgdmb.com/viewtopic.php?p=544894#544894' },
@@ -808,6 +803,16 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
                 minimumStartingLevel: 10
             }
         }),
+        {
+            name: 'Tengu: Human-Headed PrC: Kaze Mahoujin',
+            link: 'http://tgdmb.com/viewtopic.php?p=545063#545063',
+            minimumStartingLevel: 7
+        },
+        {
+            name: 'Thunderbird PrC: Stormbeak',
+            link: 'http://tgdmb.com/viewtopic.php?p=545064#545064',
+            minimumStartingLevel: 16
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name: name,
