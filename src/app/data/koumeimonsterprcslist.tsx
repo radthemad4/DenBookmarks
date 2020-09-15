@@ -853,6 +853,16 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'http://tgdmb.com/viewtopic.php?p=545116#545116',
             minimumStartingLevel: 6
         },
+        ...[
+            { name: "Grave Guard", link: 'http://tgdmb.com/viewtopic.php?p=545119#545119' },
+            { name: "Deathly Corruptor", link: 'http://tgdmb.com/viewtopic.php?p=545120#545120' },
+        ].map(({ name, link }) => {
+            return {
+                name: `Wight PrC: ${name}`,
+                link: link,
+                minimumStartingLevel: 5
+            }
+        }),
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
