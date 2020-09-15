@@ -838,6 +838,21 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'http://tgdmb.com/viewtopic.php?p=545086#545086',
             minimumStartingLevel: 7
         },
+        {
+            name: 'Valkyrie PrC: Valhallan Champion',
+            link: 'http://tgdmb.com/viewtopic.php?p=545114#545114',
+            minimumStartingLevel: 11
+        },
+        {
+            name: 'Vine Horror PrC: Tangled Master',
+            link: 'http://tgdmb.com/viewtopic.php?p=545115#545115',
+            minimumStartingLevel: 6
+        },
+        {
+            name: 'Vorr PrC: Vultivor',
+            link: 'http://tgdmb.com/viewtopic.php?p=545116#545116',
+            minimumStartingLevel: 6
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
