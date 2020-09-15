@@ -346,7 +346,7 @@ export const uncategorizedItems: Entry[] = [
     {
         name: "Consecrator",
         author: 'Maxus',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=191875#1918756',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=191875#191875',
     },
     {
         name: "Fighting Trousers",

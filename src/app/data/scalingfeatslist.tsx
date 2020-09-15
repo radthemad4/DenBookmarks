@@ -1332,4 +1332,24 @@ export const scalingFeats: Entry[] = [
     author: 'Dominicius',
     link: 'http://tgdmb.com/viewtopic.php?p=272967#272967',
   },
+  ...[
+    'Detection', 'Finding', 'Handling', 'Healing', 'Hospitality', 'Making', 'Passage',
+    'Scribing', 'Sentinel', 'Shadow', 'Storm', 'Warding'
+  ].map((name) => {
+    return {
+      name: `Mark of ${name}`,
+      author: 'Libertad',
+      link: 'http://tgdmb.com/viewtopic.php?p=249119#249119',
+    }
+  }),
+  {
+    name: 'Terrifying Anger[Rage]',
+    author: 'Prak',
+    link: 'http://tgdmb.com/viewtopic.php?p=40277#40277',
+  },
+  {
+    name: 'Raging Destroyer [Rage]',
+    author: "Someone in Judging__Eagle's gaming group",
+    link: 'http://tgdmb.com/viewtopic.php?p=40278#40278',
+  },
 ];

@@ -591,7 +591,7 @@ export const feats: Entry[] = [
             link: 'http://tgdmb.com/viewtopic.php?p=218443#218443',
             relatedLinks: [
                 { title: 'Soldier', link: 'http://tgdmb.com/viewtopic.php?t=50949' },
-                { title: 'Wiki', link: 'https://dnd-wiki.org/wiki/Soldier_(3.5e_Class)' },
+                { title: 'wiki', link: 'https://dnd-wiki.org/wiki/Soldier_(3.5e_Class)' },
             ],
         }
     }),
@@ -1048,6 +1048,12 @@ export const feats: Entry[] = [
         name: 'Greatest Shark Friend [Monstrous]',
         author: 'Koumei',
         link: 'http://tgdmb.com/viewtopic.php?p=544993#544993',
+    },
+    {
+        name: 'Leader of Peons [Leadership]',
+        author: 'Koumei',
+        link: 'http://tgdmb.com/viewtopic.php?p=317384#317384',
+        relatedLinks: [{title: 'Perfect Minion', link: 'http://tgdmb.com/viewtopic.php?p=316687#316687'}]
     },
 ];
 

@@ -968,10 +968,10 @@ export const monsters: MonsterEntry[] = [
         { name: 'Toxicroak (Old)', challengeRating: 8, updatedVersionLink: 'http://tgdmb.com/viewtopic.php?p=281824#281824' },
     ].map(({ name, challengeRating, updatedVersionLink }) => {
         return {
-            name: name,
+            name,
             author: 'Koumei',
             link: 'http://tgdmb.com/viewtopic.php?p=57503#57503',
-            challengeRating: challengeRating,
+            challengeRating,
             relatedLinks: [
                 { title: 'Updated Version', link: updatedVersionLink },
                 { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },

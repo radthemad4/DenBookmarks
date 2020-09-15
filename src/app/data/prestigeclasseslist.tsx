@@ -856,6 +856,7 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     author: 'Koumei',
     link: 'http://tgdmb.com/viewtopic.php?p=316687#316687',
     minimumStartingLevel: 2,
+    relatedLinks: [{title: 'Lord of Minions', link: 'http://tgdmb.com/viewtopic.php?p=317384#317384'}]
   },
   {
     name: 'Performer',
@@ -1197,12 +1198,6 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     minimumStartingLevel: 6,
   },
   {
-    name: 'Sexy Viking',
-    author: 'hyzmarca',
-    link: 'http://tgdmb.com/viewtopic.php?p=319689#319689',
-    minimumStartingLevel: 1,
-  },
-  {
     name: 'Beast Totem Warrior',
     author: 'Red_Rob',
     link: 'http://tgdmb.com/viewtopic.php?p=299846#299846',
@@ -1228,4 +1223,54 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     link: 'http://tgdmb.com/viewtopic.php?p=258916#258916',
     minimumStartingLevel: 2,
   },
+  {
+    name: 'Lord of Minions',
+    author: 'Koumei, SunTzuWarmaster',
+    link: 'http://tgdmb.com/viewtopic.php?p=317384#317384',
+    minimumStartingLevel: 6,
+    relatedLinks: [{title: 'Perfect Minion', link: 'http://tgdmb.com/viewtopic.php?p=316687#316687'}]
+  },
+  {
+    name: 'Serpentine Transformist',
+    author: 'Koumei',
+    link: 'http://tgdmb.com/viewtopic.php?p=317854#317854',
+    minimumStartingLevel: 1,
+  },
+  {
+    name: 'Choker PrC: Strangler',
+    author: 'downzorz',
+    link: 'http://tgdmb.com/viewtopic.php?p=318371#318371',
+    minimumStartingLevel: 4,
+  },
+  {
+    name: 'Minotaur PrC: Dancing Bull',
+    author: 'Koumei',
+    link: 'http://tgdmb.com/viewtopic.php?p=324384#324384',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Gore Painter',
+    author: 'Libertad',
+    link: 'http://tgdmb.com/viewtopic.php?p=250888#250888',
+    minimumStartingLevel: 6,
+  },
+  {
+    name: 'Bane Knight (Knight PrC)',
+    author: 'Midnight_v',
+    link: 'http://tgdmb.com/viewtopic.php?p=236588#236588',
+    relatedLinks: [{ title: 'Knight', link: 'https://dnd-wiki.org/wiki/Knight,_Tome_(3.5e_Class)' }],
+    minimumStartingLevel: 11,
+    note: 'Can be entered without being a Knight'
+  },
+  ...[
+    { name: 'Berserk', minimumStartingLevel: 6 },
+    { name: 'Frenzied Berserker', minimumStartingLevel: 7 },
+  ].map(({ name, minimumStartingLevel }) => {
+    return {
+      name: name,
+      author: 'Prak',
+      link: 'http://tgdmb.com/viewtopic.php?p=40277#40277',
+      minimumStartingLevel
+    };
+  }),
 ];

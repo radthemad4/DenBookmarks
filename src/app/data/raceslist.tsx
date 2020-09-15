@@ -473,4 +473,9 @@ export const races: Entry[] = [
       link: 'http://tgdmb.com/viewtopic.php?p=313514#313514',
     }
   }),
+  {
+    name: 'Holstaur',
+    link: 'http://tgdmb.com/viewtopic.php?p=245658#245658',
+    author: 'icyshadowlord',
+  },
 ];

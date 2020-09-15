@@ -11,6 +11,7 @@ export interface Entry {
     relatedLinks?: {
         title: string,
         link: string,
+        wiki?: string
     }[],
     wikiLink?: string,
     wikiLinks?: {
@@ -134,9 +135,9 @@ export function EntryList(props: { entries: Entry[], shouldSort: boolean }): JSX
                             </span>)
                     }
         )</span> : ''}
-                {relatedLinks != undefined ? <span> (related links:&nbsp;
+                {relatedLinks != undefined ? <span> ( related links:&nbsp;
         {
-                        relatedLinks.map(({ title, link }) => { return <a href={link}>{title}</a> }).map((element, i) => <span key={i}>
+                        relatedLinks.map(({ title, link, wiki }) => { return <span><a href={link}>{title}</a> {wiki == null ? '': <a href={wiki}>(wiki)</a>}</span> }).map((element, i) => <span key={i}>
                             {i > 0 && ", "}
                             {element}
                         </span>)

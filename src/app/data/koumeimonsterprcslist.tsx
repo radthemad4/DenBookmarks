@@ -813,12 +813,37 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'http://tgdmb.com/viewtopic.php?p=545064#545064',
             minimumStartingLevel: 16
         },
+        ...[
+            { name: "World Changer", link: 'http://tgdmb.com/viewtopic.php?p=545071#545071' },
+            { name: "Flesh Hunter", link: 'http://tgdmb.com/viewtopic.php?p=545072#545072' },
+        ].map(({ name, link }) => {
+            return {
+                name: `Troll PrC: ${name}`,
+                link: link,
+                minimumStartingLevel: 7
+            }
+        }),
+        {
+            name: 'Ulgurstasta PrC: Death Crawler',
+            link: 'http://tgdmb.com/viewtopic.php?p=545083#545083',
+            minimumStartingLevel: 14
+        },
+        {
+            name: 'Unicorn PrC: Celestial Charger',
+            link: 'http://tgdmb.com/viewtopic.php?p=545085#545085',
+            minimumStartingLevel: 5
+        },
+        {
+            name: 'Urskan PrC: Ice Crusher',
+            link: 'http://tgdmb.com/viewtopic.php?p=545086#545086',
+            minimumStartingLevel: 7
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
-            name: name,
+            name,
             author: 'Koumei',
-            link: link,
-            minimumStartingLevel: minimumStartingLevel,
+            link,
+            minimumStartingLevel,
         }
     }),
 ];

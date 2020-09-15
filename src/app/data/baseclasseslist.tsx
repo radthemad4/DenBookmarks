@@ -1138,7 +1138,7 @@ export const baseClasses: Entry[] = [
         author: 'Vebyast',
         link: 'http://tgdmb.com/viewtopic.php?p=143103#143103',
         wikiLink: 'https://dnd-wiki.org/wiki/User:Vebyast/Speedened_(3.5e_Class)',
-        note: 'Wiki link is more recent'
+        note: 'wiki link is more recent'
     },
     {
         name: 'Spell Breaker',
@@ -1315,7 +1315,7 @@ export const baseClasses: Entry[] = [
         name: 'Celestial Initiate',
         author: 'Grek',
         link: 'http://tgdmb.com/viewtopic.php?p=380176#380176',
-        relatedLinks: [{title: 'Den Thread', link: 'http://tgdmb.com/viewtopic.php?p=407585'}]
+        relatedLinks: [{ title: 'Den Thread', link: 'http://tgdmb.com/viewtopic.php?p=407585' }]
     },
     {
         name: 'Alternate Cleric [PF]',
@@ -1428,7 +1428,7 @@ export const baseClasses: Entry[] = [
         name: 'Templar',
         author: 'Tarkisflux, ThunderGod Cid',
         link: 'https://dnd-wiki.org/wiki/Templar_(3.5e_Class)',
-        relatedLinks: [{title: 'Den Thread', link: 'http://tgdmb.com/viewtopic.php?t=53703'}]
+        relatedLinks: [{ title: 'Den Thread', link: 'http://tgdmb.com/viewtopic.php?t=53703' }]
     },
     {
         name: 'Shapeshifter',
@@ -1439,7 +1439,7 @@ export const baseClasses: Entry[] = [
         name: 'Relaxed Warrior',
         author: 'Foxwarrior',
         link: 'https://dnd-wiki.org/wiki/Relaxed_Warrior_(3.5e_Class)',
-        relatedLinks: [{title: 'Den Thread', link: 'http://tgdmb.com/viewtopic.php?t=53425'}]
+        relatedLinks: [{ title: 'Den Thread', link: 'http://tgdmb.com/viewtopic.php?t=53425' }]
     },
     {
         name: 'Warrior of Light',
@@ -1465,5 +1465,45 @@ export const baseClasses: Entry[] = [
         name: 'Magister',
         author: 'JonSetanta',
         link: 'http://tgdmb.com/viewtopic.php?p=257362#257362',
+    },
+    {
+        name: 'Priest',
+        author: 'JonSetanta',
+        link: 'http://tgdmb.com/viewtopic.php?p=256743#256743',
+    },
+    {
+        name: 'Monk of the Awakening Path/Cleric Monk',
+        author: 'JonSetanta',
+        link: 'http://tgdmb.com/viewtopic.php?p=256343#256343',
+    },
+    {
+        name: 'Alchemist',
+        author: 'Koumei',
+        link: 'http://tgdmb.com/viewtopic.php?p=252570#252570',
+    },
+    {
+        name: 'Dumbass Fighter',
+        author: 'Parthenon',
+        link: 'http://tgdmb.com/viewtopic.php?p=253537#253537',
+    },
+    {
+        name: 'Sword Fetishist',
+        author: 'crasskris',
+        link: 'http://tgdmb.com/viewtopic.php?p=241822#241822',
+    },
+    {
+        name: 'Sexy Viking',
+        author: 'hyzmarca',
+        link: 'http://tgdmb.com/viewtopic.php?p=319689#319689',
+    },
+    {
+        name: 'Everyman Hero',
+        author: 'hyzmarca',
+        link: 'http://tgdmb.com/viewtopic.php?p=240688#240688',
+    },
+    {
+        name: 'Mage',
+        author: 'CatharzGodfoot',
+        link: 'http://tgdmb.com/viewtopic.php?p=232610#232610',
     },
 ];
