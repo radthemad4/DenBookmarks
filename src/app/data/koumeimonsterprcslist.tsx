@@ -871,6 +871,7 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         ...[
             { name: "Icy Void", link: 'http://tgdmb.com/viewtopic.php?p=545127#545127' },
             { name: "Shape of Fire", link: 'http://tgdmb.com/viewtopic.php?p=545128#545128' },
+            { name: "Haunting Presence", link: 'http://tgdmb.com/viewtopic.php?p=545131#545131' },
         ].map(({ name, link }) => {
             return {
                 name: `Wraith: Dread PrC: ${name}`,
