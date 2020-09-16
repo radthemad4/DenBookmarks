@@ -863,6 +863,21 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
                 minimumStartingLevel: 5
             }
         }),
+        {
+            name: "Winter Wolf PrC: Winter's Emissary",
+            link: 'http://tgdmb.com/viewtopic.php?p=545126#545126',
+            minimumStartingLevel: 7
+        },
+        ...[
+            { name: "Icy Void", link: 'http://tgdmb.com/viewtopic.php?p=545127#545127' },
+            { name: "Shape of Fire", link: 'http://tgdmb.com/viewtopic.php?p=545128#545128' },
+        ].map(({ name, link }) => {
+            return {
+                name: `Wraith: Dread PrC: ${name}`,
+                link: link,
+                minimumStartingLevel: 13
+            }
+        }),
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
