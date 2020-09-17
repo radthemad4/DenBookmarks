@@ -894,6 +894,21 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'http://tgdmb.com/viewtopic.php?p=545156#545156',
             minimumStartingLevel: 6
         },
+        ...[
+            { name: "Yuan-ti Infiltrator", link: 'http://tgdmb.com/viewtopic.php?p=545165#545165' },
+            { name: "Dungeon Delver of Mershaulk", link: 'http://tgdmb.com/viewtopic.php?p=545166#545166' },
+        ].map(({ name, link }) => {
+            return {
+                name: `Yuan-ti: Pureblood PrC: ${name}`,
+                link: link,
+                minimumStartingLevel: 5
+            }
+        }),
+        {
+            name: "Yuan-ti: Halfblood PrC: Serpent-Whisperer of Mershaulk",
+            link: 'http://tgdmb.com/viewtopic.php?p=545167#545167',
+            minimumStartingLevel: 7
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
