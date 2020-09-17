@@ -889,6 +889,11 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
                 minimumStartingLevel: 8
             }
         }),
+        {
+            name: "Yak Folk PrC: Yakultist",
+            link: 'http://tgdmb.com/viewtopic.php?p=545156#545156',
+            minimumStartingLevel: 6
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
