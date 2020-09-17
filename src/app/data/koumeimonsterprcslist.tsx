@@ -879,6 +879,16 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
                 minimumStartingLevel: 13
             }
         }),
+        ...[
+            { name: "Xill Marauder", link: 'http://tgdmb.com/viewtopic.php?p=545134#545134' },
+            { name: "Xill Moral Guide", link: 'http://tgdmb.com/viewtopic.php?p=545135#545135' },
+        ].map(({ name, link }) => {
+            return {
+                name: `Xill PrC: ${name}`,
+                link: link,
+                minimumStartingLevel: 8
+            }
+        }),
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
