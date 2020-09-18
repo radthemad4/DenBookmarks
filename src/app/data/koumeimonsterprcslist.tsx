@@ -909,6 +909,21 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'http://tgdmb.com/viewtopic.php?p=545167#545167',
             minimumStartingLevel: 7
         },
+        ...[
+            { name: "Holy Guardian", link: 'http://tgdmb.com/viewtopic.php?p=545196#545196' },
+            { name: "Anathema Incarnate", link: 'http://tgdmb.com/viewtopic.php?p=545197#545197' },
+        ].map(({ name, link }) => {
+            return {
+                name: `Yuan-ti: Abomination PrC: ${name}`,
+                link: link,
+                minimumStartingLevel: 9
+            }
+        }),
+        {
+            name: "Yuan-ti: Ignan PrC: Raging Flame",
+            link: 'http://tgdmb.com/viewtopic.php?p=545200#545200',
+            minimumStartingLevel: 10
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
