@@ -1506,4 +1506,74 @@ export const baseClasses: Entry[] = [
         author: 'CatharzGodfoot',
         link: 'http://tgdmb.com/viewtopic.php?p=232610#232610',
     },
+    {
+        name: 'Ranger',
+        author: 'Count Arioch the 28th',
+        link: 'http://tgdmb.com/viewtopic.php?p=226889#226889',
+    },
+    {
+        name: 'Psion',
+        author: 'Count Arioch the 28th',
+        link: 'http://tgdmb.com/viewtopic.php?p=226892#226892',
+    },
+    {
+        name: 'Healer',
+        author: 'Count Arioch the 28th',
+        link: 'http://tgdmb.com/viewtopic.php?p=226896#226896',
+    },
+    {
+        name: 'Shaman',
+        author: 'Count Arioch the 28th',
+        link: 'http://tgdmb.com/viewtopic.php?p=226984#226984',
+    },
+    {
+        name: 'Shadowcaster',
+        author: 'Kaelik',
+        link: 'http://tgdmb.com/viewtopic.php?p=192989#192989',
+    },
+    {
+        name: 'Druid (simplified)',
+        author: 'Josh_Kablack',
+        link: 'http://tgdmb.com/viewtopic.php?p=214494#214494',
+    },
+    {
+        name: 'Naturalist',
+        author: 'CatharzGodfoot',
+        link: 'http://tgdmb.com/viewtopic.php?p=214852#214852',
+    },
+    {
+        name: 'Marksman',
+        author: 'Parthenon',
+        link: 'http://tgdmb.com/viewtopic.php?p=211001#211001',
+    },
+    {
+        name: 'Hunter',
+        author: 'WPharolin',
+        link: 'http://tgdmb.com/viewtopic.php?p=196430#196430',
+    },
+    {
+        name: 'Lurk',
+        author: 'Kaelik',
+        link: 'http://tgdmb.com/viewtopic.php?p=157568#157568',
+    },
+    {
+        name: 'Barbarian [FCCC]',
+        author: 'erik',
+        link: 'http://tgdmb.com/viewtopic.php?p=169058#169058',
+    },
+    {
+        name: 'Bard [FCCC]',
+        author: 'erik',
+        link: 'http://tgdmb.com/viewtopic.php?p=169185#169185',
+    },
+    {
+        name: 'Bard [FCCC]',
+        author: 'erik',
+        link: 'http://tgdmb.com/viewtopic.php?p=169185#169185',
+    },
+    {
+        name: 'Druid [FCCC]',
+        author: 'erik',
+        link: 'http://tgdmb.com/viewtopic.php?p=169443#169443',
+    },
 ];

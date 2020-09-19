@@ -661,4 +661,9 @@ export const uncategorizedItems: Entry[] = [
         author: "Sigil",
         link: "http://tgdmb.com/viewtopic.php?t=54024",
     },
+    {
+        name: "Additional Exotic Weapons",
+        author: "Josh_Kablack",
+        link: "http://tgdmb.com/viewtopic.php?p=178503#178503",
+    },
 ];

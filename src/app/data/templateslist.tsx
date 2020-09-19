@@ -102,4 +102,21 @@ export const templates: Entry[] = [
         author: 'Ektagliaresia',
         link: 'http://tgdmb.com/viewtopic.php?p=256655#256655',
     },
+    ...[
+        { name: "Fast Animal", link: "http://wiki.fectin.com/doku.php/scratchpad:templates:cat" },
+        { name: "Tough Animal", link: "http://wiki.fectin.com/doku.php/scratchpad:templates:tough_animal" },
+        { name: "Slithery Animal", link: "http://wiki.fectin.com/doku.php/scratchpad:templates:slithery_animal" },
+        { name: "Skeleton", link: "http://wiki.fectin.com/doku.php/scratchpad:templates:skeleton" },
+        { name: "Hot!", link: "http://wiki.fectin.com/doku.php/scratchpad:templates:hot" },
+        { name: "Cold!", link: "http://wiki.fectin.com/doku.php/scratchpad:templates:cold" },
+        { name: "Airy!", link: "http://wiki.fectin.com/doku.php/scratchpad:templates:airy" },
+        { name: "Chaotic", link: "http://wiki.fectin.com/doku.php/scratchpad:templates:chaotic" },
+    ].map(({name, link})=>{
+        return {
+            name,
+            link,
+            author: 'fectin',
+            relatedLinks: [{title: 'Den Thread', link: 'http://tgdmb.com/viewtopic.php?t=51912'}]
+        }
+    }),
 ];

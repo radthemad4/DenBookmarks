@@ -478,4 +478,37 @@ export const races: Entry[] = [
     link: 'http://tgdmb.com/viewtopic.php?p=245658#245658',
     author: 'icyshadowlord',
   },
+  ...[
+    'Ankylodon', 'Broucci', 'Ophidian', 'Ponaturi', 'Raptor', 'Slaan', 
+  ].map((name) => {
+    return {
+      name: name,
+      author: 'Count Arioch the 28th',
+      link: 'http://tgdmb.com/viewtopic.php?p=226876#226876',
+    }
+  }),
+  ...[
+    'Akavish', 'Chloroph', 'Kunian', 'Marahnian', 'Fang Fish/Napici Namah', 'Zarkaia', 
+  ].map((name) => {
+    return {
+      name: name,
+      author: 'icyshadowlord',
+      link: 'http://tgdmb.com/viewtopic.php?p=198824#198824',
+    }
+  }),
+  {
+    name: 'Warforged',
+    link: 'http://tgdmb.com/viewtopic.php?p=163862#163862',
+    author: 'Kaelik',
+  },
+  ...[
+    'Human', 'Bugbear', 'Changeling', 'Dryad', 'Gnoll', 'Goblin',
+    'Hobgoblin', 'Kobold', 'Kuo-Toa', 'Lamia', 'Lizardfolk', 'Pixie', 'Slaad'
+  ].map((name) => {
+    return {
+      name: `${name} (Josh's Enkopja Campaign Doc)`,
+      author: 'Josh_Kablack',
+      link: 'http://tgdmb.com/viewtopic.php?p=178497#178497',
+    }
+  }),
 ];

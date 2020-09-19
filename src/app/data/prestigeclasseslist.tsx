@@ -1273,4 +1273,10 @@ export const prestigeClasses: PrestigeClassEntry[] = [
       minimumStartingLevel
     };
   }),
+  {
+    name: 'Blighter',
+    author: '...You Lost Me',
+    link: 'http://tgdmb.com/viewtopic.php?p=205176#205176',
+    minimumStartingLevel: 6,
+  },
 ];

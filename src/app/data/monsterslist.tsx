@@ -1124,4 +1124,10 @@ export const monsters: MonsterEntry[] = [
             challengeRating: challengeRating
         }
     }),
+    {
+        name: 'Ogre Mage',
+        author: 'FruitThatAteItself',
+        link: 'http://tgdmb.com/viewtopic.php?p=205209#205209',
+        challengeRating: 5
+    },
 ]

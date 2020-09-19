@@ -1322,7 +1322,7 @@ export const scalingFeats: Entry[] = [
     'Necromaster [Spellcasting]', 'Death Seeker [Spellcasting]', 'Blood Knight [Combat] ',
   ].map((name) => {
     return {
-      name: name,
+      name,
       author: 'Duke Flauros',
       link: 'http://tgdmb.com/viewtopic.php?p=272144#272144',
     }
@@ -1351,5 +1351,24 @@ export const scalingFeats: Entry[] = [
     name: 'Raging Destroyer [Rage]',
     author: "Someone in Judging__Eagle's gaming group",
     link: 'http://tgdmb.com/viewtopic.php?p=40278#40278',
+  },
+  ...[
+    'Mind Blade [Psionic]', 'Overchannel [Spellcaster]', 'Mind over Body [Skill]',
+  ].map((name) => {
+    return {
+      name,
+      author: 'Count Arioch the 28th',
+      link: 'http://tgdmb.com/viewtopic.php?p=227819#227819',
+    }
+  }),
+  {
+    name: 'Autohypnosis [Skill]',
+    author: "Grek",
+    link: 'http://tgdmb.com/viewtopic.php?p=223494#223494',
+  },
+  {
+    name: 'Inertial Armor [Skill]',
+    author: "RobbyPants",
+    link: 'http://tgdmb.com/viewtopic.php?p=187633#187633',
   },
 ];

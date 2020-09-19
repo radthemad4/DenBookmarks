@@ -118,4 +118,11 @@ export const backgrounds: Entry[] = [
         author: 'Libertad',
         link: 'http://tgdmb.com/viewtopic.php?p=246649#246649',
     },
+    ...['Exile', 'Former Claudia Miner', 'Disgruntled Airship Hand', 'Really Big Game Hunter', 'Student of Superstition',].map((value) => {
+        return {
+            name: value,
+            author: "Josh_Kablack",
+            link: "http://tgdmb.com/viewtopic.php?p=178501#178501",
+        }
+    }),
 ];

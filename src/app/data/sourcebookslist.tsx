@@ -71,7 +71,8 @@ export const sourcebooks: Entry[] = [
     {
         name: 'Dungeon Crusade (Warhammer in D&D)',
         link: 'http://tgdmb.com/viewtopic.php?t=55650',
-        author: 'Koumei'
+        author: 'Koumei',
+        relatedLinks: [{title: 'Dire Avengers', link: 'http://tgdmb.com/viewtopic.php?t=52105'}]
     },
     {
         name: "krusk's ToB Hack",
@@ -112,5 +113,10 @@ export const sourcebooks: Entry[] = [
         name: 'Core Class Rebalance',
         author: 'Hicks',
         link: 'http://tgdmb.com/viewtopic.php?p=541847#541847',
+    },
+    {
+        name: "Josh's Enkopja Campaign Docs for player reference",
+        author: 'Josh_Kablack',
+        link: 'http://tgdmb.com/viewtopic.php?t=51883',
     },
 ];

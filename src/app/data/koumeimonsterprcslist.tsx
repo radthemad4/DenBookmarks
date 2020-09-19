@@ -924,6 +924,21 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'http://tgdmb.com/viewtopic.php?p=545200#545200',
             minimumStartingLevel: 10
         },
+        {
+            name: "Yugoloth: Marraenoloth PrC: Ferryman",
+            link: 'http://tgdmb.com/viewtopic.php?p=545245#545245',
+            minimumStartingLevel: 11
+        },
+        {
+            name: "Yugoloth: Nycaloth PrC: Nycaloth Commander",
+            link: 'http://tgdmb.com/viewtopic.php?p=545246#545246',
+            minimumStartingLevel: 13
+        },
+        {
+            name: "Yuki-On-Na PrC: Tsurara-Onna",
+            link: 'http://tgdmb.com/viewtopic.php?p=545250#545250',
+            minimumStartingLevel: 7
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
