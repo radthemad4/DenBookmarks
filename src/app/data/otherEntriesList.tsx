@@ -78,4 +78,15 @@ export const otherEntries: Entry[] = [
         author: "Dominicius",
         link: "http://tgdmb.com/viewtopic.php?t=53371",
     },
+    {
+        name: "The Sky's the Limit: Airships in D&D",
+        author: "Josh_Kablack",
+        link: "http://tgdmb.com/viewtopic.php?p=231221#231221",
+    },
+    {
+        name: "Airships",
+        author: "fectin",
+        link: "http://wiki.fectin.com/doku.php?id=scratchpad:airships",
+        relatedLinks: [{title: 'Den Thread', link: 'http://tgdmb.com/viewtopic.php?p=247487#247487'}]
+    },
 ];
