@@ -61,6 +61,7 @@ export const sourcebooks: Entry[] = [
         relatedLinks: [
             {title: 'Mediafire Mirror', link: 'https://www.mediafire.com/file/8639xwza1o28tw0/156510306-Roleplaying-in-the-Disgaeaverse.pdf/file'},
             {title: 'Thread', link: 'http://www.tgdmb.com/viewtopic.php?t=51315'},
+            {title: 'DisgaeaGame Revised (Incomplete)', link: 'http://tgdmb.com/viewtopic.php?t=56518'},
         ]
     },
     {
