@@ -939,6 +939,11 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'http://tgdmb.com/viewtopic.php?p=545250#545250',
             minimumStartingLevel: 7
         },
+        {
+            name: "Wyvern PrC: Great Wyrm of the Sky",
+            link: 'http://tgdmb.com/viewtopic.php?p=545342#545342',
+            minimumStartingLevel: 8
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
