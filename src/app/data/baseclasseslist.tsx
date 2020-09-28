@@ -1571,4 +1571,18 @@ export const baseClasses: Entry[] = [
         author: 'erik',
         link: 'http://tgdmb.com/viewtopic.php?p=169443#169443',
     },
+    ...[
+        'Baatezu Cenobyte', "Tanar'ri Ravager", 'Yugoloth Mercenary',
+    ].map((name) => {
+        return {
+            name,
+            author: 'JonSetanta',
+            link: 'http://tgdmb.com/viewtopic.php?p=176338#176338',
+        }
+    }),
+    {
+        name: 'Quick Ranger Hack',
+        author: 'Josh_Kablack',
+        link: 'http://tgdmb.com/viewtopic.php?p=178418#178418',
+    },
 ];

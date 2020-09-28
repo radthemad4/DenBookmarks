@@ -203,6 +203,7 @@ export const monsters: MonsterEntry[] = [
             { name: "Tiefling Warrior", link: "http://www.tgdmb.com/viewtopic.php?p=420898#420898" },
             { name: "Vahki", link: "http://www.tgdmb.com/viewtopic.php?p=468257#468257" },
             { name: "Wood Soldier", link: "http://www.tgdmb.com/viewtopic.php?p=455655#455655" },
+            { name: "Bluespawn Stormlizard", link: "http://www.tgdmb.com/viewtopic.php?p=545424#545424" },
         ].map(({ name, link }) => {
             return {
                 name: name,
@@ -273,6 +274,7 @@ export const monsters: MonsterEntry[] = [
             { name: "Ogre Mage", link: "http://www.tgdmb.com/viewtopic.php?p=509505#509505" },
             { name: "Salamander", link: "http://www.tgdmb.com/viewtopic.php?p=426396#426396" },
             { name: "Sky Bison", link: "http://www.tgdmb.com/viewtopic.php?p=442307#442307" },
+            { name: "Vanth", link: "http://www.tgdmb.com/viewtopic.php?p=545423#545423" },
         ].map(({ name, link }) => {
             return {
                 name: name,

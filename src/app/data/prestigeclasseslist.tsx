@@ -1279,4 +1279,29 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     link: 'http://tgdmb.com/viewtopic.php?p=205176#205176',
     minimumStartingLevel: 6,
   },
+  ...[
+    {
+      name: 'Tempter',
+      minimumStartingLevel: 6
+    },
+    {
+      name: 'Dark Lawyer',
+      minimumStartingLevel: 6
+    },
+    {
+      name: 'Demonsentry',
+      minimumStartingLevel: 6
+    },
+    {
+      name: 'Dark Overlord',
+      minimumStartingLevel: 11
+    },
+  ].map(({name, minimumStartingLevel}) => {
+    return {
+      name,
+      author: 'JonSetanta',
+      link: 'http://tgdmb.com/viewtopic.php?p=176338#176338',
+      minimumStartingLevel
+    }
+  }),
 ];

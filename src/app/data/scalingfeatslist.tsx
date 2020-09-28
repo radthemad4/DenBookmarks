@@ -1371,4 +1371,13 @@ export const scalingFeats: Entry[] = [
     author: "RobbyPants",
     link: 'http://tgdmb.com/viewtopic.php?p=187633#187633',
   },
+  ...[
+    'Baatezu Legion [Fiend]', "Tanar'ri Horde [Fiend]", 'Yugoloth Guild [Fiend]',
+  ].map((name) => {
+    return {
+      name,
+      author: 'JonSetanta',
+      link: 'http://tgdmb.com/viewtopic.php?p=176338#176338',
+    }
+  }),
 ];
