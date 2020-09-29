@@ -942,6 +942,7 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         ...[
             { name: "Great Wyrm of the Sky", link: 'http://tgdmb.com/viewtopic.php?p=545342#545342' },
             { name: "True Dragon", link: 'http://tgdmb.com/viewtopic.php?p=545397#545397' },
+            { name: "Dread Wyrm", link: 'http://tgdmb.com/viewtopic.php?p=545473#545473' },
         ].map(({ name, link }) => {
             return {
                 name: `Wyvern PrC: ${name}`,
