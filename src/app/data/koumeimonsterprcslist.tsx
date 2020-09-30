@@ -533,12 +533,12 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         },
         {
             name: 'Marrash PrC: Blight of Yeenoghu',
-            link: 'http://tgdmb.com/viewtopic.php?p=544769#544769',
+            link: 'http://tgdmb.com/viewtopic.php?p=544770#544770',
             minimumStartingLevel: 7
         },
         {
             name: 'Medusa PrC: Statue Collector',
-            link: 'http://tgdmb.com/viewtopic.php?p=544769#544769',
+            link: 'http://tgdmb.com/viewtopic.php?p=544773#544773',
             minimumStartingLevel: 11
         },
         ...[
