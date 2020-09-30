@@ -950,6 +950,11 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
                 minimumStartingLevel: 8
             }
         }),
+        {
+            name: "Scorpionfolk PrC: Chosen of Al-Ishtus",
+            link: 'http://tgdmb.com/viewtopic.php?p=545498#545498',
+            minimumStartingLevel: 9
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,

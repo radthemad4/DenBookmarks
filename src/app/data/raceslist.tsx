@@ -511,4 +511,9 @@ export const races: Entry[] = [
       link: 'http://tgdmb.com/viewtopic.php?p=178497#178497',
     }
   }),
+  {
+    name: 'Scorpionfolk (Minimum Level 8)',
+    link: 'http://tgdmb.com/viewtopic.php?p=545498#545498',
+    author: 'Koumei',
+  },
 ];
