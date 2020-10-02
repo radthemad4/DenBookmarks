@@ -953,6 +953,7 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         ...[
             { name: "Chosen of Al-Ishtus", link: 'http://tgdmb.com/viewtopic.php?p=545498#545498' },
             { name: "Enforcer of the Sands", link: 'http://tgdmb.com/viewtopic.php?p=545524#545524' },
+            { name: "Deathstalker", link: 'http://tgdmb.com/viewtopic.php?p=545541#545541' },
         ].map(({ name, link }) => {
             return {
                 name: `Scorpionfolk PrC: ${name}`,
