@@ -93,7 +93,7 @@ export const acfs: Entry[] = [
             name: `${name} Druid`,
             author: 'Koumei',
             link: 'http://tgdmb.com/viewtopic.php?p=537994#537994',
-            relatedLinks: [{title: 'Druid', link: 'https://dnd-wiki.org/wiki/SRD:Druid'}]
+            relatedLinks: [{ title: 'Druid', link: 'https://dnd-wiki.org/wiki/SRD:Druid' }]
         }
     }),
     ...['Gun Mage', 'Magic Eater', 'Rage Mage', 'Wild Soul'].map((name) => {
@@ -101,7 +101,7 @@ export const acfs: Entry[] = [
             name: `${name} (Kaelik Sorcerer Variant)`,
             author: 'Koumei',
             link: 'http://tgdmb.com/viewtopic.php?p=537994#537994',
-            relatedLinks: [{title: 'Sorcerer', link: 'http://tgdmb.com/viewtopic.php?t=56529'}]
+            relatedLinks: [{ title: 'Sorcerer', link: 'http://tgdmb.com/viewtopic.php?t=56529' }]
         }
     }),
     ...['Beast Master', 'Castle Crusher', 'Drunken Rager', 'Lunar Marauder', 'Skald', 'Totemic Sage'].map((name) => {
@@ -109,7 +109,7 @@ export const acfs: Entry[] = [
             name: `${name} (Kaelik Barbarian Variant)`,
             author: 'Koumei',
             link: 'http://tgdmb.com/viewtopic.php?p=538228#538228',
-            relatedLinks: [{title: 'Barbarian', link: 'http://tgdmb.com/viewtopic.php?t=57041'}]
+            relatedLinks: [{ title: 'Barbarian', link: 'http://tgdmb.com/viewtopic.php?t=57041' }]
         }
     }),
     ...['Evangelist', 'Far Realm Cultist', 'Sacred Fist',].map((name) => {
@@ -117,7 +117,7 @@ export const acfs: Entry[] = [
             name: `${name} (Kaelik Cleric Variant)`,
             author: 'Koumei',
             link: 'http://tgdmb.com/viewtopic.php?p=538542#538542',
-            relatedLinks: [{title: 'Cleric', link: 'http://tgdmb.com/viewtopic.php?t=56589'}]
+            relatedLinks: [{ title: 'Cleric', link: 'http://tgdmb.com/viewtopic.php?t=56589' }]
         }
     }),
     ...['Elemental Fist', 'Ki Mystic', 'Monk of the Dark Moon', 'Monk of the Long Death', 'Zen Archer',].map((name) => {
@@ -125,7 +125,7 @@ export const acfs: Entry[] = [
             name: `${name} (Tome Monk Variant)`,
             author: 'Koumei',
             link: 'http://tgdmb.com/viewtopic.php?p=539225#539225',
-            relatedLinks: [{title: 'Monk', link: 'https://dnd-wiki.org/wiki/Monk,_Tome_(3.5e_Class)'}]
+            relatedLinks: [{ title: 'Monk', link: 'https://dnd-wiki.org/wiki/Monk,_Tome_(3.5e_Class)' }]
         }
     }),
     ...['Animal Friend', 'Dirge Singer', 'Flame Dancer', 'Sword Dancer',].map((name) => {
@@ -133,15 +133,15 @@ export const acfs: Entry[] = [
             name: `${name} (TG Cid's Bard Variant)`,
             author: 'Koumei',
             link: 'http://tgdmb.com/viewtopic.php?p=539859#539859',
-            relatedLinks: [{title: 'Bard', link: 'https://dnd-wiki.org/wiki/Bard,_Tome_%283.5e_Class%29'}]
+            relatedLinks: [{ title: 'Bard', link: 'https://dnd-wiki.org/wiki/Bard,_Tome_%283.5e_Class%29' }]
         }
     }),
     ...['Cavalier', 'Celestial Crusader', 'Elemental Hero', 'Fist of Righteousness', 'Justiciar', 'Sword Saint'].map((name) => {
         return {
-            name: `${name} (TG Cid's Bard Variant)`,
+            name: `${name} (Paladin)`,
             author: 'Koumei',
             link: 'http://tgdmb.com/viewtopic.php?p=540528#540528',
-            relatedLinks: [{title: "IGTN's Paladin", link: 'https://dnd-wiki.org/wiki/Paladin,_Tome_%283.5e_Class%29'}]
+            relatedLinks: [{ title: "IGTN's Paladin", link: 'https://dnd-wiki.org/wiki/Paladin,_Tome_%283.5e_Class%29' }]
         }
     }),
     {
@@ -154,6 +154,14 @@ export const acfs: Entry[] = [
         name: 'Luckbringer Druid',
         author: 'Sacrificial Lamb',
         link: 'http://tgdmb.com/viewtopic.php?p=447582#447582',
-        relatedLinks: [{title: 'Druid', link: 'https://dnd-wiki.org/wiki/SRD:Druid'}]
+        relatedLinks: [{ title: 'Druid', link: 'https://dnd-wiki.org/wiki/SRD:Druid' }]
     },
+    ...['Belmont', 'Bounty Hunter', 'Dust Guild Initiate', 'Eldritch Scoundrel', 'Shadow Adept'].map((name) => {
+        return {
+            name: `${name} (Rogue)`,
+            author: 'Koumei',
+            link: 'http://tgdmb.com/viewtopic.php?p=545607#545607',
+            relatedLinks: [{ title: "Koumei's Rogue", link: 'http://tgdmb.com/viewtopic.php?t=57617' }]
+        }
+    }),
 ];

@@ -217,11 +217,6 @@ export const baseClasses: Entry[] = [
         link: 'http://www.tgdmb.com/viewtopic.php?p=105040#105040',
     },
     {
-        name: 'Psion',
-        author: 'koz',
-        link: 'http://www.tgdmb.com/viewtopic.php?t=49453',
-    },
-    {
         name: 'Chaos Mage',
         author: 'Koumei',
         link: 'http://tgdmb.com/viewtopic.php?t=51581',
