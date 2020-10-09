@@ -178,11 +178,12 @@ export const scalingFeats: Entry[] = [
     'Killer of Change [Combat]',
     'Angel Slayer [Combat]',
     'Seafood Chef [Combat]',
-  ].map((element) => {
+  ].map((name) => {
     return {
-      name: element,
+      name: `${name} (in the 'Other Options' spoiler)`,
       author: 'Koumei',
-      link: 'http://www.tgdmb.com/viewtopic.php?p=177426#177426',
+      link: 'http://tgdmb.com/viewtopic.php?p=545730#545730',
+      relatedLinks: [{title: 'Older Link', link: 'http://www.tgdmb.com/viewtopic.php?p=177426#177426'}]
     }
   }),
   ...['Blood Knight [Death Knight]', 'Frozen Knight [Death Knight]'].map((element) => {
