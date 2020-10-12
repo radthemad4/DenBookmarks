@@ -856,7 +856,7 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     author: 'Koumei',
     link: 'http://tgdmb.com/viewtopic.php?p=316687#316687',
     minimumStartingLevel: 2,
-    relatedLinks: [{title: 'Lord of Minions', link: 'http://tgdmb.com/viewtopic.php?p=317384#317384'}]
+    relatedLinks: [{ title: 'Lord of Minions', link: 'http://tgdmb.com/viewtopic.php?p=317384#317384' }]
   },
   {
     name: 'Performer',
@@ -1228,7 +1228,7 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     author: 'Koumei, SunTzuWarmaster',
     link: 'http://tgdmb.com/viewtopic.php?p=317384#317384',
     minimumStartingLevel: 6,
-    relatedLinks: [{title: 'Perfect Minion', link: 'http://tgdmb.com/viewtopic.php?p=316687#316687'}]
+    relatedLinks: [{ title: 'Perfect Minion', link: 'http://tgdmb.com/viewtopic.php?p=316687#316687' }]
   },
   {
     name: 'Serpentine Transformist',
@@ -1296,7 +1296,7 @@ export const prestigeClasses: PrestigeClassEntry[] = [
       name: 'Dark Overlord',
       minimumStartingLevel: 11
     },
-  ].map(({name, minimumStartingLevel}) => {
+  ].map(({ name, minimumStartingLevel }) => {
     return {
       name,
       author: 'JonSetanta',
@@ -1304,4 +1304,10 @@ export const prestigeClasses: PrestigeClassEntry[] = [
       minimumStartingLevel
     }
   }),
+  {
+    name: 'Knight of the Lily',
+    author: 'Wiseman',
+    link: 'http://tgdmb.com/viewtopic.php?p=545784#545784',
+    minimumStartingLevel: 6,
+  },
 ];
