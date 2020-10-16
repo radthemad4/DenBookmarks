@@ -172,4 +172,12 @@ export const acfs: Entry[] = [
             relatedLinks: [{ title: "ZER0's Ranger", link: 'http://www.tgdmb.com/viewtopic.php?t=49226' }]
         }
     }),
+    ...['Focused Specialist', 'Metamagician', 'Temporal Mage', 'War Wizard'].map((name) => {
+        return {
+            name,
+            author: 'Koumei',
+            link: 'http://tgdmb.com/viewtopic.php?p=545834#545834',
+            relatedLinks: [{ title: "Kaelik Wizard", link: 'http://tgdmb.com/viewtopic.php?t=55867' }]
+        }
+    }),
 ];
