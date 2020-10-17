@@ -92,6 +92,11 @@ export const npcs: MonsterEntry[] = [
             link: 'http://www.tgdmb.com/viewtopic.php?p=446301#446301',
             challengeRating: 13,
         },
+        {
+            name: 'Thri-Kreen Hunter',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=432510#432510',
+            challengeRating: 5,
+        },
     ].map(({ name, link, challengeRating }) => {
         return {
             name: name,
@@ -186,16 +191,16 @@ export const npcs: MonsterEntry[] = [
                 challengeRating: challengeRating
             };
         }),
-    ].map(({name, link, challengeRating})=>{
+    ].map(({ name, link, challengeRating }) => {
         return {
             name: name,
             author: 'Koumei',
             link: link,
             challengeRating: challengeRating,
             relatedLinks: [
-                {title: 'Roleplaying in the Disgaeaverse', link: ''},
-                {title: 'Mediafire Mirror', link: 'https://www.mediafire.com/file/8639xwza1o28tw0/156510306-Roleplaying-in-the-Disgaeaverse.pdf/file'},
-                {title: 'Disgaea Thread', link: 'http://www.tgdmb.com/viewtopic.php?t=51315'},
+                { title: 'Roleplaying in the Disgaeaverse', link: '' },
+                { title: 'Mediafire Mirror', link: 'https://www.mediafire.com/file/8639xwza1o28tw0/156510306-Roleplaying-in-the-Disgaeaverse.pdf/file' },
+                { title: 'Disgaea Thread', link: 'http://www.tgdmb.com/viewtopic.php?t=51315' },
             ],
         }
     }),
@@ -205,9 +210,9 @@ export const npcs: MonsterEntry[] = [
         link: 'http://www.tgdmb.com/viewtopic.php?p=235220#235220',
         challengeRating: 15,
         relatedLinks: [
-            {title: 'Roleplaying in the Disgaeaverse', link: ''},
-            {title: 'Mediafire Mirror', link: 'https://www.mediafire.com/file/8639xwza1o28tw0/156510306-Roleplaying-in-the-Disgaeaverse.pdf/file'},
-            {title: 'Disgaea Thread', link: 'http://www.tgdmb.com/viewtopic.php?t=51315'},
+            { title: 'Roleplaying in the Disgaeaverse', link: '' },
+            { title: 'Mediafire Mirror', link: 'https://www.mediafire.com/file/8639xwza1o28tw0/156510306-Roleplaying-in-the-Disgaeaverse.pdf/file' },
+            { title: 'Disgaea Thread', link: 'http://www.tgdmb.com/viewtopic.php?t=51315' },
         ],
     },
     ...[
@@ -460,7 +465,7 @@ export const npcs: MonsterEntry[] = [
             link: 'http://tgdmb.com/viewtopic.php?p=251833#251833',
             challengeRating: 20
         },
-    ].map(({name, link, challengeRating})=>{
+    ].map(({ name, link, challengeRating }) => {
         return {
             name: name,
             author: 'Libertad',
