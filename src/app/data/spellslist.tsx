@@ -399,18 +399,6 @@ export const spells: Entry[] = [
         author: 'Prak',
         link: 'http://tgdmb.com/viewtopic.php?p=270452#270452',
     },
-    ...[
-        "Summon Monster (Paladin 1, Cleric 1, Sorcerer/Wizard 1)",
-        "Summon Nature (Druid 1, Ranger 1)",
-        "Godfucker (Sorcerer/Wizard 9)",
-        "Ruin Lightning (Sorcerer/Wizard 9)",
-    ].map((name) => {
-        return {
-            name: name,
-            author: 'Mistborn',
-            link: 'http://tgdmb.com/viewtopic.php?p=317395#317395',
-        }
-    }),
     {
         name: "Summon Monster (Paladin 1, Cleric 1, Sorcerer/Wizard 1)",
         author: 'JonSetanta',
@@ -431,4 +419,25 @@ export const spells: Entry[] = [
         author: 'JonSetanta',
         link: 'http://tgdmb.com/viewtopic.php?t=53216',
     },
+    ...[
+        "Grave Visage (Dread Necromancer 1, Sorcerer/Wizard 1)",
+        "Curse of Lost Fortune (Bard 1, Blackguard 1, Sorcerer/Wizard 1, Witch 1)",
+        "Splendid Demeanour (Bard 1, Beguiler 1, Sorcerer/Wizard 1)",
+        "Paranoia (Bard 1, Beguiler 1, Sorcerer/Wizard 1)",
+        "Disguise Object (Sorcerer/Wizard 1)",
+        "Protect Against Self (Sorcerer/Wizard 1, Witch 1)",
+
+        "Halo of Flames (Duskblade 1, Elementalist 2, Sorcerer/Wizard 2)",
+        "False Comfort (Beguiler 2, Sorcerer/Wizard 2)",
+        "Dreary Domain (Blackguard 1, Dread Necromancer 2, Sorcerer/Wizard 2)",
+        "Curse of Unmaking (Dread Necromancer 2, Sorcerer/Wizard 2, Witch 2)",
+        "Delight (Bard 2, Beguiler 2, Sorcerer/Wizard 2)",
+        "Nybor's Chastisement (Beguiler 2, Sorcerer/Wizard 2, Witch 2)",
+    ].map((name) => {
+        return {
+            name,
+            author: 'Koumei',
+            link: 'http://tgdmb.com/viewtopic.php?p=545899#545899',
+        }
+    }),
 ];
