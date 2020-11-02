@@ -180,7 +180,7 @@ export const acfs: Entry[] = [
             relatedLinks: [{ title: "Kaelik Wizard", link: 'http://tgdmb.com/viewtopic.php?t=55867' }]
         }
     }),
-    ...['Conduit of the Outer Planes', 'Conduit of the Inner Planes',].map((name) => {
+    ...['Conduit of the Outer Planes', 'Conduit of the Inner Planes', 'Conduit of the Transitive Planes'].map((name) => {
         return {
             name,
             author: 'Koumei',

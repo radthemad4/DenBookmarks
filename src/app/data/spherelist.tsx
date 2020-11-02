@@ -302,4 +302,11 @@ export const spheres: Entry[] = [
         author: 'Prak',
         link: 'http://www.tgdmb.com/viewtopic.php?p=501164#501164',
     },
+    ...['Ash', 'Salt', 'Trickery','Unmaking', 'Vapour'].map((name) => {
+        return {
+            name: name,
+            author: 'Koumei',
+            link: 'http://tgdmb.com/viewtopic.php?p=545939#545939',
+        }
+    }),
 ];
