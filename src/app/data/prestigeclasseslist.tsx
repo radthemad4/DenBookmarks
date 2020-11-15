@@ -610,7 +610,7 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     return {
       name: name,
       author: 'Koumei',
-      link: 'http://tgdmb.com/viewtopic.php?p=479451#479451',
+      link: 'https://www.tgdmb.com/viewtopic.php?p=479451#479451',
       minimumStartingLevel: minimumStartingLevel
     };
   }),
