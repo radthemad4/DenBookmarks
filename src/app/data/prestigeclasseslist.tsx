@@ -290,27 +290,33 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     }
   }),
   ...[
-    { name: 'Defender of the Woods [Tome of Trees]', minimumStartingLevel: 8 },
-    { name: 'Holy Crusader [Tome of Virtue]', minimumStartingLevel: 6 },
-    { name: 'Golem-Knight of Mechanus [Book of Gears]', minimumStartingLevel: 8 },
-    { name: 'Lunar Knight', minimumStartingLevel: 8 },
-    { name: 'Crusader of the Elemental Forces', minimumStartingLevel: 11 },
-  ].map(({ name, minimumStartingLevel }) => {
+    { name: 'Defender of the Woods [Tome of Trees]'},
+    { name: 'Holy Crusader [Tome of Virtue]'},
+    { name: 'Golem-Knight of Mechanus [Book of Gears]'},
+    { name: 'Lunar Knight'},
+    { name: 'Crusader of the Elemental Forces'},
+  ].map(({ name}) => {
     return {
       name: `${name} (Knight PrC)`,
       author: 'Koumei',
       link: 'http://www.tgdmb.com/viewtopic.php?t=50018',
       relatedLinks: [{ title: 'Knight', link: 'https://dnd-wiki.org/wiki/Knight,_Tome_(3.5e_Class)' }],
-      minimumStartingLevel: minimumStartingLevel,
+      minimumStartingLevel: 11,
     }
   }),
-  {
-    name: `Scaled Veteran of the Ages (Knight PrC)`,
-    author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=109441#109441',
-    relatedLinks: [{ title: 'Knight', link: 'https://dnd-wiki.org/wiki/Knight,_Tome_(3.5e_Class)' }],
-    minimumStartingLevel: 11,
-  },
+  ...[
+    { name: 'Scaled Veteran of the Ages', link: 'http://www.tgdmb.com/viewtopic.php?p=109441#109441'},
+    { name: 'Arachne', link: 'http://tgdmb.com/viewtopic.php?p=546397#546397'},
+    { name: 'Knight of Pain', link: 'http://tgdmb.com/viewtopic.php?p=546397#546397'},
+  ].map(({ name, link }) => {
+    return {
+      name: `${name} (Knight PrC)`,
+      author: 'Koumei',
+      link,
+      relatedLinks: [{ title: 'Knight', link: 'https://dnd-wiki.org/wiki/Knight,_Tome_(3.5e_Class)' }],
+      minimumStartingLevel: 11,
+    }
+  }),
   ...[
     { name: 'Arcane Archer', minimumStartingLevel: 7 },
     { name: 'Bladesinger', minimumStartingLevel: 3 },
@@ -569,14 +575,15 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     minimumStartingLevel: 6,
   },
   ...[
-    { name: 'Arachne', minimumStartingLevel: 8 },
+    { name: 'Arachne (Old)', minimumStartingLevel: 8, relatedLinks: [{title:'Updated Version', link: 'http://tgdmb.com/viewtopic.php?p=546397#546397'}] },
     { name: 'Ocular Adept', minimumStartingLevel: 6 },
-  ].map(({ name, minimumStartingLevel }) => {
+  ].map(({ name, minimumStartingLevel, relatedLinks }) => {
     return {
       name: name,
       author: 'Koumei',
       link: 'http://tgdmb.com/viewtopic.php?p=479366#479366',
-      minimumStartingLevel: minimumStartingLevel
+      minimumStartingLevel: minimumStartingLevel,
+      relatedLinks
     };
   }),
   ...[

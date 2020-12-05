@@ -1055,6 +1055,19 @@ export const feats: Entry[] = [
         link: 'http://tgdmb.com/viewtopic.php?p=317384#317384',
         relatedLinks: [{title: 'Perfect Minion', link: 'http://tgdmb.com/viewtopic.php?p=316687#316687'}]
     },
+    ...[
+        'Wings of Mercy [Celestial] ',
+        'Wings of Protection [Celestial]',
+        'Wings of Pure Light [Celestial]',
+        'Wings of Radiance [Celestial]',
+        'Wings of Smiting [Celestial]',
+    ].map((name) => {
+        return {
+            name: name,
+            author: 'Koumei',
+            link: 'http://www.tgdmb.com/viewtopic.php?p=103410#103410',
+        }
+    }),
 ];
 
 export const featCollections: Entry[] = [

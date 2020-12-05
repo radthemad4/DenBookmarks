@@ -23,4 +23,9 @@ export const knightlyOrders: Entry[] = [
         link: 'http://tgdmb.com/viewtopic.php?p=63469#63469',
         author: 'Maxus'
     },
+    {
+        name: 'Scaled Knight of the Primordial',
+        link: 'http://www.tgdmb.com/viewtopic.php?p=109441#109441',
+        author: 'Koumei'
+    },
 ];
