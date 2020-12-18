@@ -32,7 +32,7 @@ export const knightlyOrders: Entry[] = [
         return {
             name: `${name} Knight`,
             author: 'Koumei',
-            link: 'http://tgdmb.com/viewtopic.php?t=57539'
+            link: 'http://tgdmb.com/viewtopic.php?p=546475#546475'
         }
     }),
 ];
