@@ -188,4 +188,12 @@ export const acfs: Entry[] = [
             relatedLinks: [{ title: "Conduit of the Lower Planes", link: 'https://dnd-wiki.org/wiki/Conduit_of_the_Lower_Planes_(3.5e_Class)' }]
         }
     }),
+    ...['Beast Rider', 'Juggernaut', 'Knave', 'Herald', 'Knight of the Order'].map((name) => {
+        return {
+            name,
+            author: 'Koumei',
+            link: 'http://tgdmb.com/viewtopic.php?p=546475#546475',
+            relatedLinks: [{ title: "Knight", link: 'https://dnd-wiki.org/wiki/Knight,_Tome_(3.5e_Class)' }]
+        }
+    }),
 ];

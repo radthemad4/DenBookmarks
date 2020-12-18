@@ -3,7 +3,7 @@ import { Entry } from "../entry";
 export const knightlyOrders: Entry[] = [
     ...['Green Knight','Inspiring Knights','Knight of the Iron Glacier'].map((name) => {
         return {
-            name: name,
+            name,
             author: 'Maxus',
             link: 'http://tgdmb.com/viewtopic.php?p=59137#59137'
         }
@@ -28,4 +28,11 @@ export const knightlyOrders: Entry[] = [
         link: 'http://www.tgdmb.com/viewtopic.php?p=109441#109441',
         author: 'Koumei'
     },
+    ...['Death', 'Eternal', 'Lolth', 'Mechanical', 'Myrmidon', 'Scaled', 'Space'].map((name) => {
+        return {
+            name: `${name} Knight`,
+            author: 'Koumei',
+            link: 'http://tgdmb.com/viewtopic.php?t=57539'
+        }
+    }),
 ];

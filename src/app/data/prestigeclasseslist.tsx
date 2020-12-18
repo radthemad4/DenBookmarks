@@ -308,6 +308,7 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     { name: 'Scaled Veteran of the Ages', link: 'http://www.tgdmb.com/viewtopic.php?p=109441#109441'},
     { name: 'Arachne', link: 'http://tgdmb.com/viewtopic.php?p=546397#546397'},
     { name: 'Knight of Pain', link: 'http://tgdmb.com/viewtopic.php?p=546397#546397'},
+    { name: 'Colony Champion', link: 'http://tgdmb.com/viewtopic.php?p=546473#546473'},
   ].map(({ name, link }) => {
     return {
       name: `${name} (Knight PrC)`,
