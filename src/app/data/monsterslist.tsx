@@ -99,6 +99,7 @@ export const monsters: MonsterEntry[] = [
             { name: 'Happy Bunny', link: 'http://www.tgdmb.com/viewtopic.php?p=472407#472407' },
             { name: 'Matoran', link: 'http://www.tgdmb.com/viewtopic.php?p=468716#468716' },
             { name: 'Planetouched', link: 'http://www.tgdmb.com/viewtopic.php?p=428664#42866' },
+            { name: 'Shadow', link: 'http://tgdmb.com/viewtopic.php?p=546707#546707' },
         ].map(({ name, link }) => {
             return {
                 name: name,
@@ -276,7 +277,7 @@ export const monsters: MonsterEntry[] = [
             { name: "Mind Flayer", link: "http://tgdmb.com/viewtopic.php?p=411431#411431" },
             { name: "Movanic Deva", link: "http://tgdmb.com/viewtopic.php?p=384172#384172" },
             { name: "Nightslaver", link: "http://www.tgdmb.com/viewtopic.php?p=509494#509494" },
-            { name: "Ogre Mage", link: "http://www.tgdmb.com/viewtopic.php?p=509505#509505" },
+            { name: "Oni/Ogre Mage", link: "http://www.tgdmb.com/viewtopic.php?p=509505#509505" },
             { name: "Salamander", link: "http://www.tgdmb.com/viewtopic.php?p=426396#426396" },
             { name: "Sky Bison", link: "http://www.tgdmb.com/viewtopic.php?p=442307#442307" },
             { name: "Vanth", link: "http://www.tgdmb.com/viewtopic.php?p=545423#545423" },
