@@ -1580,4 +1580,16 @@ export const baseClasses: Entry[] = [
         author: 'Josh_Kablack',
         link: 'http://tgdmb.com/viewtopic.php?p=178418#178418',
     },
+    ...[
+        { name: "Bone Golem", link: 'http://tgdmb.com/viewtopic.php?p=547370#547370' },
+        { name: "Skeleton Knight", link: 'http://tgdmb.com/viewtopic.php?p=547373#547373' },
+        { name: "Handcrafted Archer", link: 'http://tgdmb.com/viewtopic.php?p=547381#547381' },
+        { name: "Artillerist", link: 'http://tgdmb.com/viewtopic.php?p=547397#547397' },
+    ].map(({ name, link }) => {
+        return {
+            name,
+            link,
+            author: 'Koumei'
+        }
+    }),
 ];

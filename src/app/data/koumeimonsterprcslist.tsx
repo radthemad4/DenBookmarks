@@ -961,6 +961,26 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
                 minimumStartingLevel: 9
             }
         }),
+        ...[
+            { name: "Bone Golem", link: 'http://tgdmb.com/viewtopic.php?p=547370#547370' },
+            { name: "Skeleton Knight", link: 'http://tgdmb.com/viewtopic.php?p=547373#547373' },
+        ].map(({ name, link }) => {
+            return {
+                name: `Awakened Skeleton Class: ${name}`,
+                link: link,
+                minimumStartingLevel: 1
+            }
+        }),
+        ...[
+            { name: "Handcrafted Archer", link: 'http://tgdmb.com/viewtopic.php?p=547381#547381' },
+            { name: "Artillerist", link: 'http://tgdmb.com/viewtopic.php?p=547397#547397' },
+        ].map(({ name, link }) => {
+            return {
+                name: `Awakened Zombie Class: ${name}`,
+                link: link,
+                minimumStartingLevel: 1
+            }
+        }),
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,

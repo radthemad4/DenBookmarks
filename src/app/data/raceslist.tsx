@@ -480,7 +480,7 @@ export const races: Entry[] = [
     author: 'icyshadowlord',
   },
   ...[
-    'Ankylodon', 'Broucci', 'Ophidian', 'Ponaturi', 'Raptor', 'Slaan', 
+    'Ankylodon', 'Broucci', 'Ophidian', 'Ponaturi', 'Raptor', 'Slaan',
   ].map((name) => {
     return {
       name: name,
@@ -489,7 +489,7 @@ export const races: Entry[] = [
     }
   }),
   ...[
-    'Akavish', 'Chloroph', 'Kunian', 'Marahnian', 'Fang Fish/Napici Namah', 'Zarkaia', 
+    'Akavish', 'Chloroph', 'Kunian', 'Marahnian', 'Fang Fish/Napici Namah', 'Zarkaia',
   ].map((name) => {
     return {
       name: name,
@@ -515,6 +515,16 @@ export const races: Entry[] = [
   {
     name: 'Scorpionfolk (Minimum Level 8)',
     link: 'http://tgdmb.com/viewtopic.php?p=545498#545498',
+    author: 'Koumei',
+  },
+  {
+    name: 'Awakened Skeleton',
+    link: 'http://tgdmb.com/viewtopic.php?p=547370#547370',
+    author: 'Koumei',
+  },
+  {
+    name: 'Awakened Zombie',
+    link: 'http://tgdmb.com/viewtopic.php?p=547381#547381',
     author: 'Koumei',
   },
 ];
