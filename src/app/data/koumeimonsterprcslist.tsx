@@ -593,11 +593,16 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
                 minimumStartingLevel: 1
             }
         }),
-        {
-            name: 'Mummy PrC: Mummy Lord',
-            link: 'http://tgdmb.com/viewtopic.php?p=544812#544812',
-            minimumStartingLevel: 7
-        },
+        ...[
+            { name: "Mummy Lord", link: 'http://tgdmb.com/viewtopic.php?p=544812#544812' },
+            { name: "Cursed One", link: 'http://tgdmb.com/viewtopic.php?p=547481#547481' },
+        ].map(({ name, link }) => {
+            return {
+                name: `Mummy PrC: ${name}`,
+                link: link,
+                minimumStartingLevel: 7
+            }
+        }),
         {
             name: 'Myconid Sovereign PrC: Mushroom King',
             link: 'http://tgdmb.com/viewtopic.php?p=544828#544828',

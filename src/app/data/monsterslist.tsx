@@ -248,6 +248,7 @@ export const monsters: MonsterEntry[] = [
             { name: "Slime", link: "http://www.tgdmb.com/viewtopic.php?p=498990#498990" },
             { name: "Visorak", link: "http://www.tgdmb.com/viewtopic.php?p=468579#468579" },
             { name: "Young Adult Dragon", link: "http://tgdmb.com/viewtopic.php?p=483328#483328" },
+            { name: "Kenmun", link: "http://tgdmb.com/viewtopic.php?p=547487#547487" },
         ].map(({ name, link }) => {
             return {
                 name: name,
