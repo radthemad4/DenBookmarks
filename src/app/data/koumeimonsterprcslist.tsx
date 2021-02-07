@@ -986,6 +986,11 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
                 minimumStartingLevel: 1
             }
         }),
+        {
+            name: "Awakened Bloodfire Ooze PrC: Blood Phantasm",
+            link: 'http://tgdmb.com/viewtopic.php?p=547601#547601',
+            minimumStartingLevel: 10
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,

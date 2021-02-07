@@ -333,6 +333,13 @@ export const acfLists: ACFList[] = (() => {
                     link: 'http://tgdmb.com/viewtopic.php?p=280502#280502',
                     relatedLinks: [{ title: 'Pokémaster', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }]
                 },
+                ...['Celestial Warlock', 'Axiomatic Warlock', 'Anarchic Warlock', 'Faerie Warlock', 'Warlock of the Stars'].map((name) => {
+                    return {
+                        name,
+                        author: 'Koumei',
+                        link: 'http://tgdmb.com/viewtopic.php?p=547603#547603',
+                    }
+                }),
             ]
         },
         {

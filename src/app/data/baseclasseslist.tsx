@@ -137,20 +137,36 @@ export const baseClasses: Entry[] = [
     }),
     ...[
         {
-            name: 'Elementalist',
-            link: 'https://docs.google.com/document/d/1YmozEAd3GCy6g0EcpJClUFVSG1ku_FslVejkAX0aYDM/edit?usp=sharing'
+            name: 'Artificer',
+            link: 'https://docs.google.com/document/d/1IlVArMNj-7C27SxCIRgDvPgHADJijy49S0su-G7vFB8/edit?usp=sharing'
         },
         {
-            name: 'Necromancer',
-            link: 'https://docs.google.com/document/d/1TELuZrmUcjLQLMA8X6Mw-Tg4koyEzWAok8J88h3yvHU/edit?usp=sharing'
+            name: 'Assassin',
+            link: 'https://docs.google.com/document/d/1tv8ggP3UMskJizIEQamiCzDKyVAeBuvSoXPhKTG8cfY/edit?usp=sharing'
         },
         {
             name: 'Beguiler',
             link: 'https://docs.google.com/document/d/1dxfEsyYx0q96mGhOk30e7JIOVtzf3AfH021fllauBeQ/edit?usp=sharing'
         },
         {
-            name: 'Artificer',
-            link: 'https://docs.google.com/document/d/1IlVArMNj-7C27SxCIRgDvPgHADJijy49S0su-G7vFB8/edit?usp=sharing'
+            name: 'Disciple',
+            link: 'https://docs.google.com/document/d/1RC36UZ3xAnrj0VCuh9mbVlm_jv9wG0k95Vjd5TBtJdo/edit?usp=sharing'
+        },
+        {
+            name: 'Elementalist',
+            link: 'https://docs.google.com/document/d/1YmozEAd3GCy6g0EcpJClUFVSG1ku_FslVejkAX0aYDM/edit?usp=sharing'
+        },
+        {
+            name: 'Hunter',
+            link: 'https://docs.google.com/document/d/1NiJGbcRRq0KfIlehAMyzrh4aVw9lqmM5uj91RrdnUD8/edit?usp=sharing'
+        },
+        {
+            name: 'Necromancer',
+            link: 'https://docs.google.com/document/d/1TELuZrmUcjLQLMA8X6Mw-Tg4koyEzWAok8J88h3yvHU/edit?usp=sharing'
+        },
+        {
+            name: 'Warrior',
+            link: 'https://docs.google.com/document/d/1ob1xOGGraspvMh5OAImRidLfAiHUWtBtEO_aD9AvjXQ/edit?usp=sharing'
         },
     ].map((element) => {
         return {

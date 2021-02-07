@@ -366,6 +366,7 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
+            { name: "Amnizu", link: "http://tgdmb.com/viewtopic.php?p=547647#547647" },
             { name: "Aspect of Bahamut", link: "http://tgdmb.com/viewtopic.php?p=537828#537828" },
             { name: "Aspect of Nerull", link: "http://www.tgdmb.com/viewtopic.php?p=471391#471391" },
             { name: "Astral Deva", link: "http://tgdmb.com/viewtopic.php?p=384171#384171" },
