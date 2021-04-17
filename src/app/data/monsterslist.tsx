@@ -308,6 +308,7 @@ export const monsters: MonsterEntry[] = [
         }),
         ...[
             { name: "Arrow Demon", link: "http://tgdmb.com/viewtopic.php?p=383588#383588" },
+            { name: "Axiomite", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=54924&p=547790#p547790" },
             { name: "Chasme", link: "http://tgdmb.com/viewtopic.php?p=544339#544339" },
             { name: "Coeurl", link: "http://www.tgdmb.com/viewtopic.php?p=513148#513148" },
             { name: "Dao", link: "http://tgdmb.com/viewtopic.php?p=387597#387597" },
