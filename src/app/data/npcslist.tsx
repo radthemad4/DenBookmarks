@@ -12,20 +12,20 @@ export const npcs: MonsterEntry[] = [
         return {
             name: name,
             author: 'IGTN',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=106250#106250',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=106250#p106250',
             challengeRating: challengeRating
         };
     }),
     {
         name: 'Commoner',
         author: 'virgil',
-        link: 'http://tgdmb.com/viewtopic.php?p=165139',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=165139',
         challengeRating: 1 / 6
     },
     {
         name: 'Olga, Neutral Evil Human Witch 6',
         author: 'Koumei',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=103097#103097',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=103097#p103097',
         challengeRating: 6
     },
     {
@@ -43,58 +43,58 @@ export const npcs: MonsterEntry[] = [
     {
         name: 'Volodni Stormlord',
         author: 'PhaedrusXY',
-        link: 'http://tgdmb.com/viewtopic.php?p=134347#134347',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=134347#p134347',
         challengeRating: 10
     },
     ...[
         {
             name: 'Town Guard',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=446296#446296',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=446296#p446296',
             challengeRating: 1,
         },
         {
             name: 'Bandit',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=420973#420973',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=420973#p420973',
             challengeRating: 2,
         },
         {
             name: 'Cultist',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=455982#455982',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=455982#p455982',
             challengeRating: 2,
         },
         {
             name: 'Orc Warrior',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=446997#446997',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=446997#p446997',
             challengeRating: 2,
         },
         {
             name: 'Battlemage',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=422066#422066',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=422066#p422066',
             challengeRating: 5,
         },
         {
             name: 'Thri-Kreen Hunter',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=432510#432510',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=432510#p432510',
             challengeRating: 5,
         },
         {
             name: 'Tiefling Fighter',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=420898#420898',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=420898#p420898',
             challengeRating: 5,
         },
         {
             name: 'Pyromancer',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=446292#446292',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=446292#p446292',
             challengeRating: 6,
         },
         {
             name: 'Drow Archpriestess',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=446301#446301',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=446301#p446301',
             challengeRating: 13,
         },
         {
             name: 'Thri-Kreen Hunter',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=432510#432510',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=432510#p432510',
             challengeRating: 5,
         },
     ].map(({ name, link, challengeRating }) => {
@@ -113,7 +113,7 @@ export const npcs: MonsterEntry[] = [
         ].map((name) => {
             return {
                 name: name,
-                link: 'http://www.tgdmb.com/viewtopic.php?p=234134#234134',
+                link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=234134#p234134',
                 challengeRating: 15
             }
         }),
@@ -126,7 +126,7 @@ export const npcs: MonsterEntry[] = [
         ].map(({ name, challengeRating }) => {
             return {
                 name: name,
-                link: 'http://www.tgdmb.com/viewtopic.php?p=234158#234158',
+                link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=234158#p234158',
                 challengeRating: challengeRating
             };
         }),
@@ -137,7 +137,7 @@ export const npcs: MonsterEntry[] = [
         ].map(({ name, challengeRating }) => {
             return {
                 name: name,
-                link: 'http://www.tgdmb.com/viewtopic.php?p=234257#234257',
+                link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=234257#p234257',
                 challengeRating: challengeRating
             };
         }),
@@ -148,7 +148,7 @@ export const npcs: MonsterEntry[] = [
         ].map(({ name, challengeRating }) => {
             return {
                 name: name,
-                link: 'http://www.tgdmb.com/viewtopic.php?p=234590#234590',
+                link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=234590#p234590',
                 challengeRating: challengeRating
             };
         }),
@@ -159,13 +159,13 @@ export const npcs: MonsterEntry[] = [
         ].map(({ name, challengeRating }) => {
             return {
                 name: name,
-                link: 'http://www.tgdmb.com/viewtopic.php?p=234922#234922',
+                link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=234922#p234922',
                 challengeRating: challengeRating
             };
         }),
         {
             name: 'Midboss [Midboss] (Formerly The Dark Adonis, Vyers)',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=234922#234922',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=234922#p234922',
             challengeRating: 10
         },
         ...[
@@ -174,7 +174,7 @@ export const npcs: MonsterEntry[] = [
         ].map(({ name, challengeRating }) => {
             return {
                 name: name,
-                link: 'http://www.tgdmb.com/viewtopic.php?p=235139#235139',
+                link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=235139#p235139',
                 challengeRating: challengeRating
             };
         }),
@@ -187,7 +187,7 @@ export const npcs: MonsterEntry[] = [
         ].map(({ name, challengeRating }) => {
             return {
                 name: name,
-                link: 'http://www.tgdmb.com/viewtopic.php?p=253443#253443',
+                link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=253443#p253443',
                 challengeRating: challengeRating
             };
         }),
@@ -200,19 +200,19 @@ export const npcs: MonsterEntry[] = [
             relatedLinks: [
                 { title: 'Roleplaying in the Disgaeaverse', link: '' },
                 { title: 'Mediafire Mirror', link: 'https://www.mediafire.com/file/8639xwza1o28tw0/156510306-Roleplaying-in-the-Disgaeaverse.pdf/file' },
-                { title: 'Disgaea Thread', link: 'http://www.tgdmb.com/viewtopic.php?t=51315' },
+                { title: 'Disgaea Thread', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=51315' },
             ],
         }
     }),
     {
         name: 'Tyrant Overlord Baal Human [(Demon) LORD OF TERROR]',
         author: 'Josh_Kablack',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=235220#235220',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=235220#p235220',
         challengeRating: 15,
         relatedLinks: [
             { title: 'Roleplaying in the Disgaeaverse', link: '' },
             { title: 'Mediafire Mirror', link: 'https://www.mediafire.com/file/8639xwza1o28tw0/156510306-Roleplaying-in-the-Disgaeaverse.pdf/file' },
-            { title: 'Disgaea Thread', link: 'http://www.tgdmb.com/viewtopic.php?t=51315' },
+            { title: 'Disgaea Thread', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=51315' },
         ],
     },
     ...[
@@ -225,244 +225,244 @@ export const npcs: MonsterEntry[] = [
         return {
             name: name,
             author: 'CatharzGodfoot',
-            link: 'http://tgdmb.com/viewtopic.php?p=248274#248274',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=248274#p248274',
             challengeRating: 2
         };
     }),
     ...[
         {
             name: 'Drizz’t Do’urden, CG Male Drow Barbarian 5/Fighter 11 ',
-            link: 'http://tgdmb.com/viewtopic.php?p=245220#245220',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=245220#p245220',
             challengeRating: 16
         },
         {
             name: 'Ariakas, Emperor of Ansalon, Scion of Tiamat, LE Male Human Wizard 6/Fighter 1/Eldritch Knight 10/Arcane Strategist 6',
-            link: 'http://tgdmb.com/viewtopic.php?p=245323#245323',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=245323#p245323',
             challengeRating: 23
         },
         {
             name: 'Rudolph Van Richten, LG Human Male Rogue 3/Fighter 9 ',
-            link: 'http://tgdmb.com/viewtopic.php?p=245372#245372',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=245372#p245372',
             challengeRating: 12
         },
         {
             name: 'Artemis Entreri, NE Male Human Fighter 12/Assassin 6 ',
-            link: 'http://tgdmb.com/viewtopic.php?p=245878#245878',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=245878#p245878',
             challengeRating: 18
         },
         {
             name: 'Lord Soth, Knight of the Black Rose, LE Human Male Swordwraith Knight 10/Death Knight 4/Swordwraith Paragon 3',
-            link: 'http://tgdmb.com/viewtopic.php?p=246062#246062',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=246062#p246062',
             challengeRating: 17
         },
         {
             name: 'Tanis Half-Elven (at the end of the original Chronicles), NG Half-elf Male Marshall 9/Legendary Strategist 5',
-            link: 'http://tgdmb.com/viewtopic.php?p=246302#246302',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=246302#p246302',
             challengeRating: 14
         },
         {
             name: 'Grimtooth the Troll, CE Male Troll Assassin 5/Dungeon Veteran 5',
-            link: 'http://tgdmb.com/viewtopic.php?p=246448#246448',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=246448#p246448',
             challengeRating: 15
         },
         {
             name: 'Meepo, Dragon with a Shotgun, LE Male Kobold Fighter 5/Dragon Disciple (Brass) 5',
-            link: 'http://tgdmb.com/viewtopic.php?p=246616#246616',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=246616#p246616',
             challengeRating: 10
         },
         {
             name: 'Cultist of the Dragon Below, CE Human Adept 5 ',
-            link: 'http://tgdmb.com/viewtopic.php?p=246857#246857',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=246857#p246857',
             challengeRating: 5
         },
         {
             name: 'Emerald Claw Soldier, LE Human Warrior 3 ',
-            link: 'http://tgdmb.com/viewtopic.php?p=246857#246857',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=246857#p246857',
             challengeRating: 3
         },
         {
             name: 'House Thuranni Assassin, CE Elf Assassin 7',
-            link: 'http://tgdmb.com/viewtopic.php?p=246871#246871',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=246871#p246871',
             challengeRating: 7
         },
         {
             name: 'Elminster of Shadowdale!, CG Male Human Fighter 1/Rogue 3/Cleric 4/Wizard 3/Eldritch Knight 10/Mystic Theurge 10/Arcane Trickster 4 (Wizard caster level 25, Cleric caster level 14)',
-            link: 'http://tgdmb.com/viewtopic.php?p=246881#246881',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=246881#p246881',
             challengeRating: 35
         },
         {
             name: 'Meepo, Dragon with a Shotgun (Alternate), LE Male Kobold Fighter 7/Half-Dragon (Green) 3 ',
-            link: 'http://tgdmb.com/viewtopic.php?p=246926#246926',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=246926#p246926',
             challengeRating: 10
         },
         {
             name: 'Count Strahd Von Zarovich, CE Male Human Necromancer 5/Vampire Count 5',
-            link: 'http://tgdmb.com/viewtopic.php?p=247086#247086',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=247086#p247086',
             challengeRating: 10
         },
         {
             name: 'Eludecia the Succubus Paladin, LG Female Succubus Paladin 2',
-            link: 'http://tgdmb.com/viewtopic.php?p=247094#247094',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=247094#p247094',
             challengeRating: 9
         },
         {
             name: 'Lord of Blades, LE Warforged Gadgeteer 12',
-            link: 'http://tgdmb.com/viewtopic.php?p=247153#247153',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=247153#p247153',
             challengeRating: 12
         },
         {
             name: 'Angry Orc, CE Male Orc Barbarian 2',
-            link: 'http://tgdmb.com/viewtopic.php?p=247166#247166',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=247166#p247166',
             challengeRating: 2
         },
         {
             name: 'King Obould Many-Arrows, Chosen of Gruumsh, CE Male Orc Barbarian 5/Fighter 4',
-            link: 'http://tgdmb.com/viewtopic.php?p=247220#247220',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=247220#p247220',
             challengeRating: 9
         },
         {
             name: 'High Wyrmlord Azarr Kul, LE Male Hobgoblin Cleric 8/Half-dragon (Blue) 3',
-            link: 'http://tgdmb.com/viewtopic.php?p=247392#247392',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=247392#p247392',
             challengeRating: 11
         },
         {
             name: 'Verminaard, Red Dragon Highlord, LE Male Human Cleric 8/Legendary Strategist 2',
-            link: 'http://tgdmb.com/viewtopic.php?p=247421#247421',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=247421#p247421',
             challengeRating: 10
         },
         {
             name: 'Fewmaster Toede, LE Male Hobgoblin Fighter 4',
-            link: 'http://tgdmb.com/viewtopic.php?p=247427#247427',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=247427#p247427',
             challengeRating: 4
         },
         {
             name: 'Captain Scarbelly, Terror of the High Seas, CE Male Orc Swashbuckler 3',
-            link: 'http://tgdmb.com/viewtopic.php?p=247509#247509',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=247509#p247509',
             challengeRating: 3
         },
         {
             name: 'Captain Jacob Lydon, Friendly Neighborhood Pirate, CG Male Human Swashbuckler 11',
-            link: 'http://tgdmb.com/viewtopic.php?p=247520#247520',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=247520#p247520',
             challengeRating: 11
         },
         {
             name: 'Milton Drac, Evil Genius, CE Male Human Cleric 8',
-            link: 'http://tgdmb.com/viewtopic.php?p=247533#247533',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=247533#p247533',
             challengeRating: 8
         },
         {
             name: 'Finn, Crime Boss of Freeport, N Male Halfling Assassin 12',
-            link: 'http://tgdmb.com/viewtopic.php?p=247612#247612',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=247612#p247612',
             challengeRating: 12
         },
         {
             name: 'Hank the Ranger, NG Male Human Fighter 8',
-            link: 'http://tgdmb.com/viewtopic.php?p=247654#247654',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=247654#p247654',
             challengeRating: 8
         },
         {
             name: 'Annah of the Shadows, CN Female Tiefling Fighter 4/Rogue 4',
-            link: 'http://tgdmb.com/viewtopic.php?p=247699#247699',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=247699#p247699',
             challengeRating: 8
         },
         {
             name: 'Diana the Acrobat, NG Female Human Thief-Acrobat 6/Swashbuckler 1',
-            link: 'http://tgdmb.com/viewtopic.php?p=247902#247902',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=247902#p247902',
             challengeRating: 7
         },
         {
             name: 'Eric the Cavalier, N (NG later on in the series) Male Human Knight 7',
-            link: 'http://tgdmb.com/viewtopic.php?p=247904#247904',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=247904#p247904',
             challengeRating: 7
         },
         {
             name: 'Sheila the Thief, NG Female Human Rogue 7',
-            link: 'http://tgdmb.com/viewtopic.php?p=247909#247909',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=247909#p247909',
             challengeRating: 7
         },
         {
             name: 'Bobby the Barbarian, CG Male Human (Small Size) Barbarian 7',
-            link: 'http://tgdmb.com/viewtopic.php?p=247910#247910',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=247910#p247910',
             challengeRating: 7
         },
         {
             name: 'Presto the Wizard, NG Human Male Wizard 7',
-            link: 'http://tgdmb.com/viewtopic.php?p=247912#247912',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=247912#p247912',
             challengeRating: 7
         },
         {
             name: 'Venger, Master of Evil, NE Male Human Warlock 8/Master of Snake Mountain 5',
-            link: 'http://tgdmb.com/viewtopic.php?p=248007#248007',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=248007#p248007',
             challengeRating: 13
         },
         {
             name: 'Jack Chick, LE Male Human Ex-Cleric 1/Fighter 6/Ur-Priest 9',
-            link: 'http://tgdmb.com/viewtopic.php?p=248007#248007',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=248007#p248007',
             challengeRating: 16
         },
         {
             name: 'City Watch, LN Human Warrior 2',
-            link: 'http://tgdmb.com/viewtopic.php?p=248140#248140',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=248140#p248140',
             challengeRating: 2
         },
         {
             name: 'Bandit, NE Human Warrior 2',
-            link: 'http://tgdmb.com/viewtopic.php?p=248142#248142',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=248142#p248142',
             challengeRating: 2
         },
         {
             name: 'Scion of the Goblin Empire, LE Hobgoblin Marshall 6 /Legendary Tactician 1',
-            link: 'http://tgdmb.com/viewtopic.php?p=248275#248275',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=248275#p248275',
             challengeRating: 7
         },
         {
             name: 'Mordenkainen, N Male Human Wizard 8/Seeker of the Lost Wizard Traditions 7/Archmage 5',
-            link: 'http://tgdmb.com/viewtopic.php?p=248283#248283',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=248283#p248283',
             challengeRating: 20
         },
         {
             name: 'Tasslehoff Burrfoot, Precursor to 28 years of Kender PC Madness, NG Male Kender Rogue 14',
-            link: 'http://tgdmb.com/viewtopic.php?p=248357#248357',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=248357#p248357',
             challengeRating: 14
         },
         {
             name: 'Murlynd, Gunslinging Cowboy Paladin of Heironeous, LG Male Human Paladin 1/Wizard 1/Eldritch Knight 10',
-            link: 'http://tgdmb.com/viewtopic.php?p=248398#248398',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=248398#p248398',
             challengeRating: 12
         },
         {
             name: 'Eclavdra, Favored High Priestess of Lolth, CE Female Drow Cleric 11/Defiler of Temples 5',
-            link: 'http://tgdmb.com/viewtopic.php?p=248482#248482',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=248482#p248482',
             challengeRating: 16
         },
         {
             name: 'King Boranel ir’Wyrnan, CG Male Human Samurai 5/Fighter 1/Dungeon Veteran 2/Legendary Strategist 2',
-            link: 'http://tgdmb.com/viewtopic.php?p=248678#248678',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=248678#p248678',
             challengeRating: 10
         },
         {
             name: 'The Kingpriest of Istar, Bright, Shining Beacon of Oppressive Authoritarianism, LG Male Human Cleric 10/Celestial Beacon 10',
-            link: 'http://tgdmb.com/viewtopic.php?p=249282#249282',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=249282#p249282',
             challengeRating: 20
         },
         {
             name: 'Scarlet Brotherhood Monks, because even medieval fantasy games need white supremacist villains, LE Male Human Monk 6',
-            link: 'http://tgdmb.com/viewtopic.php?p=250342#250342',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=250342#p250342',
             challengeRating: 6
         },
         {
             name: 'Warduke, CE Male Human Fighter 18',
-            link: 'http://tgdmb.com/viewtopic.php?p=251146#251146',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=251146#p251146',
             challengeRating: 18
         },
         {
             name: 'Valeros, NG Male Human Fighter 14',
-            link: 'http://tgdmb.com/viewtopic.php?p=251159#251159',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=251159#p251159',
             challengeRating: 14
         },
         {
             name: 'Raistlin Majere, The Angst, It Burns!!!, NE Male Human Wizard 6/Seeker of the Lost Wizard Traditions 7/Loremaster 7',
-            link: 'http://tgdmb.com/viewtopic.php?p=251833#251833',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=251833#p251833',
             challengeRating: 20
         },
     ].map(({ name, link, challengeRating }) => {

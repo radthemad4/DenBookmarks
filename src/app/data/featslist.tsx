@@ -5,28 +5,28 @@ export const feats: Entry[] = [
     {
         name: "Art of War",
         author: "Koumei",
-        link: "http://tgdmb.com/viewtopic.php?p=141531#141531",
-        relatedLinks: [{ title: "Soldier", link: "http://tgdmb.com/viewtopic.php?t=50949" }]
+        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141531#p141531",
+        relatedLinks: [{ title: "Soldier", link: "http://tgdmb.com/phpBB3/viewtopic.php?t=50949" }]
     },
     ...['Arachnid Mastery [Monstrous]', 'Spider Magic: [Monstrous]'].map((value) => {
         return {
             name: value,
             author: "Koumei",
-            link: "http://tgdmb.com/viewtopic.php?p=141533#141533",
+            link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141533#p141533",
         }
     }),
     ...['Snake Mastery: [Monstrous]', 'Snake Magic: [Monstrous]'].map((value) => {
         return {
             name: value,
             author: "Koumei",
-            link: "http://tgdmb.com/viewtopic.php?p=141534#141534",
-            relatedLinks: [{ title: "Yuan-Ti Halfblood", link: "http://tgdmb.com/viewtopic.php?p=141534#141534" }],
+            link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141534#p141534",
+            relatedLinks: [{ title: "Yuan-Ti Halfblood", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141534#p141534" }],
         }
     }),
     {
         name: "Magic of the Plant",
         author: "Koumei",
-        link: "http://tgdmb.com/viewtopic.php?p=141536#141536",
+        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141536#p141536",
     },
     ...[{
         name: "A Feast Unknown [Necromantic Creation]",
@@ -99,7 +99,7 @@ export const feats: Entry[] = [
         return {
             name: element.name,
             author: "Frank and K",
-            link: 'https://www.tgdmb.com/viewtopic.php?p=34251#34251',
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=34251#p34251',
             wikiLink: element.link
         }
     }),
@@ -248,7 +248,7 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'Frank and K',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=28831#28831',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=28831#p28831',
             wikiLink: wikiLink
         }
     }),
@@ -274,7 +274,7 @@ export const feats: Entry[] = [
         return {
             name: element,
             author: 'Iaimeki',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=50377#50377',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=50377#p50377',
         }
     }),
     ...[
@@ -284,7 +284,7 @@ export const feats: Entry[] = [
         return {
             name: element,
             author: 'Maxus',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=103679#103679',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=103679#p103679',
         }
     }),
     ...[
@@ -297,170 +297,170 @@ export const feats: Entry[] = [
         return {
             name: element,
             author: 'Wiseman',
-            link: 'http://tgdmb.com/viewtopic.php?p=503541#503541',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=503541#p503541',
         }
     }),
     ...['Monk of the Dark Moon [Order]', 'Monk of the Long Death [Order]'].map((element) => {
         return {
             name: element,
             author: 'Koumei',
-            link: 'http://tgdmb.com/viewtopic.php?p=479366#479366',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=479366#p479366',
         }
     }),
     ...['Dabbler', 'Master of a School'].map((element) => {
         return {
             name: element,
             author: 'krusk',
-            link: 'http://tgdmb.com/viewtopic.php?p=524466#524466',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=524466#p524466',
         }
     }),
     ...['Astral', 'Positive', 'Negative', 'Wood'].map((element) => {
         return {
             name: `${element} Blending [Blending]`,
             author: 'Kaelik',
-            link: 'http://tgdmb.com/viewtopic.php?p=154018#154018',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=154018#p154018',
             relatedLinks: [
-                { title: 'Elemental Siphon', link: 'http://tgdmb.com/viewtopic.php?p=154017#154017' },
+                { title: 'Elemental Siphon', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=154017#p154017' },
             ]
         }
     }),
     {
         name: 'Ethereal Blending [Blending]',
         author: 'Kaelik',
-        link: 'http://tgdmb.com/viewtopic.php?p=154018#154018',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=154018#p154018',
         relatedLinks: [
-            { title: 'Elemental Siphon', link: 'http://tgdmb.com/viewtopic.php?p=154017#154017' },
-            { title: 'Ethereal Siphon', link: 'http://tgdmb.com/viewtopic.php?p=449214#449214' },
+            { title: 'Elemental Siphon', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=154017#p154017' },
+            { title: 'Ethereal Siphon', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=449214#p449214' },
         ]
     },
     {
         name: 'Shadow Blending [Blending]',
         author: 'Kaelik',
-        link: 'http://tgdmb.com/viewtopic.php?p=154018#154018',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=154018#p154018',
         relatedLinks: [
-            { title: 'Elemental Siphon', link: 'http://tgdmb.com/viewtopic.php?p=154017#154017' },
-            { title: 'Shadow Siphon', link: 'http://tgdmb.com/viewtopic.php?p=154018#154018' },
+            { title: 'Elemental Siphon', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=154017#p154017' },
+            { title: 'Shadow Siphon', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=154018#p154018' },
         ]
     },
     ...[
         ...['Cosmopolitan Insect [Monstrous]', 'Expanded Targeting [Monstrous]'].map((name) => {
             return {
                 name: name,
-                link: 'http://www.tgdmb.com/viewtopic.php?p=543836#543836',
+                link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543836#p543836',
             }
         }),
         {
             name: "Mind Dungeon [Monstrous]",
-            link: "http://www.tgdmb.com/viewtopic.php?p=543872#543872",
+            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=543872#p543872",
         },
         {
             name: "Leftovers [Monstrous]",
-            link: "http://www.tgdmb.com/viewtopic.php?p=543876#543876",
+            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=543876#p543876",
         },
         ...['Hellfire Gullet [Monstrous]', 'Hellfrost Wyrm [Monstrous]'].map((name) => {
             return {
                 name: name,
-                link: 'http://www.tgdmb.com/viewtopic.php?p=543878#543878',
+                link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543878#p543878',
             }
         }),
         {
             name: "Gather the Dead [Monstrous]",
-            link: "http://www.tgdmb.com/viewtopic.php?p=543887#543887",
+            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=543887#p543887",
         },
         {
             name: "Arachnoversity [Monstrous]",
-            link: "http://www.tgdmb.com/viewtopic.php?p=543892#543892",
+            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=543892#p543892",
         },
         ...['Auras of Contentment [Monstrous]', 'Ghostly Guard Dog [Monstrous]'].map((name) => {
             return {
                 name: name,
-                link: 'http://www.tgdmb.com/viewtopic.php?p=543909#543909',
+                link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543909#p543909',
             }
         }),
         {
             name: "Secret Weapon [Monstrous]",
-            link: "http://www.tgdmb.com/viewtopic.php?p=543911#543911",
+            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=543911#p543911",
         },
         {
             name: "Uncommon Blades [Monstrous]",
-            link: "http://www.tgdmb.com/viewtopic.php?p=543915#543915",
+            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=543915#p543915",
         },
         {
             name: "Bear It All [Monstrous]",
-            link: "http://www.tgdmb.com/viewtopic.php?p=543916#543916",
+            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=543916#p543916",
         },
         {
             name: "Speak The Truth [Monstrous]",
-            link: "http://www.tgdmb.com/viewtopic.php?p=543918#543918",
+            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=543918#p543918",
         },
         {
             name: "Raging Angel Tactics [Monstrous]",
-            link: "http://www.tgdmb.com/viewtopic.php?p=543919#543919",
+            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=543919#p543919",
         },
         {
             name: "Cunning Dog [Monstrous]",
-            link: "http://www.tgdmb.com/viewtopic.php?p=543941#543941",
+            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=543941#p543941",
         },
         {
             name: "Non-Euclidean Placement [Monstrous]",
-            link: "http://www.tgdmb.com/viewtopic.php?p=543944#543944",
+            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=543944#p543944",
         },
         {
             name: "Shadow Song [Monstrous]",
-            link: "http://www.tgdmb.com/viewtopic.php?p=543953#543953",
+            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=543953#p543953",
         },
         {
             name: "Terrible Gaze [Monstrous]",
-            link: "http://www.tgdmb.com/viewtopic.php?p=543970#543970",
+            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=543970#p543970",
         },
         {
             name: "Fiendish Trickery [Monstrous]",
-            link: "http://www.tgdmb.com/viewtopic.php?p=543980#543980",
+            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=543980#p543980",
         },
         ...['Blow Kiss [Monstrous]', 'Heart Breaker [Monstrous]', 'Prehensile Tail [Monstrous]'].map((name) => {
             return {
                 name: name,
-                link: 'http://www.tgdmb.com/viewtopic.php?p=544048#544048',
+                link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544048#p544048',
             }
         }),
         {
             name: "Very Sneaky Rat [Monstrous]",
-            link: "http://www.tgdmb.com/viewtopic.php?p=544067#544067",
+            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=544067#p544067",
         },
         {
             name: "Mystic Dance Technique [Monstrous]",
-            link: "http://www.tgdmb.com/viewtopic.php?p=544071#544071",
+            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=544071#p544071",
         },
         {
             name: "Hive Mind [Monstrous]",
-            link: "http://www.tgdmb.com/viewtopic.php?p=544105#544105",
+            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=544105#p544105",
         },
         {
             name: "Knowledge Is Power [Monstrous]",
-            link: "http://www.tgdmb.com/viewtopic.php?p=544108#544108",
+            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=544108#p544108",
         },
         {
             name: "Contractual Incentives [Monstrous]",
-            link: "http://www.tgdmb.com/viewtopic.php?p=544122#544122",
+            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=544122#p544122",
         },
         {
             name: "Greater Entangle [Monstrous]",
-            link: "http://www.tgdmb.com/viewtopic.php?p=544134#544134",
+            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=544134#p544134",
         },
         ...['Just Sign Here [Monstrous]', 'Hidden Clause [Monstrous]', 'Legally Binding [Monstrous]'].map((name) => {
             return {
                 name: name,
-                link: 'http://www.tgdmb.com/viewtopic.php?p=544150#544150',
+                link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544150#p544150',
             }
         }),
         {
             name: "Regular Summons [Monstrous]",
-            link: "http://www.tgdmb.com/viewtopic.php?p=544469#544469",
+            link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=544469#p544469",
         },
         ...['Coven Decorator [Monstrous]', 'Curse Crafter [Monstrous]'].map((name) => {
             return {
                 name: name,
-                link: 'http://www.tgdmb.com/viewtopic.php?p=544520#544520',
+                link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544520#p544520',
             }
         }),
     ].map(({ name, link }) => {
@@ -479,15 +479,15 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'Koumei',
-            link: 'http://tgdmb.com/viewtopic.php?p=131636#131636',
-            relatedLinks: [{ title: 'Shadowcaster', link: 'http://tgdmb.com/viewtopic.php?p=127294#127294' }]
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=131636#p131636',
+            relatedLinks: [{ title: 'Shadowcaster', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=127294#p127294' }]
         }
     }),
     {
         name: 'Imbue Darkness',
         author: 'Koumei',
-        link: 'http://tgdmb.com/viewtopic.php?p=132122#132122',
-        relatedLinks: [{ title: 'Shadowcaster', link: 'http://tgdmb.com/viewtopic.php?p=127294#127294' }]
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=132122#p132122',
+        relatedLinks: [{ title: 'Shadowcaster', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=127294#p127294' }]
     },
     ...[
         'Visceral Splatter [Minion]',
@@ -502,7 +502,7 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'Koumei',
-            link: 'http://tgdmb.com/viewtopic.php?p=316687#316687',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=316687#p316687',
         }
     }),
     ...[
@@ -513,7 +513,7 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'SunTzuWarmaster',
-            link: 'http://tgdmb.com/viewtopic.php?p=316687#316687',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=316687#p316687',
         }
     }),
     ...[
@@ -525,18 +525,18 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'SunTzuWarmaster',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=32766#32766',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=32766#p32766',
         }
     }),
     {
         name: "We've got explosives!",
         author: 'Fwib',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=32767#32767',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=32767#p32767',
     },
     {
         name: 'Arcane Meltdown',
         author: 'Koumei',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=32768#32768',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=32768#p32768',
     },
     ...[
         'Disgusting Habits',
@@ -548,13 +548,13 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'SunTzuWarmaster',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=32772#32772',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=32772#p32772',
         }
     }),
     {
         name: 'Target Practice',
         author: 'SunTzuWarmaster',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=32777#32777',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=32777#p32777',
     },
     ...[
         'Foolish Exotic Weapon Selection',
@@ -564,7 +564,7 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'Koumei',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=32790#32790',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=32790#p32790',
         }
     }),
     ...[
@@ -575,7 +575,7 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'Amra',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=92321#92321',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=92321#p92321',
         }
     }),
     ...[
@@ -588,9 +588,9 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'CatharzGodfoot',
-            link: 'http://tgdmb.com/viewtopic.php?p=218443#218443',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=218443#p218443',
             relatedLinks: [
-                { title: 'Soldier', link: 'http://tgdmb.com/viewtopic.php?t=50949' },
+                { title: 'Soldier', link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=50949' },
                 { title: 'wiki', link: 'https://dnd-wiki.org/wiki/Soldier_(3.5e_Class)' },
             ],
         }
@@ -598,7 +598,7 @@ export const feats: Entry[] = [
     {
         name: 'Spidersight [Fiend]',
         author: 'Prak',
-        link: 'http://tgdmb.com/viewtopic.php?p=382776#382776',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=382776#p382776',
     },
     ...[
         'Liminal Being',
@@ -617,7 +617,7 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'Prak',
-            link: 'http://tgdmb.com/viewtopic.php?p=476334#476334',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=476334#p476334',
         }
     }),
     ...[
@@ -645,7 +645,7 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: "Maxus",
-            link: 'http://tgdmb.com/viewtopic.php?p=95455#95455',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=95455#p95455',
             wikiLink: link
         }
     }),
@@ -657,45 +657,45 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'Maxus',
-            link: 'http://tgdmb.com/viewtopic.php?p=95455#95455',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=95455#p95455',
         }
     }),
     {
         name: 'Bat Out of Hell [Fiend]',
         author: 'Maxus',
-        link: 'http://tgdmb.com/viewtopic.php?p=95458#95458',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=95458#p95458',
         wikiLink: 'https://dnd-wiki.org/wiki/Bat_Out_of_Hell_(3.5e_Feat)'
     },
     {
         name: 'Energy Eater [Monster]',
         author: 'Maxus',
-        link: 'http://tgdmb.com/viewtopic.php?p=95458#95458',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=95458#p95458',
     },
     {
         name: 'Web Spinner [Fiend]',
         author: 'Maxus',
-        link: 'http://tgdmb.com/viewtopic.php?p=95476#95476',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=95476#p95476',
         wikiLink: 'https://dnd-wiki.org/wiki/Webspinner_(3.5e_Feat)'
     },
     {
         name: 'Hellish Humidity [Fiend]',
         author: 'Maxus',
-        link: 'http://tgdmb.com/viewtopic.php?p=95476#95476',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=95476#p95476',
     },
     {
         name: 'Speed Freak [Fiend, Celestial]',
         author: 'Maxus',
-        link: 'http://tgdmb.com/viewtopic.php?p=130452#130452',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=130452#p130452',
     },
     {
         name: 'Incendiary Boils[Fiend]',
         author: 'Avoraciopoctules',
-        link: 'http://tgdmb.com/viewtopic.php?p=132031#132031',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=132031#p132031',
     },
     {
         name: 'Blessed of Koumei',
         author: 'Koumei',
-        link: 'http://tgdmb.com/viewtopic.php?p=398013#398013',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=398013#p398013',
     },
     ...[
         'Shaped Spell [Metamagic]',
@@ -708,8 +708,8 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'AlphaNerd',
-            link: 'http://tgdmb.com/viewtopic.php?p=315832#315832',
-            note: <span>Also available <a href='http://tgdmb.com/viewtopic.php?p=144442#144442'>here</a></span>
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=315832#p315832',
+            note: <span>Also available <a href='http://tgdmb.com/phpBB3/viewtopic.php?p=144442#p144442'>here</a></span>
         }
     }),
     ...[
@@ -725,7 +725,7 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'Red_Rob',
-            link: 'http://tgdmb.com/viewtopic.php?p=315832#315832',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=315832#p315832',
         }
     }),
     ...[
@@ -775,19 +775,19 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'Koumei',
-            link: 'http://tgdmb.com/viewtopic.php?p=280502#280502',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=280502#p280502',
             relatedLinks: [{ title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },]
         }
     }),
     {
         name: 'Hidden Power [Monstrous]',
         author: 'Koumei',
-        link: 'http://tgdmb.com/viewtopic.php?p=281990#281990',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=281990#p281990',
         relatedLinks: [{ title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },]
     },
     {
         name: "Espeon's Awakening (Monstrous)",
-        link: 'http://tgdmb.com/viewtopic.php?p=62582#62582',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=62582#p62582',
         author: 'Koumei',
         relatedLinks: [
             { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
@@ -795,7 +795,7 @@ export const feats: Entry[] = [
     },
     {
         name: "Sneasel's Awakening (Monstrous)",
-        link: 'http://tgdmb.com/viewtopic.php?p=62592#62592',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=62592#p62592',
         author: 'Koumei',
         relatedLinks: [
             { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
@@ -803,7 +803,7 @@ export const feats: Entry[] = [
     },
     {
         name: "Weavile's Awakening (Monstrous)",
-        link: 'http://tgdmb.com/viewtopic.php?p=62592#62592',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=62592#p62592',
         author: 'Koumei',
         relatedLinks: [
             { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
@@ -811,7 +811,7 @@ export const feats: Entry[] = [
     },
     {
         name: "Umbreon's Awakening (Monstrous)",
-        link: 'http://tgdmb.com/viewtopic.php?p=62633#62633',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=62633#p62633',
         author: 'Koumei',
         relatedLinks: [
             { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
@@ -819,7 +819,7 @@ export const feats: Entry[] = [
     },
     {
         name: 'Metagross Evolution',
-        link: 'http://tgdmb.com/viewtopic.php?p=62728#62728',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=62728#p62728',
         author: 'Koumei',
         relatedLinks: [
             { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
@@ -834,7 +834,7 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'Prak',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=441128#441128',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=441128#p441128',
         }
     }),
     ...[
@@ -854,13 +854,13 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'Prak',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=495227#495227',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=495227#p495227',
         }
     }),
     {
         name: 'Igor',
         author: 'Koumei',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=126426#126426',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=126426#p126426',
     },
     ...[
         'Gargantuan Size',
@@ -870,7 +870,7 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'Prak',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=460460#460460',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=460460#p460460',
         }
     }),
     ...[
@@ -880,23 +880,23 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'Prak',
-            link: 'http://tgdmb.com/viewtopic.php?p=383896#383896',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=383896#p383896',
         }
     }),
     {
         name: "Extra Swarm Form [Undead]",
         author: "Prak",
-        link: "http://www.tgdmb.com/viewtopic.php?p=162382#162382"
+        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=162382#p162382"
     },
     {
         name: "Mindhound (Psionic, Regional--Scarlet Brotherhood)",
         author: "Prak",
-        link: "http://www.tgdmb.com/viewtopic.php?p=371289#371289"
+        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=371289#p371289"
     },
     {
         name: "Psihawk (Psionic, Regional--Scarlet Brotherhood)",
         author: "Prak",
-        link: "http://www.tgdmb.com/viewtopic.php?p=371310#371310"
+        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=371310#p371310"
     },
     ...[
         'Unoerthly Cave Looter (Regional--Barrier Peaks)',
@@ -905,13 +905,13 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'Prak',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=372314#372314',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=372314#p372314',
         }
     }),
     {
         name: "Craft Cybertronian [Item] (Item Creation)",
         author: "Prak",
-        link: "http://tgdmb.com/viewtopic.php?p=443375#443375"
+        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=443375#p443375"
     },
     ...[
         'Linked-Con (Leadership)',
@@ -920,8 +920,8 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'Prak',
-            link: 'http://tgdmb.com/viewtopic.php?p=443443#443443',
-            relatedLinks: [{ title: 'Cybertronian', link: 'http://tgdmb.com/viewtopic.php?p=443375#443375' }]
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=443443#p443443',
+            relatedLinks: [{ title: 'Cybertronian', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=443375#p443375' }]
         }
     }),
     ...[
@@ -932,7 +932,7 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'Dean',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=51223#51223',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=51223#p51223',
             relatedLinks: [{ title: 'Monk', link: 'https://dnd-wiki.org/wiki/Monk,_Tome_(3.5e_Class)' }]
         }
     }),
@@ -943,14 +943,14 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'Dean',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=51997#51997',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=51997#p51997',
             relatedLinks: [{ title: 'Monk', link: 'https://dnd-wiki.org/wiki/Monk,_Tome_(3.5e_Class)' }]
         }
     }),
     {
         name: 'Cobra School Initiate',
         author: 'Dean',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=51997#51997'
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=51997#p51997'
     },
     ...[
         'Snake School[Monk]',
@@ -962,26 +962,26 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'SunTzuWarmaster',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=51997#51997',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=51997#p51997',
             relatedLinks: [{ title: 'Monk', link: 'https://dnd-wiki.org/wiki/Monk,_Tome_(3.5e_Class)' }]
         }
     }),
     {
         name: 'Way of the Flaming Fist',
         author: 'SunTzuWarmaster',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=52156#52156',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=52156#p52156',
         relatedLinks: [{ title: 'Monk', link: 'https://dnd-wiki.org/wiki/Monk,_Tome_(3.5e_Class)' }]
     },
     {
         name: 'Bo-Staff Master',
         author: 'Dean',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=52175#52175',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=52175#p52175',
         relatedLinks: [{ title: 'Monk', link: 'https://dnd-wiki.org/wiki/Monk,_Tome_(3.5e_Class)' }]
     },
     {
         name: 'Way of the Flaming Fist',
         author: 'Dean',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=52332#52332',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=52332#p52332',
         relatedLinks: [{ title: 'Monk', link: 'https://dnd-wiki.org/wiki/Monk,_Tome_(3.5e_Class)' }]
     },
     ...[
@@ -991,18 +991,18 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'Hicks',
-            link: 'http://tgdmb.com/viewtopic.php?p=541847#541847',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=541847#p541847',
         }
     }),
     {
         name: 'Darkstalker [General]',
         author: 'Wiseman',
-        link: 'http://tgdmb.com/viewtopic.php?p=367575#367575',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=367575#p367575',
     },
     {
         name: 'Master Plan [General]',
         author: 'Wiseman',
-        link: 'http://tgdmb.com/viewtopic.php?p=309657#309657',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=309657#p309657',
     },
     ...[
         'Continual Study [General]', 'Sphere Access [General]', 'Expert Sphere Access [General]',
@@ -1010,7 +1010,7 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'Dominicius',
-            link: 'http://tgdmb.com/viewtopic.php?p=263009#263009',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=263009#p263009',
         }
     }),
     ...[
@@ -1026,7 +1026,7 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'JonSetanta',
-            link: 'http://tgdmb.com/viewtopic.php?p=258529#258529',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=258529#p258529',
         }
     }),
     ...[
@@ -1036,24 +1036,24 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'CatharzGodfoot',
-            link: 'http://tgdmb.com/viewtopic.php?p=258916#258916',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=258916#p258916',
         }
     }),
     {
         name: 'Mechanicals [Racial]',
         author: 'JonSetanta',
-        link: 'http://tgdmb.com/viewtopic.php?p=256521#256521',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=256521#p256521',
     },
     {
         name: 'Greatest Shark Friend [Monstrous]',
         author: 'Koumei',
-        link: 'http://tgdmb.com/viewtopic.php?p=544993#544993',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544993#p544993',
     },
     {
         name: 'Leader of Peons [Leadership]',
         author: 'Koumei',
-        link: 'http://tgdmb.com/viewtopic.php?p=317384#317384',
-        relatedLinks: [{title: 'Perfect Minion', link: 'http://tgdmb.com/viewtopic.php?p=316687#316687'}]
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=317384#p317384',
+        relatedLinks: [{title: 'Perfect Minion', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=316687#p316687'}]
     },
     ...[
         'Wings of Mercy [Celestial] ',
@@ -1065,7 +1065,7 @@ export const feats: Entry[] = [
         return {
             name: name,
             author: 'Koumei',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=103410#103410',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=103410#p103410',
         }
     }),
 ];
@@ -1074,45 +1074,45 @@ export const featCollections: Entry[] = [
     {
         name: "Pokemon Mystery Dungeon D20",
         author: "Wiseman, others",
-        link: "http://tgdmb.com/viewtopic.php?p=405125#405125"
+        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=405125#p405125"
     },
     {
         name: "Tome of Necromancy Feats",
         author: "Frank and K",
-        link: 'https://www.tgdmb.com/viewtopic.php?p=34251#34251',
+        link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=34251#p34251',
         wikiLink: "https://dnd-wiki.org/wiki/Tome_of_Necromancy_(3.5e_Sourcebook)/Necromancers_with_Style"
     },
     {
         name: "A Feat Per Level List",
         author: "Koumei",
-        link: "http://tgdmb.com/viewtopic.php?t=57248"
+        link: "http://tgdmb.com/phpBB3/viewtopic.php?t=57248"
     },
     {
         name: 'Stuff For the Tabletop Game for New Players',
         author: 'Koumei',
-        link: 'http://tgdmb.com/viewtopic.php?p=435197#435197',
-        relatedLinks: [{ title: 'A Feat Per Level List is more recent', link: 'http://tgdmb.com/viewtopic.php?t=57248' }]
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=435197#p435197',
+        relatedLinks: [{ title: 'A Feat Per Level List is more recent', link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=57248' }]
     },
     {
         name: "Feat/Level List, Take Two",
         author: "virgil",
-        link: "http://tgdmb.com/viewtopic.php?t=57049"
+        link: "http://tgdmb.com/phpBB3/viewtopic.php?t=57049"
     },
     {
         name: 'Preliminary Feat/Level List',
         author: 'virgil',
-        link: 'http://tgdmb.com/viewtopic.php?t=56656',
-        relatedLinks: [{ title: 'Feat/Level List, Take Two', link: 'http://tgdmb.com/viewtopic.php?t=57049' }]
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=56656',
+        relatedLinks: [{ title: 'Feat/Level List, Take Two', link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=57049' }]
     },
     {
         name: "Achievement Feats",
         author: "Koumei",
-        link: "http://tgdmb.com/viewtopic.php?p=87970#87970"
+        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=87970#p87970"
     },
     {
         name: "Tome of Incredible Feats",
         author: "DenizenKane",
         link: "https://docs.google.com/document/d/1NX_M3Q5LrmpnxzFjais81YIm6IfH6iGrqbR72VVg4js/edit",
-        relatedLinks: [{ title: 'Den Thread', link: 'http://tgdmb.com/viewtopic.php?t=56941' }]
+        relatedLinks: [{ title: 'Den Thread', link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=56941' }]
     },
 ]

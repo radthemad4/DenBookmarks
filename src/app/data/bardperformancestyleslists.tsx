@@ -15,7 +15,7 @@ export const bardPerformanceStyles: Entry[] = [
     ].map((name) => {
         return {
             name: name,
-            link: 'http://tgdmb.com/viewtopic.php?p=539859#539859',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=539859#p539859',
             author: 'Koumei'
         }
     }),

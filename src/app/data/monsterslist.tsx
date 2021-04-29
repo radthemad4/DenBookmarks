@@ -8,7 +8,7 @@ export const monsters: MonsterEntry[] = [
         return {
             name: name,
             author: 'Koumei',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=144506#144506',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=144506#p144506',
             challengeRating: challengeRating,
             relatedLinks: [
                 { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
@@ -24,38 +24,38 @@ export const monsters: MonsterEntry[] = [
         return {
             name: name,
             author: 'Koumei',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=144506#144506',
+            link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=313904#p313904',
             challengeRating: challengeRating,
         };
     }),
     {
         name: 'Fire breathing Megachicken',
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=313803#313803',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=313803#p313803',
         challengeRating: 4,
     },
     {
         name: 'Rifle Demon',
         author: 'Koumei',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=154820#154820',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=154820#p154820',
         challengeRating: 10
     },
     {
         name: 'Culler',
         author: 'virgil',
-        link: 'http://tgdmb.com/viewtopic.php?p=516835#516835',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=516835#p516835',
         challengeRating: 10
     },
     {
         name: 'Functionary',
         author: 'virgil',
-        link: 'http://tgdmb.com/viewtopic.php?p=529657#529657',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=529657#p529657',
         challengeRating: 3
     },
     {
         name: 'Huge Giant (Air)',
         author: 'virgil',
-        link: 'http://tgdmb.com/viewtopic.php?p=490913#490913',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=490913#p490913',
         challengeRating: 8
     },
     ...[
@@ -66,7 +66,7 @@ export const monsters: MonsterEntry[] = [
         return {
             name: name,
             author: 'Prak',
-            link: 'http://tgdmb.com/viewtopic.php?p=488914#488914',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=488914#p488914',
             challengeRating: challengeRating,
         };
     }),
@@ -77,29 +77,29 @@ export const monsters: MonsterEntry[] = [
         return {
             name: name,
             author: 'Prak',
-            link: 'http://tgdmb.com/viewtopic.php?p=488922#488922',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=488922#p488922',
             challengeRating: challengeRating,
         };
     }),
     {
         name: 'Lock Lurker',
         author: 'Prak',
-        link: 'http://tgdmb.com/viewtopic.php?p=489008#489008',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=489008#p489008',
         challengeRating: 4
     },
     {
         name: 'Palimpsest',
         author: 'Prak',
-        link: 'http://tgdmb.com/viewtopic.php?p=489100#489100',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=489100#p489100',
         challengeRating: 2
     },
     ...[
         ...[
-            { name: 'Fairy', link: 'http://www.tgdmb.com/viewtopic.php?p=472264#472264' },
-            { name: 'Happy Bunny', link: 'http://www.tgdmb.com/viewtopic.php?p=472407#472407' },
-            { name: 'Matoran', link: 'http://www.tgdmb.com/viewtopic.php?p=468716#468716' },
-            { name: 'Planetouched', link: 'http://www.tgdmb.com/viewtopic.php?p=428664#42866' },
-            { name: 'Shadow', link: 'http://tgdmb.com/viewtopic.php?p=546707#546707' },
+            { name: 'Fairy', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=472264#p472264' },
+            { name: 'Happy Bunny', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=472407#p472407' },
+            { name: 'Matoran', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=468716#p468716' },
+            { name: 'Planetouched', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=428664#p42866' },
+            { name: 'Shadow', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=546707#p546707' },
         ].map(({ name, link }) => {
             return {
                 name: name,
@@ -108,14 +108,14 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
-            { name: 'Bohrak-Va', link: 'http://www.tgdmb.com/viewtopic.php?p=471073#471073' },
-            { name: 'Cactoid', link: 'http://www.tgdmb.com/viewtopic.php?p=472405#472405' },
-            { name: 'Gria', link: 'http://www.tgdmb.com/viewtopic.php?p=457540#457540' },
-            { name: 'Kappa', link: 'http://tgdmb.com/viewtopic.php?p=489536#489536' },
-            { name: 'Merfolk', link: 'http://www.tgdmb.com/viewtopic.php?p=465680#465680' },
-            { name: 'Town Guard', link: 'http://www.tgdmb.com/viewtopic.php?p=446296#446296' },
-            { name: 'Witch', link: 'http://www.tgdmb.com/viewtopic.php?p=424325#424325' },
-            { name: 'Zenythri', link: 'http://tgdmb.com/viewtopic.php?p=413827#413827' },
+            { name: 'Bohrak-Va', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=471073#p471073' },
+            { name: 'Cactoid', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=472405#p472405' },
+            { name: 'Gria', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=457540#p457540' },
+            { name: 'Kappa', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=489536#p489536' },
+            { name: 'Merfolk', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=465680#p465680' },
+            { name: 'Town Guard', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=446296#p446296' },
+            { name: 'Witch', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=424325#p424325' },
+            { name: 'Zenythri', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=413827#p413827' },
         ].map(({ name, link }) => {
             return {
                 name: name,
@@ -124,27 +124,27 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
-            { name: "Baaz Draconian", link: "http://www.tgdmb.com/viewtopic.php?p=464367#464367" },
-            { name: "Bandit", link: "http://www.tgdmb.com/viewtopic.php?p=420973#420973" },
-            { name: "Cassisian", link: "http://tgdmb.com/viewtopic.php?p=384917#384917" },
-            { name: "Chocobo", link: "http://www.tgdmb.com/viewtopic.php?p=457302#457302" },
-            { name: "Coure Eladrin", link: "http://tgdmb.com/viewtopic.php?p=381368#381368" },
-            { name: "Cultist", link: "http://www.tgdmb.com/viewtopic.php?p=455982#455982" },
-            { name: "Formian Worker", link: "http://www.tgdmb.com/viewtopic.php?p=509490#509490" },
-            { name: "Frost Draconian", link: "http://www.tgdmb.com/viewtopic.php?p=518795#518795" },
-            { name: "Ichthon", link: "http://www.tgdmb.com/viewtopic.php?p=472406#472406" },
-            { name: "Lantern Archon", link: "http://tgdmb.com/viewtopic.php?p=384851#384851" },
-            { name: "Mining Robot", link: "http://www.tgdmb.com/viewtopic.php?p=452995#452995" },
-            { name: "Lumberjack Robot", link: "http://www.tgdmb.com/viewtopic.php?p=453000#453000" },
-            { name: "Monodrone", link: "http://tgdmb.com/viewtopic.php?p=387183#387183" },
-            { name: "Mud Slaad", link: "http://tgdmb.com/viewtopic.php?p=384642#384642" },
-            { name: "Musteval", link: "http://tgdmb.com/viewtopic.php?p=383987#383987" },
-            { name: "Nightlurker", link: "http://www.tgdmb.com/viewtopic.php?p=509492#509492" },
-            { name: "Orc Warrior", link: "http://www.tgdmb.com/viewtopic.php?p=446997#446997" },
-            { name: "Small Earth Elemental", link: "http://www.tgdmb.com/viewtopic.php?p=460668#460668" },
-            { name: "Small Ice Paramental", link: "http://www.tgdmb.com/viewtopic.php?p=440038#440038" },
-            { name: "Small Magma Paramental", link: "http://www.tgdmb.com/viewtopic.php?p=446999#446999" },
-            { name: "Wyrmling Dragon", link: "http://tgdmb.com/viewtopic.php?p=483328#483328" },
+            { name: "Baaz Draconian", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=464367#p464367" },
+            { name: "Bandit", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=420973#p420973" },
+            { name: "Cassisian", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384917#p384917" },
+            { name: "Chocobo", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=457302#p457302" },
+            { name: "Coure Eladrin", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=381368#p381368" },
+            { name: "Cultist", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=455982#p455982" },
+            { name: "Formian Worker", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=509490#p509490" },
+            { name: "Frost Draconian", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=518795#p518795" },
+            { name: "Ichthon", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=472406#p472406" },
+            { name: "Lantern Archon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384851#p384851" },
+            { name: "Mining Robot", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=452995#p452995" },
+            { name: "Lumberjack Robot", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=453000#p453000" },
+            { name: "Monodrone", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=387183#p387183" },
+            { name: "Mud Slaad", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384642#p384642" },
+            { name: "Musteval", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=383987#p383987" },
+            { name: "Nightlurker", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=509492#p509492" },
+            { name: "Orc Warrior", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=446997#p446997" },
+            { name: "Small Earth Elemental", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=460668#p460668" },
+            { name: "Small Ice Paramental", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=440038#p440038" },
+            { name: "Small Magma Paramental", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=446999#p446999" },
+            { name: "Wyrmling Dragon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=483328#p483328" },
         ].map(({ name, link }) => {
             return {
                 name: name,
@@ -153,11 +153,11 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
-            { name: "Draugr", link: "http://tgdmb.com/viewtopic.php?p=464931#464931" },
-            { name: "Nigawarai", link: "http://www.tgdmb.com/viewtopic.php?p=498964#498964" },
-            { name: "Positive Mephit", link: "http://tgdmb.com/viewtopic.php?p=387184#387184" },
-            { name: "Spyglass Archon", link: "http://tgdmb.com/viewtopic.php?p=383572#383572" },
-            { name: "Very Young Dragon", link: "http://tgdmb.com/viewtopic.php?p=483328#483328" },
+            { name: "Draugr", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=464931#p464931" },
+            { name: "Nigawarai", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=498964#p498964" },
+            { name: "Positive Mephit", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=387184#p387184" },
+            { name: "Spyglass Archon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=383572#p383572" },
+            { name: "Very Young Dragon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=483328#p483328" },
         ].map(({ name, link }) => {
             return {
                 name: name,
@@ -166,22 +166,22 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
-            { name: "Bohrok", link: "http://tgdmb.com/viewtopic.php?p=468546#468546" },
-            { name: "Bomb", link: "http://www.tgdmb.com/viewtopic.php?p=496103#496103" },
-            { name: "Dabus", link: "http://tgdmb.com/viewtopic.php?p=398221#398221" },
-            { name: "Energy Hound", link: "http://www.tgdmb.com/viewtopic.php?p=471244#471244" },
-            { name: "Flan", link: "http://www.tgdmb.com/viewtopic.php?p=472409#472409" },
-            { name: "Hordling, Small", link: "http://tgdmb.com/viewtopic.php?p=387338#387338" },
-            { name: "Kapak Draconian", link: "http://tgdmb.com/viewtopic.php?p=502374#502374" },
-            { name: "Medium Earth Elemental", link: "http://www.tgdmb.com/viewtopic.php?p=460668#460668" },
-            { name: "Medium Ice Paramental", link: "http://www.tgdmb.com/viewtopic.php?p=440038#440038" },
-            { name: "Medium Magma Paramental", link: "http://www.tgdmb.com/viewtopic.php?p=446999#446999" },
-            { name: "Nighthunter", link: "http://www.tgdmb.com/viewtopic.php?p=510384#510384" },
-            { name: "Okubi", link: "http://www.tgdmb.com/viewtopic.php?p=498991#498991" },
-            { name: "Sleipnir", link: "http://www.tgdmb.com/viewtopic.php?p=472408#472408" },
-            { name: "Turaga", link: "http://www.tgdmb.com/viewtopic.php?p=542821#542821" },
-            { name: "Winemaker Genie", link: "http://tgdmb.com/viewtopic.php?p=412084#412084" },
-            { name: "Young Dragon", link: "http://tgdmb.com/viewtopic.php?p=483328#483328" },
+            { name: "Bohrok", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=468546#p468546" },
+            { name: "Bomb", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=496103#p496103" },
+            { name: "Dabus", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=398221#p398221" },
+            { name: "Energy Hound", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=471244#p471244" },
+            { name: "Flan", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=472409#p472409" },
+            { name: "Hordling, Small", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=387338#p387338" },
+            { name: "Kapak Draconian", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=502374#p502374" },
+            { name: "Medium Earth Elemental", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=460668#p460668" },
+            { name: "Medium Ice Paramental", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=440038#p440038" },
+            { name: "Medium Magma Paramental", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=446999#p446999" },
+            { name: "Nighthunter", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=510384#p510384" },
+            { name: "Okubi", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=498991#p498991" },
+            { name: "Sleipnir", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=472408#p472408" },
+            { name: "Turaga", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=542821#p542821" },
+            { name: "Winemaker Genie", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=412084#p412084" },
+            { name: "Young Dragon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=483328#p483328" },
         ].map(({ name, link }) => {
             return {
                 name: name,
@@ -190,23 +190,23 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
-            { name: "Abiorach", link: "http://tgdmb.com/viewtopic.php?p=384174#384174" },
-            { name: "Artist Genie", link: "http://www.tgdmb.com/viewtopic.php?p=416706#416706" },
-            { name: "Battlemage", link: "http://www.tgdmb.com/viewtopic.php?p=422066#422066" },
-            { name: "Barbazu", link: "http://tgdmb.com/viewtopic.php?p=501269#501269" },
-            { name: "Bonnacon", link: "http://www.tgdmb.com/viewtopic.php?p=426245#426245" },
-            { name: "Fader Bull", link: "http://www.tgdmb.com/viewtopic.php?p=471245#471245" },
-            { name: "Juvenile Dragon", link: "http://tgdmb.com/viewtopic.php?p=483328#483328" },
-            { name: "Nightcharger", link: "http://www.tgdmb.com/viewtopic.php?p=507328#507328" },
-            { name: "Noviere", link: "http://tgdmb.com/viewtopic.php?p=387596#387596" },
-            { name: "Observer", link: "http://www.tgdmb.com/viewtopic.php?p=507324#507324" },
-            { name: "Red Slaad", link: "http://tgdmb.com/viewtopic.php?p=384645#384645" },
-            { name: "Salamander, Flamebrother", link: "http://www.tgdmb.com/viewtopic.php?p=426395#426395" },
-            { name: "Thri-Kreen Hunter", link: "http://www.tgdmb.com/viewtopic.php?p=432510#432510" },
-            { name: "Tiefling Fighter", link: "http://www.tgdmb.com/viewtopic.php?p=420898#420898" },
-            { name: "Vahki", link: "http://www.tgdmb.com/viewtopic.php?p=468257#468257" },
-            { name: "Wood Soldier", link: "http://www.tgdmb.com/viewtopic.php?p=455655#455655" },
-            { name: "Bluespawn Stormlizard", link: "http://www.tgdmb.com/viewtopic.php?p=545424#545424" },
+            { name: "Abiorach", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384174#p384174" },
+            { name: "Artist Genie", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=416706#p416706" },
+            { name: "Battlemage", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=422066#p422066" },
+            { name: "Barbazu", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=501269#p501269" },
+            { name: "Bonnacon", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=426245#p426245" },
+            { name: "Fader Bull", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=471245#p471245" },
+            { name: "Juvenile Dragon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=483328#p483328" },
+            { name: "Nightcharger", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=507328#p507328" },
+            { name: "Noviere", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=387596#p387596" },
+            { name: "Observer", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=507324#p507324" },
+            { name: "Red Slaad", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384645#p384645" },
+            { name: "Salamander, Flamebrother", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=426395#p426395" },
+            { name: "Thri-Kreen Hunter", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=432510#p432510" },
+            { name: "Tiefling Fighter", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=420898#p420898" },
+            { name: "Vahki", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=468257#p468257" },
+            { name: "Wood Soldier", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=455655#p455655" },
+            { name: "Bluespawn Stormlizard", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=545424#p545424" },
         ].map(({ name, link }) => {
             return {
                 name: name,
@@ -215,23 +215,23 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
-            { name: "Bralani Eladrin", link: "http://tgdmb.com/viewtopic.php?p=381365#381365" },
-            { name: "Dryad", link: "http://tgdmb.com/viewtopic.php?p=414635#414635" },
-            { name: "Hordling, Medium", link: "http://tgdmb.com/viewtopic.php?p=387338#387338" },
-            { name: "Hound Archon", link: "http://tgdmb.com/viewtopic.php?p=381374#381374" },
-            { name: "Irda", link: "http://www.tgdmb.com/viewtopic.php?p=509491#509491" },
-            { name: "Janni", link: "http://tgdmb.com/viewtopic.php?p=413443#413443" },
-            { name: "Large Earth Elemental", link: "http://www.tgdmb.com/viewtopic.php?p=460668#460668" },
-            { name: "Large Ice Paramental", link: "http://www.tgdmb.com/viewtopic.php?p=440038#440038" },
-            { name: "Large Magma Paramental", link: "http://www.tgdmb.com/viewtopic.php?p=446999#446999" },
-            { name: "Malakim", link: "http://tgdmb.com/viewtopic.php?p=384915#384915" },
-            { name: "Mezzoloth", link: "http://tgdmb.com/viewtopic.php?p=536092#536092" },
-            { name: "Pyromancer", link: "http://www.tgdmb.com/viewtopic.php?p=446292#446292" },
-            { name: "Redspawn Firebelcher", link: "http://www.tgdmb.com/viewtopic.php?p=518392#518392" },
-            { name: "Steel Devil", link: "http://www.tgdmb.com/viewtopic.php?p=498989#498989" },
-            { name: "Vaati", link: "http://tgdmb.com/viewtopic.php?p=427312#427312" },
-            { name: "Vapor Draconian", link: "http://www.tgdmb.com/viewtopic.php?p=518797#518797" },
-            { name: "Yuki-on-na", link: "http://www.tgdmb.com/viewtopic.php?p=436950#436950" },
+            { name: "Bralani Eladrin", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=381365#p381365" },
+            { name: "Dryad", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=414635#p414635" },
+            { name: "Hordling, Medium", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=387338#p387338" },
+            { name: "Hound Archon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=381374#p381374" },
+            { name: "Irda", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=509491#p509491" },
+            { name: "Janni", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=413443#p413443" },
+            { name: "Large Earth Elemental", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=460668#p460668" },
+            { name: "Large Ice Paramental", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=440038#p440038" },
+            { name: "Large Magma Paramental", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=446999#p446999" },
+            { name: "Malakim", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384915#p384915" },
+            { name: "Mezzoloth", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=536092#p536092" },
+            { name: "Pyromancer", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=446292#p446292" },
+            { name: "Redspawn Firebelcher", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=518392#p518392" },
+            { name: "Steel Devil", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=498989#p498989" },
+            { name: "Vaati", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=427312#p427312" },
+            { name: "Vapor Draconian", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=518797#p518797" },
+            { name: "Yuki-on-na", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=436950#p436950" },
         ].map(({ name, link }) => {
             return {
                 name: name,
@@ -240,15 +240,15 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
-            { name: "Bozak Draconian", link: "http://tgdmb.com/viewtopic.php?p=502375#502375" },
-            { name: "Hill Giant", link: "http://tgdmb.com/viewtopic.php?p=383040#383040" },
-            { name: "Nightmare", link: "http://www.tgdmb.com/viewtopic.php?p=446912#446912" },
-            { name: "Nymph", link: "http://tgdmb.com/viewtopic.php?p=424982#424982" },
-            { name: "Phoelarch", link: "http://www.tgdmb.com/viewtopic.php?p=455980#455980" },
-            { name: "Slime", link: "http://www.tgdmb.com/viewtopic.php?p=498990#498990" },
-            { name: "Visorak", link: "http://www.tgdmb.com/viewtopic.php?p=468579#468579" },
-            { name: "Young Adult Dragon", link: "http://tgdmb.com/viewtopic.php?p=483328#483328" },
-            { name: "Kenmun", link: "http://tgdmb.com/viewtopic.php?p=547487#547487" },
+            { name: "Bozak Draconian", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=502375#p502375" },
+            { name: "Hill Giant", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=383040#p383040" },
+            { name: "Nightmare", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=446912#p446912" },
+            { name: "Nymph", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=424982#p424982" },
+            { name: "Phoelarch", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=455980#p455980" },
+            { name: "Slime", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=498990#p498990" },
+            { name: "Visorak", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=468579#p468579" },
+            { name: "Young Adult Dragon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=483328#p483328" },
+            { name: "Kenmun", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=547487#p547487" },
         ].map(({ name, link }) => {
             return {
                 name: name,
@@ -257,31 +257,31 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
-            { name: "Abishai", link: "http://www.tgdmb.com/viewtopic.php?p=543922#543922" },
-            { name: "Adult Dragon", link: "http://tgdmb.com/viewtopic.php?p=483328#483328" },
-            { name: "Angeloid", link: "http://www.tgdmb.com/viewtopic.php?p=453008#453008" },
-            { name: "Blue Slaad", link: "http://tgdmb.com/viewtopic.php?p=384311#384311" },
-            { name: "Bohrok-Kal", link: "http://www.tgdmb.com/viewtopic.php?p=470892#470892" },
-            { name: "Doom Viper", link: "http://www.tgdmb.com/viewtopic.php?p=471772#471772" },
-            { name: "Drowned", link: "http://tgdmb.com/viewtopic.php?p=383583#383583" },
-            { name: "Erinyes", link: "http://tgdmb.com/viewtopic.php?p=491651#491651" },
-            { name: "Fire Reaver", link: "http://tgdmb.com/viewtopic.php?p=392257#392257" },
-            { name: "Flesh Render", link: "http://tgdmb.com/viewtopic.php?p=392261#392261" },
-            { name: "Hordling, Large", link: "http://tgdmb.com/viewtopic.php?p=387338#387338" },
-            { name: "Huge Earth Elemental", link: "http://www.tgdmb.com/viewtopic.php?p=460668#460668" },
-            { name: "Huge Ice Paramental", link: "http://www.tgdmb.com/viewtopic.php?p=440038#440038" },
-            { name: "Huge Magma Paramental", link: "http://www.tgdmb.com/viewtopic.php?p=446999#446999" },
-            { name: "Ice Flenser", link: "http://tgdmb.com/viewtopic.php?p=392254#392254" },
-            { name: "Justice Archon", link: "http://tgdmb.com/viewtopic.php?p=382123#382123" },
-            { name: "Lupinal", link: "http://tgdmb.com/viewtopic.php?p=383994#383994" },
-            { name: "Malcubus", link: "http://www.tgdmb.com/viewtopic.php?p=518719#518719" },
-            { name: "Mind Flayer", link: "http://tgdmb.com/viewtopic.php?p=411431#411431" },
-            { name: "Movanic Deva", link: "http://tgdmb.com/viewtopic.php?p=384172#384172" },
-            { name: "Nightslaver", link: "http://www.tgdmb.com/viewtopic.php?p=509494#509494" },
-            { name: "Oni/Ogre Mage", link: "http://www.tgdmb.com/viewtopic.php?p=509505#509505" },
-            { name: "Salamander", link: "http://www.tgdmb.com/viewtopic.php?p=426396#426396" },
-            { name: "Sky Bison", link: "http://www.tgdmb.com/viewtopic.php?p=442307#442307" },
-            { name: "Vanth", link: "http://www.tgdmb.com/viewtopic.php?p=545423#545423" },
+            { name: "Abishai", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=543922#p543922" },
+            { name: "Adult Dragon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=483328#p483328" },
+            { name: "Angeloid", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=453008#p453008" },
+            { name: "Blue Slaad", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384311#p384311" },
+            { name: "Bohrok-Kal", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=470892#p470892" },
+            { name: "Doom Viper", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=471772#p471772" },
+            { name: "Drowned", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=383583#p383583" },
+            { name: "Erinyes", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=491651#p491651" },
+            { name: "Fire Reaver", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=392257#p392257" },
+            { name: "Flesh Render", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=392261#p392261" },
+            { name: "Hordling, Large", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=387338#p387338" },
+            { name: "Huge Earth Elemental", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=460668#p460668" },
+            { name: "Huge Ice Paramental", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=440038#p440038" },
+            { name: "Huge Magma Paramental", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=446999#p446999" },
+            { name: "Ice Flenser", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=392254#p392254" },
+            { name: "Justice Archon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=382123#p382123" },
+            { name: "Lupinal", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=383994#p383994" },
+            { name: "Malcubus", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=518719#p518719" },
+            { name: "Mind Flayer", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=411431#p411431" },
+            { name: "Movanic Deva", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384172#p384172" },
+            { name: "Nightslaver", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=509494#p509494" },
+            { name: "Oni/Ogre Mage", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=509505#p509505" },
+            { name: "Salamander", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=426396#p426396" },
+            { name: "Sky Bison", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=442307#p442307" },
+            { name: "Vanth", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=545423#p545423" },
         ].map(({ name, link }) => {
             return {
                 name: name,
@@ -290,15 +290,16 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
-            { name: "Architect Genie", link: "http://tgdmb.com/viewtopic.php?p=460250#460250" },
-            { name: "Avoral Guardinal", link: "http://tgdmb.com/viewtopic.php?p=381372#381372" },
-            { name: "Burning Bull", link: "http://tgdmb.com/viewtopic.php?p=537826#537826" },
-            { name: "Cuprilach", link: "http://tgdmb.com/viewtopic.php?p=384175#384175" },
-            { name: "Kikanalo", link: "http://tgdmb.com/viewtopic.php?p=471246#471246" },
-            { name: "Lampad", link: "http://tgdmb.com/viewtopic.php?p=464299#464299" },
-            { name: "Lightning Draconian", link: "http://www.tgdmb.com/viewtopic.php?p=505698#505698" },
-            { name: "Narzugon", link: "http://www.tgdmb.com/viewtopic.php?p=491649#491649" },
-            { name: "Primatal", link: "http://tgdmb.com/viewtopic.php?p=384524#384524" },
+            { name: "Architect Genie", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=460250#p460250" },
+            { name: "Avoral Guardinal", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=381372#p381372" },
+            { name: "Burning Bull", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=537826#p537826" },
+            { name: "Cuprilach", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384175#p384175" },
+            { name: "Kikanalo", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=471246#p471246" },
+            { name: "Lampad", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=464299#p464299" },
+            { name: "Lightning Draconian", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=505698#p505698" },
+            { name: "Narzugon", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=491649#p491649" },
+            { name: "Primatal", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384524#p384524" },
+            { name: "Vargheist", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=548399#p548399" },
         ].map(({ name, link }) => {
             return {
                 name: name,
@@ -307,37 +308,37 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
-            { name: "Arrow Demon", link: "http://tgdmb.com/viewtopic.php?p=383588#383588" },
+            { name: "Arrow Demon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=383588#p383588" },
             { name: "Axiomite", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=54924&p=547790#p547790" },
-            { name: "Chasme", link: "http://tgdmb.com/viewtopic.php?p=544339#544339" },
-            { name: "Coeurl", link: "http://www.tgdmb.com/viewtopic.php?p=513148#513148" },
-            { name: "Dao", link: "http://tgdmb.com/viewtopic.php?p=387597#387597" },
-            { name: "Dementor", link: "http://www.tgdmb.com/viewtopic.php?p=429343#429343" },
-            { name: "Djinn", link: "http://tgdmb.com/viewtopic.php?p=412996#412996" },
-            { name: "Efreeti", link: "http://tgdmb.com/viewtopic.php?p=411415#411415" },
-            { name: "Falxugon (Harvester Devil)", link: "http://tgdmb.com/viewtopic.php?p=412084#412084" },
-            { name: "Fire Snake", link: "http://www.tgdmb.com/viewtopic.php?p=426288#426288" },
-            { name: "Firre Eladrin", link: "http://tgdmb.com/viewtopic.php?p=381367#381367" },
-            { name: "Gazer", link: "http://www.tgdmb.com/viewtopic.php?p=472177#472177" },
-            { name: "Greater Earth Elemental", link: "http://www.tgdmb.com/viewtopic.php?p=460668#460668" },
-            { name: "Greater Ice Paramental", link: "http://www.tgdmb.com/viewtopic.php?p=440038#440038" },
-            { name: "Greater Magma Paramental", link: "http://www.tgdmb.com/viewtopic.php?p=446999#446999" },
-            { name: "Green Slaad", link: "http://tgdmb.com/viewtopic.php?p=387185#387185" },
-            { name: "Holy Dragon", link: "http://tgdmb.com/viewtopic.php?p=448701#448701" },
-            { name: "Ice Golem", link: "http://tgdmb.com/viewtopic.php?p=424983#424983" },
-            { name: "Incarnate", link: "http://www.tgdmb.com/viewtopic.php?p=471560#471560" },
-            { name: "Khayal", link: "http://tgdmb.com/viewtopic.php?p=416181#416181" },
-            { name: "Mature Adult Dragon", link: "http://tgdmb.com/viewtopic.php?p=483328#483328" },
-            { name: "Marid", link: "http://tgdmb.com/viewtopic.php?p=413005#413005" },
-            { name: "Nighthaunter", link: "http://www.tgdmb.com/viewtopic.php?p=511925#511925" },
-            { name: "Osyluth (Bone Devil)", link: "http://www.tgdmb.com/viewtopic.php?p=518588#518588" },
-            { name: "Per", link: "http://tgdmb.com/viewtopic.php?p=382124#382124" },
-            { name: "Qorrashi", link: "http://tgdmb.com/viewtopic.php?p=416896#416896" },
-            { name: "Rahkshi", link: "http://www.tgdmb.com/viewtopic.php?p=468258#468258" },
-            { name: "Schalris", link: "http://tgdmb.com/viewtopic.php?p=416756#416756" },
-            { name: "Shiere", link: "http://tgdmb.com/viewtopic.php?p=384686#384686" },
-            { name: "Spectral Death", link: "http://tgdmb.com/viewtopic.php?p=384700#384700" },
-            { name: "Wood Giant", link: "http://tgdmb.com/viewtopic.php?p=383039#383039" },
+            { name: "Chasme", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=544339#p544339" },
+            { name: "Coeurl", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=513148#p513148" },
+            { name: "Dao", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=387597#p387597" },
+            { name: "Dementor", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=429343#p429343" },
+            { name: "Djinn", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=412996#p412996" },
+            { name: "Efreeti", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=411415#p411415" },
+            { name: "Falxugon (Harvester Devil)", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=412084#p412084" },
+            { name: "Fire Snake", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=426288#p426288" },
+            { name: "Firre Eladrin", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=381367#p381367" },
+            { name: "Gazer", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=472177#p472177" },
+            { name: "Greater Earth Elemental", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=460668#p460668" },
+            { name: "Greater Ice Paramental", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=440038#p440038" },
+            { name: "Greater Magma Paramental", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=446999#p446999" },
+            { name: "Green Slaad", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=387185#p387185" },
+            { name: "Holy Dragon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=448701#p448701" },
+            { name: "Ice Golem", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=424983#p424983" },
+            { name: "Incarnate", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=471560#p471560" },
+            { name: "Khayal", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=416181#p416181" },
+            { name: "Mature Adult Dragon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=483328#p483328" },
+            { name: "Marid", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=413005#p413005" },
+            { name: "Nighthaunter", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=511925#p511925" },
+            { name: "Osyluth (Bone Devil)", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=518588#p518588" },
+            { name: "Per", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=382124#p382124" },
+            { name: "Qorrashi", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=416896#p416896" },
+            { name: "Rahkshi", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=468258#p468258" },
+            { name: "Schalris", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=416756#p416756" },
+            { name: "Shiere", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384686#p384686" },
+            { name: "Spectral Death", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384700#p384700" },
+            { name: "Wood Giant", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=383039#p383039" },
         ].map(({ name, link }) => {
             return {
                 name: name,
@@ -346,19 +347,19 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
-            { name: "Arcanaloth", link: "http://tgdmb.com/viewtopic.php?p=383986#383986" },
-            { name: "Asura", link: "http://tgdmb.com/viewtopic.php?p=483326#483326" },
-            { name: "Deepspawn", link: "http://tgdmb.com/viewtopic.php?p=510243#510243" },
-            { name: "Dogai", link: "http://tgdmb.com/viewtopic.php?p=491650#491650" },
-            { name: "Excruciarch", link: "http://www.tgdmb.com/viewtopic.php?p=443753#443753" },
-            { name: "Hezrou", link: "http://tgdmb.com/viewtopic.php?p=499615#499615" },
-            { name: "Visorak, Kahgarak", link: "http://www.tgdmb.com/viewtopic.php?p=544502#544502" },
-            { name: "Malboro", link: "http://tgdmb.com/viewtopic.php?p=496099#496099" },
-            { name: "Mercane", link: "http://tgdmb.com/viewtopic.php?p=491652#491652" },
-            { name: "Reaper", link: "http://www.tgdmb.com/viewtopic.php?p=500987#500987" },
-            { name: "Stone Giant", link: "http://tgdmb.com/viewtopic.php?p=371443#371443" },
-            { name: "Sword Archon", link: "http://tgdmb.com/viewtopic.php?p=380238#380238" },
-            { name: "Ursinal Guardinal", link: "http://tgdmb.com/viewtopic.php?p=381373#381373" },
+            { name: "Arcanaloth", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=383986#p383986" },
+            { name: "Asura", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=483326#p483326" },
+            { name: "Deepspawn", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=510243#p510243" },
+            { name: "Dogai", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=491650#p491650" },
+            { name: "Excruciarch", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=443753#p443753" },
+            { name: "Hezrou", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=499615#p499615" },
+            { name: "Visorak, Kahgarak", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=544502#p544502" },
+            { name: "Malboro", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=496099#p496099" },
+            { name: "Mercane", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=491652#p491652" },
+            { name: "Reaper", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=500987#p500987" },
+            { name: "Stone Giant", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=371443#p371443" },
+            { name: "Sword Archon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=380238#p380238" },
+            { name: "Ursinal Guardinal", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=381373#p381373" },
         ].map(({ name, link }) => {
             return {
                 name: name,
@@ -367,32 +368,32 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
-            { name: "Amnizu", link: "http://tgdmb.com/viewtopic.php?p=547647#547647" },
-            { name: "Aspect of Bahamut", link: "http://tgdmb.com/viewtopic.php?p=537828#537828" },
-            { name: "Aspect of Nerull", link: "http://www.tgdmb.com/viewtopic.php?p=471391#471391" },
-            { name: "Astral Deva", link: "http://tgdmb.com/viewtopic.php?p=384171#384171" },
-            { name: "Barraki", link: "http://www.tgdmb.com/viewtopic.php?p=470829#470829" },
-            { name: "Decaton", link: "http://tgdmb.com/viewtopic.php?p=405438#405438" },
-            { name: "Elder Earth Elemental", link: "http://www.tgdmb.com/viewtopic.php?p=460668#460668" },
-            { name: "Elder Ice Paramental", link: "http://www.tgdmb.com/viewtopic.php?p=440038#440038" },
-            { name: "Elder Magma Paramental", link: "http://www.tgdmb.com/viewtopic.php?p=446999#446999" },
-            { name: "Ghaele Eladrin", link: "http://tgdmb.com/viewtopic.php?p=382134#382134" },
-            { name: "Glatorian", link: "http://www.tgdmb.com/viewtopic.php?p=469547#469547" },
-            { name: "Hordling, Huge", link: "http://tgdmb.com/viewtopic.php?p=387338#387338" },
-            { name: "Kelvezu", link: "http://www.tgdmb.com/viewtopic.php?p=520147#520147" },
-            { name: "Leonal", link: "http://tgdmb.com/viewtopic.php?p=381369#381369" },
-            { name: "Leukoloth", link: "http://www.tgdmb.com/viewtopic.php?p=513373#513373" },
-            { name: "Mist Golem", link: "http://www.tgdmb.com/viewtopic.php?p=424999#424999" },
-            { name: "Nightflyer", link: "http://www.tgdmb.com/viewtopic.php?p=510380#510380" },
-            { name: "Night Hag", link: "http://www.tgdmb.com/viewtopic.php?p=538736#538736" },
-            { name: "Old Dragon", link: "http://tgdmb.com/viewtopic.php?p=483328#483328" },
-            { name: "Oread", link: "http://tgdmb.com/viewtopic.php?p=382133#382133" },
-            { name: "Sand Giant", link: "http://tgdmb.com/viewtopic.php?p=399209#399209" },
-            { name: "Salamander, Noble", link: "http://www.tgdmb.com/viewtopic.php?p=426397#426397" },
-            { name: "Shocker", link: "http://tgdmb.com/viewtopic.php?p=414722#414722" },
-            { name: "Slayer Genie", link: "http://www.tgdmb.com/viewtopic.php?p=415959#415959" },
-            { name: "Sun Giant", link: "http://tgdmb.com/viewtopic.php?p=371442#371442" },
-            { name: "Treant", link: "http://tgdmb.com/viewtopic.php?p=414634#414634" },
+            { name: "Amnizu", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=547647#p547647" },
+            { name: "Aspect of Bahamut", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=537828#p537828" },
+            { name: "Aspect of Nerull", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=471391#p471391" },
+            { name: "Astral Deva", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384171#p384171" },
+            { name: "Barraki", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=470829#p470829" },
+            { name: "Decaton", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=405438#p405438" },
+            { name: "Elder Earth Elemental", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=460668#p460668" },
+            { name: "Elder Ice Paramental", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=440038#p440038" },
+            { name: "Elder Magma Paramental", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=446999#p446999" },
+            { name: "Ghaele Eladrin", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=382134#p382134" },
+            { name: "Glatorian", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=469547#p469547" },
+            { name: "Hordling, Huge", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=387338#p387338" },
+            { name: "Kelvezu", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=520147#p520147" },
+            { name: "Leonal", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=381369#p381369" },
+            { name: "Leukoloth", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=513373#p513373" },
+            { name: "Mist Golem", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=424999#p424999" },
+            { name: "Nightflyer", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=510380#p510380" },
+            { name: "Night Hag", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=538736#p538736" },
+            { name: "Old Dragon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=483328#p483328" },
+            { name: "Oread", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=382133#p382133" },
+            { name: "Sand Giant", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=399209#p399209" },
+            { name: "Salamander, Noble", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=426397#p426397" },
+            { name: "Shocker", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=414722#p414722" },
+            { name: "Slayer Genie", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=415959#p415959" },
+            { name: "Sun Giant", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=371442#p371442" },
+            { name: "Treant", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=414634#p414634" },
         ].map(({ name, link }) => {
             return {
                 name: name,
@@ -401,11 +402,11 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
-            { name: "Drow Archpriestess", link: "http://www.tgdmb.com/viewtopic.php?p=446301#446301" },
-            { name: "Hound Action Hero", link: "http://www.tgdmb.com/viewtopic.php?p=456856#456856" },
-            { name: "Thanaloth", link: "http://tgdmb.com/viewtopic.php?p=408106#408106" },
-            { name: "Wolf of Day", link: "http://www.tgdmb.com/viewtopic.php?p=456902#456902" },
-            { name: "Wolf of Night", link: "http://www.tgdmb.com/viewtopic.php?p=456907#456907" },
+            { name: "Drow Archpriestess", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=446301#p446301" },
+            { name: "Hound Action Hero", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=456856#p456856" },
+            { name: "Thanaloth", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=408106#p408106" },
+            { name: "Wolf of Day", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=456902#p456902" },
+            { name: "Wolf of Night", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=456907#p456907" },
         ].map(({ name, link }) => {
             return {
                 name: name,
@@ -414,19 +415,19 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
-            { name: "Behemoth Brute", link: "http://www.tgdmb.com/viewtopic.php?p=496536#496536" },
-            { name: "Cloud Giant", link: "http://tgdmb.com/viewtopic.php?p=377698#377698" },
-            { name: "Codlagh Eladrin", link: "http://www.tgdmb.com/viewtopic.php?p=491646#491646" },
-            { name: "Fire Giant, Muspel", link: "http://tgdmb.com/viewtopic.php?p=371441#371441" },
-            { name: "Frost Giant, Jotun", link: "http://tgdmb.com/viewtopic.php?p=366813#366813" },
-            { name: "Grey Slaad", link: "http://tgdmb.com/viewtopic.php?p=387186#387186" },
-            { name: "Makhai", link: "http://www.tgdmb.com/viewtopic.php?p=470124#470124" },
-            { name: "Morrigna", link: "http://www.tgdmb.com/viewtopic.php?p=510009#510009" },
-            { name: "Piraka", link: "http://www.tgdmb.com/viewtopic.php?p=471965#471965" },
-            { name: "Shiradi Eladrin", link: "http://www.tgdmb.com/viewtopic.php?p=415968#415968" },
-            { name: "Thunderbird", link: "http://tgdmb.com/viewtopic.php?p=384525#384525" },
-            { name: "Trumpet Archon", link: "http://tgdmb.com/viewtopic.php?p=384910#384910" },
-            { name: "Very Old Dragon", link: "http://tgdmb.com/viewtopic.php?p=483328#483328" },
+            { name: "Behemoth Brute", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=496536#p496536" },
+            { name: "Cloud Giant", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=377698#p377698" },
+            { name: "Codlagh Eladrin", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=491646#p491646" },
+            { name: "Fire Giant, Muspel", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=371441#p371441" },
+            { name: "Frost Giant, Jotun", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=366813#p366813" },
+            { name: "Grey Slaad", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=387186#p387186" },
+            { name: "Makhai", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=470124#p470124" },
+            { name: "Morrigna", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=510009#p510009" },
+            { name: "Piraka", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=471965#p471965" },
+            { name: "Shiradi Eladrin", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=415968#p415968" },
+            { name: "Thunderbird", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384525#p384525" },
+            { name: "Trumpet Archon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384910#p384910" },
+            { name: "Very Old Dragon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=483328#p483328" },
         ].map(({ name, link }) => {
             return {
                 name: name,
@@ -435,10 +436,10 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
-            { name: "Baernaloth", link: "http://tgdmb.com/viewtopic.php?p=384308#384308" },
-            { name: "Fiend of Sorrow", link: "http://tgdmb.com/viewtopic.php?p=387189#387189" },
-            { name: "Invisible", link: "http://www.tgdmb.com/viewtopic.php?p=510670#510670" },
-            { name: "Kanohi Dragon", link: "http://www.tgdmb.com/viewtopic.php?p=511926#511926" },
+            { name: "Baernaloth", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384308#p384308" },
+            { name: "Fiend of Sorrow", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=387189#p387189" },
+            { name: "Invisible", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=510670#p510670" },
+            { name: "Kanohi Dragon", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=511926#p511926" },
         ].map(({ name, link }) => {
             return {
                 name: name,
@@ -447,26 +448,26 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
-            { name: "Ancient Dragon", link: "http://tgdmb.com/viewtopic.php?p=483328#483328" },
-            { name: "Brachyurus", link: "http://tgdmb.com/viewtopic.php?p=403030#403030" },
-            { name: "Dao, Noble", link: "http://tgdmb.com/viewtopic.php?p=413366#413366" },
-            { name: "Djinn, Noble", link: "http://tgdmb.com/viewtopic.php?p=413000#413000" },
-            { name: "Efreet, Noble", link: "http://tgdmb.com/viewtopic.php?p=411984#411984" },
-            { name: "Gelugon", link: "http://tgdmb.com/viewtopic.php?p=384633#384633" },
-            { name: "Goristro", link: "http://tgdmb.com/viewtopic.php?p=384176#384176" },
-            { name: "Hellfire Wyrm", link: "http://www.tgdmb.com/viewtopic.php?p=456390#456390" },
-            { name: "Invisible", link: "http://www.tgdmb.com/viewtopic.php?p=510670#510670" },
-            { name: "Justicator", link: "http://tgdmb.com/viewtopic.php?p=383585#383585" },
-            { name: "Khayal, Noble", link: "http://www.tgdmb.com/viewtopic.php?p=416353#416353" },
-            { name: "Marid, Noble", link: "http://tgdmb.com/viewtopic.php?p=413438#413438" },
-            { name: "Memitim", link: "http://www.tgdmb.com/viewtopic.php?p=498988#498988" },
-            { name: "Planetar", link: "http://tgdmb.com/viewtopic.php?p=384306#384306" },
-            { name: "Qorrash, Noble", link: "http://www.tgdmb.com/viewtopic.php?p=416902#416902" },
-            { name: "Sea Giant", link: "http://tgdmb.com/viewtopic.php?p=380244#380244" },
-            { name: "Sentinel", link: "http://tgdmb.com/viewtopic.php?p=471779#471779" },
-            { name: "Spellbeing", link: "http://www.tgdmb.com/viewtopic.php?p=428116#428116" },
-            { name: "Star Archon", link: "http://www.tgdmb.com/viewtopic.php?p=491648#491648" },
-            { name: "Storm Giant", link: "http://tgdmb.com/viewtopic.php?p=371744#371744" },
+            { name: "Ancient Dragon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=483328#p483328" },
+            { name: "Brachyurus", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=403030#p403030" },
+            { name: "Dao, Noble", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=413366#p413366" },
+            { name: "Djinn, Noble", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=413000#p413000" },
+            { name: "Efreet, Noble", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=411984#p411984" },
+            { name: "Gelugon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384633#p384633" },
+            { name: "Goristro", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384176#p384176" },
+            { name: "Hellfire Wyrm", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=456390#p456390" },
+            { name: "Invisible", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=510670#p510670" },
+            { name: "Justicator", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=383585#p383585" },
+            { name: "Khayal, Noble", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=416353#p416353" },
+            { name: "Marid, Noble", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=413438#p413438" },
+            { name: "Memitim", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=498988#p498988" },
+            { name: "Planetar", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384306#p384306" },
+            { name: "Qorrash, Noble", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=416902#p416902" },
+            { name: "Sea Giant", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=380244#p380244" },
+            { name: "Sentinel", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=471779#p471779" },
+            { name: "Spellbeing", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=428116#p428116" },
+            { name: "Star Archon", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=491648#p491648" },
+            { name: "Storm Giant", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=371744#p371744" },
         ].map(({ name, link }) => {
             return {
                 name: name,
@@ -475,10 +476,11 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
-            { name: "Death Giant", link: "http://tgdmb.com/viewtopic.php?p=375663#375663" },
-            { name: "Nightstalker", link: "http://www.tgdmb.com/viewtopic.php?p=518823#518823" },
-            { name: "Sandworm", link: "http://www.tgdmb.com/viewtopic.php?p=514887#514887" },
-            { name: "Snowhair", link: "http://tgdmb.com/viewtopic.php?p=382133#382133" },
+            { name: "Death Giant", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=375663#p375663" },
+            { name: "Hexton", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=548360#p548360" },
+            { name: "Nightstalker", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=518823#p518823" },
+            { name: "Sandworm", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=514887#p514887" },
+            { name: "Snowhair", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=382133#p382133" },
         ].map(({ name, link }) => {
             return {
                 name: name,
@@ -487,12 +489,12 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
-            { name: "Cherubim", link: "http://tgdmb.com/viewtopic.php?p=395650#395650" },
-            { name: "Hound Archon Hero", link: "http://www.tgdmb.com/viewtopic.php?p=456025#456025" },
-            { name: "Lilim", link: "http://tgdmb.com/viewtopic.php?p=415619#415619" },
-            { name: "Tulani", link: "http://tgdmb.com/viewtopic.php?p=384687#384687" },
-            { name: "War Giant", link: "http://tgdmb.com/viewtopic.php?p=372566#372566" },
-            { name: "Wyrm Dragon", link: "http://tgdmb.com/viewtopic.php?p=483328#483328" },
+            { name: "Cherubim", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=395650#p395650" },
+            { name: "Hound Archon Hero", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=456025#p456025" },
+            { name: "Lilim", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=415619#p415619" },
+            { name: "Tulani", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384687#p384687" },
+            { name: "War Giant", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=372566#p372566" },
+            { name: "Wyrm Dragon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=483328#p483328" },
         ].map(({ name, link }) => {
             return {
                 name: name,
@@ -501,15 +503,15 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
-            { name: "Behemoth", link: "http://tgdmb.com/viewtopic.php?p=489073#489073" },
-            { name: "Death Slaad", link: "http://tgdmb.com/viewtopic.php?p=387187#387187" },
-            { name: "Great Wyrm Dragon", link: "http://tgdmb.com/viewtopic.php?p=483328#483328" },
-            { name: "Hellfire Engine", link: "http://tgdmb.com/viewtopic.php?p=491654#491654" },
-            { name: "Mortai", link: "http://tgdmb.com/viewtopic.php?p=382136#382136" },
-            { name: "Phoenix", link: "http://tgdmb.com/viewtopic.php?p=380239#380239" },
-            { name: "Pit Fiend", link: "http://www.tgdmb.com/viewtopic.php?p=490029#490029" },
-            { name: "Solar", link: "http://tgdmb.com/viewtopic.php?p=384005#384005" },
-            { name: "Ultroloth", link: "http://tgdmb.com/viewtopic.php?p=468194#468194" },
+            { name: "Behemoth", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=489073#p489073" },
+            { name: "Death Slaad", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=387187#p387187" },
+            { name: "Great Wyrm Dragon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=483328#p483328" },
+            { name: "Hellfire Engine", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=491654#p491654" },
+            { name: "Mortai", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=382136#p382136" },
+            { name: "Phoenix", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=380239#p380239" },
+            { name: "Pit Fiend", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=490029#p490029" },
+            { name: "Solar", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384005#p384005" },
+            { name: "Ultroloth", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=468194#p468194" },
         ].map(({ name, link }) => {
             return {
                 name: name,
@@ -518,7 +520,7 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
-            { name: "Erathaol (AKA Celestial Scholar, The Seer, Bringer of Knowledge, Timereaver)", link: "http://tgdmb.com/viewtopic.php?p=408111#408111" },
+            { name: "Erathaol (AKA Celestial Scholar, The Seer, Bringer of Knowledge, Timereaver)", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=408111#p408111" },
         ].map(({ name, link }) => {
             return {
                 name: name,
@@ -527,10 +529,10 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
-            { name: "Queen Morwel (AKA  Lady of the Lake, Queen of Stars, Faerie Queen)", link: "http://tgdmb.com/viewtopic.php?p=403390#403390" },
-            { name: "Cryonax (AKA Bringer of Endless Winter, Prince of Evil Ice Creatures, The Bleak Monarch)", link: "http://www.tgdmb.com/viewtopic.php?p=424326#424326" },
-            { name: "Imix (AKA Lord of Hellfire, Prince of Evil Fire Creatures, The Eternal Flame)", link: "http://www.tgdmb.com/viewtopic.php?p=454073#454073" },
-            { name: "Tiamat (AKA The Queen of Evil Dragons, Her Dark Majesty, Takhisis)", link: "http://www.tgdmb.com/viewtopic.php?p=476599#476599" },
+            { name: "Queen Morwel (AKA  Lady of the Lake, Queen of Stars, Faerie Queen)", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=403390#p403390" },
+            { name: "Cryonax (AKA Bringer of Endless Winter, Prince of Evil Ice Creatures, The Bleak Monarch)", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=424326#p424326" },
+            { name: "Imix (AKA Lord of Hellfire, Prince of Evil Fire Creatures, The Eternal Flame)", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=454073#p454073" },
+            { name: "Tiamat (AKA The Queen of Evil Dragons, Her Dark Majesty, Takhisis)", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=476599#p476599" },
         ].map(({ name, link }) => {
             return {
                 name: name,
@@ -554,7 +556,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=277156#277156',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=277156#p277156',
                 challengeRating: challengeRating,
             };
         }),
@@ -566,7 +568,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=277156#277156',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=277156#p277156',
                 challengeRating: challengeRating,
             };
         }),
@@ -577,7 +579,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Prak',
-                link: 'http://tgdmb.com/viewtopic.php?p=277257#277257',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=277257#p277257',
                 challengeRating: challengeRating,
             };
         }),
@@ -589,7 +591,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=277342#277342',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=277342#p277342',
                 challengeRating: challengeRating,
             };
         }),
@@ -600,7 +602,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=277346#277346',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=277346#p277346',
                 challengeRating: challengeRating,
             };
         }),
@@ -612,7 +614,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=277352#277352',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=277352#p277352',
                 challengeRating: challengeRating,
             };
         }),
@@ -624,7 +626,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=277485#277485',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=277485#p277485',
                 challengeRating: challengeRating,
             };
         }),
@@ -635,7 +637,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=277630#277630',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=277630#p277630',
                 challengeRating: challengeRating,
             };
         }),
@@ -647,7 +649,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=277642#277642',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=277642#p277642',
                 challengeRating: challengeRating,
             };
         }),
@@ -658,7 +660,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Prak',
-                link: 'http://tgdmb.com/viewtopic.php?p=277911#277911',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=277911#p277911',
                 challengeRating: challengeRating,
             };
         }),
@@ -670,7 +672,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=278579#278579',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=278579#p278579',
                 challengeRating: challengeRating,
             };
         }),
@@ -682,7 +684,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=278581#278581',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=278581#p278581',
                 challengeRating: challengeRating,
             };
         }),
@@ -693,14 +695,14 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=278748#278748',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=278748#p278748',
                 challengeRating: challengeRating,
             };
         }),
         {
             name: 'Petilil',
             author: 'Koumei',
-            link: 'http://tgdmb.com/viewtopic.php?p=279442#279442',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=279442#p279442',
             challengeRating: 3,
         },
         ...[
@@ -710,7 +712,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=279443#279443',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=279443#p279443',
                 challengeRating: challengeRating,
             };
         }),
@@ -721,14 +723,14 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=279467#279467',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=279467#p279467',
                 challengeRating: challengeRating,
             };
         }),
         {
             name: 'Magnezone',
             author: 'Koumei',
-            link: 'http://tgdmb.com/viewtopic.php?p=279578#279578',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=279578#p279578',
             challengeRating: 16,
         },
         ...[
@@ -739,7 +741,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=279467#279467',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=279467#p279467',
                 challengeRating: challengeRating,
             };
         }),
@@ -751,7 +753,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=279467#279467',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=279467#p279467',
                 challengeRating: challengeRating,
             };
         }),
@@ -762,7 +764,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=279812#279812',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=279812#p279812',
                 challengeRating: challengeRating,
             };
         }),
@@ -774,7 +776,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=279812#279812',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=279812#p279812',
                 challengeRating: challengeRating,
             };
         }),
@@ -786,7 +788,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=280759#280759',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=280759#p280759',
                 challengeRating: challengeRating,
             };
         }),
@@ -798,14 +800,14 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=280842#280842',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=280842#p280842',
                 challengeRating: challengeRating,
             };
         }),
         {
             name: 'Sableye',
             author: 'Koumei',
-            link: 'http://tgdmb.com/viewtopic.php?p=280995#280995',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=280995#p280995',
             challengeRating: 4,
         },
         ...[
@@ -816,7 +818,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=281824#281824',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=281824#p281824',
                 challengeRating: challengeRating,
             };
         }),
@@ -828,7 +830,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=281847#281847',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=281847#p281847',
                 challengeRating: challengeRating,
             };
         }),
@@ -840,7 +842,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=282485#282485',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=282485#p282485',
                 challengeRating: challengeRating,
             };
         }),
@@ -853,7 +855,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=282767#282767',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=282767#p282767',
                 challengeRating: challengeRating,
             };
         }),
@@ -872,7 +874,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=282777#282777',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=282777#p282777',
                 challengeRating: challengeRating,
             };
         }),
@@ -886,7 +888,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=283622#283622',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=283622#p283622',
                 challengeRating: challengeRating,
             };
         }),
@@ -902,7 +904,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=283958#283958',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=283958#p283958',
                 challengeRating: challengeRating,
             };
         }),
@@ -913,7 +915,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=284505#284505',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=284505#p284505',
                 challengeRating: challengeRating,
             };
         }),
@@ -925,7 +927,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name: name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/viewtopic.php?p=287732#287732',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=287732#p287732',
                 challengeRating: challengeRating,
             };
         }),
@@ -941,7 +943,7 @@ export const monsters: MonsterEntry[] = [
     {
         name: 'Trickpuncher Abra',
         author: 'Koumei',
-        link: 'http://tgdmb.com/viewtopic.php?p=56877#56877',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=56877#p56877',
         challengeRating: 1,
         relatedLinks: [
             { title: 'Abra', link: 'https://dnd-wiki.org/wiki/Abra_(3.5e_Monster)' },
@@ -968,7 +970,7 @@ export const monsters: MonsterEntry[] = [
         return {
             name: name,
             author: 'Koumei',
-            link: 'http://tgdmb.com/viewtopic.php?p=57224#57224',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=57224#p57224',
             challengeRating: challengeRating,
             relatedLinks: [
                 { title: 'Statblock', link: statblockLink },
@@ -977,13 +979,13 @@ export const monsters: MonsterEntry[] = [
         }
     }),
     ...[
-        { name: 'Croagunk (Old)', challengeRating: 3, updatedVersionLink: 'http://tgdmb.com/viewtopic.php?p=281824#281824' },
-        { name: 'Toxicroak (Old)', challengeRating: 8, updatedVersionLink: 'http://tgdmb.com/viewtopic.php?p=281824#281824' },
+        { name: 'Croagunk (Old)', challengeRating: 3, updatedVersionLink: 'http://tgdmb.com/phpBB3/viewtopic.php?p=281824#p281824' },
+        { name: 'Toxicroak (Old)', challengeRating: 8, updatedVersionLink: 'http://tgdmb.com/phpBB3/viewtopic.php?p=281824#p281824' },
     ].map(({ name, challengeRating, updatedVersionLink }) => {
         return {
             name,
             author: 'Koumei',
-            link: 'http://tgdmb.com/viewtopic.php?p=57503#57503',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=57503#p57503',
             challengeRating,
             relatedLinks: [
                 { title: 'Updated Version', link: updatedVersionLink },
@@ -994,7 +996,7 @@ export const monsters: MonsterEntry[] = [
     {
         name: 'Zorua',
         author: 'Prak',
-        link: 'http://tgdmb.com/viewtopic.php?p=422313#422313',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=422313#p422313',
         challengeRating: 0.5,
         relatedLinks: [
             { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
@@ -1003,78 +1005,78 @@ export const monsters: MonsterEntry[] = [
     {
         name: 'Arachnal ',
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=233522#233522',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=233522#p233522',
         challengeRating: 4,
     },
     {
         name: 'Sea Turtle',
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=169157#169157',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=169157#p169157',
         challengeRating: 2,
     },
     {
         name: 'Shibboleth',
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=397721#397721',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=397721#p397721',
         challengeRating: 12
     },
     {
         name: 'Goby Swarm',
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=426306#426306',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=426306#p426306',
         challengeRating: 1
     },
     {
         name: 'Nethar Symbiote',
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=495227#495227',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=495227#p495227',
     },
     {
         name: 'Baku',
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=155961#155961',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=155961#p155961',
         challengeRating: 2
     },
     {
         name: 'Clockwork Man',
         author: 'Avoraciopoctules',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=140559#140559',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=140559#p140559',
         challengeRating: 3
     },
     {
         name: '"Javan" Light Steam Tank / Transport',
         author: 'Avoraciopoctules',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=141936#141936',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=141936#p141936',
         challengeRating: 5
     },
     {
         name: 'Taino',
         author: 'virgil',
-        link: 'http://tgdmb.com/viewtopic.php?p=489974#489974',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=489974#p489974',
         challengeRating: 3
     },
     {
         name: 'Scapegrace',
         author: 'virgil',
-        link: 'http://tgdmb.com/viewtopic.php?p=476388#476388',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=476388#p476388',
         challengeRating: 1 / 3
     },
     {
         name: 'Time Golem',
         author: 'Prak',
-        link: 'http://tgdmb.com/viewtopic.php?p=427314#427314',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=427314#p427314',
         challengeRating: 7
     },
     {
         name: 'X Golem',
         author: 'Foxwarrior',
-        link: 'http://tgdmb.com/viewtopic.php?p=436610#436610',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=436610#p436610',
         challengeRating: 9
     },
     {
         name: 'Your Mom',
         author: 'DrPraetor',
-        link: 'http://tgdmb.com/viewtopic.php?p=295983#295983',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=295983#p295983',
         challengeRating: 7
     },
     ...[
@@ -1116,14 +1118,14 @@ export const monsters: MonsterEntry[] = [
         return {
             name: `${name} (Ivalice D20)`,
             author: 'Wiseman',
-            link: 'http://tgdmb.com/viewtopic.php?p=313514#313514',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=313514#p313514',
             challengeRating: challengeRating
         }
     }),
     {
         name: 'Simulacrum',
         author: 'virgil',
-        link: 'http://tgdmb.com/viewtopic.php?p=292335#292335',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=292335#p292335',
         challengeRating: 3
     },
     ...[
@@ -1133,14 +1135,14 @@ export const monsters: MonsterEntry[] = [
         return {
             name: name,
             author: 'Avoraciopoctules',
-            link: 'http://tgdmb.com/viewtopic.php?p=259986#259986',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=259986#p259986',
             challengeRating: challengeRating
         }
     }),
     {
         name: 'Ogre Mage',
         author: 'FruitThatAteItself',
-        link: 'http://tgdmb.com/viewtopic.php?p=205209#205209',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=205209#p205209',
         challengeRating: 5
     },
 ]

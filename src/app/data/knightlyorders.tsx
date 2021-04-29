@@ -5,34 +5,34 @@ export const knightlyOrders: Entry[] = [
         return {
             name,
             author: 'Maxus',
-            link: 'http://tgdmb.com/viewtopic.php?p=59137#59137'
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=59137#p59137'
         }
     }),
     {
         name: 'Order of Lolth',
-        link: 'http://tgdmb.com/viewtopic.php?p=479366#479366',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=479366#p479366',
         author: 'Koumei'
     },
     {
         name: 'Deathless Knight',
-        link: 'http://tgdmb.com/viewtopic.php?p=63461#63461',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=63461#p63461',
         author: 'Maxus'
     },
     {
         name: 'Cavalier',
-        link: 'http://tgdmb.com/viewtopic.php?p=63469#63469',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=63469#p63469',
         author: 'Maxus'
     },
     {
         name: 'Scaled Knight of the Primordial',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=109441#109441',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=109441#p109441',
         author: 'Koumei'
     },
     ...['Death', 'Eternal', 'Lolth', 'Mechanical', 'Myrmidon', 'Scaled', 'Space'].map((name) => {
         return {
             name: `${name} Knight`,
             author: 'Koumei',
-            link: 'http://tgdmb.com/viewtopic.php?p=546475#546475'
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=546475#p546475'
         }
     }),
 ];

@@ -6,47 +6,47 @@ export const scalingFeats: Entry[] = [
     return {
       name: value,
       author: "Koumei",
-      link: "http://tgdmb.com/viewtopic.php?p=141531#141531",
+      link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141531#p141531",
     }
   })),
   {
     name: "Steel Angel",
     author: "Koumei",
-    link: "http://tgdmb.com/viewtopic.php?p=126438#126438",
+    link: "http://tgdmb.com/phpBB3/viewtopic.php?p=126438#p126438",
   },
   ...(["Fat Cat: [Combat]", "Lucky Cat: [Monstrous]"].map((value, index) => {
     return {
       name: value,
       author: "Koumei",
-      link: "http://tgdmb.com/viewtopic.php?p=141532#141532",
+      link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141532#p141532",
     }
   })),
   {
     name: "Venomous Slayer",
     author: "Koumei",
-    link: "http://tgdmb.com/viewtopic.php?p=141534#141534",
+    link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141534#p141534",
   },
   ...(["Heart in Chains: [Monster]", "Nice Tail [Monster]", "Life Drain [Monster]"].map((value, index) => {
     return {
       name: value,
       author: "Koumei",
-      link: "http://tgdmb.com/viewtopic.php?p=141535#141535",
+      link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141535#p141535",
     }
   })),
   {
     name: "Massive Growth [Monster]",
     author: "Koumei",
-    link: "http://tgdmb.com/viewtopic.php?p=141536#141536",
+    link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141536#p141536",
   },
   {
     name: "Child of the Endless Waters [Skill]",
     author: "Judging__Eagle",
-    link: "http://tgdmb.com/viewtopic.php?p=38986#38986",
+    link: "http://tgdmb.com/phpBB3/viewtopic.php?p=38986#p38986",
   },
   {
     name: "Lasher [Combat]",
     author: "Koumei",
-    link: "http://tgdmb.com/viewtopic.php?p=479366#479366",
+    link: "http://tgdmb.com/phpBB3/viewtopic.php?p=479366#p479366",
   },
   ...[
     {
@@ -165,7 +165,7 @@ export const scalingFeats: Entry[] = [
     return {
       name: element.name,
       author: 'Frank and K',
-      link: 'http://www.tgdmb.com/viewtopic.php?p=33298#33298',
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=33298#p33298',
       wikiLink: element.wikiLink
     }
   }),
@@ -182,127 +182,127 @@ export const scalingFeats: Entry[] = [
     return {
       name: `${name} (in the 'Other Options' spoiler)`,
       author: 'Koumei',
-      link: 'http://tgdmb.com/viewtopic.php?p=545730#545730',
-      relatedLinks: [{title: 'Older Link', link: 'http://www.tgdmb.com/viewtopic.php?p=177426#177426'}]
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545730#p545730',
+      relatedLinks: [{title: 'Older Link', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=177426#p177426'}]
     }
   }),
   ...['Blood Knight [Death Knight]', 'Frozen Knight [Death Knight]'].map((element) => {
     return {
       name: element,
       author: 'Judging__Eagle',
-      link: 'http://www.tgdmb.com/viewtopic.php?p=95186#95186',
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=95186#p95186',
     }
   }),
   ...['Knock Down [Combat]', 'Turnabout [Combat]'].map((element) => {
     return {
       name: element,
       author: 'ubernoob',
-      link: 'http://tgdmb.com/viewtopic.php?p=55425#55425',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=55425#p55425',
     }
   }),
   {
     name: 'Ki Shot [Skill: Concentration]',
     author: 'Maxus',
-    link: 'http://tgdmb.com/viewtopic.php?p=55441#55441',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=55441#p55441',
   },
   {
     name: 'Psychic Weapon [general] ',
     author: 'NoDot',
-    link: 'http://tgdmb.com/viewtopic.php?p=55451#55451',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=55451#p55451',
   },
   {
     name: 'Mental Weaponry [Skill: Concentration]',
     author: 'Judging__Eagle',
-    link: 'http://tgdmb.com/viewtopic.php?p=55470#55470',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=55470#p55470',
   },
   {
     name: 'Mindblade [Combat]',
     author: 'AlphaNerd',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=39145#39145',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=39145#p39145',
   },
   {
     name: 'Ki Bomb',
     author: 'Maxus',
-    link: 'http://tgdmb.com/viewtopic.php?p=55489#55489',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=55489#p55489',
   },
   {
     name: 'Flurry of Blows',
     author: 'Maxus',
-    link: 'http://tgdmb.com/viewtopic.php?p=55501#55501',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=55501#p55501',
   },
   {
     name: 'Brutal Grappler [Combat]',
     author: 'Maxus',
-    link: 'http://tgdmb.com/viewtopic.php?p=55566#55566',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=55566#p55566',
   },
   {
     name: 'Deific Attention [Skill]',
     author: 'Koumei',
-    link: 'http://tgdmb.com/viewtopic.php?p=55693#55693',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=55693#p55693',
   },
   {
     name: 'Banter [General] ',
     author: 'Maxus',
-    link: 'http://tgdmb.com/viewtopic.php?p=55731#55731',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=55731#p55731',
   },
   {
     name: 'Cerebral Assassin [Skill]',
     author: 'Koumei',
-    link: 'http://tgdmb.com/viewtopic.php?p=55805#55805',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=55805#p55805',
   },
   {
     name: 'Coward',
     author: 'Maxus',
-    link: 'http://tgdmb.com/viewtopic.php?p=55914#55914',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=55914#p55914',
   },
   ...['Legendary Wrestler', 'Master of Submissions'].map((element) => {
     return {
       name: element,
       author: 'Koumei',
-      link: 'http://tgdmb.com/viewtopic.php?p=57383#57383',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=57383#p57383',
     }
   }),
   {
     name: 'Tough as Nails [Combat]',
     author: 'Maxus',
-    link: 'http://tgdmb.com/viewtopic.php?p=62119#62119',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=62119#p62119',
   },
   ...['Deadly Aura [Combat]', 'Sky Scraper [Skill]'].map((element) => {
     return {
       name: element,
       author: 'Guyr Adamantine',
-      link: 'http://tgdmb.com/viewtopic.php?p=62439#62439',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=62439#p62439',
     }
   }),
   {
     name: 'Intelligent Fighter [Combat]',
     author: 'Maxus',
-    link: 'http://tgdmb.com/viewtopic.php?p=63307#63307',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=63307#p63307',
   },
   {
     name: 'Lifecrafter [Necromantic, Skill]',
     author: 'Maxus',
-    link: 'http://tgdmb.com/viewtopic.php?p=63313#63313',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=63313#p63313',
   },
   {
     name: 'Craft Magic [Skill]',
     author: 'Maxus',
-    link: 'http://tgdmb.com/viewtopic.php?p=63316#63316',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=63316#p63316',
   },
   {
     name: 'Painmonger [Skill]',
     author: 'Judging__Eagle',
-    link: 'http://tgdmb.com/viewtopic.php?p=63444#63444',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=63444#p63444',
   },
   {
     name: 'Parry-Master [Combat]',
     author: 'SunTzuWarmaster',
-    link: 'http://tgdmb.com/viewtopic.php?p=63819#63819',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=63819#p63819',
   },
   {
     name: 'Combat Casting [Skill]',
     author: 'Manxome',
-    link: 'http://tgdmb.com/viewtopic.php?p=64055#64055',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=64055#p64055',
   },
   ...[
     'Spell Focus [Metamagic]', 'Bottomless Magic [Metamagic]', 'Timeless Magic [Metamagic]',
@@ -317,105 +317,105 @@ export const scalingFeats: Entry[] = [
     return {
       name: element,
       author: 'Manxome',
-      link: 'http://tgdmb.com/viewtopic.php?p=67582#67582',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=67582#p67582',
     }
   }),
   {
     name: 'Spirit Pressure [Skill]',
     author: 'Guyr Adamantine',
-    link: 'http://tgdmb.com/viewtopic.php?p=65494#65494',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=65494#p65494',
   },
   {
     name: 'Sunderer',
     author: 'SunTzuWarmaster',
-    link: 'http://tgdmb.com/viewtopic.php?p=65536#65536',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=65536#p65536',
   },
   ...['Traceur [Skill]', 'Blind! [Skill]'].map((element) => {
     return {
       name: element,
       author: 'traverse',
-      link: 'http://tgdmb.com/viewtopic.php?p=79756#79756',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=79756#p79756',
     }
   }),
   ...['Walk of the Ninja [Skill, Balance]', 'Spring Crazy [Combat]'].map((element) => {
     return {
       name: element,
       author: 'Maxus',
-      link: 'http://tgdmb.com/viewtopic.php?p=79820#79820',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=79820#p79820',
     }
   }),
   ...['Alertness [Skill]', 'Blind Fighting [Combat]'].map((element) => {
     return {
       name: element,
       author: 'traverse',
-      link: 'http://tgdmb.com/viewtopic.php?p=79837#79837',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=79837#p79837',
     }
   }),
   {
     name: 'Shield Specialization',
     author: "Prak's player",
-    link: 'http://tgdmb.com/viewtopic.php?p=90337#90337',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=90337#p90337',
   },
   ...['Shieldbearer [Combat]', 'Light on Your Feet [Skill]'].map((element) => {
     return {
       name: element,
       author: 'TOZ',
-      link: 'http://tgdmb.com/viewtopic.php?p=90341#90341',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=90341#p90341',
     }
   }),
   {
     name: 'Weapon Focus [Combat]',
     author: 'TOZ',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=85915#85915',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=85915#p85915',
   },
   {
     name: 'Shieldbearer [Combat]',
     author: 'koz',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=85932#85932',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=85932#p85932',
   },
   {
     name: 'Pointy Stick Mastery [Combat]',
     author: 'Avoraciopoctules',
-    link: 'http://tgdmb.com/viewtopic.php?p=129055#129055',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=129055#p129055',
   },
   {
     name: 'Iajutsu [Combat]',
     author: 'Avoraciopoctules',
-    link: 'http://tgdmb.com/viewtopic.php?p=129066#129066',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=129066#p129066',
   },
   {
     name: 'Grimlock [Bloodline]',
     author: 'Avoraciopoctules',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=144261#144261',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=144261#p144261',
   },
   {
     name: 'Erinyes Blooded',
     author: 'Koumei',
-    link: 'http://tgdmb.com/viewtopic.php?p=40345#40345',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=40345#p40345',
   },
   {
     name: 'Daddy was a Doppelganger!',
     author: 'Maxus',
-    link: 'http://tgdmb.com/viewtopic.php?p=40347#40347',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=40347#p40347',
   },
   ...['Kyton Blooded', 'Hamatula Blooded'].map((name) => {
     return {
       name: name,
       author: 'Koumei',
-      link: 'http://tgdmb.com/viewtopic.php?p=40354#40354',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=40354#p40354',
     }
   }),
   ...['Vrock Blooded', 'Succubus Blooded'].map((name) => {
     return {
       name: name,
       author: 'Koumei',
-      link: 'http://tgdmb.com/viewtopic.php?p=40356#40356',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=40356#p40356',
     }
   }),
   {
     name: 'Ghaele Blooded',
     author: 'Koumei',
-    link: 'http://tgdmb.com/viewtopic.php?p=40357#40357',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=40357#p40357',
   },
   ...[
     'Lovecraftian [Bloodline]', 'Voldoistic [Bloodline]', 'Hellpunk [Bloodline]',
@@ -426,58 +426,58 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'JonSetanta',
-      link: 'http://tgdmb.com/viewtopic.php?p=40378#40378',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=40378#p40378',
     }
   }),
   {
     name: 'Blessing of Echidna',
     author: 'Avoraciopoctules',
-    link: 'http://tgdmb.com/viewtopic.php?p=147762#147762',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=147762#p147762',
   },
   ...['Babau Blooded', 'Balor Blooded', 'Bebilith Heritage',].map((name) => {
     return {
       name: name,
       author: 'Prak',
-      link: 'http://tgdmb.com/viewtopic.php?p=447148#447148',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=447148#p447148',
     }
   }),
   ...['Damned soul [Aura]', 'Evil Magnitude',].map((name) => {
     return {
       name: name,
       author: 'Prak',
-      link: 'http://tgdmb.com/viewtopic.php?p=157035#157035',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=157035#p157035',
     }
   }),
   {
     name: 'Evil McEvil',
     author: 'ubernoob',
-    link: 'http://tgdmb.com/viewtopic.php?p=157747#157747',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=157747#p157747',
   },
   ...['Hellscarred Ninja [Jutsu]', 'Elemental Shinobi [Jutsu]',].map((name) => {
     return {
       name: name,
       author: 'Koumei',
-      link: 'http://tgdmb.com/viewtopic.php?p=232651#232651',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=232651#p232651',
     }
   }),
   ...['Ghost Fist Ninja [Jutsu]', 'Ninja of the Mystic Paths [Jutsu]',].map((name) => {
     return {
       name: name,
       author: 'Koumei',
-      link: 'http://tgdmb.com/viewtopic.php?p=245106#245106',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=245106#p245106',
     }
   }),
   ...['Two-Handed Defence [Combat]', 'Galloping Grappler: [Combat]'].map((name) => {
     return {
       name: name,
       author: 'Koumei',
-      link: 'http://tgdmb.com/viewtopic.php?t=51157',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=51157',
     }
   }),
   {
     name: 'Active Defense [combat]',
     author: 'NoDot',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=55617#55617',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=55617#p55617',
   },
   ...[
     'Blood-Soaked Charger (Combat)', 'Improved Natural Weapons (Combat)', 'Arial Assault',
@@ -486,45 +486,45 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'Koumei',
-      link: 'http://tgdmb.com/viewtopic.php?p=40657#40657',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=40657#p40657',
     }
   }),
   ...['Evokation Focus', 'Conjuration Focus', 'Necromancy Focus'].map((name) => {
     return {
       name: name,
       author: 'Koumei',
-      link: 'http://tgdmb.com/viewtopic.php?p=40658#40658',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=40658#p40658',
     }
   }),
   {
     name: "Nature's Warrior",
     author: 'Koumei',
-    link: 'http://tgdmb.com/viewtopic.php?p=40660#40660',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=40660#p40660',
   },
   {
     name: "Eleven Testicles (Monstrous)",
     author: 'Koumei',
-    link: 'http://tgdmb.com/viewtopic.php?p=40671#40671',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=40671#p40671',
   },
   {
     name: "Weapon Throwing [Combat]",
     author: 'ckafrica',
-    link: 'http://tgdmb.com/viewtopic.php?p=48956#48956',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=48956#p48956',
   },
   {
     name: "Awesome Blow [Combat]",
     author: 'Wiseman',
-    link: 'http://www.tgdmb.com/viewtopic.php?t=53453',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=53453',
   },
   {
     name: "Awesome to Behold",
     author: 'Grek',
-    link: 'http://tgdmb.com/viewtopic.php?p=129743#129743',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=129743#p129743',
   },
   {
     name: "Awesome to Behold",
     author: 'IGTN',
-    link: 'http://tgdmb.com/viewtopic.php?p=129698#129698',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=129698#p129698',
   },
   ...[
     'Battle Mage', 'Master Healer', 'Master Summoner',
@@ -536,7 +536,7 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'Dominicius',
-      link: 'http://tgdmb.com/viewtopic.php?p=141814#141814',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=141814#p141814',
     }
   }),
   ...[
@@ -546,7 +546,7 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'Dominicius',
-      link: 'http://tgdmb.com/viewtopic.php?p=143329#143329',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=143329#p143329',
     }
   }),
   ...[
@@ -558,7 +558,7 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'Dominicius',
-      link: 'http://tgdmb.com/viewtopic.php?p=144722#144722',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=144722#p144722',
     }
   }),
   ...[
@@ -567,58 +567,58 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'Dominicius',
-      link: 'http://tgdmb.com/viewtopic.php?p=147041#147041',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=147041#p147041',
     }
   }),
   {
     name: "Initiation [Combat]",
     author: 'Dominicius',
-    link: 'http://tgdmb.com/viewtopic.php?p=232699#232699',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=232699#p232699',
   },
   {
     name: "Bladesong [Skill]",
     author: 'Calibron',
-    link: 'http://tgdmb.com/viewtopic.php?p=59937#59937',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=59937#p59937',
   },
   {
     name: "Bladesong [Skill]",
     author: 'fbmf',
-    link: 'http://tgdmb.com/viewtopic.php?p=59846#59846',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=59846#p59846',
   },
   {
     name: "Duelist [Combat]",
     author: 'CalibronXXX',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=35923#35923',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=35923#p35923',
   },
   {
     name: "Implacible Stride [Combat]",
     author: 'Prak',
-    link: 'http://tgdmb.com/viewtopic.php?p=145674#145674',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=145674#p145674',
   },
   {
     name: "Brutal Grappling",
     author: 'Archmage',
-    link: 'http://tgdmb.com/viewtopic.php?p=145681#145681',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=145681#p145681',
   },
   {
     name: "Mystic Dilettante [General]",
     author: 'Avoraciopoctules',
-    link: 'http://tgdmb.com/viewtopic.php?p=105883#105883',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=105883#p105883',
   },
   {
     name: "Remedial Martial Training",
     author: 'Yugo',
-    link: 'http://tgdmb.com/viewtopic.php?p=106997#106997',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=106997#p106997',
   },
   {
     name: "Mystic Dilettante [Knowledge]",
     author: 'TarkisFlux',
-    link: 'http://tgdmb.com/viewtopic.php?p=107276#107276',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=107276#p107276',
   },
   {
     name: "Mystic Dilettante [Skill]",
     author: 'Akula',
-    link: 'http://tgdmb.com/viewtopic.php?p=107359#107359',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=107359#p107359',
   },
   ...[
     'Pyromantic Dabbler', 'Casual Hexxer', 'Curative acolyte',
@@ -627,26 +627,26 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'Avoraciopoctules',
-      link: 'http://tgdmb.com/viewtopic.php?p=123574#123574',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=123574#p123574',
     }
   }),
   ...['Hopeless Necromantic', 'Magic Swordsman',].map((name) => {
     return {
       name: name,
       author: 'Avoraciopoctules',
-      link: 'http://tgdmb.com/viewtopic.php?p=132073#132073',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=132073#p132073',
     }
   }),
   {
     name: "Mystic Dilettante [Skill: Spellcraft]",
     author: 'Rejakor',
-    link: 'http://tgdmb.com/viewtopic.php?p=135088#135088',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=135088#p135088',
   },
   ...['Pixie Dance', 'Devil Pact',].map((name) => {
     return {
       name: name,
       author: 'Koumei',
-      link: 'http://tgdmb.com/viewtopic.php?p=107418#107418',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=107418#p107418',
     }
   }),
   ...[
@@ -660,7 +660,7 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'JonSetanta',
-      link: 'http://tgdmb.com/viewtopic.php?p=178050#178050',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=178050#p178050',
     }
   }),
   ...[
@@ -669,7 +669,7 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'JonSetanta',
-      link: 'http://tgdmb.com/viewtopic.php?p=178065#178065',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=178065#p178065',
     }
   }),
   ...[
@@ -678,18 +678,18 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'Koumei',
-      link: 'http://tgdmb.com/viewtopic.php?p=316182#316182',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=316182#p316182',
     }
   }),
   {
     name: "Chaos Ninja",
     author: 'Koumei',
-    link: 'http://tgdmb.com/viewtopic.php?p=316233#316233',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=316233#p316233',
   },
   {
     name: "Spells of the Spider Queen [Skill]",
     author: 'Koumei',
-    link: 'http://tgdmb.com/viewtopic.php?p=368770#368770',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=368770#p368770',
   },
   ...[
     'Olympic Thrower [Combat]', 'Deflect Arrows [Combat]', 'Ironhide [Combat]', 'Wolfpack Tactics [Combat]'
@@ -697,13 +697,13 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'PhaedrusXY',
-      link: 'http://tgdmb.com/viewtopic.php?p=133561#133561',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=133561#p133561',
     }
   }),
   {
     name: "Drop From Orbit [Skill]",
     author: 'Grek',
-    link: 'http://tgdmb.com/viewtopic.php?t=50897',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=50897',
   },
   ...[
     'Rending Claws [Combat]', 'Farspawn Tentacles [Combat]',
@@ -711,7 +711,7 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'koz',
-      link: 'http://tgdmb.com/viewtopic.php?p=73769#73769',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=73769#p73769',
     }
   }),
   ...[
@@ -720,13 +720,13 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'Calibron',
-      link: 'http://tgdmb.com/viewtopic.php?p=73822#73822',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=73822#p73822',
     }
   }),
   {
     name: 'Fey Goblin, Elf, Gnome, Troll, Merfolk [Fey]',
     author: 'JonSetanta',
-    link: 'http://tgdmb.com/viewtopic.php?p=177791#177791',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=177791#p177791',
   },
   ...[
     'Subtle Magic [Metamagic]', 'Seer [Metamagic]', 'War Mage [Metamagic]',
@@ -738,28 +738,28 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'virgil',
-      link: 'http://tgdmb.com/viewtopic.php?p=96821#96821',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=96821#p96821',
     }
   }),
   {
     name: 'Hurl Opponent',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=111474#111474',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=111474#p111474',
   },
   {
     name: 'Lance of Heaven and Earth [Combat]',
     author: 'koz',
-    link: 'http://tgdmb.com/viewtopic.php?t=50658',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=50658',
   },
   {
     name: 'Lance of Heaven and Earth [Combat]',
     author: 'Judging__Eagle',
-    link: 'http://tgdmb.com/viewtopic.php?p=129752#129752',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=129752#p129752',
   },
   {
     name: 'Lasher [Combat]',
     author: 'fbmf',
-    link: 'http://tgdmb.com/viewtopic.php?t=40816',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=40816',
   },
   ...[
     'Lord of Death [Necromantic] [Skill] [Leadership]', 'Tyrant [Skill] [Leadership]',
@@ -769,18 +769,18 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'virgil',
-      link: 'http://tgdmb.com/viewtopic.php?p=96821#96821',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=96821#p96821',
     }
   }),
   {
     name: 'Multi-Handed Fighting',
     author: 'CatharzGodfoot',
-    link: 'http://tgdmb.com/viewtopic.php?t=50816',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=50816',
   },
   {
     name: 'Psychic Hunter [Monstrous]',
     author: 'Quantumboost',
-    link: 'http://tgdmb.com/viewtopic.php?p=133239#133239',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=133239#p133239',
   },
   ...[
     {
@@ -863,7 +863,7 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'Red_Rob',
-      link: 'http://tgdmb.com/viewtopic.php?p=315829#315829',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=315829#p315829',
       wikiLink: wikiLink
     }
   }),
@@ -916,7 +916,7 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'Red_Rob',
-      link: 'http://tgdmb.com/viewtopic.php?p=315831#315831',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=315831#p315831',
       wikiLink: wikiLink
     }
   }),
@@ -957,7 +957,7 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'Red_Rob',
-      link: 'http://tgdmb.com/viewtopic.php?p=315832#315832',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=315832#p315832',
       wikiLink: wikiLink
     }
   }),
@@ -990,7 +990,7 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'Red_Rob',
-      link: 'http://tgdmb.com/viewtopic.php?p=315833#315833',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=315833#p315833',
       wikiLink: wikiLink
     }
   }),
@@ -998,15 +998,15 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'Red_Rob',
-      link: 'http://tgdmb.com/viewtopic.php?p=315834#315834',
-      relatedLinks: [{ title: 'Gadgeteer', link: 'http://www.tgdmb.com/viewtopic.php?p=245446#245446' }]
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=315834#p315834',
+      relatedLinks: [{ title: 'Gadgeteer', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=245446#p245446' }]
     }
   }),
   ...['Way of the Gun [Gunslinger]', 'Thousand Yard Stare [Gunslinger]', 'Executioner [Gunslinger]',].map((name) => {
     return {
       name: name,
       author: 'Red_Rob',
-      link: 'http://tgdmb.com/viewtopic.php?p=315834#315834',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=315834#p315834',
       relatedLinks: [{ title: 'Gunslinger', link: 'http://heroesofalvena.wikidot.com/gunslinger' }]
     }
   }),
@@ -1055,29 +1055,29 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'Red_Rob',
-      link: 'http://tgdmb.com/viewtopic.php?p=315836#315836',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=315836#p315836',
       wikiLink: wikiLink
     }
   }),
   {
     name: 'Unnatural Growth [Combat, Celestial, Elemental, Earth] [Fiend] [Monstrous]',
     author: 'Red_Rob',
-    link: 'http://tgdmb.com/viewtopic.php?p=315836#315836',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=315836#p315836',
   },
   {
     name: 'Diamond Cutter [Combat]',
     author: 'OgreBattle',
-    link: 'http://tgdmb.com/viewtopic.php?p=316680#316680',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=316680#p316680',
   },
   {
     name: 'Diamond Cutter [Combat]',
     author: 'Red_Rob',
-    link: 'http://tgdmb.com/viewtopic.php?p=316726#316726',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=316726#p316726',
   },
   {
     name: 'Bloodlust [Combat]',
     author: 'Wiseman',
-    link: 'http://tgdmb.com/viewtopic.php?p=447441#447441',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=447441#p447441',
   },
   ...[
     {
@@ -1204,7 +1204,7 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'Iaimeki',
-      link: 'http://www.tgdmb.com/viewtopic.php?p=29292#29292',
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=29292#p29292',
       wikiLink: wikiLink
     }
   }),
@@ -1212,18 +1212,18 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'CalibronXXX',
-      link: 'http://www.tgdmb.com/viewtopic.php?p=29337#29337',
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=29337#p29337',
     }
   }),
   {
     name: 'Stellar Oracle[Skill]',
     author: 'Avoraciopoctules',
-    link: 'http://tgdmb.com/viewtopic.php?t=51366',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=51366',
   },
   {
     name: 'Tornado Kick[Combat][Style]',
     author: 'Rejakor',
-    link: 'http://tgdmb.com/viewtopic.php?t=51034',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=51034',
   },
   ...[
     'Two-Hander [Combat]', 'Martial Artist [Combat]', 'Trick Shooting [Combat]',
@@ -1232,7 +1232,7 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'Citation Needed',
-      link: 'http://www.tgdmb.com/viewtopic.php?p=35903#35903',
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=35903#p35903',
     }
   }),
   ...[
@@ -1242,19 +1242,19 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'Koumei',
-      link: 'http://tgdmb.com/viewtopic.php?p=280502#280502',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=280502#p280502',
       relatedLinks: [{ title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },]
     }
   }),
   {
     name: 'Fell Magic[Necromantic, Metamagic]',
     author: 'Prak',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=381959#381959',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=381959#p381959',
   },
   {
     name: 'Two Minds About Everything',
     author: 'Prak',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=126529#126529',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=126529#p126529',
   },
   ...[
     'Acquire Familiar (Magic or Combat)', 'Sacrificial Mastery (Skill: Knowledge [Religion])'
@@ -1262,18 +1262,18 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'Prak',
-      link: 'http://www.tgdmb.com/viewtopic.php?p=39529#39529',
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=39529#p39529',
     }
   }),
   {
     name: 'Clockwork Armor User',
     author: 'Avoraciopoctules',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=97456#97456',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=97456#p97456',
   },
   {
     name: 'Snake Blooded(Combat)',
     author: 'Calibron',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=52024#52024',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=52024#p52024',
   },
   ...[
     'Battlecaster [ Metamagic]', 'Lord of The Thunders [Metamagic]', 'Master of Magic [Metamagic]',
@@ -1285,7 +1285,7 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'koz',
-      link: 'http://www.tgdmb.com/viewtopic.php?p=82499#82499',
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=82499#p82499',
     }
   }),
   ...[
@@ -1296,28 +1296,28 @@ export const scalingFeats: Entry[] = [
     return {
       name: name,
       author: 'Red_Rob',
-      link: 'http://www.tgdmb.com/viewtopic.php?p=354303#354303',
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=354303#p354303',
     }
   }),
   {
     name: 'Animal Companion [Skill]',
     author: 'AndreiChekov',
-    link: 'http://tgdmb.com/viewtopic.php?p=280238#280238',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=280238#p280238',
   },
   {
     name: 'Whip It Good [Combat]',
     author: 'Libertad',
-    link: 'http://tgdmb.com/viewtopic.php?p=274648#274648',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=274648#p274648',
   },
   {
     name: 'Skilled Lasher [Skill]',
     author: 'Koumei',
-    link: 'http://tgdmb.com/viewtopic.php?p=274720#274720',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=274720#p274720',
   },
   {
     name: 'Leap of the Heavens [Skill]',
     author: 'Libertad',
-    link: 'http://tgdmb.com/viewtopic.php?p=270017#270017',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=270017#p270017',
   },
   ...[
     'Necromaster [Spellcasting]', 'Death Seeker [Spellcasting]', 'Blood Knight [Combat] ',
@@ -1325,13 +1325,13 @@ export const scalingFeats: Entry[] = [
     return {
       name,
       author: 'Duke Flauros',
-      link: 'http://tgdmb.com/viewtopic.php?p=272144#272144',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=272144#p272144',
     }
   }),
   {
     name: 'Blood Knight [Combat]',
     author: 'Dominicius',
-    link: 'http://tgdmb.com/viewtopic.php?p=272967#272967',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=272967#p272967',
   },
   ...[
     'Detection', 'Finding', 'Handling', 'Healing', 'Hospitality', 'Making', 'Passage',
@@ -1340,18 +1340,18 @@ export const scalingFeats: Entry[] = [
     return {
       name: `Mark of ${name}`,
       author: 'Libertad',
-      link: 'http://tgdmb.com/viewtopic.php?p=249119#249119',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=249119#p249119',
     }
   }),
   {
     name: 'Terrifying Anger[Rage]',
     author: 'Prak',
-    link: 'http://tgdmb.com/viewtopic.php?p=40277#40277',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=40277#p40277',
   },
   {
     name: 'Raging Destroyer [Rage]',
     author: "Someone in Judging__Eagle's gaming group",
-    link: 'http://tgdmb.com/viewtopic.php?p=40278#40278',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=40278#p40278',
   },
   ...[
     'Mind Blade [Psionic]', 'Overchannel [Spellcaster]', 'Mind over Body [Skill]',
@@ -1359,18 +1359,18 @@ export const scalingFeats: Entry[] = [
     return {
       name,
       author: 'Count Arioch the 28th',
-      link: 'http://tgdmb.com/viewtopic.php?p=227819#227819',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=227819#p227819',
     }
   }),
   {
     name: 'Autohypnosis [Skill]',
     author: "Grek",
-    link: 'http://tgdmb.com/viewtopic.php?p=223494#223494',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=223494#p223494',
   },
   {
     name: 'Inertial Armor [Skill]',
     author: "RobbyPants",
-    link: 'http://tgdmb.com/viewtopic.php?p=187633#187633',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=187633#p187633',
   },
   ...[
     'Baatezu Legion [Fiend]', "Tanar'ri Horde [Fiend]", 'Yugoloth Guild [Fiend]',
@@ -1378,7 +1378,7 @@ export const scalingFeats: Entry[] = [
     return {
       name,
       author: 'JonSetanta',
-      link: 'http://tgdmb.com/viewtopic.php?p=176338#176338',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=176338#p176338',
     }
   }),
 ];

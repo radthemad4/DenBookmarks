@@ -6,60 +6,60 @@ export const prestigeClasses: PrestigeClassEntry[] = [
   {
     name: 'Arch-Golem Execution Girlfriend',
     author: "Koumei",
-    link: "http://tgdmb.com/viewtopic.php?p=141531#141531",
-    relatedLinks: [{ title: "Robot Girl", link: "http://tgdmb.com/viewtopic.php?t=50551" }],
+    link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141531#p141531",
+    relatedLinks: [{ title: "Robot Girl", link: "http://tgdmb.com/phpBB3/viewtopic.php?t=50551" }],
     minimumStartingLevel: 6,
   },
   {
     name: "Daineko",
     author: "Koumei",
-    link: "http://tgdmb.com/viewtopic.php?p=141532#141532",
+    link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141532#p141532",
     minimumStartingLevel: 6,
   },
   {
     name: "Web-Slinging Killer",
     author: "Koumei",
-    link: "http://tgdmb.com/viewtopic.php?p=141532#141532",
+    link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141532#p141532",
     minimumStartingLevel: 6,
   },
   {
     name: "Anethema",
     author: "Koumei",
-    link: "http://tgdmb.com/viewtopic.php?p=141534#141534",
+    link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141534#p141534",
     minimumStartingLevel: 8,
   },
   ...["Marilith/Lilend PrC", "Beauty Queen"].map((value, index) => {
     return {
       name: value,
       author: "Koumei",
-      link: "http://tgdmb.com/viewtopic.php?p=141535#141535",
+      link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141535#p141535",
       minimumStartingLevel: 6,
     }
   }),
   {
     name: "Overgrown",
     author: "Koumei",
-    link: "http://tgdmb.com/viewtopic.php?p=141534#141534",
+    link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141534#p141534",
     minimumStartingLevel: 6,
   },
   {
     name: "Irikara Heretic",
     author: "AndreiChekov",
-    link: "http://tgdmb.com/viewtopic.php?p=439047#439047",
+    link: "http://tgdmb.com/phpBB3/viewtopic.php?p=439047#p439047",
     minimumStartingLevel: 6,
   },
   ...['Fearless Rescuer', 'Scholar of Ancient Lore', 'Explorer of the Deep', 'Agent of Shadows', 'Great Healer'].map((value) => {
     return {
       name: value,
       author: 'Wiseman',
-      link: 'http://tgdmb.com/viewtopic.php?p=405124#405124',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=405124#p405124',
       minimumStartingLevel: 11,
     }
   }),
   {
     name: "Aquan Champion",
     author: "Judging__Eagle",
-    link: "http://tgdmb.com/viewtopic.php?p=38986#38986",
+    link: "http://tgdmb.com/phpBB3/viewtopic.php?p=38986#p38986",
     minimumStartingLevel: 6,
   },
   ...[
@@ -102,7 +102,7 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     return {
       name: element.name,
       author: "Frank and K",
-      link: 'https://www.tgdmb.com/viewtopic.php?p=34249#34249',
+      link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=34249#p34249',
       wikiLink: element.link,
       minimumStartingLevel: element.minimumStartingLevel,
     }
@@ -147,7 +147,7 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     return {
       name: element.name,
       author: "Frank and K",
-      link: 'https://www.tgdmb.com/viewtopic.php?p=34250#34250',
+      link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=34250#p34250',
       wikiLink: element.link,
       minimumStartingLevel: element.minimumStartingLevel,
     }
@@ -156,7 +156,7 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     return {
       name: "Soul Merchant",
       author: "Frank and K",
-      link: 'https://www.tgdmb.com/viewtopic.php?p=34250#34250',
+      link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=34250#p34250',
       wikiLink: "https://dnd-wiki.org/wiki/Soul_Merchant_(3.5e_Prestige_Class)",
       minimumStartingLevel: minimumStartingLevel,
       note: <span><a href='https://dnd-wiki.org/wiki/Summoner_(3.5e_Class)'>Tome Summoners</a> can enter at 9</span>
@@ -194,7 +194,7 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     return {
       name: element.name,
       author: 'Frank and K',
-      link: 'http://www.tgdmb.com/viewtopic.php?p=28830#28830',
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=28830#p28830',
       wikiLink: element.wikiLink,
       minimumStartingLevel: element.minimumStartingLevel
     }
@@ -240,7 +240,7 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     return {
       name: element.name,
       author: 'Frank and K',
-      link: 'http://www.tgdmb.com/viewtopic.php?p=28550#28550',
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=28550#p28550',
       wikiLink: element.wikiLink,
       minimumStartingLevel: element.minimumStartingLevel
     }
@@ -248,14 +248,14 @@ export const prestigeClasses: PrestigeClassEntry[] = [
   {
     name: 'Progenitor of the Gith',
     author: 'Frank and K',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=28553#28553',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=28553#p28553',
     wikiLink: 'https://dnd-wiki.org/wiki/Progenitor_of_the_Gith_(3.5e_Prestige_Class)',
     minimumStartingLevel: 5,
   },
   {
     name: 'Monitor',
     author: 'Frank and K',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=28553#28553',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=28553#p28553',
     wikiLink: 'https://dnd-wiki.org/wiki/Monitor_(3.5e_Prestige_Class)',
     minimumStartingLevel: 7,
   },
@@ -284,7 +284,7 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     return {
       name: element.name,
       author: 'Frank and K',
-      link: 'http://www.tgdmb.com/viewtopic.php?p=33297#33297',
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=33297#p33297',
       wikiLink: element.wikiLink,
       minimumStartingLevel: element.minimumStartingLevel,
     }
@@ -299,16 +299,16 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     return {
       name: `${name} (Knight PrC)`,
       author: 'Koumei',
-      link: 'http://www.tgdmb.com/viewtopic.php?t=50018',
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=50018',
       relatedLinks: [{ title: 'Knight', link: 'https://dnd-wiki.org/wiki/Knight,_Tome_(3.5e_Class)' }],
       minimumStartingLevel: 11,
     }
   }),
   ...[
-    { name: 'Scaled Veteran of the Ages', link: 'http://www.tgdmb.com/viewtopic.php?p=109441#109441'},
-    { name: 'Arachne', link: 'http://tgdmb.com/viewtopic.php?p=546397#546397'},
-    { name: 'Knight of Pain', link: 'http://tgdmb.com/viewtopic.php?p=546397#546397'},
-    { name: 'Colony Champion', link: 'http://tgdmb.com/viewtopic.php?p=546473#546473'},
+    { name: 'Scaled Veteran of the Ages', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=109441#p109441'},
+    { name: 'Arachne', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=546397#p546397'},
+    { name: 'Knight of Pain', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=546397#p546397'},
+    { name: 'Colony Champion', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=546473#p546473'},
   ].map(({ name, link }) => {
     return {
       name: `${name} (Knight PrC)`,
@@ -326,7 +326,7 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     return {
       name: name,
       author: 'Iaimeki',
-      link: 'http://www.tgdmb.com/viewtopic.php?p=50446#50446',
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=50446#p50446',
       minimumStartingLevel: minimumStartingLevel
     }
   }),
@@ -341,26 +341,26 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     return {
       name: name,
       author: 'Iaimeki',
-      link: 'http://www.tgdmb.com/viewtopic.php?p=50378#50378',
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=50378#p50378',
       minimumStartingLevel: minimumStartingLevel
     }
   }),
   {
     name: 'Archanamach',
     author: 'Calibron',
-    link: 'http://tgdmb.com/viewtopic.php?t=48580',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=48580',
     minimumStartingLevel: 6,
   },
   {
     name: 'Beast Master',
     author: 'krusk',
-    link: 'http://tgdmb.com/viewtopic.php?t=57177',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=57177',
     minimumStartingLevel: 3,
   },
   {
     name: 'Berserker',
     author: 'CatharzGodfoot',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=170571#170571',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=170571#p170571',
     minimumStartingLevel: 5,
   },
   ...[
@@ -370,115 +370,115 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     return {
       name: name,
       author: 'Judging__Eagle',
-      link: 'http://www.tgdmb.com/viewtopic.php?t=48751',
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=48751',
       minimumStartingLevel: minimumStartingLevel
     };
   }),
   {
     name: 'Berzerker-Magus',
     author: 'Judging__Eagle',
-    link: 'http://tgdmb.com/viewtopic.php?t=39284',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=39284',
     minimumStartingLevel: 8,
   },
   {
     name: 'Big Boss',
     author: 'DSMatticus',
-    link: 'http://tgdmb.com/viewtopic.php?t=55892',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=55892',
     minimumStartingLevel: 6,
   },
   {
     name: 'Final Boss',
     author: 'Dean',
-    link: 'http://tgdmb.com/viewtopic.php?p=430870#430870',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=430870#p430870',
     minimumStartingLevel: 4,
   },
   {
     name: 'Staged Boss',
     author: 'DSMatticus',
-    link: 'http://tgdmb.com/viewtopic.php?p=431553#431553',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=431553#p431553',
   },
   {
     name: 'Ogre Mage',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=55676#55676',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=55676#p55676',
     minimumStartingLevel: 6,
   },
   {
     name: 'Meteor Ninja',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=55720#55720',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=55720#p55720',
     minimumStartingLevel: 6,
   },
   {
     name: 'Big Nob',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=55779#55779',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=55779#p55779',
     minimumStartingLevel: 7,
   },
   {
     name: 'Blade Fighter',
     author: 'Judging__Eagle',
-    link: 'http://www.tgdmb.com/viewtopic.php?t=48678',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=48678',
     minimumStartingLevel: 4,
   },
   {
     name: 'Scion of the Dying Embers',
     author: 'Wiseman',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=423212#423212',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=423212#p423212',
     minimumStartingLevel: 6,
   },
   {
     name: 'Executioner',
     author: 'Wiseman',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=423212#423212',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=423212#p423212',
     minimumStartingLevel: 6,
   },
   {
     name: 'Bone Acolyte of Chemosh',
     author: 'Wiseman',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=505060#505060',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=505060#p505060',
     minimumStartingLevel: 6,
   },
   {
     name: 'Knight of the Crown',
     author: 'Wiseman',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=505062#505062',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=505062#p505062',
     minimumStartingLevel: 6,
   },
   {
     name: 'Knight of the Rose',
     author: 'Wiseman',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=512349#512349',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=512349#p512349',
     minimumStartingLevel: 6,
   },
   {
     name: 'Tribal Shaman ',
     author: 'Wiseman',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=505108#505108',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=505108#p505108',
     minimumStartingLevel: 4,
   },
   {
     name: 'Knight of the Thorn',
     author: 'Wiseman',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=516858#516858',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=516858#p516858',
     minimumStartingLevel: 6,
   },
   {
     name: "Fire Ogre Paragon",
     author: "Wiseman",
-    link: "http://www.tgdmb.com/viewtopic.php?p=505818#505818",
+    link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=505818#p505818",
     minimumStartingLevel: 4,
   },
   {
     name: "Storm Ogre Paragon",
     author: "Wiseman",
-    link: "http://www.tgdmb.com/viewtopic.php?p=505820#505820",
+    link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=505820#p505820",
     minimumStartingLevel: 4,
   },
   {
     name: 'Champion of Koganusan',
     author: 'LR',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=293389#293389',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=293389#p293389',
     minimumStartingLevel: 6,
   },
   ...[
@@ -488,49 +488,49 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     return {
       name: name,
       author: 'Koumei',
-      link: 'http://www.tgdmb.com/viewtopic.php?p=104278#104278',
-      relatedLinks: [{ title: 'Sohei', link: 'http://www.tgdmb.com/viewtopic.php?t=50005' }],
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=104278#p104278',
+      relatedLinks: [{ title: 'Sohei', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=50005' }],
       minimumStartingLevel: minimumStartingLevel
     };
   }),
   {
     name: 'Arcane Strategist',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=293389#293389',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=293389#p293389',
     minimumStartingLevel: 6,
   },
   {
     name: 'Ninja Pirate(Old)',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=104278#104278',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=104278#p104278',
     minimumStartingLevel: 6,
     relatedLinks: [
-      { title: 'Ninja (Old)', link: 'http://www.tgdmb.com/viewtopic.php?t=50367' },
-      { title: 'Swashbuckler (Old)', link: 'http://www.tgdmb.com/viewtopic.php?t=50350' },
+      { title: 'Ninja (Old)', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=50367' },
+      { title: 'Swashbuckler (Old)', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=50350' },
     ]
   },
   {
     name: 'Chaos Sorcerer',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=104278#104278',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=104278#p104278',
     minimumStartingLevel: 6,
     relatedLinks: [
-      { title: 'Untamed Psychic', link: 'http://tgdmb.com/viewtopic.php?t=50979' },
+      { title: 'Untamed Psychic', link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=50979' },
     ]
   },
   {
     name: 'Mecha Pilot',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=104278#104278',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=104278#p104278',
     minimumStartingLevel: 5,
     relatedLinks: [
-      { title: 'Gadgeteer', link: 'http://tgdmb.com/viewtopic.php?p=245446#245446' },
+      { title: 'Gadgeteer', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=245446#p245446' },
     ]
   },
   {
     name: 'Glitch Pokemaster',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=144506#144506',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=144506#p144506',
     minimumStartingLevel: 8,
     relatedLinks: [
       {
@@ -546,43 +546,43 @@ export const prestigeClasses: PrestigeClassEntry[] = [
   {
     name: 'Door Opener',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=146758#146758',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=146758#p146758',
     minimumStartingLevel: 4,
   },
   {
     name: 'Witch of the Sparkling Heart',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=151315#151315',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=151315#p151315',
     minimumStartingLevel: 8,
   },
   {
     name: 'Vampire Count',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=151315#151315',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=151315#p151315',
     minimumStartingLevel: 6,
     relatedLinks: [{ title: 'Vampire Template', link: 'https://dnd-wiki.org/wiki/Vampire,_Tome_(3.5e_Template)' }]
   },
   {
     name: 'Initiate of Zod',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=168795#168795',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=168795#p168795',
     minimumStartingLevel: 6,
     relatedLinks: [{ title: 'Monk', link: 'https://dnd-wiki.org/wiki/Monk,_Tome_(3.5e_Class)' }]
   },
   {
     name: 'Jesus',
     author: "Koumei's friend who has no den account",
-    link: 'https://tgdmb.com/viewtopic.php?p=171313#171313',
+    link: 'https://tgdmb.com/phpBB3/viewtopic.php?p=171313#p171313',
     minimumStartingLevel: 6,
   },
   ...[
-    { name: 'Arachne (Old)', minimumStartingLevel: 8, relatedLinks: [{title:'Updated Version', link: 'http://tgdmb.com/viewtopic.php?p=546397#546397'}] },
+    { name: 'Arachne (Old)', minimumStartingLevel: 8, relatedLinks: [{title:'Updated Version', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=546397#p546397'}] },
     { name: 'Ocular Adept', minimumStartingLevel: 6 },
   ].map(({ name, minimumStartingLevel, relatedLinks }) => {
     return {
       name: name,
       author: 'Koumei',
-      link: 'http://tgdmb.com/viewtopic.php?p=479366#479366',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=479366#p479366',
       minimumStartingLevel: minimumStartingLevel,
       relatedLinks
     };
@@ -594,7 +594,7 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     return {
       name: name,
       author: 'Koumei',
-      link: 'http://tgdmb.com/viewtopic.php?p=479372#479372',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=479372#p479372',
       minimumStartingLevel: minimumStartingLevel
     };
   }),
@@ -606,7 +606,7 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     return {
       name: name,
       author: 'Koumei',
-      link: 'http://tgdmb.com/viewtopic.php?p=479378#479378',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=479378#p479378',
       minimumStartingLevel: minimumStartingLevel
     };
   }),
@@ -618,63 +618,63 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     return {
       name: name,
       author: 'Koumei',
-      link: 'https://www.tgdmb.com/viewtopic.php?p=479451#479451',
+      link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=479451#p479451',
       minimumStartingLevel: minimumStartingLevel
     };
   }),
   {
     name: 'Wraith Hurler',
     author: 'Koumei',
-    link: 'https://www.tgdmb.com/viewtopic.php?p=314046#314046',
+    link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=314046#p314046',
     minimumStartingLevel: 6
   },
   {
     name: 'Demon Blade',
     author: 'Koumei',
-    link: 'https://www.tgdmb.com/viewtopic.php?p=314260#314260',
+    link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?p=314260#p314260',
     minimumStartingLevel: 6,
     relatedLinks: [{ title: 'Soldier', link: 'https://dnd-wiki.org/wiki/Soldier,_Tome_(3.5e_Class)' }]
   },
   {
     name: 'Death Knight',
     author: 'Judging__Eagle',
-    link: 'http://www.tgdmb.com/viewtopic.php?t=49246',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=49246',
     minimumStartingLevel: 6,
   },
   {
     name: 'Game Hunter',
     author: 'God_of_Awesome',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=148040#148040',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=148040#p148040',
     minimumStartingLevel: 6,
   },
   {
     name: 'Death Poacher',
     author: 'God_of_Awesome',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=149177#149177',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=149177#p149177',
     minimumStartingLevel: 2,
   },
   {
     name: 'Master of the Nine',
     author: 'krusk',
-    link: 'http://tgdmb.com/viewtopic.php?p=524466#524466',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=524466#p524466',
     minimumStartingLevel: 6,
   },
   {
     name: 'Distressing Damsel',
     author: 'Koumei',
-    link: 'http://tgdmb.com/viewtopic.php?t=55029',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=55029',
     minimumStartingLevel: 6,
   },
   {
     name: 'Driller',
     author: 'shirak',
-    link: 'http://tgdmb.com/viewtopic.php?t=51078',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=51078',
     minimumStartingLevel: 6,
   },
   {
     name: 'Drunken Master',
     author: 'Maxus',
-    link: 'http://tgdmb.com/viewtopic.php?p=60053#60053',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=60053#p60053',
     wikiLink: 'https://dnd-wiki.org/wiki/Drunken_Master,_Tome_(3.5e_Prestige_Class)',
     minimumStartingLevel: 6,
   },
@@ -685,8 +685,8 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     minimumStartingLevel: 4,
   },
   ...[
-    { name: 'Shadow Siphon', link: 'http://tgdmb.com/viewtopic.php?p=154018#154018' },
-    { name: 'Ethereal Siphon', link: 'http://tgdmb.com/viewtopic.php?p=449214#449214' },
+    { name: 'Shadow Siphon', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=154018#p154018' },
+    { name: 'Ethereal Siphon', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=449214#p449214' },
   ].map(({ name, link }) => {
     return {
       name: name,
@@ -694,32 +694,32 @@ export const prestigeClasses: PrestigeClassEntry[] = [
       link: link,
       minimumStartingLevel: 11,
       relatedLinks: [
-        { title: 'Elemental Siphon', link: 'http://tgdmb.com/viewtopic.php?p=154017#154017' },
+        { title: 'Elemental Siphon', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=154017#p154017' },
       ]
     }
   }),
   {
     name: 'Endbringer',
     author: 'Dominicius',
-    link: 'http://tgdmb.com/viewtopic.php?p=227152',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=227152',
     minimumStartingLevel: 16,
   },
   {
     name: 'Endbringer',
     author: 'Prak',
-    link: 'http://tgdmb.com/viewtopic.php?p=225917#225917',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=225917#p225917',
     minimumStartingLevel: 6,
   },
   {
     name: 'Spectre Knight',
     author: 'Maxus',
-    link: 'http://tgdmb.com/viewtopic.php?p=450316#450316',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=450316#p450316',
     minimumStartingLevel: 6
   },
   {
     name: 'Treasure Knight',
     author: 'Maxus',
-    link: 'http://tgdmb.com/viewtopic.php?p=450455#450455',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=450455#p450455',
     minimumStartingLevel: 6
   },
   ...[
@@ -731,83 +731,83 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     return {
       name: name,
       author: 'Koumei',
-      link: 'http://www.tgdmb.com/viewtopic.php?p=105399#105399',
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=105399#p105399',
       minimumStartingLevel: minimumStartingLevel
     };
   }),
   {
     name: 'Gentle Monk',
     author: 'Maxus',
-    link: 'http://tgdmb.com/viewtopic.php?t=49163',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=49163',
     minimumStartingLevel: 7
   },
   {
     name: 'Giant Frog (Knight PrC)',
     author: 'CatharzGodfoot',
-    link: 'http://tgdmb.com/viewtopic.php?t=51001',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=51001',
     relatedLinks: [{ title: 'Knight', link: 'https://dnd-wiki.org/wiki/Knight,_Tome_(3.5e_Class)' }],
     minimumStartingLevel: 11,
   },
   {
     name: 'Hell Rider (Old)',
     author: 'Prak',
-    link: 'http://tgdmb.com/viewtopic.php?t=39601',
-    relatedLinks: [{ title: 'Revision', link: 'http://www.tgdmb.com/viewtopic.php?p=252006#252006' }],
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=39601',
+    relatedLinks: [{ title: 'Revision', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=252006#p252006' }],
     minimumStartingLevel: 6,
   },
   {
     name: 'Hell Rider Revised',
     author: 'Prak',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=252006#252006',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=252006#p252006',
     minimumStartingLevel: 6,
   },
   {
     name: 'Hergian',
     author: 'virgil',
-    link: 'http://tgdmb.com/viewtopic.php?t=48621',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=48621',
     minimumStartingLevel: 5,
   },
   {
     name: 'Invisible Blade',
     author: 'Brobdingnagian',
-    link: 'http://tgdmb.com/viewtopic.php?t=39224',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=39224',
     minimumStartingLevel: 4,
   },
   {
     name: 'Invisible Blade',
     author: 'CatharzGodfoot',
-    link: 'http://tgdmb.com/viewtopic.php?t=49221',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=49221',
     minimumStartingLevel: 5,
   },
   {
     name: 'Master of Chains',
     author: 'Maxus',
-    link: 'http://www.tgdmb.com/viewtopic.php?t=50184',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=50184',
     minimumStartingLevel: 6,
   },
   {
     name: 'Master Thrower',
     author: 'Judging__Eagle',
-    link: 'http://tgdmb.com/viewtopic.php?t=39304',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=39304',
     minimumStartingLevel: 5,
   },
   ...koumeiMonsterPrcs,
   {
     name: 'Monster Rider',
     author: 'Judging__Eagle',
-    link: 'http://tgdmb.com/viewtopic.php?t=49075',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=49075',
     minimumStartingLevel: 6,
   },
   {
     name: 'Multi-class',
     author: 'RobbyPants',
-    link: 'http://www.tgdmb.com/viewtopic.php?t=57197',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=57197',
     minimumStartingLevel: 6,
   },
   {
     name: 'Mummy Lord',
     author: 'Maxus',
-    link: 'http://tgdmb.com/viewtopic.php?p=86959#86959',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=86959#p86959',
     wikiLinks: [
       { title: 'Mummy Template', link: 'https://dnd-wiki.org/wiki/Mummy_(3.5e_Template)' },
       { title: 'Mummy Paragon', link: 'https://dnd-wiki.org/wiki/Mummy_Paragon_(3.5e_Racial_Paragon_Class)' },
@@ -818,191 +818,191 @@ export const prestigeClasses: PrestigeClassEntry[] = [
   {
     name: 'Ninja-Pirate',
     author: 'Koumei',
-    link: 'http://tgdmb.com/viewtopic.php?p=232679#232679',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=232679#p232679',
     minimumStartingLevel: 6,
     relatedLinks: [
-      { title: 'Ninja', link: 'http://tgdmb.com/viewtopic.php?p=232386#232386' },
-      { title: 'Swashbuckler', link: 'http://tgdmb.com/viewtopic.php?p=232624#232624' },
+      { title: 'Ninja', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=232386#p232386' },
+      { title: 'Swashbuckler', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=232624#p232624' },
     ]
   },
   {
     name: 'Mystic Ninja of the Shadow Veil Sacred Path',
     author: 'Koumei',
-    link: 'http://tgdmb.com/viewtopic.php?p=245106#245106',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=245106#p245106',
     minimumStartingLevel: 7,
     relatedLinks: [
-      { title: 'Ninja', link: 'http://tgdmb.com/viewtopic.php?p=232386#232386' },
+      { title: 'Ninja', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=232386#p232386' },
     ]
   },
   {
     name: 'Mystic Theurge',
     author: 'Leress',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=53291#53291',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=53291#p53291',
     minimumStartingLevel: 7,
   },
   {
     name: 'Naga Apostle (evil Rainbow Servant variant)',
     author: 'PhaedrusXY',
-    link: 'http://tgdmb.com/viewtopic.php?t=50751',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=50751',
     minimumStartingLevel: 6,
   },
   {
     name: 'Nightstalker',
     author: 'Wiseman',
-    link: 'http://tgdmb.com/viewtopic.php?t=55828',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=55828',
     minimumStartingLevel: 6,
   },
   {
     name: 'Void Witch',
     author: 'Koumei',
-    link: 'http://tgdmb.com/viewtopic.php?p=131636#131636',
-    relatedLinks: [{ title: 'Shadow Caster', link: 'http://tgdmb.com/viewtopic.php?p=127294#127294' }],
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=131636#p131636',
+    relatedLinks: [{ title: 'Shadow Caster', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=127294#p127294' }],
     minimumStartingLevel: 8,
   },
   {
     name: 'Perfect Minion',
     author: 'Koumei',
-    link: 'http://tgdmb.com/viewtopic.php?p=316687#316687',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=316687#p316687',
     minimumStartingLevel: 2,
-    relatedLinks: [{ title: 'Lord of Minions', link: 'http://tgdmb.com/viewtopic.php?p=317384#317384' }]
+    relatedLinks: [{ title: 'Lord of Minions', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=317384#p317384' }]
   },
   {
     name: 'Performer',
     author: 'Judging__Eagle',
-    link: 'http://tgdmb.com/viewtopic.php?t=50540',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=50540',
     minimumStartingLevel: 6,
   },
   ...['Reaping Mauler', 'Pure Brawler'].map((name) => {
     return {
       name: name,
       author: 'Koumei',
-      link: 'http://tgdmb.com/viewtopic.php?t=51157',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=51157',
       minimumStartingLevel: 6,
     }
   }),
   {
     name: 'Sanctum Mage',
     author: 'Judging__Eagle',
-    link: 'http://tgdmb.com/viewtopic.php?t=39133',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=39133',
     minimumStartingLevel: 11,
   },
   {
     name: 'Rune Knight',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=154716#154716',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=154716#p154716',
     minimumStartingLevel: 6,
   },
   {
     name: 'Divine Comedian',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=162657#162657',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=162657#p162657',
     minimumStartingLevel: 6,
     relatedLinks: [
-      { title: 'Angel', link: 'http://www.tgdmb.com/viewtopic.php?p=154675#154675' },
+      { title: 'Angel', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=154675#p154675' },
       { title: 'Jester', link: 'https://dnd-wiki.org/wiki/Jester_(3.5e_Class)' },
     ]
   },
   {
     name: 'Straight-Edge Vegan',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=162657#162657',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=162657#p162657',
     minimumStartingLevel: 6,
   },
   {
     name: 'Your Mum',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=162662#162662',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=162662#p162662',
     minimumStartingLevel: 6,
   },
   {
     name: 'Hell Warden',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=163970#163970',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=163970#p163970',
     minimumStartingLevel: 6,
   },
   {
     name: 'Rockstar',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=176146#176146',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=176146#p176146',
     minimumStartingLevel: 6,
   },
   {
     name: 'Haunted Armour (Knight PrC)',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=179431#179431',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=179431#p179431',
     minimumStartingLevel: 11,
     relatedLinks: [{ title: 'Knight', link: 'https://dnd-wiki.org/wiki/Knight,_Tome_(3.5e_Class)' }]
   },
   {
     name: 'Bear Cavalry',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=179432#179432',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=179432#p179432',
     minimumStartingLevel: 11,
     relatedLinks: [{ title: 'Knight', link: 'https://dnd-wiki.org/wiki/Knight,_Tome_(3.5e_Class)' }]
   },
   {
     name: 'Ice Queen / Sizzler (Prestige Class)',
     author: 'Josh_Kablack',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=226807#226807',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=226807#p226807',
     minimumStartingLevel: 6,
     relatedLinks: [
-      { title: 'Empusa', link: 'http://www.tgdmb.com/viewtopic.php?p=154675#154675' },
+      { title: 'Empusa', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=154675#p154675' },
       { title: 'Fire Mage', link: 'https://dnd-wiki.org/wiki/Fire_Mage_(3.5e_Class)' },
-      { title: 'Revised Fire Mage', link: 'http://tgdmb.com/viewtopic.php?t=52437' },
+      { title: 'Revised Fire Mage', link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=52437' },
       { title: 'Snowscaper', link: 'https://dnd-wiki.org/wiki/Snowscaper_(3.5e_Class)' },
     ]
   },
   {
     name: 'Prism Mage',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=227228#227228',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=227228#p227228',
     minimumStartingLevel: 6,
     relatedLinks: [
       { title: 'Fire Mage', link: 'https://dnd-wiki.org/wiki/Fire_Mage_(3.5e_Class)' },
-      { title: 'Revised Fire Mage', link: 'http://tgdmb.com/viewtopic.php?t=52437' },
+      { title: 'Revised Fire Mage', link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=52437' },
       { title: 'Snowscaper', link: 'https://dnd-wiki.org/wiki/Snowscaper_(3.5e_Class)' },
       { title: 'Green Mage', link: 'https://dnd-wiki.org/wiki/Green_Mage_(3.5e_Class)' },
-      { title: 'Revised Green Mage', link: 'http://tgdmb.com/viewtopic.php?t=52444' },
+      { title: 'Revised Green Mage', link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=52444' },
     ]
   },
   {
     name: 'Hero!',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=235956#235956',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=235956#p235956',
     minimumStartingLevel: 8,
   },
   {
     name: 'Delinquent',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=235956#235956',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=235956#p235956',
     minimumStartingLevel: 6,
   },
   {
     name: 'Aristocratic Demon',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=235956#235956',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=235956#p235956',
     minimumStartingLevel: 8,
   },
   {
     name: 'Fallen',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=235956#235956',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=235956#p235956',
     minimumStartingLevel: 6,
   },
   {
     name: 'Eternal Flame',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=236707#236707',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=236707#p236707',
     minimumStartingLevel: 16,
     relatedLinks: [
       { title: 'Fire Mage', link: 'https://dnd-wiki.org/wiki/Fire_Mage_(3.5e_Class)' },
-      { title: 'Revised Fire Mage', link: 'http://tgdmb.com/viewtopic.php?t=52437' },
+      { title: 'Revised Fire Mage', link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=52437' },
     ]
   },
   {
     name: 'Ice King/Queen',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=236736#236736',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=236736#p236736',
     minimumStartingLevel: 16,
     relatedLinks: [
       { title: 'Snowscaper', link: 'https://dnd-wiki.org/wiki/Snowscaper_(3.5e_Class)' },
@@ -1011,99 +1011,99 @@ export const prestigeClasses: PrestigeClassEntry[] = [
   {
     name: 'Cyclone Rider',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=236764#236764',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=236764#p236764',
     minimumStartingLevel: 16,
     relatedLinks: [
       { title: 'Green Mage', link: 'https://dnd-wiki.org/wiki/Green_Mage_(3.5e_Class)' },
-      { title: 'Revised Green Mage', link: 'http://tgdmb.com/viewtopic.php?t=52444' },
+      { title: 'Revised Green Mage', link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=52444' },
     ]
   },
   {
     name: 'Star Child',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=237179#237179',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=237179#p237179',
     minimumStartingLevel: 16,
-    relatedLinks: [{ title: 'Star Mage', link: 'http://www.tgdmb.com/viewtopic.php?p=154965#154965' },]
+    relatedLinks: [{ title: 'Star Mage', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=154965#p154965' },]
   },
   {
     name: 'Shadowdancer',
     author: 'Surgo',
     link: 'https://dnd-wiki.org/wiki/Shadowdancer,_Tome_(3.5e_Prestige_Class)',
-    relatedLinks: [{ title: 'Thread', link: 'http://www.tgdmb.com/viewtopic.php?t=50008' }],
+    relatedLinks: [{ title: 'Thread', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=50008' }],
     minimumStartingLevel: 6,
   },
   {
     name: 'Son of Sparda',
     author: 'Manxome',
-    link: 'http://tgdmb.com/viewtopic.php?t=48999',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=48999',
     minimumStartingLevel: 6,
   },
   {
     name: 'Soul Bound',
     author: 'Cielingcat',
-    link: 'http://tgdmb.com/viewtopic.php?t=50583',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=50583',
     minimumStartingLevel: 6,
   },
   {
     name: 'Spellherd',
     author: 'Vebyast',
-    link: 'http://tgdmb.com/viewtopic.php?t=51103',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=51103',
     minimumStartingLevel: 8,
   },
   {
     name: 'Spirit Wave Disciple',
     author: 'Maxus',
-    link: 'http://tgdmb.com/viewtopic.php?t=49172',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=49172',
     minimumStartingLevel: 6,
   },
   {
     name: 'War-arach/Spider-Sworn (3.5 Warlock)',
     author: 'Prak',
-    link: 'http://tgdmb.com/viewtopic.php?t=51145',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=51145',
     minimumStartingLevel: 6,
   },
   {
     name: 'War-arach/Spider-Sworn (Spherelock)',
     author: 'Prak',
-    link: 'http://tgdmb.com/viewtopic.php?p=382776#382776',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=382776#p382776',
     minimumStartingLevel: 6,
     relatedLinks: [
-      { title: 'Warlock (Spherelock)', link: 'http://www.tgdmb.com/viewtopic.php?p=40229#40229' },
+      { title: 'Warlock (Spherelock)', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=40229#p40229' },
       { title: 'wiki', link: 'https://dnd-wiki.org/wiki/Warlock_(3.5e_Class)' }
     ]
   },
   {
     name: 'Cheater of Logistics',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=339159#339159',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=339159#p339159',
     minimumStartingLevel: 6,
-    relatedLinks: [{ title: 'Warmage', link: 'http://www.tgdmb.com/viewtopic.php?p=338594#338594' },]
+    relatedLinks: [{ title: 'Warmage', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=338594#p338594' },]
   },
   {
     name: 'Wizard of High Sorcery',
     author: 'Neurosis',
-    link: 'http://tgdmb.com/viewtopic.php?t=56588',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=56588',
     minimumStartingLevel: 6,
   },
   ...[
     {
       name: 'Burst Trainer',
-      link: 'http://tgdmb.com/viewtopic.php?p=280615#280615',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=280615#p280615',
       minimumStartingLevel: 6,
     },
     {
       name: 'Pokeranger',
-      link: 'http://tgdmb.com/viewtopic.php?p=282018#282018',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=282018#p282018',
       minimumStartingLevel: 8,
     },
     {
       name: 'Move Tutor',
-      link: 'http://tgdmb.com/viewtopic.php?p=284086#284086',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=284086#p284086',
       minimumStartingLevel: 6,
     },
     {
       name: 'Team Rocket Executive',
-      link: 'http://tgdmb.com/viewtopic.php?p=285695#285695',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=285695#p285695',
       minimumStartingLevel: 8,
     },
   ].map(({ name, link, minimumStartingLevel }) => {
@@ -1118,154 +1118,154 @@ export const prestigeClasses: PrestigeClassEntry[] = [
   {
     name: 'Undying Mercenary',
     author: 'Prak',
-    link: 'http://tgdmb.com/viewtopic.php?p=374108#374108',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=374108#p374108',
     minimumStartingLevel: 5,
   },
   {
     name: 'Net of the Pirate Kings',
     author: 'Prak',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=169157#169157',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=169157#p169157',
     minimumStartingLevel: 6,
   },
   {
     name: 'Blood Knight',
     author: 'Prak',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=211833#211833',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=211833#p211833',
     minimumStartingLevel: 6,
   },
   {
     name: 'Green Queen',
     author: 'Prak',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=244767#244767',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=244767#p244767',
     minimumStartingLevel: 6,
   },
   {
     name: 'Ponyweaver',
     author: 'Prak',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=252212#252212',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=252212#p252212',
     minimumStartingLevel: 6,
   },
   {
     name: 'Hulking Berserker',
     author: 'Prak',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=273006#273006',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=273006#p273006',
     minimumStartingLevel: 8,
   },
   {
     name: 'Soulknight',
     author: 'Prak',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=378275#378275',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=378275#p378275',
     minimumStartingLevel: 6,
   },
   {
     name: 'Abyssal Lyricist',
     author: 'Prak',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=388624#388624',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=388624#p388624',
     minimumStartingLevel: 6,
   },
   {
     name: 'Magical Warrior',
     author: 'Prak',
-    link: 'http://tgdmb.com/viewtopic.php?p=383896#383896',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=383896#p383896',
     minimumStartingLevel: 6,
   },
   {
     name: 'Negative Energy Infused',
     author: 'Prak',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=162302#162302',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=162302#p162302',
     minimumStartingLevel: 8,
   },
   {
     name: 'Swarmshifter',
     author: 'Prak',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=162382#162382',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=162382#p162382',
     minimumStartingLevel: 1,
   },
   {
     name: 'True Name Nemesis',
     author: 'Prak',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=357946#357946',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=357946#p357946',
     minimumStartingLevel: 9,
   },
   {
     name: 'Final Boss',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/viewtopic.php?p=254951#254951',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=254951#p254951',
     minimumStartingLevel: 8,
   },
   {
     name: 'Master Trapper',
     author: 'Dominicius',
-    link: 'http://tgdmb.com/viewtopic.php?p=465970#465970',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=465970#p465970',
     minimumStartingLevel: 6,
   },
   {
     name: 'Aes Shee Noble',
     author: 'JonSetanta',
-    link: 'http://tgdmb.com/viewtopic.php?t=54773',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=54773',
     minimumStartingLevel: 6,
   },
   {
     name: 'Beast Totem Warrior',
     author: 'Red_Rob',
-    link: 'http://tgdmb.com/viewtopic.php?p=299846#299846',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=299846#p299846',
     minimumStartingLevel: 11,
   },
   {
     name: 'Wood Shaper',
     author: 'complains',
-    link: 'http://tgdmb.com/viewtopic.php?p=286076#286076',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=286076#p286076',
     minimumStartingLevel: 6,
   },
   ...['Werewolf', 'Vampire', 'Cambion', 'Nephilim', 'Sprite'].map((name) => {
     return {
       name: name,
       author: 'JonSetanta',
-      link: 'http://tgdmb.com/viewtopic.php?p=258529#258529',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=258529#p258529',
       minimumStartingLevel: 2,
     }
   }),
   {
     name: 'Werewolf',
     author: 'CatharzGodfoot',
-    link: 'http://tgdmb.com/viewtopic.php?p=258916#258916',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=258916#p258916',
     minimumStartingLevel: 2,
   },
   {
     name: 'Lord of Minions',
     author: 'Koumei, SunTzuWarmaster',
-    link: 'http://tgdmb.com/viewtopic.php?p=317384#317384',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=317384#p317384',
     minimumStartingLevel: 6,
-    relatedLinks: [{ title: 'Perfect Minion', link: 'http://tgdmb.com/viewtopic.php?p=316687#316687' }]
+    relatedLinks: [{ title: 'Perfect Minion', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=316687#p316687' }]
   },
   {
     name: 'Serpentine Transformist',
     author: 'Koumei',
-    link: 'http://tgdmb.com/viewtopic.php?p=317854#317854',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=317854#p317854',
     minimumStartingLevel: 1,
   },
   {
     name: 'Choker PrC: Strangler',
     author: 'downzorz',
-    link: 'http://tgdmb.com/viewtopic.php?p=318371#318371',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=318371#p318371',
     minimumStartingLevel: 4,
   },
   {
     name: 'Minotaur PrC: Dancing Bull',
     author: 'Koumei',
-    link: 'http://tgdmb.com/viewtopic.php?p=324384#324384',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=324384#p324384',
     minimumStartingLevel: 6,
   },
   {
     name: 'Gore Painter',
     author: 'Libertad',
-    link: 'http://tgdmb.com/viewtopic.php?p=250888#250888',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=250888#p250888',
     minimumStartingLevel: 6,
   },
   {
     name: 'Bane Knight (Knight PrC)',
     author: 'Midnight_v',
-    link: 'http://tgdmb.com/viewtopic.php?p=236588#236588',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=236588#p236588',
     relatedLinks: [{ title: 'Knight', link: 'https://dnd-wiki.org/wiki/Knight,_Tome_(3.5e_Class)' }],
     minimumStartingLevel: 11,
     note: 'Can be entered without being a Knight'
@@ -1277,14 +1277,14 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     return {
       name: name,
       author: 'Prak',
-      link: 'http://tgdmb.com/viewtopic.php?p=40277#40277',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=40277#p40277',
       minimumStartingLevel
     };
   }),
   {
     name: 'Blighter',
     author: '...You Lost Me',
-    link: 'http://tgdmb.com/viewtopic.php?p=205176#205176',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=205176#p205176',
     minimumStartingLevel: 6,
   },
   ...[
@@ -1308,14 +1308,14 @@ export const prestigeClasses: PrestigeClassEntry[] = [
     return {
       name,
       author: 'JonSetanta',
-      link: 'http://tgdmb.com/viewtopic.php?p=176338#176338',
+      link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=176338#p176338',
       minimumStartingLevel
     }
   }),
   {
     name: 'Knight of the Lily',
     author: 'Wiseman',
-    link: 'http://tgdmb.com/viewtopic.php?p=545784#545784',
+    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545784#p545784',
     minimumStartingLevel: 6,
   },
 ];

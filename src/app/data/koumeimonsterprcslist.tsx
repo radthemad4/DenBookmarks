@@ -4,12 +4,12 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
     ...[
         {
             name: 'Abeil Soldier PrC: Stormwing Champion',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=543836#543836',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543836#p543836',
             minimumStartingLevel: 8
         },
         ...[
-            { name: 'Memory Architect', link: 'http://www.tgdmb.com/viewtopic.php?p=543872#543872' },
-            { name: 'Flesh Sculptor', link: 'http://www.tgdmb.com/viewtopic.php?p=543876#543876' },
+            { name: 'Memory Architect', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543872#p543872' },
+            { name: 'Flesh Sculptor', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543876#p543876' },
         ].map(({ name, link }) => {
             return {
                 name: `Aboleth PrC: ${name}`,
@@ -19,13 +19,13 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: 'Abyssal Drake PrC: Abyssal Wyrm',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=543878#543878',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543878#p543878',
             minimumStartingLevel: 12
         },
         ...[
-            { name: 'Spellspinner', link: 'http://www.tgdmb.com/viewtopic.php?p=543880#543880' },
-            { name: 'Lord of the Flies', link: 'http://www.tgdmb.com/viewtopic.php?p=543887#543887' },
-            { name: 'Spider Queen', link: 'http://www.tgdmb.com/viewtopic.php?p=543892#543892' },
+            { name: 'Spellspinner', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543880#p543880' },
+            { name: 'Lord of the Flies', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543887#p543887' },
+            { name: 'Spider Queen', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543892#p543892' },
         ].map(({ name, link }) => {
             return {
                 name: `Aranea PrC: ${name}`,
@@ -35,37 +35,37 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: 'Archon: Hound Archon PrC: Heavenly Bloodhound',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=543909#543909',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543909#p543909',
             minimumStartingLevel: 7
         },
         {
             name: 'Archon: Justice Archon PrC: Retribution Archon',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=543911#543911',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543911#p543911',
             minimumStartingLevel: 8
         },
         {
             name: 'Archon: Sword Archon PrC: Blade of Justice',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=543915#543915',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543915#p543915',
             minimumStartingLevel: 13
         },
         {
             name: 'Archon: Warden Archon PrC: Paragon Guardian',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=543916#543916',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543916#p543916',
             minimumStartingLevel: 10
         },
         {
             name: 'Archon: Word Archon PrC: Ishim',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=543918#543918',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543918#p543918',
             minimumStartingLevel: 11
         },
         {
             name: 'Asura PrC: Righteous Avenger',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=543919#543919',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543919#p543919',
             minimumStartingLevel: 10
         },
         ...[
-            { name: 'Necrocrafter', link: 'http://www.tgdmb.com/viewtopic.php?p=543920#543920' },
-            { name: 'Herald of Kyuss', link: 'http://www.tgdmb.com/viewtopic.php?p=543921#543921' },
+            { name: 'Necrocrafter', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543920#p543920' },
+            { name: 'Herald of Kyuss', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543921#p543921' },
         ].map(({ name, link }) => {
             return {
                 name: `Avolakia PrC: ${name}`,
@@ -75,22 +75,22 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: 'Blackwing PrC: Sky Tyrant',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=543919#543919',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543919#p543919',
             minimumStartingLevel: 11
         },
         {
             name: 'Blink Dog PrC: Aspect of Sarama',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=543941#543941',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543941#p543941',
             minimumStartingLevel: 4
         },
         {
             name: 'Chuul PrC: Subterranean Stalker',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=543944#543944',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543944#p543944',
             minimumStartingLevel: 10
         },
         ...[
-            { name: 'Caper', link: 'http://www.tgdmb.com/viewtopic.php?p=543953#543953' },
-            { name: 'Resplendent Robe', link: 'http://www.tgdmb.com/viewtopic.php?p=543956#543956' },
+            { name: 'Caper', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543953#p543953' },
+            { name: 'Resplendent Robe', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543956#p543956' },
         ].map(({ name, link }) => {
             return {
                 name: `Cloaker PrC: ${name}`,
@@ -100,69 +100,69 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: 'Coatl PrC: Questing Coatl',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=543958#543958',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543958#p543958',
             minimumStartingLevel: 13
         },
         {
             name: 'Darkweaver PrC: Horror',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=543970#543970',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543970#p543970',
             minimumStartingLevel: 12
         },
         {
             name: 'Demon: Armanite PrC: Abyssal Siegebreaker',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=543971#543971',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543971#p543971',
             minimumStartingLevel: 9
         },
         {
             name: 'Demon: Arrow Demon PrC: Abyssal Archer',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=543972#543972',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543972#p543972',
             minimumStartingLevel: 9
         },
         {
             name: 'Demon: Babau PrC: Abyssal Marauder',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=543980#543980',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543980#p543980',
             minimumStartingLevel: 8
         },
         {
             name: 'Demon: Bulezau PrC: Horned Reaper',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=543981#543981',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543981#p543981',
             minimumStartingLevel: 11
         },
         {
             name: 'Demon: Chasme PrC: Infestation',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=543981#543981',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543981#p543981',
             minimumStartingLevel: 12
         },
         {
             name: 'Demon: Glabrezu PrC: Stranger Bearing Gifts',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=543983#543983',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=543983#p543983',
             minimumStartingLevel: 14
         },
         {
             name: 'Demon: Jovoc PrC: Karmic Corruptor',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544031#544031',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544031#p544031',
             minimumStartingLevel: 6
         },
         {
             name: 'Demon: Palrethee PrC: Burning Overlord',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544033#544033',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544033#p544033',
             minimumStartingLevel: 10
         },
         {
             name: 'Quasit PrC: Vile Familiar',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544035#544035',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544035#p544035',
             minimumStartingLevel: 4
         },
         {
             name: 'Demon: Shadow Demon PrC: Hidden Overlord',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544036#544036',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544036#p544036',
             minimumStartingLevel: 11
         },
         ...[
-            { name: 'Deceiver', link: 'http://www.tgdmb.com/viewtopic.php?p=544048#544048' },
-            { name: 'Bargainer', link: 'http://www.tgdmb.com/viewtopic.php?p=544051#544051' },
-            { name: 'Black Maiden', link: 'http://www.tgdmb.com/viewtopic.php?p=544063#544063' },
-            { name: 'Night Blade', link: 'http://www.tgdmb.com/viewtopic.php?p=544065#544065' },
+            { name: 'Deceiver', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544048#p544048' },
+            { name: 'Bargainer', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544051#p544051' },
+            { name: 'Black Maiden', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544063#p544063' },
+            { name: 'Night Blade', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544065#p544065' },
         ].map(({ name, link }) => {
             return {
                 name: `Demon: Succubus PrC: ${name}`,
@@ -172,32 +172,32 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: 'Demon: Uridezu PrC: Sneaky Rat',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544067#544067',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544067#p544067',
             minimumStartingLevel: 8
         },
         {
             name: 'Demon: Vrock PrC: Vile Dancer',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544071#544071',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544071#p544071',
             minimumStartingLevel: 11
         },
         {
             name: 'Desmodu PrC: Desmodu Warmaster',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544104#544104',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544104#p544104',
             minimumStartingLevel: 11
         },
         {
             name: 'Devil: Advespa PrC: Baatorian Swarmlord',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544105#544105',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544105#p544105',
             minimumStartingLevel: 7
         },
         {
             name: 'Devil: Amnizu PrC: Fugitive Hunter of Baator',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544105#544105',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544105#p544105',
             minimumStartingLevel: 9
         },
         ...[
-            { name: 'Baator Battle Captain', link: 'http://www.tgdmb.com/viewtopic.php?p=544111#544111' },
-            { name: 'Soul Handler', link: 'http://www.tgdmb.com/viewtopic.php?p=544112#544112' },
+            { name: 'Baator Battle Captain', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544111#p544111' },
+            { name: 'Soul Handler', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544112#p544112' },
         ].map(({ name, link }) => {
             return {
                 name: `Devil: Barbazu PrC: ${name}`,
@@ -207,18 +207,18 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: 'Devil: Brachina PrC: Aka Manah',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544119#544119',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544119#p544119',
             minimumStartingLevel: 13
         },
         {
             name: 'Devil: Dogai PrC: Third Party',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544122#544122',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544122#p544122',
             minimumStartingLevel: 13
         },
         ...[
-            { name: 'Erinyes Recruitment Specialist', link: 'http://www.tgdmb.com/viewtopic.php?p=544134#544134' },
-            { name: 'Fury of the Nine Hells', link: 'http://www.tgdmb.com/viewtopic.php?p=544135#544135' },
-            { name: 'Infernal Supervisor', link: 'http://www.tgdmb.com/viewtopic.php?p=544136#544136' },
+            { name: 'Erinyes Recruitment Specialist', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544134#p544134' },
+            { name: 'Fury of the Nine Hells', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544135#p544135' },
+            { name: 'Infernal Supervisor', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544136#p544136' },
         ].map(({ name, link }) => {
             return {
                 name: `Demon: Erinyes PrC: ${name}`,
@@ -228,27 +228,27 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: 'Devil: Excruciarch PrC: Painmaker',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544148#544148',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544148#p544148',
             minimumStartingLevel: 9
         },
         {
             name: 'Devil: Falxugon PrC: Pact Master',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544150#544150',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544150#p544150',
             minimumStartingLevel: 9
         },
         {
             name: 'Devil: Gelugon PrC: Canian Overlord',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544152#544152',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544152#p544152',
             minimumStartingLevel: 16
         },
         {
             name: 'Devil: Hamatula PrC: Master of the Spined Arts',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544171#544171',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544171#p544171',
             minimumStartingLevel: 13
         },
         ...[
-            { name: 'Sycophant', link: 'http://www.tgdmb.com/viewtopic.php?p=544172#544172' },
-            { name: 'Offering', link: 'http://www.tgdmb.com/viewtopic.php?p=544185#544185' },
+            { name: 'Sycophant', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544172#p544172' },
+            { name: 'Offering', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544185#p544185' },
         ].map(({ name, link }) => {
             return {
                 name: `Devil: Imp PrC: ${name}`,
@@ -257,8 +257,8 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             }
         }),
         ...[
-            { name: 'Hell Flayer', link: 'http://www.tgdmb.com/viewtopic.php?p=544188#544188' },
-            { name: 'Nightmare Warden', link: 'http://www.tgdmb.com/viewtopic.php?p=544189#544189' },
+            { name: 'Hell Flayer', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544188#p544188' },
+            { name: 'Nightmare Warden', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544189#p544189' },
         ].map(({ name, link }) => {
             return {
                 name: `Devil: Kyton PrC: ${name}`,
@@ -268,32 +268,32 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: 'Devil: Logokron PrC: Devil in the Details',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544204#544204',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544204#p544204',
             minimumStartingLevel: 16
         },
         {
             name: 'Devil: Narzugon PrC: Narzugon Lancer',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544205#544205',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544205#p544205',
             minimumStartingLevel: 8
         },
         {
             name: 'Devil: Orthon PrC: Infernal Weaponmaster',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544208#544208',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544208#p544208',
             minimumStartingLevel: 10
         },
         {
             name: 'Devil: Osyluth PrC: Stygian Overlord',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544210#544210',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544210#p544210',
             minimumStartingLevel: 11
         },
         {
             name: 'Dread Guard PrC: Angry Armour',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544221#544221',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544221#p544221',
             minimumStartingLevel: 5
         },
         ...[
-            { name: 'Tree Speaker', link: 'http://www.tgdmb.com/viewtopic.php?p=544222#544222' },
-            { name: 'Thorn Tree', link: 'http://www.tgdmb.com/viewtopic.php?p=544225#544225' },
+            { name: 'Tree Speaker', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544222#p544222' },
+            { name: 'Thorn Tree', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544225#p544225' },
         ].map(({ name, link }) => {
             return {
                 name: `Dryad PrC: ${name}`,
@@ -303,32 +303,32 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: 'Deva: Monadic PrC: Elemental Steward',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544229#544229',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544229#p544229',
             minimumStartingLevel: 14
         },
         {
             name: 'Deva: Movanic PrC: Worldly Dominion',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544229#544229',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544229#p544229',
             minimumStartingLevel: 11
         },
         {
             name: 'Eladrin: Bralani PrC: Hero of the Storm',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544238#544238',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544238#p544238',
             minimumStartingLevel: 9
         },
         {
             name: 'Eladrin: Courre PrC: Navi',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544238#544238',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544238#p544238',
             minimumStartingLevel: 6
         },
         {
             name: 'Eladrin: Firre PrC: Hashmallim ',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544288#544288',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544288#p544288',
             minimumStartingLevel: 15
         },
         ...[
-            { name: 'Chosen of the Inner Source', link: 'http://www.tgdmb.com/viewtopic.php?p=544290#544290' },
-            { name: 'Blade of Entropy', link: 'http://www.tgdmb.com/viewtopic.php?p=544292#544292' },
+            { name: 'Chosen of the Inner Source', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544290#p544290' },
+            { name: 'Blade of Entropy', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544292#p544292' },
         ].map(({ name, link }) => {
             return {
                 name: `Elemental: Small PrC: ${name}`,
@@ -338,22 +338,22 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: 'Eye of Fear and Flame PrC: Burning Terror',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544293#544293',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544293#p544293',
             minimumStartingLevel: 10
         },
         {
             name: 'Faerie Dragon PrC: Ancient Prankster',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544305#544305',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544305#p544305',
             minimumStartingLevel: 9
         },
         {
             name: 'Flame Snake: Lesser PrC: Life Burner',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544306#544306',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544306#p544306',
             minimumStartingLevel: 9
         },
         ...[
-            { name: 'Obsidian Gargoyle', link: 'http://www.tgdmb.com/viewtopic.php?p=544327#544327' },
-            { name: 'Continental Drifter', link: 'http://www.tgdmb.com/viewtopic.php?p=544328#544328' },
+            { name: 'Obsidian Gargoyle', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544327#p544327' },
+            { name: 'Continental Drifter', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544328#p544328' },
         ].map(({ name, link }) => {
             return {
                 name: `Gargoyle PrC: ${name}`,
@@ -363,22 +363,22 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: 'Genie: Dao PrC: Earthen Khan',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544346#544346',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544346#p544346',
             minimumStartingLevel: 9
         },
         {
             name: 'Genie: Djinni PrC: Djinn Sultan',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544347#544347',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544347#p544347',
             minimumStartingLevel: 8
         },
         {
             name: 'Genie: Efreeti PrC: Solar Overlord',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544352#544352',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544352#p544352',
             minimumStartingLevel: 11
         },
         ...[
-            { name: 'Harmonic Manifestation', link: 'http://www.tgdmb.com/viewtopic.php?p=544353#544353' },
-            { name: 'Full Genie Hero', link: 'http://www.tgdmb.com/viewtopic.php?p=544360#544360' },
+            { name: 'Harmonic Manifestation', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544353#p544353' },
+            { name: 'Full Genie Hero', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544360#p544360' },
         ].map(({ name, link }) => {
             return {
                 name: `Genie: Janni PrC: ${name}`,
@@ -388,22 +388,22 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: 'Genie: Khayal PrC: Malik',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544408#544408',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544408#p544408',
             minimumStartingLevel: 8
         },
         {
             name: 'Genie: Marid PrC: Rainmaker',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544411#544411',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544411#p544411',
             minimumStartingLevel: 11
         },
         {
             name: 'Genie: Qorrashi PrC: Blessing of the Blizzards',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544435#544435',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544435#p544435',
             minimumStartingLevel: 8
         },
         ...[
-            { name: 'Ghastly Ravager', link: 'http://www.tgdmb.com/viewtopic.php?p=544438#544438' },
-            { name: 'Ghoul Lord', link: 'http://www.tgdmb.com/viewtopic.php?p=544439#544439' },
+            { name: 'Ghastly Ravager', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544438#p544438' },
+            { name: 'Ghoul Lord', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544439#p544439' },
         ].map(({ name, link }) => {
             return {
                 name: `Ghoul: Ghast PrC: ${name}`,
@@ -413,67 +413,67 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: 'Giant: Fire Giant PrC: Magma King',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544445#544445',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544445#p544445',
             minimumStartingLevel: 12
         },
         {
             name: 'Giant: Frost Giant PrC: Frost Jarl',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544446#544446',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544446#p544446',
             minimumStartingLevel: 11
         },
         {
             name: 'Grimweird PrC: Withered Conjurer',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544469#544469',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544469#p544469',
             minimumStartingLevel: 13
         },
         {
             name: 'Guardinal: Avoral PrC: Heavenly Sky Hunter',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544478#544478',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544478#p544478',
             minimumStartingLevel: 11
         },
         {
             name: 'Guardinal: Cervidal PrC: Blessed of the Adamant Horn',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544490#544490',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544490#p544490',
             minimumStartingLevel: 5
         },
         {
             name: 'Guardinal: Leonal PrC: Celestial Lionheart',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544517#544517',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544517#p544517',
             minimumStartingLevel: 14
         },
         {
             name: 'Hag: Annis PrC: Dweller Within the Mere',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544520#544520',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544520#p544520',
             minimumStartingLevel: 8
         },
         {
             name: 'Hag: Dune PrC: Dweller Within the Wastes',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544524#544524',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544524#p544524',
             minimumStartingLevel: 6
         },
         {
             name: 'Hag: Green PrC: Dweller Within the Fen',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544526#544526',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544526#p544526',
             minimumStartingLevel: 7
         },
         {
             name: 'Hag: Marzana (Winter) PrC: Dweller Within the Frost',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544526#544526',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544526#p544526',
             minimumStartingLevel: 8
         },
         {
             name: 'Hag: Sea PrC: Dweller Within the Deep',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544565#544565',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544565#p544565',
             minimumStartingLevel: 6
         },
         {
             name: 'Hag: Shrieking PrC: Dweller Within the Mountains',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544566#544566',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544566#p544566',
             minimumStartingLevel: 12
         },
         ...[
-            { name: 'Harpy Archer', link: 'http://www.tgdmb.com/viewtopic.php?p=544571#544571' },
-            { name: 'Harpy Chord', link: 'http://www.tgdmb.com/viewtopic.php?p=544594#544594' },
+            { name: 'Harpy Archer', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544571#p544571' },
+            { name: 'Harpy Chord', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544594#p544594' },
         ].map(({ name, link }) => {
             return {
                 name: `Harpy PrC: ${name}`,
@@ -482,8 +482,8 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             }
         }),
         ...[
-            { name: 'Nessian Warhound', link: 'http://www.tgdmb.com/viewtopic.php?p=544596#544596' },
-            { name: 'Haraknin', link: 'http://www.tgdmb.com/viewtopic.php?p=544618#544618' },
+            { name: 'Nessian Warhound', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544596#p544596' },
+            { name: 'Haraknin', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544618#p544618' },
         ].map(({ name, link }) => {
             return {
                 name: `Hell Hound PrC: ${name}`,
@@ -493,58 +493,58 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: 'Hellwasp Swarm PrC: Swarm Within',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544666#544666',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544666#p544666',
             minimumStartingLevel: 11
         },
         {
             name: 'Inevitable: Kolyarut PrC: Enforcer of Oaths',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544704#544704',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544704#p544704',
             minimumStartingLevel: 14
         },
         {
             name: 'Inevitable: Zelekhut PrC: Enforcer of Justice',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544704#544704',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544704#p544704',
             minimumStartingLevel: 11
         },
         {
             name: 'Ironmaw PrC: Ferocious Flora',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544711#544711',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544711#p544711',
             minimumStartingLevel: 14
         },
         {
             name: 'Jackal Lord PrC: Jackal Baron',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544743#544743',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544743#p544743',
             minimumStartingLevel: 10
         },
         {
             name: 'Joystealer PrC: Heartless Prankster',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544744#544744',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544744#p544744',
             minimumStartingLevel: 8
         },
         {
             name: 'Lillend PrC: Divine Muse',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=544750#544750',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544750#p544750',
             minimumStartingLevel: 9
         },
         {
             name: 'Manticore PrC: Manticore Scout',
-            link: 'http://tgdmb.com/viewtopic.php?p=544769#544769',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544769#p544769',
             minimumStartingLevel: 7
         },
         {
             name: 'Marrash PrC: Blight of Yeenoghu',
-            link: 'http://tgdmb.com/viewtopic.php?p=544770#544770',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544770#p544770',
             minimumStartingLevel: 7
         },
         {
             name: 'Medusa PrC: Statue Collector',
-            link: 'http://tgdmb.com/viewtopic.php?p=544773#544773',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544773#p544773',
             minimumStartingLevel: 11
         },
         ...[
-            { name: "Sha'ir", link: 'http://tgdmb.com/viewtopic.php?p=544778#544778' },
-            { name: 'Elemental Master', link: 'http://tgdmb.com/viewtopic.php?p=544780#544780' },
-            { name: 'Mephit King', link: 'http://tgdmb.com/viewtopic.php?p=544781#544781' },
+            { name: "Sha'ir", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544778#p544778' },
+            { name: 'Elemental Master', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544780#p544780' },
+            { name: 'Mephit King', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544781#p544781' },
         ].map(({ name, link }) => {
             return {
                 name: `Mephit PrC: ${name}`,
@@ -553,8 +553,8 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             }
         }),
         ...[
-            { name: "Facsimile", link: 'http://tgdmb.com/viewtopic.php?p=544783#544783' },
-            { name: "Pandora's Box", link: 'http://tgdmb.com/viewtopic.php?p=544785#544785' },
+            { name: "Facsimile", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544783#p544783' },
+            { name: "Pandora's Box", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544785#p544785' },
         ].map(({ name, link }) => {
             return {
                 name: `Mimic PrC: ${name}`,
@@ -563,9 +563,9 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             }
         }),
         ...[
-            { name: "Far Realm Caller", link: 'http://tgdmb.com/viewtopic.php?p=544798#544798' },
-            { name: "Illithid Mastermind", link: 'http://tgdmb.com/viewtopic.php?p=544799#544799' },
-            { name: "Mind Owner", link: 'http://tgdmb.com/viewtopic.php?p=544800#544800' },
+            { name: "Far Realm Caller", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544798#p544798' },
+            { name: "Illithid Mastermind", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544799#p544799' },
+            { name: "Mind Owner", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544800#p544800' },
         ].map(({ name, link }) => {
             return {
                 name: `Mind Flayer PrC: ${name}`,
@@ -575,17 +575,17 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: 'Minotaur PrC: Maze Stalker',
-            link: 'http://tgdmb.com/viewtopic.php?p=544802#544802',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544802#p544802',
             minimumStartingLevel: 6
         },
         {
             name: 'Moon Dog PrC: Very Good Dog',
-            link: 'http://tgdmb.com/viewtopic.php?p=544803#544803',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544803#p544803',
             minimumStartingLevel: 14
         },
         ...[
-            { name: "Saboteur", link: 'http://tgdmb.com/viewtopic.php?p=544804#544804' },
-            { name: "Tide Master", link: 'http://tgdmb.com/viewtopic.php?p=544805#544805' },
+            { name: "Saboteur", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544804#p544804' },
+            { name: "Tide Master", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544805#p544805' },
         ].map(({ name, link }) => {
             return {
                 name: `Moonrat PrC: ${name}`,
@@ -594,8 +594,8 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             }
         }),
         ...[
-            { name: "Mummy Lord", link: 'http://tgdmb.com/viewtopic.php?p=544812#544812' },
-            { name: "Cursed One", link: 'http://tgdmb.com/viewtopic.php?p=547481#547481' },
+            { name: "Mummy Lord", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544812#p544812' },
+            { name: "Cursed One", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=547481#p547481' },
         ].map(({ name, link }) => {
             return {
                 name: `Mummy PrC: ${name}`,
@@ -605,37 +605,37 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: 'Myconid Sovereign PrC: Mushroom King',
-            link: 'http://tgdmb.com/viewtopic.php?p=544828#544828',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544828#p544828',
             minimumStartingLevel: 8
         },
         {
             name: 'Neogi: Adult PrC: Neogi Powermonger',
-            link: 'http://tgdmb.com/viewtopic.php?p=544847#544847',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544847#p544847',
             minimumStartingLevel: 6
         },
         {
             name: 'Nereid PrC: Oceanic Questor',
-            link: 'http://tgdmb.com/viewtopic.php?p=544852#544852',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544852#p544852',
             minimumStartingLevel: 6
         },
         {
             name: 'Nerra PrC: Sillit',
-            link: 'http://tgdmb.com/viewtopic.php?p=544872#544872',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544872#p544872',
             minimumStartingLevel: 9
         },
         {
             name: 'Nethersight Mastiff PrC: Astral Fang',
-            link: 'http://tgdmb.com/viewtopic.php?p=544883#544883',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544883#p544883',
             minimumStartingLevel: 10
         },
         {
             name: 'Night Hag PrC: Covey Countess',
-            link: 'http://tgdmb.com/viewtopic.php?p=544885#544885',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544885#p544885',
             minimumStartingLevel: 11
         },
         ...[
-            { name: "Cauchemare", link: 'http://tgdmb.com/viewtopic.php?p=544888#544888' },
-            { name: "Night Terror", link: 'http://tgdmb.com/viewtopic.php?p=544894#544894' },
+            { name: "Cauchemare", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544888#p544888' },
+            { name: "Night Terror", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544894#p544894' },
         ].map(({ name, link }) => {
             return {
                 name: `Nightmare PrC: ${name}`,
@@ -644,8 +644,8 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             }
         }),
         ...[
-            { name: "Summer Court Queen", link: 'http://tgdmb.com/viewtopic.php?p=544901#544901' },
-            { name: "Winter Court Queen", link: 'http://tgdmb.com/viewtopic.php?p=544902#544902' },
+            { name: "Summer Court Queen", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544901#p544901' },
+            { name: "Winter Court Queen", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544902#p544902' },
         ].map(({ name, link }) => {
             return {
                 name: `Nymph PrC: ${name}`,
@@ -655,77 +655,77 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: 'Ogre PrC: Creeping Mountain',
-            link: 'http://tgdmb.com/viewtopic.php?p=544907#544907',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544907#p544907',
             minimumStartingLevel: 4
         },
         {
             name: 'Ogre-Mage PrC: Taotieh',
-            link: 'http://tgdmb.com/viewtopic.php?p=544913#544913',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544913#p544913',
             minimumStartingLevel: 9
         },
         {
             name: 'Oread PrC: Mountain Whisperer',
-            link: 'http://tgdmb.com/viewtopic.php?p=544915#544915',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544915#p544915',
             minimumStartingLevel: 9
         },
         {
             name: 'Ormyrr PrC: Magic Seeker',
-            link: 'http://tgdmb.com/viewtopic.php?p=544925#544925',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544925#p544925',
             minimumStartingLevel: 8
         },
         {
             name: 'Formian: Taskmaster PrC: Conscriptor',
-            link: 'http://tgdmb.com/viewtopic.php?p=544928#544928',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544928#p544928',
             minimumStartingLevel: 9
         },
         {
             name: 'Formian: Myrmarch PrC: Agent of the Colony',
-            link: 'http://tgdmb.com/viewtopic.php?p=544929#544929',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544929#p544929',
             minimumStartingLevel: 12
         },
         {
             name: 'Pegasus PrC: Protector of Dreams',
-            link: 'http://tgdmb.com/viewtopic.php?p=544937#544937',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544937#p544937',
             minimumStartingLevel: 5
         },
         {
             name: 'Pixie PrC: Fairy Archer',
-            link: 'http://tgdmb.com/viewtopic.php?p=544943#544943',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544943#p544943',
             minimumStartingLevel: 6
         },
         {
             name: 'Rakshasa: Naityan PrC: Champion of Ravana',
-            link: 'http://tgdmb.com/viewtopic.php?p=544954#544954',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544954#p544954',
             minimumStartingLevel: 9
         },
         {
             name: 'Rakshasa: Naztharune PrC: Phantom Feline',
-            link: 'http://tgdmb.com/viewtopic.php?p=544958#544958',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544958#p544958',
             minimumStartingLevel: 13
         },
         {
             name: 'Reason Stealer PrC: Face Wearer',
-            link: 'http://tgdmb.com/viewtopic.php?p=544974#544974',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544974#p544974',
             minimumStartingLevel: 7
         },
         {
             name: 'Rejkar PrC: Great Goat God',
-            link: 'http://tgdmb.com/viewtopic.php?p=544976#544976',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544976#p544976',
             minimumStartingLevel: 7
         },
         {
             name: 'Rusalka PrC: Ice Sickle',
-            link: 'http://tgdmb.com/viewtopic.php?p=544977#544977',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544977#p544977',
             minimumStartingLevel: 3
         },
         {
             name: 'Awakened Porpoise PrC: Puppeteer',
-            link: 'http://tgdmb.com/viewtopic.php?p=544985#544985',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544985#p544985',
             minimumStartingLevel: 3
         },
         ...[
-            { name: "Harvester", link: 'http://tgdmb.com/viewtopic.php?p=544986#544986' },
-            { name: "Verdant Sage", link: 'http://tgdmb.com/viewtopic.php?p=544987#544987' },
+            { name: "Harvester", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544986#p544986' },
+            { name: "Verdant Sage", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544987#p544987' },
         ].map(({ name, link }) => {
             return {
                 name: `Awakened Tree (Huge) PrC: ${name}`,
@@ -735,17 +735,17 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: 'Saguaro Sentinel PrC: Warden of the Waste',
-            link: 'http://tgdmb.com/viewtopic.php?p=544988#544988',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544988#p544988',
             minimumStartingLevel: 11
         },
         {
             name: 'Salamander: Average PrC: Flameforger',
-            link: 'http://tgdmb.com/viewtopic.php?p=544989#544989',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544989#p544989',
             minimumStartingLevel: 8
         },
         ...[
-            { name: "Night Shark", link: 'http://tgdmb.com/viewtopic.php?p=544992#544992' },
-            { name: "Ocean Strike Leader", link: 'http://tgdmb.com/viewtopic.php?p=544993#544993' },
+            { name: "Night Shark", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544992#p544992' },
+            { name: "Ocean Strike Leader", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544993#p544993' },
         ].map(({ name, link }) => {
             return {
                 name: `Sahuagin PrC: ${name}`,
@@ -755,52 +755,52 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: 'Scyllan PrC: Sea Devil',
-            link: 'http://tgdmb.com/viewtopic.php?p=545006#545006',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545006#p545006',
             minimumStartingLevel: 16
         },
         {
             name: 'Shadow: Greater PrC: King of Shadows',
-            link: 'http://tgdmb.com/viewtopic.php?p=545010#545010',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545010#p545010',
             minimumStartingLevel: 10
         },
         {
             name: 'Shadow Mastiff PrC: Shadurakul',
-            link: 'http://tgdmb.com/viewtopic.php?p=545011#545011',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545011#p545011',
             minimumStartingLevel: 7
         },
         {
             name: 'Sirine PrC: Mind Changer',
-            link: 'http://tgdmb.com/viewtopic.php?p=545012#545012',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545012#p545012',
             minimumStartingLevel: 7
         },
         {
             name: 'Sisiutl PrC: Chosen of Winalagalis',
-            link: 'http://tgdmb.com/viewtopic.php?p=545023#545023',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545023#p545023',
             minimumStartingLevel: 11
         },
         {
             name: 'Skull Lord PrC: Unholy Trinity',
-            link: 'http://tgdmb.com/viewtopic.php?p=545025#545025',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545025#p545025',
             minimumStartingLevel: 9
         },
         {
             name: 'Slaad: Blue PrC: Battletoad',
-            link: 'http://tgdmb.com/viewtopic.php?p=545027#545027',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545027#p545027',
             minimumStartingLevel: 10
         },
         {
             name: 'Slaad: Green PrC: Giant Frog',
-            link: 'http://tgdmb.com/viewtopic.php?p=545028#545028',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545028#p545028',
             minimumStartingLevel: 11
         },
         {
             name: 'Slaad: Grey PrC: Death Slaad',
-            link: 'http://tgdmb.com/viewtopic.php?p=545029#545029',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545029#p545029',
             minimumStartingLevel: 12
         },
         ...[
-            { name: "Spectral Reaper", link: 'http://tgdmb.com/viewtopic.php?p=545030#545030' },
-            { name: "Soul Eater", link: 'http://tgdmb.com/viewtopic.php?p=545031#545031' },
+            { name: "Spectral Reaper", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545030#p545030' },
+            { name: "Soul Eater", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545031#p545031' },
         ].map(({ name, link }) => {
             return {
                 name: `Spectre PrC: ${name}`,
@@ -810,17 +810,17 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: 'Tengu: Human-Headed PrC: Kaze Mahoujin',
-            link: 'http://tgdmb.com/viewtopic.php?p=545063#545063',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545063#p545063',
             minimumStartingLevel: 7
         },
         {
             name: 'Thunderbird PrC: Stormbeak',
-            link: 'http://tgdmb.com/viewtopic.php?p=545064#545064',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545064#p545064',
             minimumStartingLevel: 16
         },
         ...[
-            { name: "World Changer", link: 'http://tgdmb.com/viewtopic.php?p=545071#545071' },
-            { name: "Flesh Hunter", link: 'http://tgdmb.com/viewtopic.php?p=545072#545072' },
+            { name: "World Changer", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545071#p545071' },
+            { name: "Flesh Hunter", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545072#p545072' },
         ].map(({ name, link }) => {
             return {
                 name: `Troll PrC: ${name}`,
@@ -830,37 +830,37 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: 'Ulgurstasta PrC: Death Crawler',
-            link: 'http://tgdmb.com/viewtopic.php?p=545083#545083',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545083#p545083',
             minimumStartingLevel: 14
         },
         {
             name: 'Unicorn PrC: Celestial Charger',
-            link: 'http://tgdmb.com/viewtopic.php?p=545085#545085',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545085#p545085',
             minimumStartingLevel: 5
         },
         {
             name: 'Urskan PrC: Ice Crusher',
-            link: 'http://tgdmb.com/viewtopic.php?p=545086#545086',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545086#p545086',
             minimumStartingLevel: 7
         },
         {
             name: 'Valkyrie PrC: Valhallan Champion',
-            link: 'http://tgdmb.com/viewtopic.php?p=545114#545114',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545114#p545114',
             minimumStartingLevel: 11
         },
         {
             name: 'Vine Horror PrC: Tangled Master',
-            link: 'http://tgdmb.com/viewtopic.php?p=545115#545115',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545115#p545115',
             minimumStartingLevel: 6
         },
         {
             name: 'Vorr PrC: Vultivor',
-            link: 'http://tgdmb.com/viewtopic.php?p=545116#545116',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545116#p545116',
             minimumStartingLevel: 6
         },
         ...[
-            { name: "Grave Guard", link: 'http://tgdmb.com/viewtopic.php?p=545119#545119' },
-            { name: "Deathly Corruptor", link: 'http://tgdmb.com/viewtopic.php?p=545120#545120' },
+            { name: "Grave Guard", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545119#p545119' },
+            { name: "Deathly Corruptor", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545120#p545120' },
         ].map(({ name, link }) => {
             return {
                 name: `Wight PrC: ${name}`,
@@ -870,13 +870,13 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: "Winter Wolf PrC: Winter's Emissary",
-            link: 'http://tgdmb.com/viewtopic.php?p=545126#545126',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545126#p545126',
             minimumStartingLevel: 7
         },
         ...[
-            { name: "Icy Void", link: 'http://tgdmb.com/viewtopic.php?p=545127#545127' },
-            { name: "Shape of Fire", link: 'http://tgdmb.com/viewtopic.php?p=545128#545128' },
-            { name: "Haunting Presence", link: 'http://tgdmb.com/viewtopic.php?p=545131#545131' },
+            { name: "Icy Void", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545127#p545127' },
+            { name: "Shape of Fire", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545128#p545128' },
+            { name: "Haunting Presence", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545131#p545131' },
         ].map(({ name, link }) => {
             return {
                 name: `Wraith: Dread PrC: ${name}`,
@@ -885,8 +885,8 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             }
         }),
         ...[
-            { name: "Xill Marauder", link: 'http://tgdmb.com/viewtopic.php?p=545134#545134' },
-            { name: "Xill Moral Guide", link: 'http://tgdmb.com/viewtopic.php?p=545135#545135' },
+            { name: "Xill Marauder", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545134#p545134' },
+            { name: "Xill Moral Guide", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545135#p545135' },
         ].map(({ name, link }) => {
             return {
                 name: `Xill PrC: ${name}`,
@@ -896,12 +896,12 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: "Yak Folk PrC: Yakultist",
-            link: 'http://tgdmb.com/viewtopic.php?p=545156#545156',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545156#p545156',
             minimumStartingLevel: 6
         },
         ...[
-            { name: "Yuan-ti Infiltrator", link: 'http://tgdmb.com/viewtopic.php?p=545165#545165' },
-            { name: "Dungeon Delver of Mershaulk", link: 'http://tgdmb.com/viewtopic.php?p=545166#545166' },
+            { name: "Yuan-ti Infiltrator", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545165#p545165' },
+            { name: "Dungeon Delver of Mershaulk", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545166#p545166' },
         ].map(({ name, link }) => {
             return {
                 name: `Yuan-ti: Pureblood PrC: ${name}`,
@@ -911,12 +911,12 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: "Yuan-ti: Halfblood PrC: Serpent-Whisperer of Mershaulk",
-            link: 'http://tgdmb.com/viewtopic.php?p=545167#545167',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545167#p545167',
             minimumStartingLevel: 7
         },
         ...[
-            { name: "Holy Guardian", link: 'http://tgdmb.com/viewtopic.php?p=545196#545196' },
-            { name: "Anathema Incarnate", link: 'http://tgdmb.com/viewtopic.php?p=545197#545197' },
+            { name: "Holy Guardian", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545196#p545196' },
+            { name: "Anathema Incarnate", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545197#p545197' },
         ].map(({ name, link }) => {
             return {
                 name: `Yuan-ti: Abomination PrC: ${name}`,
@@ -926,28 +926,28 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: "Yuan-ti: Ignan PrC: Raging Flame",
-            link: 'http://tgdmb.com/viewtopic.php?p=545200#545200',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545200#p545200',
             minimumStartingLevel: 10
         },
         {
             name: "Yugoloth: Marraenoloth PrC: Ferryman",
-            link: 'http://tgdmb.com/viewtopic.php?p=545245#545245',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545245#p545245',
             minimumStartingLevel: 11
         },
         {
             name: "Yugoloth: Nycaloth PrC: Nycaloth Commander",
-            link: 'http://tgdmb.com/viewtopic.php?p=545246#545246',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545246#p545246',
             minimumStartingLevel: 13
         },
         {
             name: "Yuki-On-Na PrC: Tsurara-Onna",
-            link: 'http://tgdmb.com/viewtopic.php?p=545250#545250',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545250#p545250',
             minimumStartingLevel: 7
         },
         ...[
-            { name: "Great Wyrm of the Sky", link: 'http://tgdmb.com/viewtopic.php?p=545342#545342' },
-            { name: "True Dragon", link: 'http://tgdmb.com/viewtopic.php?p=545397#545397' },
-            { name: "Dread Wyrm", link: 'http://tgdmb.com/viewtopic.php?p=545473#545473' },
+            { name: "Great Wyrm of the Sky", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545342#p545342' },
+            { name: "True Dragon", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545397#p545397' },
+            { name: "Dread Wyrm", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545473#p545473' },
         ].map(({ name, link }) => {
             return {
                 name: `Wyvern PrC: ${name}`,
@@ -956,9 +956,9 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             }
         }),
         ...[
-            { name: "Chosen of Al-Ishtus", link: 'http://tgdmb.com/viewtopic.php?p=545498#545498' },
-            { name: "Enforcer of the Sands", link: 'http://tgdmb.com/viewtopic.php?p=545524#545524' },
-            { name: "Deathstalker", link: 'http://tgdmb.com/viewtopic.php?p=545541#545541' },
+            { name: "Chosen of Al-Ishtus", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545498#p545498' },
+            { name: "Enforcer of the Sands", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545524#p545524' },
+            { name: "Deathstalker", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545541#p545541' },
         ].map(({ name, link }) => {
             return {
                 name: `Scorpionfolk PrC: ${name}`,
@@ -967,8 +967,8 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             }
         }),
         ...[
-            { name: "Bone Golem", link: 'http://tgdmb.com/viewtopic.php?p=547370#547370' },
-            { name: "Skeleton Knight", link: 'http://tgdmb.com/viewtopic.php?p=547373#547373' },
+            { name: "Bone Golem", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=547370#p547370' },
+            { name: "Skeleton Knight", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=547373#p547373' },
         ].map(({ name, link }) => {
             return {
                 name: `Awakened Skeleton Class: ${name}`,
@@ -977,8 +977,8 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             }
         }),
         ...[
-            { name: "Handcrafted Archer", link: 'http://tgdmb.com/viewtopic.php?p=547381#547381' },
-            { name: "Artillerist", link: 'http://tgdmb.com/viewtopic.php?p=547397#547397' },
+            { name: "Handcrafted Archer", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=547381#p547381' },
+            { name: "Artillerist", link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=547397#p547397' },
         ].map(({ name, link }) => {
             return {
                 name: `Awakened Zombie Class: ${name}`,
@@ -988,7 +988,7 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         }),
         {
             name: "Awakened Bloodfire Ooze PrC: Blood Phantasm",
-            link: 'http://tgdmb.com/viewtopic.php?p=547601#547601',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=547601#p547601',
             minimumStartingLevel: 10
         },
     ].map(({ name, link, minimumStartingLevel }) => {

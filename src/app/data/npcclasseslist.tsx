@@ -10,7 +10,7 @@ export const npcClasses: Entry[] = [
         return {
             name: element.name,
             author: 'Frank and K',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=33297#33297',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=33297#p33297',
             wikiLink: element.wikiLink
         }
     }),
@@ -18,40 +18,40 @@ export const npcClasses: Entry[] = [
         return {
             name: element,
             author: 'Iaimeki',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=50379#50379',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=50379#p50379',
         }
     }),
     ...['Commoner', 'Expert'].map((element) => {
         return {
             name: element,
             author: 'Koumei',
-            link: 'http://tgdmb.com/viewtopic.php?p=165701#165701',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=165701#p165701',
         }
     }),
     {
         name: 'Aristocrat',
         author: 'Koumei',
-        link: 'http://tgdmb.com/viewtopic.php?p=165725#165725',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=165725#p165725',
     },
     {
         name: 'Verdant Follower',
         author: 'Koumei',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=169948#169948',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=169948#p169948',
     },
     {
         name: 'Commoner',
         author: 'virgil',
-        link: 'http://tgdmb.com/viewtopic.php?p=165139',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=165139',
     },
     {
         name: 'Perfect Minion',
         author: 'Koumei',
-        link: 'http://tgdmb.com/viewtopic.php?p=316687#316687',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=316687#p316687',
     },
     {
         name: 'Team Rocket Grunt',
         author: 'Koumei',
-        link: 'http://tgdmb.com/viewtopic.php?p=285695#285695',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=285695#p285695',
         relatedLinks: [{ title: 'Pokémaster ', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }],
     },
 ];

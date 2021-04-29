@@ -5,49 +5,49 @@ export const bogItemCollections: Entry[] = [
     {
         name: "Book of Gears",
         author: "Frank and K",
-        link: "http://www.tgdmb.com/viewtopic.php?t=35813",
+        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?t=35813",
         wikiLink: "http://www.dnd-wiki.org/wiki/Book_of_Gears_%283.5e_Sourcebook%29",
         note: "only partially complete but worth reading, use Red_Rob's"
     },
     {
         name: 'Defining Magic Item Power Levels',
         author: 'FrankTrollman',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=131656#131656'
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=131656#p131656'
     },
     {
         name: "Complete Tome items and Wish Economy",
         author: "Red_Rob",
-        link: "http://tgdmb.com/viewtopic.php?t=53704",
+        link: "http://tgdmb.com/phpBB3/viewtopic.php?t=53704",
         wikiLink: "https://dnd-wiki.org/wiki/Tome_Magic_Items_%283.5e_Variant_Rule%29"
     },
     {
         name: "Simplified Tome Armour",
         author: "Red_Rob",
-        link: "http://www.tgdmb.com/viewtopic.php?t=53563",
+        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?t=53563",
         wikiLink: "https://dnd-wiki.org/wiki/Tome_Armor_%283.5e_Variant_Rule%29"
     },
     {
         name: "Alternative Item Bonus Progression",
         author: "Kaelik",
-        link: "http://tgdmb.com/viewtopic.php?t=56878",
+        link: "http://tgdmb.com/phpBB3/viewtopic.php?t=56878",
     }
 ]
 
 export const lesserBoGMagicItems: Entry[] = [
     {
         name: "Web Strangler",
-        link: "http://tgdmb.com/viewtopic.php?p=141533#141533",
+        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141533#p141533",
         author: "Koumei"
     },
     {
         name: "Ignan Venom Talisman",
         author: "Koumei",
-        link: "http://tgdmb.com/viewtopic.php?p=141534#141534",
+        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141534#p141534",
     },
     {
         name: "Kinoko-Jiru",
         author: "Koumei",
-        link: "http://tgdmb.com/viewtopic.php?p=141536#141536",
+        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141536#p141536",
     },
     ...[
         'Grip Claw', 'Deep Sea Tooth', 'Big Root', 'Power Leek',
@@ -61,18 +61,18 @@ export const lesserBoGMagicItems: Entry[] = [
         return {
             name: value,
             author: "Koumei",
-            link: 'http://tgdmb.com/viewtopic.php?p=405123#405123',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=405123#p405123',
             relatedLinks: [
                 { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
-                { title: 'Pokemon Mystery Dungeon D20', link: 'http://tgdmb.com/viewtopic.php?t=55558' },
+                { title: 'Pokemon Mystery Dungeon D20', link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=55558' },
             ],
-            note: <span><a href='http://tgdmb.com/viewtopic.php?p=282168#282168'>Original Source</a></span>
+            note: <span><a href='http://tgdmb.com/phpBB3/viewtopic.php?p=282168#p282168'>Original Source</a></span>
         }
     }),
     {
         name: 'Aid Rod',
         author: "Koumei",
-        link: 'http://www.tgdmb.com/viewtopic.php?p=155236#155236'
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=155236#p155236'
     },
 ];
 
@@ -80,21 +80,21 @@ export const mediumBoGMagicItems: Entry[] = [
     ...["GAR-Driver", "MOE-Driver", "Holo-Projector"].map((name) => {
         return {
             name: name,
-            link: "http://tgdmb.com/viewtopic.php?p=141531#141531",
+            link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141531#p141531",
             author: "Koumei",
         };
     }),
     ...["Angry Hat", "Quiet Hat", "Clever Hat"].map((name) => {
         return {
             name: name,
-            link: "http://tgdmb.com/viewtopic.php?p=141532#141532",
+            link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141532#p141532",
             author: "Koumei",
         };
     }),
     {
         name: "Succubus Lipstick",
         author: "Koumei",
-        link: "http://tgdmb.com/viewtopic.php?p=141535#141535",
+        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141535#p141535",
     },
     ...[
         'Lucky Punch', 'Deep Sea Scale', 'Light Ball', 'Metal Powder',
@@ -104,23 +104,23 @@ export const mediumBoGMagicItems: Entry[] = [
         return {
             name: value,
             author: "Koumei",
-            link: 'http://tgdmb.com/viewtopic.php?p=405123#405123',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=405123#p405123',
             relatedLinks: [
                 { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
-                { title: 'Pokemon Mystery Dungeon D20', link: 'http://tgdmb.com/viewtopic.php?t=55558' },
+                { title: 'Pokemon Mystery Dungeon D20', link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=55558' },
             ],
-            note: <span><a href='http://tgdmb.com/viewtopic.php?p=282168#282168'>Original Source</a></span>
+            note: <span><a href='http://tgdmb.com/phpBB3/viewtopic.php?p=282168#p282168'>Original Source</a></span>
         }
     }),
     {
         name: "Syringe",
         author: "Koumei",
-        link: "http://www.tgdmb.com/viewtopic.php?p=154820#154820",
+        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=154820#p154820",
     },
     {
         name: "Thunder Drum",
         author: "Koumei",
-        link: "http://www.tgdmb.com/viewtopic.php?p=154938#154938",
+        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=154938#p154938",
     },
     ...[
         'Sexy Underwear', 'Gatling Gun', 'Magic Wand', 'UFO-Yoink!', 'Aid Staff'
@@ -128,52 +128,52 @@ export const mediumBoGMagicItems: Entry[] = [
         return {
             name: value,
             author: "Koumei",
-            link: 'http://www.tgdmb.com/viewtopic.php?p=155236#155236'
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=155236#p155236'
         }
     }),
     {
         name: "Eyepatch of Power",
         author: "Maxus",
-        link: "http://www.tgdmb.com/viewtopic.php?p=203282#203282",
+        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=203282#p203282",
     },
     {
         name: "Clockwork Armor",
         author: "Avoraciopoctules",
-        link: "http://www.tgdmb.com/viewtopic.php?p=97456#97456",
+        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=97456#p97456",
     },
 ];
 
 export const greaterBoGMagicItems: Entry[] = [
     {
         name: "Remote Device",
-        link: "http://tgdmb.com/viewtopic.php?p=141532#141532",
+        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141532#p141532",
         author: "Koumei"
     },
     {
         name: "Ominous Bell",
-        link: "http://tgdmb.com/viewtopic.php?p=141532#141532",
+        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141532#p141532",
         author: "Koumei"
     },
     {
         name: "Squamous Scourge",
         author: "Koumei",
-        link: "http://tgdmb.com/viewtopic.php?p=141534#141534",
+        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141534#p141534",
     },
     {
         name: "Sexy Underwear",
         author: "Koumei",
-        link: "http://tgdmb.com/viewtopic.php?p=141535#141535",
+        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=141535#p141535",
     },
     ...['Griseous Orb', 'Lustrous Orb', 'Adamant Orb', 'Soul Dew', 'Gold/Silver Bell'].map((value) => {
         return {
             name: value,
             author: "Koumei",
-            link: 'http://tgdmb.com/viewtopic.php?p=405123#405123',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=405123#p405123',
             relatedLinks: [
                 { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
-                { title: 'Pokemon Mystery Dungeon D20', link: 'http://tgdmb.com/viewtopic.php?t=55558' },
+                { title: 'Pokemon Mystery Dungeon D20', link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=55558' },
             ],
-            note: <span><a href='http://tgdmb.com/viewtopic.php?p=282168#282168'>Original Source</a></span>
+            note: <span><a href='http://tgdmb.com/phpBB3/viewtopic.php?p=282168#p282168'>Original Source</a></span>
         }
     }),
     ...[
@@ -182,7 +182,7 @@ export const greaterBoGMagicItems: Entry[] = [
         return {
             name: value,
             author: "Koumei",
-            link: 'http://www.tgdmb.com/viewtopic.php?p=155236#155236'
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=155236#p155236'
         }
     }),
     ...[
@@ -191,7 +191,7 @@ export const greaterBoGMagicItems: Entry[] = [
         return {
             name: value,
             author: "Koumei",
-            link: 'http://www.tgdmb.com/viewtopic.php?p=248061#248061'
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=248061#p248061'
         }
     }),
 ];
@@ -201,24 +201,24 @@ export const uncategorizedItems: Entry[] = [
         return {
             name: value,
             author: "Koumei",
-            link: 'http://tgdmb.com/viewtopic.php?p=405123#405123',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=405123#p405123',
             relatedLinks: [
                 { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
-                { title: 'Pokemon Mystery Dungeon D20', link: 'http://tgdmb.com/viewtopic.php?t=55558' },
+                { title: 'Pokemon Mystery Dungeon D20', link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=55558' },
             ],
-            note: <span><a href='http://tgdmb.com/viewtopic.php?p=282168#282168'>Original Source</a></span>
+            note: <span><a href='http://tgdmb.com/phpBB3/viewtopic.php?p=282168#p282168'>Original Source</a></span>
         }
     }),
     {
         name: 'Necromantic Equipment Materials (Tome of Necromancy)',
         author: "Frank and K",
-        link: 'http://www.tgdmb.com/viewtopic.php?p=34253#34253',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=34253#p34253',
         wikiLink: 'https://dnd-wiki.org/wiki/Tome_of_Necromancy_(3.5e_Sourcebook)/New_Rules#Necromantic_Equipment'
     },
     {
         name: 'Rifle Demon',
         author: 'Koumei',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=154820#154820',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=154820#p154820',
     },
     ...[
         "Chocolate (consumable)", "Chocolate Cake (consumable)", "Carrot Cake (consumable)",
@@ -229,7 +229,7 @@ export const uncategorizedItems: Entry[] = [
         return {
             name: value,
             author: "Koumei",
-            link: 'http://www.tgdmb.com/viewtopic.php?p=155236#155236'
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=155236#p155236'
         }
     }),
     ...[
@@ -239,13 +239,13 @@ export const uncategorizedItems: Entry[] = [
         return {
             name: value,
             author: "Koumei",
-            link: 'http://www.tgdmb.com/viewtopic.php?p=248061#248061'
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=248061#p248061'
         }
     }),
     {
         name: 'Dark Glasses',
         author: "Prak",
-        link: 'http://tgdmb.com/viewtopic.php?p=281995#281995',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=281995#p281995',
         relatedLinks: [
             { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
         ]
@@ -253,7 +253,7 @@ export const uncategorizedItems: Entry[] = [
     {
         name: 'Gym Badges',
         author: 'Koumei',
-        link: 'http://tgdmb.com/viewtopic.php?p=282168#282168',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=282168#p282168',
         relatedLinks: [
             { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
         ]
@@ -262,158 +262,158 @@ export const uncategorizedItems: Entry[] = [
         return {
             name: value,
             author: "Prak",
-            link: 'http://www.tgdmb.com/viewtopic.php?p=140623#140623'
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=140623#p140623'
         }
     }),
     {
         name: 'Death Galley',
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=169157#169157',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=169157#p169157',
     },
     ...['Iron Suit', 'Starry Shield', 'Mjolnir'].map((value) => {
         return {
             name: value,
             author: "Prak",
-            link: 'http://www.tgdmb.com/viewtopic.php?p=273142#273142'
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=273142#p273142'
         }
     }),
     {
         name: 'Helbogi (Hell Bow)',
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=430641#430641',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=430641#p430641',
     },
     {
         name: 'Mantle of Webs',
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=465849#465849',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=465849#p465849',
     },
     {
         name: 'Banhammer',
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=90889#90889',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=90889#p90889',
     },
     {
         name: 'Nerfbat',
         author: 'SunTzuWarmaster',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=91066#91066',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=91066#p91066',
     },
     {
         name: 'Cursed Schoolgirl Outfit of Aberration Summoning',
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=94548#94548',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=94548#p94548',
     },
     {
         name: 'Target Painter (Arrows)',
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=209479#209479',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=209479#p209479',
     },
     ...['Spell Bombard', 'Eminence Talisman',].map((value) => {
         return {
             name: value,
             author: "Prak",
-            link: 'http://www.tgdmb.com/viewtopic.php?p=243948#243948'
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=243948#p243948'
         }
     }),
     {
         name: 'Minor Magic Weapon Quality: Dramatic',
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=245603#245603',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=245603#p245603',
     },
     ...['Red Tape', 'The Law',].map((value) => {
         return {
             name: value,
             author: "Prak",
-            link: 'http://www.tgdmb.com/viewtopic.php?p=273972#273972'
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=273972#p273972'
         }
     }),
     {
         name: "Meridia's Bacon",
         author: 'AndreiChekov',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=383276#383276',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=383276#p383276',
     },
     ...['The Sword', 'The Redcap',].map((value) => {
         return {
             name: value,
             author: "Prak",
-            link: 'http://www.tgdmb.com/viewtopic.php?p=191745#191745'
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=191745#p191745'
         }
     }),
     {
         name: "A Boat",
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=191836#191836',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=191836#p191836',
     },
     {
         name: "Consecrator",
         author: 'Maxus',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=191875#191875',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=191875#p191875',
     },
     {
         name: "Fighting Trousers",
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=191891#191891',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=191891#p191891',
     },
     {
         name: "Capture Ball",
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=194559#194559',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=194559#p194559',
     },
     {
         name: "Eyepatch of the Veteran",
         author: 'Avoraciopoctules',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=203510#203510',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=203510#p203510',
     },
     {
         name: "Pretty Penny",
         author: 'Maxus',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=240171#240171',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=240171#p240171',
     },
     {
         name: "Governess' Poker",
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=254677#254677',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=254677#p254677',
     },
     {
         name: "Wus (Xiaolin Showdown)",
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=161705#161705',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=161705#p161705',
     },
     {
         name: "Talismans, Misc Magic Items, Armours of the Immortals (Jackie Chan Adventures)",
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=161705#161705',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=161705#p161705',
     },
     {
         name: "Millennium Items (Yu-Gi-Oh!)",
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=162067#162067',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=162067#p162067',
     },
     {
         name: "Cloudski",
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=162232#162232',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=162232#p162232',
     },
     ...['Spear of Destiny', 'Pick of Destiny', 'Fountain of Youth', 'Sword of Kings'].map((value) => {
         return {
             name: value,
             author: "Prak",
-            link: 'http://www.tgdmb.com/viewtopic.php?p=165166#165166'
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=165166#p165166'
         }
     }),
     {
         name: "Kusari-gama",
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=155965#155965',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=155965#p155965',
     },
     {
         name: "Kusari-gama",
         author: 'CatharzGodfoot',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=156007#156007',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=156007#p156007',
     },
     {
         name: "Giant Weapon--Final Fantasy 7",
         author: 'Maxus',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=56593#56593',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=56593#p56593',
     },
     ...[
         'Geo Pyramids - Disgaea',
@@ -432,7 +432,7 @@ export const uncategorizedItems: Entry[] = [
         return {
             name: value,
             author: "Koumei",
-            link: 'http://www.tgdmb.com/viewtopic.php?p=56148#56148'
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=56148#p56148'
         }
     }),
     ...[
@@ -448,7 +448,7 @@ export const uncategorizedItems: Entry[] = [
         return {
             name: value,
             author: "Koumei",
-            link: 'http://www.tgdmb.com/viewtopic.php?p=56453#56453'
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=56453#p56453'
         }
     }),
     ...[
@@ -464,7 +464,7 @@ export const uncategorizedItems: Entry[] = [
         return {
             name: value,
             author: "Koumei",
-            link: 'http://www.tgdmb.com/viewtopic.php?p=56453#56453'
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=56453#p56453'
         }
     }),
     ...[
@@ -474,53 +474,53 @@ export const uncategorizedItems: Entry[] = [
         return {
             name: value,
             author: "Maxus",
-            link: 'http://www.tgdmb.com/viewtopic.php?p=68113#68113'
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=68113#p68113'
         }
     }),
     {
         name: "Pump-action Shotgun",
         author: 'Libertad',
-        link: 'http://tgdmb.com/viewtopic.php?p=246616#246616',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=246616#p246616',
     },
     {
         name: "Finn's Cigar Box",
         author: 'Libertad',
-        link: 'http://tgdmb.com/viewtopic.php?p=247613#247613',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=247613#p247613',
     },
     {
         name: "Hank's Energy Bow",
         author: 'Libertad',
-        link: 'http://tgdmb.com/viewtopic.php?p=247654#247654',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=247654#p247654',
     },
     {
         name: "Dungeons & Dragons Roller Coaster Ride",
         author: 'Libertad',
-        link: 'http://tgdmb.com/viewtopic.php?p=248011#248011',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=248011#p248011',
     },
     {
         name: "Chick Tract",
         author: 'Libertad',
-        link: 'http://tgdmb.com/viewtopic.php?p=248025#248025',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=248025#p248025',
     },
     {
         name: "Colt .45 Revolver",
         author: 'Libertad',
-        link: 'http://tgdmb.com/viewtopic.php?p=248398#248398',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=248398#p248398',
     },
     {
         name: "Tome Armours",
         author: "koz",
-        link: "http://www.tgdmb.com/viewtopic.php?t=49257",
+        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?t=49257",
     },
     {
         name: "Magic Weapon Abilities",
         author: "Hicks",
-        link: "http://www.tgdmb.com/viewtopic.php?t=50249",
+        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?t=50249",
     },
     {
         name: "Scaling Magic Weapons",
         author: "koz",
-        link: "http://tgdmb.com/viewtopic.php?t=49755",
+        link: "http://tgdmb.com/phpBB3/viewtopic.php?t=49755",
     },
     ...[
         'Tamed Lightning',
@@ -532,7 +532,7 @@ export const uncategorizedItems: Entry[] = [
         return {
             name: value,
             author: "Koumei",
-            link: 'http://www.tgdmb.com/viewtopic.php?p=40605#40605'
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=40605#p40605'
         }
     }),
     ...[
@@ -542,7 +542,7 @@ export const uncategorizedItems: Entry[] = [
         return {
             name: value,
             author: "Koumei",
-            link: 'http://www.tgdmb.com/viewtopic.php?p=40620#40620'
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=40620#p40620'
         }
     }),
     ...[
@@ -552,13 +552,13 @@ export const uncategorizedItems: Entry[] = [
         return {
             name: value,
             author: "Koumei",
-            link: 'http://www.tgdmb.com/viewtopic.php?p=40624#40624'
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=40624#p40624'
         }
     }),
     {
         name: "Blood Axe",
         author: "Judging__Eagle",
-        link: "http://www.tgdmb.com/viewtopic.php?p=40625#40625",
+        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=40625#p40625",
     },
     ...[
         'God-Kicking Boots (Light)',
@@ -570,18 +570,18 @@ export const uncategorizedItems: Entry[] = [
         return {
             name: value,
             author: "HiQKid2",
-            link: 'http://www.tgdmb.com/viewtopic.php?p=40633#40633'
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=40633#p40633'
         }
     }),
     {
         name: "Vulcan's Candle (One Handed/Two Handed)",
         author: "Aktariel",
-        link: "http://www.tgdmb.com/viewtopic.php?p=40643#40643",
+        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=40643#p40643",
     },
     {
         name: "Sky's Edge",
         author: "Aktariel",
-        link: "http://www.tgdmb.com/viewtopic.php?p=40652#40652",
+        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=40652#p40652",
     },
     ...[
         'Hat of Dragon Slaying',
@@ -590,7 +590,7 @@ export const uncategorizedItems: Entry[] = [
         return {
             name: value,
             author: "Koumei",
-            link: 'http://www.tgdmb.com/viewtopic.php?p=48694#48694'
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=48694#p48694'
         }
     }),
     ...[
@@ -600,13 +600,13 @@ export const uncategorizedItems: Entry[] = [
         return {
             name: value,
             author: "the_taken",
-            link: 'http://www.tgdmb.com/viewtopic.php?p=49446#49446'
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=49446#p49446'
         }
     }),
     {
         name: "Dagger of Dargon-Slaying [One-Handed]",
         author: "Judging__Eagle",
-        link: "http://www.tgdmb.com/viewtopic.php?p=49584#49584",
+        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=49584#p49584",
     },
     ...[
         'Armour of the Exterminator',
@@ -617,7 +617,7 @@ export const uncategorizedItems: Entry[] = [
         return {
             name: value,
             author: "Koumei",
-            link: 'http://www.tgdmb.com/viewtopic.php?p=52516#52516'
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=52516#p52516'
         }
     }),
     ...[
@@ -627,23 +627,23 @@ export const uncategorizedItems: Entry[] = [
         return {
             name: value,
             author: "Calibron",
-            link: 'http://www.tgdmb.com/viewtopic.php?p=75286#75286'
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=75286#p75286'
         }
     }),
     {
         name: "Big Stick",
         author: "Calibron",
-        link: "http://www.tgdmb.com/viewtopic.php?p=75298#75298",
+        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=75298#p75298",
     },
     {
         name: "Revising Tome Armor",
         author: "Josh_Kablack",
-        link: "http://www.tgdmb.com/viewtopic.php?t=52854",
+        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?t=52854",
     },
     {
         name: "Wulfenblimp",
         author: "virgil",
-        link: "http://tgdmb.com/viewtopic.php?p=480900#480900",
+        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=480900#p480900",
     },
     ...[
         'Ring of Dumb Luck',
@@ -653,17 +653,17 @@ export const uncategorizedItems: Entry[] = [
         return {
             name: value,
             author: "hyzmarca",
-            link: 'http://tgdmb.com/viewtopic.php?p=310093#310093'
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=310093#p310093'
         }
     }),
     {
         name: "Revised Tome Armors",
         author: "Sigil",
-        link: "http://tgdmb.com/viewtopic.php?t=54024",
+        link: "http://tgdmb.com/phpBB3/viewtopic.php?t=54024",
     },
     {
         name: "Additional Exotic Weapons",
         author: "Josh_Kablack",
-        link: "http://tgdmb.com/viewtopic.php?p=178503#178503",
+        link: "http://tgdmb.com/phpBB3/viewtopic.php?p=178503#p178503",
     },
 ];

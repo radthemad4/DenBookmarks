@@ -36,7 +36,7 @@ export const spells: Entry[] = [
         return {
             name: element.name,
             author: 'Frank and K',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=34252#34252',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=34252#p34252',
             wikiLink: element.link
         }
     }),
@@ -73,7 +73,7 @@ export const spells: Entry[] = [
         return {
             name: element.name,
             author: 'Frank and K',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=28552#28552',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=28552#p28552',
             wikiLink: element.wikiLink
         }
     }),
@@ -95,7 +95,7 @@ export const spells: Entry[] = [
         return {
             name: name,
             author: 'koz',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=123198#123198',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=123198#p123198',
         }
     }),
     ...[
@@ -105,7 +105,7 @@ export const spells: Entry[] = [
         return {
             name: name,
             author: 'virgil',
-            link: 'http://tgdmb.com/viewtopic.php?p=490427#490427',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=490427#p490427',
         }
     }),
     ...[
@@ -115,24 +115,24 @@ export const spells: Entry[] = [
         return {
             name: name,
             author: 'virgil',
-            link: 'http://tgdmb.com/viewtopic.php?p=500451#500451',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=500451#p500451',
         }
     }),
     {
         name: 'Clutch of Cania (Sorcerer/Wizard 1)',
         author: 'virgil',
-        link: 'http://tgdmb.com/viewtopic.php?p=516151#516151',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=516151#p516151',
     },
     {
         name: 'Triplecast (Psychic 5)',
         author: 'virgil',
-        link: 'http://tgdmb.com/viewtopic.php?p=523894#523894',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=523894#p523894',
         relatedLinks: [{ title: 'Psychic', link: 'https://www.d20pfsrd.com/alternative-rule-systems/occult-adventures/occult-classes/psychic/' }]
     },
     {
         name: 'Mnemonic Enhancer (Sorcerer/Wizard 4)',
         author: 'CatharzGodfoot',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=90617#90617',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=90617#p90617',
     },
     ...[
         "Air Walk (Cleric 3, Ranger 3)",
@@ -202,13 +202,13 @@ export const spells: Entry[] = [
         return {
             name: name,
             author: 'koz',
-            link: 'tgdmb.com/viewtopic.php?p=128459#128459',
+            link: 'tgdmb.com/phpBB3/viewtopic.php?p=128459#p128459',
         }
     }),
     {
         name: "Burst (Sorcerer/Wizard 'z')",
         author: 'CatharzGodfoot',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=90617#90617',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=90617#p90617',
     },
     ...[
         "Elemental Fist (Sorcerer/Wizard 0)",
@@ -253,18 +253,18 @@ export const spells: Entry[] = [
         return {
             name: name,
             author: 'squirreloid',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=19279#19279',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=19279#p19279',
         }
     }),
     {
         name: "Always Winter (Sorcerer/Wizard 9)",
         author: 'AlphaNerd',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=19290#19290',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=19290#p19290',
     },
     {
         name: "Meteor Swarm (Elementalist 9, Sorcerer/Wizard 9, Warmage 9)",
         author: 'Koumei',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=338594#338594',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=338594#p338594',
     },
     ...[
         "Mia's Personal Rainstorm (Cleric 1, Druid 1, Sorcerer/Wizard 1, Wujen 1)",
@@ -275,7 +275,7 @@ export const spells: Entry[] = [
         return {
             name: name,
             author: 'Wiseman',
-            link: 'http://tgdmb.com/viewtopic.php?p=390025#390025',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=390025#p390025',
         }
     }),
     ...[
@@ -285,53 +285,53 @@ export const spells: Entry[] = [
         return {
             name: name,
             author: 'Wiseman',
-            link: 'http://tgdmb.com/viewtopic.php?p=394631#394631',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=394631#p394631',
         }
     }),
     {
         name: "Hotherain's Sky Goddess (Druid 9, Sorcerer/Wizard 9, Wujen 9)",
         author: 'Wiseman',
-        link: 'http://tgdmb.com/viewtopic.php?p=397019#397019',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=397019#p397019',
     },
     {
         name: "Mia's Mental Mastery (Sorcerer/Wizard 6)",
         author: 'Wiseman',
-        link: 'http://tgdmb.com/viewtopic.php?p=397019#397019',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=397019#p397019',
     },
     {
         name: "Lightning Strike (Druid 6)",
         author: 'Wiseman',
-        link: 'http://tgdmb.com/viewtopic.php?p=408796#408796',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=408796#p408796',
     },
     {
         name: "Protection from Sunlight (Bard 2, Cleric 3, Druid 3, Paladin 1, Ranger 1, Shugenja 3, Sorcerer/Wizard 3, Wujen 3)",
         author: 'Wiseman',
-        link: 'http://tgdmb.com/viewtopic.php?p=427451#427451',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=427451#p427451',
     },
     {
         name: "Hotherains Size Swap (Cleric 4, Sorcerer/Wizard 4)",
         author: 'Wiseman',
-        link: 'http://tgdmb.com/viewtopic.php?p=428052#428052',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=428052#p428052',
     },
     {
         name: "Wood Soldier Seed (Druid 4, Ranger 2)",
         author: 'Wiseman',
-        link: 'http://tgdmb.com/viewtopic.php?p=455654#455654',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=455654#p455654',
     },
     {
         name: "Plantshaper (Druid 5)",
         author: 'Wiseman',
-        link: 'http://tgdmb.com/viewtopic.php?p=486429#486429',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=486429#p486429',
     },
     {
         name: "Celestial Host (Cleric 9, Sorcerer/Wizard 9)",
         author: 'Wiseman',
-        link: 'http://tgdmb.com/viewtopic.php?p=497247#497247',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=497247#p497247',
     },
     {
         name: "Annihilation Aria (Sorcerer/Wizard 9)",
         author: 'Dominicius',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=177737#177737',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=177737#p177737',
     },
     ...[
         "Interposing Hand (Sorcerer/Wizard 1)",
@@ -344,23 +344,23 @@ export const spells: Entry[] = [
         return {
             name: name,
             author: 'TG Cid',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=171982#171982',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=171982#p171982',
         }
     }),
     {
         name: "Raise Death Galley (Sorcerer/Wizard 7)",
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=169157#169157',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=169157#p169157',
     },
     {
         name: "Walking Head (Sorcerer/Wizard 1)",
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=436329#436329',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=436329#p436329',
     },
     {
         name: "Blend (Sorcerer/Wizard 6)",
         author: 'Maxus',
-        link: 'http://tgdmb.com/viewtopic.php?p=405483#405483',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=405483#p405483',
     },
     ...[
         "Missile Cascade (Sorcerer/Wizard 9)",
@@ -371,53 +371,53 @@ export const spells: Entry[] = [
         return {
             name: name,
             author: 'Mistborn',
-            link: 'http://tgdmb.com/viewtopic.php?p=317395#317395',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=317395#p317395',
         }
     }),
     {
         name: "99 Fireballs (Sorcerer/Wizard 6)",
         author: 'Grek',
-        link: 'http://tgdmb.com/viewtopic.php?p=317661#317661',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=317661#p317661',
     },
     {
         name: "Simulacrum (Sorcerer/Wizard 6)",
         author: 'virgil',
-        link: 'http://tgdmb.com/viewtopic.php?p=292335#292335',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=292335#p292335',
     },
     {
         name: "Red Miles (Sorcerer/Wizard 9)",
         author: 'Lokathor',
-        link: 'http://tgdmb.com/viewtopic.php?p=269983#269983',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=269983#p269983',
     },
     {
         name: "Great Void (Cleric 7, Druid 8, Sorcerer/Wizard 7)",
         author: 'Lokathor',
-        link: 'http://tgdmb.com/viewtopic.php?p=270299#270299',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=270299#p270299',
     },
     {
         name: "Love's Pain, Mass (Cleric 9, Sorcerer/Wizard 9)",
         author: 'Prak',
-        link: 'http://tgdmb.com/viewtopic.php?p=270452#270452',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=270452#p270452',
     },
     {
         name: "Summon Monster (Paladin 1, Cleric 1, Sorcerer/Wizard 1)",
         author: 'JonSetanta',
-        link: 'http://tgdmb.com/viewtopic.php?t=53216',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=53216',
     },
     {
         name: "Summon Nature (Druid 1, Ranger 1)",
         author: 'JonSetanta',
-        link: 'http://tgdmb.com/viewtopic.php?t=53216',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=53216',
     },
     {
         name: "Summon Brute (Barbarian 1, Fighter 1, Ranger 1)",
         author: 'JonSetanta',
-        link: 'http://tgdmb.com/viewtopic.php?t=53216',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=53216',
     },
     {
         name: "Summon Undead (Cleric 1, Paladin 1, Sorcerer/Wizard 1)",
         author: 'JonSetanta',
-        link: 'http://tgdmb.com/viewtopic.php?t=53216',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=53216',
     },
     ...[
         "Grave Visage (Dread Necromancer 1, Sorcerer/Wizard 1)",
@@ -437,7 +437,7 @@ export const spells: Entry[] = [
         return {
             name,
             author: 'Koumei',
-            link: 'http://tgdmb.com/viewtopic.php?p=545899#545899',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545899#p545899',
         }
     }),
 ];

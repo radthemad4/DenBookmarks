@@ -74,14 +74,14 @@ export const spheres: Entry[] = [
         return {
             name: element.name,
             author: 'Frank and K',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=28831#28831',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=28831#p28831',
             wikiLink: element.wikiLink
         }
     }),
     {
         name: 'Time',
         author: 'PhaedrusXY',
-        link: 'http://tgdmb.com/viewtopic.php?p=139550#139550'
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=139550#p139550'
     },
     ...[
         {
@@ -96,31 +96,31 @@ export const spheres: Entry[] = [
         return {
             name: element.name,
             author: 'IGTN',
-            link: 'http://tgdmb.com/viewtopic.php?p=165845#165845',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=165845#p165845',
             wikiLink: element.wikiLink
         }
     }),
     {
         name: 'Lies',
         author: 'Hicks',
-        link: 'http://tgdmb.com/viewtopic.php?t=50458'
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=50458'
     },
     {
         name: 'Truth',
         author: 'koz',
-        link: 'http://tgdmb.com/viewtopic.php?p=122972#122972'
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=122972#p122972'
     },
     ...['Cheating', 'Snake', 'Stealing'].map((name) => {
         return {
             name: name,
             author: 'koz',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=123198#123198',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=123198#p123198',
         }
     }),
     {
         name: 'Teleportation',
         author: 'Hicks',
-        link: 'http://tgdmb.com/viewtopic.php?p=534091#534091'
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=534091#p534091'
     },
     ...[
         'Electricity', 'Gravity', 'Magnetism', 'Plasma ',
@@ -129,109 +129,109 @@ export const spheres: Entry[] = [
         return {
             name: name,
             author: 'Darth Rabbitt',
-            link: 'http://tgdmb.com/viewtopic.php?p=540615#540615',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=540615#p540615',
         }
     }),
     {
         name: 'Life',
         author: 'Hicks',
-        link: 'http://tgdmb.com/viewtopic.php?p=543812#543812'
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=543812#p543812'
     },
     {
         name: 'Badgers',
         author: 'Rejakor',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=100914#100914'
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=100914#p100914'
     },
     ...['Trickery', 'Aegis'].map((name) => {
         return {
             name: name,
             author: 'Akula',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=100982#100982',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=100982#p100982',
         }
     }),
     {
         name: 'Ravenous Butterfly',
         author: 'Murtak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=101119#101119'
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=101119#p101119'
     },
     {
         name: 'Aegis',
         author: 'Avoraciopoctules',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=101119#101119'
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=101119#p101119'
     },
     {
         name: 'Trickery ',
         author: 'Avoraciopoctules',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=101119#101119'
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=101119#p101119'
     },
     {
         name: 'Eye',
         author: 'Avoraciopoctules',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=113068#113068'
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=113068#p113068'
     },
     ...['Valor', 'Peace'].map((name) => {
         return {
             name: name,
             author: 'Avoraciopoctules',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=144258#144258',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=144258#p144258',
         }
     }),
     ...['Virtue', 'Purification'].map((name) => {
         return {
             name: name,
             author: 'Avoraciopoctules',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=144336#144336',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=144336#p144336',
         }
     }),
     {
         name: 'Tempest',
         author: 'Avoraciopoctules',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=144494#144494'
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=144494#p144494'
     },
     {
         name: 'Crusader',
         author: 'For Valor',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=144808#144808'
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=144808#p144808'
     },
     {
         name: 'Prototype',
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=182473#182473'
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=182473#p182473'
     },
     ...['Spider', 'Web'].map((name) => {
         return {
             name: name,
             author: 'Prak',
-            link: 'http://tgdmb.com/viewtopic.php?p=382776#382776',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=382776#p382776',
         }
     }),
     {
         name: 'Time',
         author: 'PhaedrusXY',
-        link: 'http://tgdmb.com/viewtopic.php?p=133561#133561'
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=133561#p133561'
     },
     {
         name: 'Storm',
         author: 'Maxus',
-        link: 'http://tgdmb.com/viewtopic.php?p=95458#95458',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=95458#p95458',
     },
     {
         name: 'Psionics',
         author: 'Quantumboost',
-        link: 'http://tgdmb.com/viewtopic.php?p=133024#133024',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=133024#p133024',
     },
     ...['Majesty', 'Magi',].map((name) => {
         return {
             name: name,
             author: 'CatharzGodfoot',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=90608#90608',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=90608#p90608',
         }
     }),
     ...['Courage', 'Healing',].map((name) => {
         return {
             name: name,
             author: 'koz',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=90619#90619',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=90619#p90619',
         }
     }),
     ...[
@@ -240,23 +240,23 @@ export const spheres: Entry[] = [
         return {
             name: name,
             author: 'CatharzGodfoot',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=90621#90621',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=90621#p90621',
         }
     }),
     {
         name: 'Judgement',
         author: 'CatharzGodfoot',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=90632#90632',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=90632#p90632',
     },
     {
         name: 'Prayer',
         author: 'koz',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=90633#90633',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=90633#p90633',
     },
     {
         name: 'Black Dragon',
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=90648#90648',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=90648#p90648',
     },
     ...[
         'Illusion', 'Shadow', 'Rainbow Unicorn', 'Black Dragon',
@@ -266,47 +266,47 @@ export const spheres: Entry[] = [
         return {
             name: name,
             author: 'CatharzGodfoot',
-            link: 'http://www.tgdmb.com/viewtopic.php?p=248454#248454',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=248454#p248454',
         }
     }),
     {
         name: 'Deception',
         author: 'Maxus',
-        link: 'http://tgdmb.com/viewtopic.php?p=59910#59910',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=59910#p59910',
     },
     ...['Earth', 'Stone', 'Metal',].map((name) => {
         return {
             name: name,
             author: 'Prak',
-            link: 'http://tgdmb.com/viewtopic.php?p=158692#158692',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=158692#p158692',
         }
     }),
     {
         name: 'Wind (Old)',
         author: 'Kaelik',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=102602#102602',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=102602#p102602',
     },
     {
         name: 'Wind',
         author: 'Kaelik',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=456186#456186',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=456186#p456186',
         wikiLink: 'https://dnd-wiki.org/wiki/Wind_(3.5e_Sphere)'
     },
     {
         name: 'Travel',
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=442428#442428',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=442428#p442428',
     },
     {
         name: 'Beastshaper',
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=501164#501164',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=501164#p501164',
     },
     ...['Ash', 'Salt', 'Trickery','Unmaking', 'Vapour'].map((name) => {
         return {
             name: name,
             author: 'Koumei',
-            link: 'http://tgdmb.com/viewtopic.php?p=545939#545939',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545939#p545939',
         }
     }),
 ];

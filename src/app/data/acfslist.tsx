@@ -16,7 +16,7 @@ export const acfLists: ACFList[] = (() => {
                 {
                     name: 'Evil Pokemaniac',
                     author: 'Koumei',
-                    link: 'http://tgdmb.com/viewtopic.php?p=280502#280502',
+                    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=280502#p280502',
                     relatedLinks: [{ title: 'Pokémaster', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }]
                 },
             ]
@@ -28,20 +28,20 @@ export const acfLists: ACFList[] = (() => {
                 {
                     name: 'Fanatical Pokemaniac',
                     author: 'Koumei',
-                    link: 'http://tgdmb.com/viewtopic.php?p=280502#280502',
+                    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=280502#p280502',
                     relatedLinks: [{ title: 'Pokémaster', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }]
                 },
             ]
         },
         {
             name: 'Barbarian, Kaelik',
-            link: 'http://tgdmb.com/viewtopic.php?t=57041',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=57041',
             acfs: [
                 ...['Beast Master', 'Castle Crusher', 'Drunken Rager', 'Lunar Marauder', 'Skald', 'Totemic Sage'].map((name) => {
                     return {
                         name,
                         author: 'Koumei',
-                        link: 'http://tgdmb.com/viewtopic.php?p=538228#538228',
+                        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=538228#p538228',
                     }
                 }),
             ]
@@ -49,19 +49,19 @@ export const acfLists: ACFList[] = (() => {
         {
             name: 'Bard, ThunderGod Cid',
             link: 'https://dnd-wiki.org/wiki/Bard,_Tome_%283.5e_Class%29',
-            relatedLinks: [{ name: 'Original', link: 'http://www.tgdmb.com/viewtopic.php?t=24283' }],
+            relatedLinks: [{ name: 'Original', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=24283' }],
             acfs: [
                 {
                     name: 'Musical Pokemaniac',
                     author: 'Koumei',
-                    link: 'http://tgdmb.com/viewtopic.php?p=280502#280502',
+                    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=280502#p280502',
                     relatedLinks: [{ title: 'Pokémaster', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }]
                 },
                 ...['Animal Friend', 'Dirge Singer', 'Flame Dancer', 'Sword Dancer',].map((name) => {
                     return {
                         name,
                         author: 'Koumei',
-                        link: 'http://tgdmb.com/viewtopic.php?p=539859#539859',
+                        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=539859#p539859',
                     }
                 }),
             ]
@@ -73,7 +73,7 @@ export const acfLists: ACFList[] = (() => {
                 {
                     name: 'Yuan-ti Blackguard',
                     author: 'Prak',
-                    link: 'http://tgdmb.com/viewtopic.php?p=449701#449701',
+                    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=449701#p449701',
                 },
             ]
         },
@@ -84,19 +84,19 @@ export const acfLists: ACFList[] = (() => {
                 {
                     name: 'Faewyrd',
                     author: 'Prak',
-                    link: 'http://tgdmb.com/viewtopic.php?p=447775#447775',
+                    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=447775#p447775',
                 },
             ]
         },
         {
             name: 'Cleric, Kaelik',
-            link: 'http://tgdmb.com/viewtopic.php?t=56589',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=56589',
             acfs: [
                 ...['Evangelist', 'Far Realm Cultist', 'Sacred Fist',].map((name) => {
                     return {
                         name,
                         author: 'Koumei',
-                        link: 'http://tgdmb.com/viewtopic.php?p=538542#538542',
+                        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=538542#p538542',
                     }
                 }),
             ]
@@ -109,7 +109,7 @@ export const acfLists: ACFList[] = (() => {
                     return {
                         name,
                         author: 'Koumei',
-                        link: 'http://tgdmb.com/viewtopic.php?p=545939#545939',
+                        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545939#p545939',
                     }
                 }),
             ]
@@ -122,24 +122,24 @@ export const acfLists: ACFList[] = (() => {
                     return {
                         name: `${name} Druid`,
                         author: 'Koumei',
-                        link: 'http://tgdmb.com/viewtopic.php?p=537994#537994',
+                        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=537994#p537994',
                     }
                 }),
                 {
                     name: 'Luckbringer Druid',
                     author: 'Sacrificial Lamb',
-                    link: 'http://tgdmb.com/viewtopic.php?p=447582#447582',
+                    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=447582#p447582',
                 },
             ]
         },
         {
             name: 'Elemental Siphon',
-            link: 'http://tgdmb.com/viewtopic.php?p=154017#154017',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=154017#p154017',
             acfs: [
                 {
                     name: 'Elemental Pokemaniac',
                     author: 'Koumei',
-                    link: 'http://tgdmb.com/viewtopic.php?p=280502#280502',
+                    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=280502#p280502',
                     relatedLinks: [{ title: 'Pokémaster', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }]
                 },
             ]
@@ -151,7 +151,7 @@ export const acfLists: ACFList[] = (() => {
                 {
                     name: 'Prankster Pokemaniac',
                     author: 'Koumei',
-                    link: 'http://tgdmb.com/viewtopic.php?p=280502#280502',
+                    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=280502#p280502',
                     relatedLinks: [{ title: 'Pokémaster', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }]
                 },
             ]
@@ -163,31 +163,31 @@ export const acfLists: ACFList[] = (() => {
                 {
                     name: 'Sharpshooter',
                     author: 'IGTN',
-                    link: 'http://www.tgdmb.com/viewtopic.php?t=50200',
+                    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=50200',
                 },
                 {
                     name: 'Armoured Pokemaniac',
                     author: 'Koumei',
-                    link: 'http://tgdmb.com/viewtopic.php?p=280502#280502',
+                    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=280502#p280502',
                     relatedLinks: [{ title: 'Pokémaster', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }]
                 },
                 ...['Beast Rider', 'Juggernaut', 'Knave', 'Herald', 'Knight of the Order', 'Tauric Knight'].map((name) => {
                     return {
                         name,
                         author: 'Koumei',
-                        link: 'http://tgdmb.com/viewtopic.php?p=546475#546475',
+                        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=546475#p546475',
                     }
                 }),
             ]
         },
         {
             name: 'Magical Warrior, Prak',
-            link: 'http://tgdmb.com/viewtopic.php?p=383896#383896',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=383896#p383896',
             acfs: [
                 {
                     name: 'Talented Magical Warrior',
                     author: 'Prak',
-                    link: 'http://tgdmb.com/viewtopic.php?p=383896#383896',
+                    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=383896#p383896',
                 },
             ]
         },
@@ -198,31 +198,31 @@ export const acfLists: ACFList[] = (() => {
                 {
                     name: 'Willow Fist',
                     author: 'angelfromanotherpin',
-                    link: 'http://tgdmb.com/viewtopic.php?p=164158#164158',
+                    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=164158#p164158',
                 },
                 {
                     name: 'Martial Artist Pokemaniac',
                     author: 'Koumei',
-                    link: 'http://tgdmb.com/viewtopic.php?p=280502#280502',
+                    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=280502#p280502',
                     relatedLinks: [{ title: 'Pokémaster', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }]
                 },
                 ...['Elemental Fist', 'Ki Mystic', 'Monk of the Dark Moon', 'Monk of the Long Death', 'Zen Archer',].map((name) => {
                     return {
                         name: `${name}`,
                         author: 'Koumei',
-                        link: 'http://tgdmb.com/viewtopic.php?p=539225#539225',
+                        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=539225#p539225',
                     }
                 }),
             ]
         },
         {
             name: 'Ninja, Koumei',
-            link: 'http://tgdmb.com/viewtopic.php?p=232386#232386',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=232386#p232386',
             acfs: [
                 {
                     name: 'Ninja Pokemaniac',
                     author: 'Koumei',
-                    link: 'http://tgdmb.com/viewtopic.php?p=280502#280502',
+                    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=280502#p280502',
                     relatedLinks: [{ title: 'Pokémaster', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }]
                 },
             ]
@@ -235,7 +235,7 @@ export const acfLists: ACFList[] = (() => {
                     return {
                         name: `${name}`,
                         author: 'Koumei',
-                        link: 'http://tgdmb.com/viewtopic.php?p=540528#540528',
+                        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=540528#p540528',
                     }
                 }),
             ]
@@ -247,33 +247,33 @@ export const acfLists: ACFList[] = (() => {
                 {
                     name: 'Psychic Pokemaniac',
                     author: 'Koumei',
-                    link: 'http://tgdmb.com/viewtopic.php?p=280502#280502',
+                    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=280502#p280502',
                     relatedLinks: [{ title: 'Pokémaster', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }]
                 },
             ]
         },
         {
             name: 'Ranger, ZER0',
-            link: 'http://www.tgdmb.com/viewtopic.php?t=49226',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=49226',
             acfs: [
                 ...['Beastmaster', 'Falconer', 'Inquisitor', 'Trapmaster', 'Other Bonus Feat Options'].map((name) => {
                     return {
                         name,
                         author: 'Koumei',
-                        link: 'http://tgdmb.com/viewtopic.php?p=545730#545730',
+                        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545730#p545730',
                     }
                 }),
             ]
         },
         {
             name: 'Rogue, Koumei',
-            link: 'http://tgdmb.com/viewtopic.php?t=57617',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=57617',
             acfs: [
                 ...['Belmont', 'Bounty Hunter', 'Dust Guild Initiate', 'Eldritch Scoundrel', 'Shadow Adept'].map((name) => {
                     return {
                         name,
                         author: 'Koumei',
-                        link: 'http://tgdmb.com/viewtopic.php?p=545607#545607',
+                        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545607#p545607',
                     }
                 }),
             ]
@@ -285,27 +285,27 @@ export const acfLists: ACFList[] = (() => {
                 {
                     name: 'Samurai Pokemaniac',
                     author: 'Koumei',
-                    link: 'http://tgdmb.com/viewtopic.php?p=280502#280502',
+                    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=280502#p280502',
                     relatedLinks: [{ title: 'Pokémaster', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }]
                 },
                 ...['Daimyo', 'Daisho-Wielder', 'Mind Blade', 'Nature’s Liege', 'Unscrupulous Ronin'].map((name) => {
                     return {
                         name,
                         author: 'Koumei',
-                        link: 'http://tgdmb.com/viewtopic.php?p=547264#547264',
+                        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=547264#p547264',
                     }
                 }),
             ]
         },
         {
             name: 'Sorcerer, Kaelik',
-            link: 'http://tgdmb.com/viewtopic.php?t=56529',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=56529',
             acfs: [
                 ...['Gun Mage', 'Magic Eater', 'Rage Mage', 'Wild Soul'].map((name) => {
                     return {
                         name,
                         author: 'Koumei',
-                        link: 'http://tgdmb.com/viewtopic.php?p=537994#537994',
+                        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=537994#p537994',
                     }
                 }),
             ]
@@ -313,12 +313,12 @@ export const acfLists: ACFList[] = (() => {
         {
             name: 'Thief Acrobat, Frank and K',
             link: 'https://dnd-wiki.org/wiki/Thief_Acrobat_(3.5e_Class)',
-            relatedLinks: [{ name: 'Revised', link: 'http://www.tgdmb.com/viewtopic.php?t=52419' }],
+            relatedLinks: [{ name: 'Revised', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=52419' }],
             acfs: [
                 {
                     name: 'Acrobatic Pokemaniac',
                     author: 'Koumei',
-                    link: 'http://tgdmb.com/viewtopic.php?p=280502#280502',
+                    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=280502#p280502',
                     relatedLinks: [{ title: 'Pokémaster', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }]
                 },
             ]
@@ -330,27 +330,27 @@ export const acfLists: ACFList[] = (() => {
                 {
                     name: 'Diabolic Pokemaniac',
                     author: 'Koumei',
-                    link: 'http://tgdmb.com/viewtopic.php?p=280502#280502',
+                    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=280502#p280502',
                     relatedLinks: [{ title: 'Pokémaster', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }]
                 },
                 ...['Celestial Warlock', 'Axiomatic Warlock', 'Anarchic Warlock', 'Faerie Warlock', 'Warlock of the Stars'].map((name) => {
                     return {
                         name,
                         author: 'Koumei',
-                        link: 'http://tgdmb.com/viewtopic.php?p=547603#547603',
+                        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=547603#p547603',
                     }
                 }),
             ]
         },
         {
             name: 'Wizard, Kaelik',
-            link: 'http://tgdmb.com/viewtopic.php?t=55867',
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=55867',
             acfs: [
                 ...['Focused Specialist', 'Metamagician', 'Temporal Mage', 'War Wizard'].map((name) => {
                     return {
                         name,
                         author: 'Koumei',
-                        link: 'http://tgdmb.com/viewtopic.php?p=545834#545834',
+                        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545834#p545834',
                     }
                 }),
             ]

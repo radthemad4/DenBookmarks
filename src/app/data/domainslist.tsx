@@ -4,7 +4,7 @@ export const domains: Entry[] = [
     {
         name: 'Fire',
         author: 'Lokathor',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=128327#128327'
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=128327#p128327'
     },
     ...[
         'Air', 'Animal', 'Death', 'Destruction', 'Earth',
@@ -15,17 +15,17 @@ export const domains: Entry[] = [
         return {
             name: name,
             author: 'koz',
-            link: 'http://tgdmb.com/viewtopic.php?p=128457#128457'
+            link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=128457#p128457'
         }
     }),
     {
         name: 'Denim',
         author: 'Prak',
-        link: 'http://www.tgdmb.com/viewtopic.php?p=536511#536511'
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=536511#p536511'
     },
     {
         name: 'Public',
         author: 'AndreiChekov',
-        link: 'http://tgdmb.com/viewtopic.php?t=55390'
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=55390'
     },
 ];
