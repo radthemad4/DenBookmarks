@@ -112,6 +112,7 @@ export const monsters: MonsterEntry[] = [
             { name: 'Cactoid', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=472405#p472405' },
             { name: 'Gria', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=457540#p457540' },
             { name: 'Kappa', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=489536#p489536' },
+            { name: 'Leg Eater', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=548506#p548506' },
             { name: 'Merfolk', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=465680#p465680' },
             { name: 'Town Guard', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=446296#p446296' },
             { name: 'Witch', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=424325#p424325' },
@@ -217,6 +218,7 @@ export const monsters: MonsterEntry[] = [
         ...[
             { name: "Bralani Eladrin", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=381365#p381365" },
             { name: "Dryad", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=414635#p414635" },
+            { name: "Earth Minion", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=548505#p548505" },
             { name: "Hordling, Medium", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=387338#p387338" },
             { name: "Hound Archon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=381374#p381374" },
             { name: "Irda", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=509491#p509491" },

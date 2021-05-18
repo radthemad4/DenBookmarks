@@ -496,13 +496,13 @@ export const prestigeClasses: PrestigeClassEntry[] = [
   {
     name: 'Arcane Strategist',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=293389#p293389',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=104278#p104278',
     minimumStartingLevel: 6,
   },
   {
     name: 'Ninja Pirate(Old)',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=104278#p104278',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=140576#p140576',
     minimumStartingLevel: 6,
     relatedLinks: [
       { title: 'Ninja (Old)', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=50367' },
@@ -512,7 +512,7 @@ export const prestigeClasses: PrestigeClassEntry[] = [
   {
     name: 'Chaos Sorcerer',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=104278#p104278',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=140576#p140576',
     minimumStartingLevel: 6,
     relatedLinks: [
       { title: 'Untamed Psychic', link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=50979' },
@@ -521,7 +521,7 @@ export const prestigeClasses: PrestigeClassEntry[] = [
   {
     name: 'Mecha Pilot',
     author: 'Koumei',
-    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=104278#p104278',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=140576#p140576',
     minimumStartingLevel: 5,
     relatedLinks: [
       { title: 'Gadgeteer', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=245446#p245446' },
@@ -849,8 +849,8 @@ export const prestigeClasses: PrestigeClassEntry[] = [
   {
     name: 'Nightstalker',
     author: 'Wiseman',
-    link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=55828',
-    minimumStartingLevel: 6,
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=548496#p548496',
+    minimumStartingLevel: 3,
   },
   {
     name: 'Void Witch',
