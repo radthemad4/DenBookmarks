@@ -1118,6 +1118,7 @@ export const baseClasses: Entry[] = [
         name: 'Sorcerer',
         author: 'Kaelik',
         link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=56529',
+        wikiLink: 'https://dnd-wiki.org/wiki/Kaelik_Sorcerer_%283.5e_Class%29',
     },
     {
         name: 'Soulborn',

@@ -299,7 +299,7 @@ export const acfLists: ACFList[] = (() => {
         },
         {
             name: 'Sorcerer, Kaelik',
-            link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=56529',
+            link: 'https://dnd-wiki.org/wiki/Kaelik_Sorcerer_(3.5e_Class)',
             acfs: [
                 ...['Gun Mage', 'Magic Eater', 'Rage Mage', 'Wild Soul'].map((name) => {
                     return {
