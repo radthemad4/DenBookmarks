@@ -523,11 +523,6 @@ export const baseClasses: Entry[] = [
         link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=56364',
     },
     {
-        name: 'Trollman/Suliin Sorcerer',
-        author: 'FrankTrollman and Paul Suliin',
-        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=40574#p40574',
-    },
-    {
         name: 'Thaumaturge',
         author: 'Bigode',
         link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=51212#p51212',
@@ -1110,9 +1105,21 @@ export const baseClasses: Entry[] = [
         link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=56716',
     },
     {
+        name: 'Sorcerer',
+        author: 'Quantumboost, FrankTrollman, Bigode',
+        link: 'https://dnd-wiki.org/wiki/Sorcerer,_Tome_(3.5e_Class%29',
+        relatedLinks: [{ title: "Frank's Original", link: 'https://paizo.com/threads/rzs2i76e?Sorcerers-and-Dread-Necromancers-FIX' }]
+    },
+    {
+        name: 'Sorcerer',
+        author: 'FrankTrollman and Paul Suliin',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=40574#p40574',
+    },
+    {
         name: 'Sorcerer [RETRACTED]',
         author: 'Hicks',
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=56871',
+        note: 'Hicks: "totally rejected  DO NOT PLAY"'
     },
     {
         name: 'Sorcerer',
