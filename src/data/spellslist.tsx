@@ -532,4 +532,9 @@ export const spells: Entry[] = [
             link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=37648#p37648',
         }
     }),
+    {
+        name: `Leomund's Lamentable Belaborment (Bard 1, Sorcerer/Wizard 2)`,
+        author: 'Koumei',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=564755#p564755',
+    },
 ];

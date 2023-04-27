@@ -774,5 +774,20 @@ export const uncategorizedItems: Entry[] = [
         author: "Prak",
         link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=442072#p442072",
     },
-    
+    {
+        name: "Metal Coat",
+        author: "Frank and Emma Trollman",
+        link: "https://web.archive.org/web/20030904034048/http://www.scshop.com/~ritaxis/stones.html",
+    },
+    {
+        name: "Amulet of Shrinking",
+        author: "Frank and Emma Trollman",
+        link: "https://web.archive.org/web/20031209191216/http://www.scshop.com/~ritaxis/info/sabrina.html",
+    },
+    {
+        name: "Blood Doll",
+        author: "Frank and Emma Trollman",
+        link: "https://web.archive.org/web/20031209191216/http://www.scshop.com/~ritaxis/info/sabrina.html",
+    },
+
 ];

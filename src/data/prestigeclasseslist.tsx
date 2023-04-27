@@ -1119,6 +1119,36 @@ export const prestigeClasses: PrestigeClassEntry[] = [
             relatedLinks: [{ title: 'Pokémaster ', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }],
         }
     }),
+    ...[
+        {
+            name: 'Water Gym Master',
+            link: 'https://web.archive.org/web/20030906091540/http://www.scshop.com/~ritaxis/prcs/watermaster.html',
+            minimumStartingLevel: 11,
+        },
+        {
+            name: 'Fire Gym Master',
+            link: 'https://web.archive.org/web/20030904051507/http://www.scshop.com/~ritaxis/prcs/firemaster.html',
+            minimumStartingLevel: 8,
+        },
+        {
+            name: 'Faceless Gym Leader',
+            link: 'https://web.archive.org/web/20030904051600/http://www.scshop.com/~ritaxis/prcs/faceoff.html',
+            minimumStartingLevel: 8,
+        },
+        {
+            name: 'Horde Master',
+            link: 'https://web.archive.org/web/20030906091132/http://www.scshop.com/~ritaxis/prcs/willard.html',
+            minimumStartingLevel: 6,
+        },
+    ].map(({ name, link, minimumStartingLevel }) => {
+        return {
+            name,
+            author: 'Frank and Emma Trollman',
+            link,
+            minimumStartingLevel: minimumStartingLevel,
+            relatedLinks: [{ title: 'Pokémaster ', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }],
+        }
+    }),
     {
         name: 'Undying Mercenary',
         author: 'Prak',
@@ -1488,4 +1518,22 @@ export const prestigeClasses: PrestigeClassEntry[] = [
         author: 'Lago_AM3P',
         minimumStartingLevel: 6
     },
+    // ...[
+    //     {
+    //         name: 'Archer',
+    //         link: 'https://web.archive.org/web/20050219174949/http://www.scshop.com/~ritaxis/ff/archer.html',
+    //         minimumStartingLevel: 
+    //     },
+    // ].map(({ name, link, minimumStartingLevel }) => {
+    //     return {
+    //         name,
+    //         author: "FrankTrollman",
+    //         link,
+    //         minimumStartingLevel,
+    //         relatedLinks: [{
+    //             title: `Frank's Final Fantasy Conversion`,
+    //             link: 'https://web.archive.org/web/20050214093806/http://www.scshop.com/~ritaxis/ff/index.html',
+    //         }],
+    //     };
+    // }),
 ];

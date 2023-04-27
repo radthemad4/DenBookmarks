@@ -41,7 +41,13 @@ export const sourcebooks: Entry[] = [
     {
         name: "Pokémon d20",
         author: "Frank and Emma Trollman",
-        link: "https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)"
+        link: "https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)",
+        relatedLinks: [{ title: 'Original Source', link: 'https://web.archive.org/web/20031208141302/http://www.scshop.com/~ritaxis/updates.html' }],
+    },
+    {
+        name: "Book of Vile Darkness Pokemon Web Enhancement",
+        author: "Frank and Emma Trollman",
+        link: "https://web.archive.org/web/20031218021007/http://www.rattlebrain.com/~ritaxis/"
     },
     {
         name: "3e Unedited Junk",
@@ -133,5 +139,10 @@ export const sourcebooks: Entry[] = [
         name: 'Pokedex Redone',
         author: 'Koumei',
         link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=57904'
+    },
+    {
+        name: `Frank's Final Fantasy Conversion`,
+        author: 'FrankTrollman',
+        link: 'https://web.archive.org/web/20050214093806/http://www.scshop.com/~ritaxis/ff/index.html'
     },
 ];

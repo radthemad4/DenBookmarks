@@ -485,4 +485,10 @@ export const npcs: MonsterEntry[] = [
         link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=39451#p39451',
         challengeRating: 3
     },
+    {
+        name: 'Sabrina, Human Pokemaster 7/Psychic Master 4',
+        author: 'Frank and Emma Trollman',
+        link: 'https://web.archive.org/web/20031209191216/http://www.scshop.com/%7Eritaxis/info/sabrina.html',
+        challengeRating: 11
+    },
 ]

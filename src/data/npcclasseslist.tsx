@@ -67,6 +67,7 @@ export const npcClasses: Entry[] = [
     {
         name: 'Adept',
         author: 'Frank and K',
-        link: 'https://dnd-wiki.org/wiki/Adept_(3.5e_NPC_Class)',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=49292#p49292',
+        wikiLink: 'https://dnd-wiki.org/wiki/Adept_(3.5e_NPC_Class)',
     },
 ];

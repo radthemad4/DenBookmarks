@@ -114,11 +114,16 @@ export const baseClasses: Entry[] = [
         name: 'Monster Tamer',
         author: 'FrankTrollman',
         link: 'https://dnd-wiki.org/wiki/Monster_Tamer_(3.5e_Class)',
+        relatedLinks: [{ title: 'Original Source', link: 'https://web.archive.org/web/20031207191801/http://www.scshop.com/~ritaxis/summoner.html' }],
     },
     {
         name: 'Pokémaster',
         author: 'Frank and K',
         link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class',
+        relatedLinks: [
+            { title: 'Original', link: 'https://web.archive.org/web/20031207190548/http://www.scshop.com/~ritaxis/pokemaster.html' },
+            { title: 'Original Epic Pokemaster', link: 'https://web.archive.org/web/20031207182216/http://www.scshop.com/%7Eritaxis/epic.html' },
+        ],
     },
     {
         name: 'Arcane Archer',
@@ -509,7 +514,8 @@ export const baseClasses: Entry[] = [
     {
         name: 'Elementalist',
         author: 'FrankTrollman',
-        link: 'https://dnd-wiki.org/wiki/Elementalist_(3.5e_Class)',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=28856#p28856',
+        wikiLink: 'https://dnd-wiki.org/wiki/Elementalist_(3.5e_Class)',
         relatedLinks: [{ title: 'Additional spells by Koumei', link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=52086' }]
     },
     {
@@ -648,7 +654,8 @@ export const baseClasses: Entry[] = [
     {
         name: 'Genie',
         author: 'FrankTrollman',
-        link: 'https://dnd-wiki.org/wiki/Genie_(3.5e_Class)',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=27998#p27998',
+        wikiLink: 'https://dnd-wiki.org/wiki/Genie_(3.5e_Class)',
     },
     {
         name: 'Genie',
@@ -2136,4 +2143,52 @@ export const baseClasses: Entry[] = [
         author: "Koumei",
         link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=564099#p564099",
     },
+    ...[
+        {
+            name: 'Archer',
+            link: 'https://web.archive.org/web/20050219174949/http://www.scshop.com/~ritaxis/ff/archer.html',
+        },
+        {
+            name: 'Black Mage',
+            link: 'https://web.archive.org/web/20050220110736/http://www.scshop.com/~ritaxis/ff/black.html',
+        },
+        {
+            name: 'Fighter',
+            link: 'https://web.archive.org/web/20050223110711/http://www.scshop.com/~ritaxis/ff/fighter.html',
+        },
+        {
+            name: 'Gadgeteer',
+            link: 'https://web.archive.org/web/20050223224109/http://www.scshop.com/~ritaxis/ff/gadgeteer.html',
+        },
+        {
+            name: 'Monk',
+            link: 'https://web.archive.org/web/20050226054911/http://www.scshop.com/~ritaxis/ff/monk.html',
+        },
+        {
+            name: 'Red Mage',
+            link: 'https://web.archive.org/web/20050226235215/http://www.scshop.com/~ritaxis/ff/red.html',
+        },
+        {
+            name: 'Rogue',
+            link: 'https://web.archive.org/web/20050227044402/http://www.scshop.com/~ritaxis/ff/rogue.html',
+        },
+        {
+            name: 'Summoner',
+            link: 'https://web.archive.org/web/20050218193111/http://www.scshop.com/~ritaxis/ff/summoner.html',
+        },
+        {
+            name: 'White Mage',
+            link: 'https://web.archive.org/web/20050227222353/http://www.scshop.com/~ritaxis/ff/white.html',
+        },
+    ].map(({ name, link }) => {
+        return {
+            name,
+            author: "FrankTrollman",
+            link,
+            relatedLinks: [{
+                title: `Frank's Final Fantasy Conversion`,
+                link: 'https://web.archive.org/web/20050214093806/http://www.scshop.com/~ritaxis/ff/index.html',
+            }],
+        };
+    }),
 ];

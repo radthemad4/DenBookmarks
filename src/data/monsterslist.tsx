@@ -1230,5 +1230,26 @@ export const monsters: MonsterEntry[] = [
             challengeRating
         }
     }),
+    ...[
+        {
+            mephitType: 'Ash',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=564755#p564755'
+        },
+        {
+            mephitType: 'Radiant',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=564756#p564756'
+        },
+        {
+            mephitType: 'Mineral',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=564757#p564757'
+        },
+    ].map(({ mephitType, link }) => {
+        return {
+            name: `${mephitType} Mephit`,
+            author: 'Koumei',
+            link,
+            challengeRating: 3,
+        }
+    }),
     ...pokedexRedoneMonsters,
 ]
