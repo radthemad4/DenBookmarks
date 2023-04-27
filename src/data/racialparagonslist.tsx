@@ -73,7 +73,8 @@ export const racialParagons: Entry[] = [
     {
         name: "Half-Dragon Paragon",
         author: "FrankTrollman",
-        link: "https://dnd-wiki.org/wiki/Half-Dragon_%283.5e_Racial_Paragon_Class%29",
+        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?t=32463",
+        wikiLink: "https://dnd-wiki.org/wiki/Half-Dragon_%283.5e_Racial_Paragon_Class%29",
     },
     {
         name: "Dragon Monster Class",

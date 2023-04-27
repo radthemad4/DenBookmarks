@@ -355,4 +355,14 @@ export const spheres: Entry[] = [
         author: 'Prak',
         link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=555409#p555409',
     },
+    {
+        name: 'Silver Dragon (incomplete)',
+        author: 'Prak',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=32512#p32512',
+    },
+    {
+        name: 'White Dragon',
+        author: 'FrankTrollman',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=32500#p32500',
+    },
 ];
