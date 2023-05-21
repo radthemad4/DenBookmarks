@@ -2191,4 +2191,9 @@ export const baseClasses: Entry[] = [
             }],
         };
     }),
+    {
+        name: "Portal Mage",
+        author: "Kaelik",
+        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?t=57991",
+    },
 ];

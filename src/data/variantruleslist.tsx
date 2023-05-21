@@ -10,6 +10,11 @@ export const variantRules: Entry[] = [
         relatedLinks: [{ title: "Calculator", link: "https://radthemad4.github.io./Kaelik_Skill_Groups.html" }]
     },
     {
+        name: "Skill Groups (Split Knowledge into Lore and Trivia)",
+        author: "radthemad4",
+        link: "https://radthemad4.github.io/Kaelik_Skill_Groups_Knowledge_Split.html",
+    },
+    {
         name: "Craft Skill Rewrite",
         author: "Lokathor",
         link: "http://www.tgdmb.com/phpBB3/viewtopic.php?t=55252"
