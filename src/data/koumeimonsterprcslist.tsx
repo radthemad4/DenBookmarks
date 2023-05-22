@@ -1176,6 +1176,11 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=563828#p563828',
             minimumStartingLevel: 15
         },
+        {
+            name: "Demon: Yochlol PrC: Insightful Suppression",
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=565109#p565109',
+            minimumStartingLevel: 10
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
