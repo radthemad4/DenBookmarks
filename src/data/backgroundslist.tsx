@@ -264,7 +264,7 @@ export const backgrounds: Entry[] = [
         relatedLinks: [{title: 'Skeletongue', link: 'https://dnd-wiki.org/wiki/Skeletongue_(3.5e_Feat)'}],
     },
     {
-        name: `Born Yesterday`,
+        name: `Big Game Hunter`,
         author: "Kaelik",
         link: "https://cdn.discordapp.com/attachments/780298950279561237/1112426425987903560/Tome_Background_Big_Game_Hunter.png",
     },
