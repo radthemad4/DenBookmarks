@@ -1025,6 +1025,11 @@ export const baseClasses: Entry[] = [
         wikiLink: 'https://dnd-wiki.org/wiki/Rogue,_Tome_(3.5e_Class)'
     },
     {
+        name: 'Rogue 2.0',
+        author: 'erik',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=565200#p565200',
+    },
+    {
         name: 'Runelord',
         author: 'the_taken',
         link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=40380',

@@ -263,4 +263,24 @@ export const backgrounds: Entry[] = [
         link: "https://cdn.discordapp.com/attachments/780298950279561237/1048515030649409586/Skeleton_Commonality.png",
         relatedLinks: [{title: 'Skeletongue', link: 'https://dnd-wiki.org/wiki/Skeletongue_(3.5e_Feat)'}],
     },
+    {
+        name: `Born Yesterday`,
+        author: "Kaelik",
+        link: "https://cdn.discordapp.com/attachments/780298950279561237/1112426425987903560/Tome_Background_Big_Game_Hunter.png",
+    },
+    {
+        name: `Abducted by Aliens`,
+        author: "erik",
+        link: "https://cdn.discordapp.com/attachments/780298950279561237/1112426587921596506/Tome_Background_Abducted_by_Aliens.png",
+    },
+    {
+        name: `They See Me Rollin`,
+        author: "erik",
+        link: "https://cdn.discordapp.com/attachments/780298950279561237/1112426743274414152/Tome_Background_They_See_Me_Rolling.png",
+    },
+    {
+        name: `Planar Exile`,
+        author: "Darth Rabbitt",
+        link: "https://cdn.discordapp.com/attachments/780298950279561237/1112427045209768066/Tome_Background_Planar_Exile.png",
+    },
 ];
