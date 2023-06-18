@@ -1181,6 +1181,16 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=565109#p565109',
             minimumStartingLevel: 10
         },
+        {
+            name: "Derakni PrC: Singular Swarm",
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=565610#p565610',
+            minimumStartingLevel: 12
+        },
+        {
+            name: "Coloxus Demon: Illusionist Parasite",
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=565611#p565611',
+            minimumStartingLevel: 13
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
