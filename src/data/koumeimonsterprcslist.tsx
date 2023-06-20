@@ -1187,9 +1187,24 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             minimumStartingLevel: 12
         },
         {
-            name: "Coloxus Demon: Illusionist Parasite",
+            name: "Demon: Coloxus Prc: Illusionist Parasite",
             link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=565611#p565611',
             minimumStartingLevel: 13
+        },
+        {
+            name: "Empusa PrC: Vengeful Vespid",
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=565643#p565643',
+            minimumStartingLevel: 14
+        },
+        {
+            name: "Agathion: Procyal PrC: Divine Trickster",
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=565674#p565674',
+            minimumStartingLevel: 10
+        },
+        {
+            name: "Agathion: Vulpinal PrC: Serene Arbiter",
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=565675#p565675',
+            minimumStartingLevel: 8
         },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
