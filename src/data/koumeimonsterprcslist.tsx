@@ -1206,6 +1206,11 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=565675#p565675',
             minimumStartingLevel: 8
         },
+        {
+            name: "Kyton: Oitos PrC: Auric Revenant",
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=565729#p565729',
+            minimumStartingLevel: 13
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
