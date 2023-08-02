@@ -611,6 +611,7 @@ export const races: Entry[] = [
         { name: 'Orc (Orismer)', link: 'https://docs.google.com/document/d/1jONiQ6EQto1baV4EtIUwK3inZurY5FqlO88kAKG2wA8/edit#heading=h.68p4zuowjbxp' },
         { name: 'Redguard', link: 'https://docs.google.com/document/d/1jONiQ6EQto1baV4EtIUwK3inZurY5FqlO88kAKG2wA8/edit#heading=h.nwash8b2qpw8' },
         { name: 'Wood Elf (Bosmer)', link: 'https://docs.google.com/document/d/1jONiQ6EQto1baV4EtIUwK3inZurY5FqlO88kAKG2wA8/edit#heading=h.1q029cxci80u' },
+        { name: 'Dremora', link: 'https://docs.google.com/document/d/1jONiQ6EQto1baV4EtIUwK3inZurY5FqlO88kAKG2wA8/edit#heading=h.de532tmedubj' },
         { name: 'Alfiq (Khajiit)', link: 'https://docs.google.com/document/d/1jONiQ6EQto1baV4EtIUwK3inZurY5FqlO88kAKG2wA8/edit#heading=h.emb9e5rbo8t6' },
         { name: 'Lynel', link: 'https://docs.google.com/document/d/1jONiQ6EQto1baV4EtIUwK3inZurY5FqlO88kAKG2wA8/edit#heading=h.s3rl9i82dcjs' },
         { name: 'Snow Elf (Falmer)', link: 'https://docs.google.com/document/d/1jONiQ6EQto1baV4EtIUwK3inZurY5FqlO88kAKG2wA8/edit#heading=h.elvi12f69qaw' },
