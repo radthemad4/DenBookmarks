@@ -365,4 +365,9 @@ export const spheres: Entry[] = [
         author: 'FrankTrollman',
         link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=32500#p32500',
     },
+    {
+        name: 'Machine, The',
+        author: 'Prak',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=566850#p566850',
+    },
 ];
