@@ -283,4 +283,14 @@ export const backgrounds: Entry[] = [
         author: "Darth Rabbitt",
         link: "https://cdn.discordapp.com/attachments/780298950279561237/1112427045209768066/Tome_Background_Planar_Exile.png",
     },
+    {
+        name: `Return of the Living Dead`,
+        author: "Prak",
+        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=567221#p567221",
+    },
+    {
+        name: `Exitree`,
+        author: "Kaelik",
+        link: "https://cdn.discordapp.com/attachments/780298950279561237/1141527895349674035/Exitree.png",
+    },
 ];
