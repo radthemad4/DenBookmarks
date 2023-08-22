@@ -1741,4 +1741,9 @@ export const scalingFeats: Entry[] = [
         author: 'Prak',
         link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=555409#p555409',
     },
+    {
+        name: 'Goblin Soupsmith (Archetype)',
+        author: 'Prak',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=567360#p567360',
+    },
 ];

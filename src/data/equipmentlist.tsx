@@ -789,5 +789,14 @@ export const uncategorizedItems: Entry[] = [
         author: "Frank and Emma Trollman",
         link: "https://web.archive.org/web/20031209191216/http://www.scshop.com/~ritaxis/info/sabrina.html",
     },
-
+    {
+        name: "Soupsmith's Paddle",
+        author: "Prak",
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=567360#p567360',
+    },
+    {
+        name: "Grand Soupsmith's Paddle",
+        author: "Prak",
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=567360#p567360',
+    },
 ];

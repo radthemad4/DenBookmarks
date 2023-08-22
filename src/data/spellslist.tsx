@@ -537,4 +537,9 @@ export const spells: Entry[] = [
         author: 'Koumei',
         link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=564755#p564755',
     },
+    {
+        name: "Create Goblin Life (Sorcerer/Wizard 4, Goblinkind 3)",
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=567360#p567360',
+        author: 'Prak',
+    },
 ];

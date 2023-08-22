@@ -38,4 +38,9 @@ export const domains: Entry[] = [
         link: 'http://www.niftymessageboard.com/phpbb3/viewtopic.php?f=10&t=47132&p=47137',
         author: 'FrankTrollman',
     },
+    {
+        name: 'Goblinkind',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=567360#p567360',
+        author: 'Prak',
+    },
 ];
