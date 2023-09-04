@@ -2206,4 +2206,11 @@ export const baseClasses: Entry[] = [
         author: "Kaelik",
         link: "http://www.tgdmb.com/phpBB3/viewtopic.php?t=58005",
     },
+    {
+        name: "Alchemist",
+        author: "Koumei",
+        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=567693#p567693",
+        note: 'based on PF version',
+    },
+
 ];
