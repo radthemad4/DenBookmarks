@@ -293,4 +293,9 @@ export const backgrounds: Entry[] = [
         author: "Kaelik",
         link: "https://cdn.discordapp.com/attachments/780298950279561237/1141527895349674035/Exitree.png",
     },
+    {
+        name: `Druidic Dabbler`,
+        author: "Darth Rabbit",
+        link: "https://cdn.discordapp.com/attachments/780298950279561237/1152416558367375420/Druidic_Dabbler.png",
+    },
 ];
