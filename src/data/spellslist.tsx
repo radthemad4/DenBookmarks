@@ -547,4 +547,14 @@ export const spells: Entry[] = [
         link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=478092#p478092',
         author: 'Kaelik',
     },
+    {
+        name: "Greater Dispel Magic (Cleric 6, Druid 6, Sorcerer/Wizard 6, Whatever it usually is for other weird classes?)",
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=478092#p478092',
+        author: 'Kaelik',
+    },
+    {
+        name: "Dispel Shield (Cleric 2, Druid 2, Sorcerer/Wizard 2)",
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=478092#p478092',
+        author: 'Kaelik',
+    },
 ];
