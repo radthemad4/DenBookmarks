@@ -136,4 +136,9 @@ export const variantRules: Entry[] = [
         author: 'Kaelik',
         link: 'https://www.tgdmb.com/phpBB3/viewtopic.php?t=57953',
     },
+    {
+        name: "Dispel Magic (Bard 3, Cleric 3, Druid 4, Magic 3, Paladin 3, Sorcerer/Wizard 3)",
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=478092#p478092',
+        author: 'Kaelik',
+    },
 ];
