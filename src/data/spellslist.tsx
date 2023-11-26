@@ -499,7 +499,7 @@ export const spells: Entry[] = [
     },
     {
         name: "Elore's Floating Platform (Sorcerer/Wizard 2)",
-        link: 'https://cdn.discordapp.com/attachments/920574321854922802/949950201714589766/Screenshot_2022-03-06_00.39.25.png',
+        link: 'https://lh3.googleusercontent.com/fife/AK0iWDxmBIeUyYfhRSiM2Jl09KGipZRM66Dy3klEBNlqRyOaVnkZ-gmlf-GCVfRDkrRkozpfRLDMbIyaV4ZDmgnzRR3ltWby5YTaL0qif8ANR1KgaycDDo5MMqOLJQ0FV8XDrMktRF5sLlpNq6p4zv5z0ovX_wMNqZL5idaDVMxfia2Jf3vLicoLjk0eGbxR-y8L31f1-8GU0kmeJCxiOmwULKUbR79ppTvRqQbIGwep9ea7vU7mhLR_Fv_jae8WHdaUIjccT9fQc2F94CQpF0Cqu4CgGNrOTa_NMqrYDVVAqERE6XUuWU6GmIu9fAAfWm6Aozt27fo8RjC1f9qeoKYg0lSop3tc5w3DbdXptyCvc8Tatrn2anNe26AYqHU16txQ41HBySkX7cFi-KAH4mjAXmu_uR27uG7PCMjPnDHRVudC-qYSR4ngFSdiUVEloAfcBfgbuUvV3OglPnfVO-ALN7tbWsH76cdoBmUMuDtODUUXVB95dvHg3AvkXLTxORl41BFL6zeWCkiMz6M24S-_s3EQSmEZx8XaKX8HMvSO6Ma7yJxIaD5WkvKhgqQS-qi30ezxHJdNV34rJXfCksfjoY7F1-BnW0W6byUpa5R62bSEGpl_kkIuemHZyxB3WJHgU0trzxsF58aW2o_lEpM-_2HfSb1ZmKf16aq-fc_8HJ0uCBFrMBGEMBbaynI3kKaJUTX9b-_Hl2RNoxeDwG36vxO_YLQzHcpoK8RHTojUeVJ3-EHa-yj5FZXREN11crBjz65PENSCAhtg-sMbR2JTzg0LH3afih_plT3etd7r1yuUPDE6K0aQ_rhhsYwrqBh3UwwqLNw3HYbxs47PYdH2VMlXYu9jyWP3n-mJCkhdBKJX_aK3Sxa16GPh7cr_29EQFIvqhVzzcoiODX-JCob-uiDwf3aeEUcmiqOzpaf1MLxa19GL48REF_tgiOy-siR1QtCUjegPjnYmoqsDLmB8RssCrpwkXOQo-KVzIoE93xsnqo-ufgzle73ehbHBpubggK0Qr7rYmnnqIDPRt9Omgo-ETyYyDjxjO5gk0GRkhAcwrIf2UTBMeYomuBq5YL-X8OKHIO8UnLQF_Hypjj-NZazvtsjC5SDMo5i1l5hTxUE-vqwEsLJ2GFRsrVe_1ir1O5Id9EzcsD9h5VGAYQv_WS2Iyz72GHilsKXRxefMc2axdUzGCgF9jSLnG3sRTnbnAYwaiTKrweHqhAHq_EXagf6CPJXOFrzwH1GcQxmo3rKTOON1vob0CPl3hWPUnYxQPn2hOhfYv_-8kQqV0lBs_5WZATflCSAVOkAyeZUDJUR31BfLpJtrP6Ke32tTPMAfQIXUjOgAr-qEJuklZLbXfEbtBDe16Ls7S1wimKnrRyMMi5fI3D1hT8AMCgJVI93xy5017n5KVKCG9_sh1vM8MLWS3Ih1-zFjtzl81FgZxxlYZPhpuaSTEXRw4oYSHS1dHFTh4f3sKbnQvBy9vE1F_ImwMoKx5MQOzP8370s7Wh36iv-l701gbdM=w1600-h775',
         author: 'Prak',
     },
     ...[
@@ -557,4 +557,18 @@ export const spells: Entry[] = [
         link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=478092#p478092',
         author: 'Kaelik',
     },
+    ...[
+        'Important Facts (Cleric 2, Sorcerer/Wizard 2)',
+        'Research (Cleric 3, Sorcerer/Wizard 3)',
+        'Locate X (Cleric 4, Sorcerer/Wizard 4)',
+        'Locate Macguffin (Cleric 5, Sorcerer/Wizard 5)',
+        'Obtain Macguffin (Cleric 7, Sorcerer/Wizard 7)',
+        'Divination (Cleric 4, Knowledge 4)',
+        'Scrying (Bard 3, Cleric 5, Druid 4, Sorcerer/Wizard 4)',
+        'Greater Divination (Cleric 6, Sorcerer/Wizard 6)',
+    ].map((name) => ({
+        name,
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=569802#p569802',
+        author: 'Kaelik',
+    }))
 ];

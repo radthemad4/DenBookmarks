@@ -141,4 +141,9 @@ export const variantRules: Entry[] = [
         link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=56624',
         author: 'Kaelik',
     },
+    {
+        name: "Divination Rewrite",
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=58059',
+        author: 'Kaelik',
+    },
 ];
