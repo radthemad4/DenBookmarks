@@ -1746,4 +1746,9 @@ export const scalingFeats: Entry[] = [
         author: 'Prak',
         link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=567360#p567360',
     },
+    {
+        name: 'Poketrainer (Archetype)',
+        author: 'Prak',
+        link: 'https://drive.google.com/file/d/1YcoYn3fnP3ADfAAA4FWkNl9n_nYTLQ-Z/view?usp=drive_link',
+    },
 ];

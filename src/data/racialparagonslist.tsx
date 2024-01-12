@@ -222,4 +222,10 @@ export const racialParagons: Entry[] = [
         link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=440580#p440580',
         author: 'Prak',
     },
+    {
+        name: 'Skeleton Warrior Paragon',
+        link: 'https://docs.google.com/document/d/1XkENdwS8VHZ2STgZAqkdL9nObfYhKqaenzr8N_1rhhs/edit#heading=h.pcucc642wkez',
+        author: 'Prak',
+    },
+
 ];

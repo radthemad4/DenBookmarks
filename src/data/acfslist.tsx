@@ -55,6 +55,12 @@ export const acfLists: ACFList[] = (() => {
                         link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=538228#p538228',
                     }
                 }),
+                {
+                    name: 'Fanatical Pokemaniac',
+                    author: 'Koumei',
+                    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=280502#p280502',
+                    relatedLinks: [{ title: 'Pokémaster', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }]
+                },
             ]
         },
         {
@@ -273,7 +279,7 @@ export const acfLists: ACFList[] = (() => {
             link: 'https://dnd-wiki.org/wiki/SRD:Psion',
             acfs: [
                 {
-                    name: 'Psychic Pokemaniac',
+                    name: 'Pokemystic',
                     author: 'Koumei',
                     link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=280502#p280502',
                     relatedLinks: [{ title: 'Pokémaster', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }]
@@ -291,6 +297,12 @@ export const acfLists: ACFList[] = (() => {
                         link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545730#p545730',
                     }
                 }),
+                {
+                    name: 'Officer Jenny',
+                    author: 'Koumei',
+                    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=280502#p280502',
+                    relatedLinks: [{ title: 'Pokémaster', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }]
+                },
             ]
         },
         {
@@ -304,6 +316,12 @@ export const acfLists: ACFList[] = (() => {
                         link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=545607#p545607',
                     }
                 }),
+                {
+                    name: 'Technical Pokemaniac',
+                    author: 'Koumei',
+                    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=280502#p280502',
+                    relatedLinks: [{ title: 'Pokémaster', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }]
+                },
             ]
         },
         {
@@ -383,7 +401,7 @@ export const acfLists: ACFList[] = (() => {
             link: 'https://dnd-wiki.org/wiki/Warlock_(3.5e_Class)',
             acfs: [
                 {
-                    name: 'Diabolic Pokemaniac',
+                    name: 'Hex Maniac',
                     author: 'Koumei',
                     link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=280502#p280502',
                     relatedLinks: [{ title: 'Pokémaster', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }]

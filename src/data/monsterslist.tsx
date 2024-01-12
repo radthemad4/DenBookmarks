@@ -224,6 +224,7 @@ export const monsters: MonsterEntry[] = [
         }),
         ...[
             { name: "Bralani Eladrin", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=381365#p381365" },
+            { name: "Bloodletter", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=570369#p570369" },
             { name: "Dryad", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=414635#p414635" },
             { name: "Earth Minion", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=548505#p548505" },
             { name: "Hordling, Medium", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=387338#p387338" },
@@ -406,6 +407,7 @@ export const monsters: MonsterEntry[] = [
             { name: "Night Hag", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=538736#p538736" },
             { name: "Old Dragon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=483328#p483328" },
             { name: "Oread", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=382133#p382133" },
+            { name: "Reaper Lord", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=570399#p570399" },
             { name: "Sand Giant", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=399209#p399209" },
             { name: "Salamander, Noble", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=426397#p426397" },
             { name: "Shocker", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=414722#p414722" },

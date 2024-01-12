@@ -150,4 +150,9 @@ export const templates: Entry[] = [
         link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=440593#p440593',
         author: 'Prak',
     },
+    {
+        name: 'Skeleton Warrior Simple Template',
+        author: 'Prak',
+        link: 'https://docs.google.com/document/d/1XkENdwS8VHZ2STgZAqkdL9nObfYhKqaenzr8N_1rhhs/edit#heading=h.9e0r1emhrqpf',
+    },
 ];

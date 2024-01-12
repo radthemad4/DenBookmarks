@@ -161,6 +161,116 @@ export const pokedexRedoneMonsters: MonsterEntry[] = [
       challengeRating,
       link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=566591#p566591',
     })),
+    ...[
+      {
+        name: 'Pichu',
+        challengeRating: 0.25,
+      },
+      {
+        name: 'Pikachu',
+        challengeRating: 1,
+      },
+      {
+        name: 'Raichu',
+        challengeRating: 8,
+      },
+      {
+        name: 'Alolan Raichu',
+        challengeRating: 8,
+      },
+    ].map(({ name, challengeRating }) => ({
+      name,
+      challengeRating,
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=570214#p570214',
+    })),
+    ...[
+      {
+        name: 'Sandshrew',
+        challengeRating: 1,
+      },
+      {
+        name: 'Alolan Sandshrew',
+        challengeRating: 1,
+      },
+      {
+        name: 'Sandslash',
+        challengeRating: 5,
+      },
+      {
+        name: 'Alolan Sandslash',
+        challengeRating: 5,
+      },
+    ].map(({ name, challengeRating }) => ({
+      name,
+      challengeRating,
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=570319#p570319',
+    })),
+    ...[
+      {
+        name: 'Nidoran',
+        challengeRating: 0.5,
+      },
+      {
+        name: 'Nidorina',
+        challengeRating: 4,
+      },
+      {
+        name: 'Nidoqueen',
+        challengeRating: 10,
+      },
+      {
+        name: 'Nidorino',
+        challengeRating: 4,
+      },
+      {
+        name: 'Nidoking',
+        challengeRating: 10,
+      },
+    ].map(({ name, challengeRating }) => ({
+      name,
+      challengeRating,
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=570450#p570450',
+    })),
+    ...[
+      {
+        name: 'Cleffa',
+        challengeRating: 0.5,
+      },
+      {
+        name: 'Clefairy',
+        challengeRating: 2,
+      },
+      {
+        name: 'Clefable',
+        challengeRating: 7,
+      },
+    ].map(({ name, challengeRating }) => ({
+      name,
+      challengeRating,
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=570609#p570609',
+    })),
+    ...[
+      {
+        name: 'Vulpix',
+        challengeRating: 0.5,
+      },
+      {
+        name: 'Ninetales',
+        challengeRating: 8,
+      },
+      {
+        name: 'Alolan Vulpix',
+        challengeRating: 0.5,
+      },
+      {
+        name: 'Alolan Ninetales',
+        challengeRating: 8,
+      },
+    ].map(({ name, challengeRating }) => ({
+      name,
+      challengeRating,
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=570655#p570655',
+    })),
   ].map(({ name, challengeRating, link }) => {
     return {
       name,

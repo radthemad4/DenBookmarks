@@ -136,6 +136,11 @@ export const sourcebooks: Entry[] = [
         link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?f=6&t=55047'
     },
     {
+        name: 'Skeleton Wars RPG',
+        author: 'Prak',
+        link: 'https://docs.google.com/document/d/1XkENdwS8VHZ2STgZAqkdL9nObfYhKqaenzr8N_1rhhs/edit#heading=h.jh0gnznsi2uk'
+    },
+    {
         name: 'Pokedex Redone',
         author: 'Koumei',
         link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=57904'
