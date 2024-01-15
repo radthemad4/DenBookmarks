@@ -1749,6 +1749,6 @@ export const scalingFeats: Entry[] = [
     {
         name: 'Poketrainer (Archetype)',
         author: 'Prak',
-        link: 'https://drive.google.com/file/d/1YcoYn3fnP3ADfAAA4FWkNl9n_nYTLQ-Z/view?usp=drive_link',
+        link: 'https://lh3.googleusercontent.com/drive-viewer/AEYmBYSrs69ID8FCX6TqSJ0SQHw4EGag4a-8RMga9B_bX2fF23yAfPp3LwCMN_aBW3xa_esSaUffFrOqO28EmbJXfgc-mLWlHQ=w1600-h775',
     },
 ];
