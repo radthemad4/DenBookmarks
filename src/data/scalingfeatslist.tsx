@@ -1751,4 +1751,9 @@ export const scalingFeats: Entry[] = [
         author: 'Prak',
         link: 'https://lh3.googleusercontent.com/drive-viewer/AEYmBYSrs69ID8FCX6TqSJ0SQHw4EGag4a-8RMga9B_bX2fF23yAfPp3LwCMN_aBW3xa_esSaUffFrOqO28EmbJXfgc-mLWlHQ=w1600-h775',
     },
+    {
+        name: 'Piercing Throw',
+        author: 'Kaelik',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=570810#p570810',
+    },
 ];
