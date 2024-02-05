@@ -425,6 +425,20 @@ export const pokedexRedoneMonsters: MonsterEntry[] = [
       challengeRating,
       link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571043#p571043',
     })),
+    ...[
+      {
+        name: 'Hoothoot',
+        challengeRating: 0.5,
+      },
+      {
+        name: 'Noctowl',
+        challengeRating: 4,
+      },
+    ].map(({ name, challengeRating }) => ({
+      name,
+      challengeRating,
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571087#p571087',
+    })),
   ].map(({ name, challengeRating, link }) => {
     return {
       name,
