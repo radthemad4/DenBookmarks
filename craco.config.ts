@@ -129,6 +129,7 @@ const plugins = [
     return new HtmlWebpackPlugin({
       title,
       filename,
+      favicon: 'public/favicon.ico',
       template: 'public/index.html',
       chunks: [entryName],
     });

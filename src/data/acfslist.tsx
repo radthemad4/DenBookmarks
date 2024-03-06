@@ -397,6 +397,19 @@ export const acfLists: ACFList[] = (() => {
             ]
         },
         {
+            name: 'Totemist, FrankTrollman',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=50483',
+            relatedLinks: [{ name: 'wiki', link: 'https://dnd-wiki.org/wiki/Totemist_(3.5e_Class)' }],
+            acfs: [
+                {
+                    name: 'Cerulian Trainer',
+                    author: 'Prak',
+                    link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=571346#p571346',
+                    relatedLinks: [{ title: 'Pokémaster', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }]
+                },
+            ]
+        },
+        {
             name: 'Warlock (Spherelock), Cielingcat',
             link: 'https://dnd-wiki.org/wiki/Warlock_(3.5e_Class)',
             acfs: [
