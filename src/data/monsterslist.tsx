@@ -1254,5 +1254,15 @@ export const monsters: MonsterEntry[] = [
             challengeRating: 3,
         }
     }),
+    ...[
+        { name: 'Sparanea', challengeRating: 1 },
+        { name: 'Pankrachnid', challengeRating: 4 },
+    ].map(({ name, challengeRating }) => ({
+        name,
+        challengeRating,
+        author: 'Prak',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571400#p571400',
+        relatedLinks: [{ title: 'Pokedex Redone 2022', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=57904' }],
+    })),
     ...pokedexRedoneMonsters,
 ]

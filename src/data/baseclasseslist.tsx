@@ -2212,5 +2212,9 @@ export const baseClasses: Entry[] = [
         link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=567693#p567693",
         note: 'based on PF version',
     },
-
+    {
+        name: "Nychthemeron Mage",
+        author: "Kaelik",
+        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?t=58095",
+    },
 ];
