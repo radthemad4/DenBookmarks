@@ -124,7 +124,7 @@ export function EntryList(props: { entries: Entry[], shouldSort: boolean }): JSX
 
             return 0;
         }) : props.entries).map(({ name, author, link, prereqs, relatedLinks, wikiLink, wikiLinks, note }, index) => {
-            return <li key={index}><a href={link}>{name}, {author}</a>
+            return (<li key={index}><a href={link}>{name}, {author}</a>
                 {wikiLink != undefined ? <a href={wikiLink}>&nbsp;(wiki)</a> : ''}
                 {prereqs != undefined ? <span> (prereqs:&nbsp;
                     {
@@ -151,7 +151,8 @@ export function EntryList(props: { entries: Entry[], shouldSort: boolean }): JSX
                         </span>)
                     }
                     )</span> : ''}
-                {note != undefined ? <span>&nbsp;({note})</span> : ''}</li>
+                {note != undefined ? <span>&nbsp;({note})</span> : ''}
+            </li>);
         })}
     </ul>
 }

@@ -4,7 +4,8 @@ interface ACFList {
     name: string,
     link: string,
     relatedLinks?: { name: string, link: string }[],
-    acfs: Entry[]
+    acfs: Entry[],
+    note?: string | JSX.Element
 }
 
 export const acfLists: ACFList[] = (() => {
@@ -408,6 +409,18 @@ export const acfLists: ACFList[] = (() => {
                     relatedLinks: [{ title: 'Pokémaster', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }]
                 },
             ]
+        },
+        {
+            name: 'Warlock',
+            link: 'https://dnd-wiki.org/wiki/Publication:Complete_Arcane',
+            note: <span>Or any class with Eldritch Blast or similar, e.g. <a href='https://dnd-wiki.org/wiki/Bloodline_Warlock_(3.5e_Class)'>Bloodline Warlock</a></span>,
+            acfs: [
+                {
+                    name: 'Eldritch Poketrainer',
+                    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571413#p571413',
+                    author: 'Prak',
+                }
+            ],
         },
         {
             name: 'Warlock (Spherelock), Cielingcat',
