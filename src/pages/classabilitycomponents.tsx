@@ -7,6 +7,7 @@ import { monkFightingStyles } from '../data/monkFightingStyles';
 import { kaelikKlerikDomainLists, kaelikKlerikSpellLists } from '../data/kaelikKlerikStuff';
 import { bardPerformanceStyles } from '../data/bardperformancestyleslists';
 import { createRoot, BackToMainPageElement } from '.';
+import { warlockInvocations } from '../data/warlockInvocations';
 
 
 export const ClassAbilityComponentsDiv = () => {
@@ -27,6 +28,8 @@ export const ClassAbilityComponentsDiv = () => {
         <EntryList entries={spheres} shouldSort={true} />
         <h2 id='Tome_Monk_Fighting_Styles'><a href='https://dnd-wiki.org/wiki/Monk,_Tome_(3.5e_Class)#Fighting_Style'>Tome Monk Fighting Styles</a></h2>
         <EntryList entries={monkFightingStyles} shouldSort={true}></EntryList>
+        <h2 id='Warlock_Invocations'><a href='https://dnd-wiki.org/wiki/Publication:Complete_Arcane'>Warlock Invocations</a></h2>
+        <EntryList entries={warlockInvocations} shouldSort={true}></EntryList>
     </div>
 }
 

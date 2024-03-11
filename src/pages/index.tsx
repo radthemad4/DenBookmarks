@@ -118,6 +118,7 @@ createRoot(<>
             <li><a href='./gamingdenbookmarks/Class_Ability_Components.html#Spells'>Spells</a></li>
             <li><a href='./gamingdenbookmarks/Class_Ability_Components.html#Spheres'>Spheres</a></li>
             <li><a href='./gamingdenbookmarks/Class_Ability_Components.html#Tome_Monk_Fighting_Styles'>Tome Monk Fighting Styles</a></li>
+            <li><a href='./gamingdenbookmarks/Class_Ability_Components.html#Warlock_Invocations'>Warlock Invocations</a></li>
           </ul>
         </div>
         <div>
