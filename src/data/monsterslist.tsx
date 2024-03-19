@@ -1257,14 +1257,29 @@ export const monsters: MonsterEntry[] = [
         }
     }),
     ...[
-        { name: 'Sparanea', challengeRating: 1 },
-        { name: 'Pankrachnid', challengeRating: 4 },
-    ].map(({ name, challengeRating }) => ({
-        name,
-        challengeRating,
-        author: 'Prak',
-        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571400#p571400',
-        relatedLinks: [{ title: 'Pokedex Redone 2022', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=57904' }],
-    })),
+        ...[
+            { name: 'Sparanea', challengeRating: 1 },
+            { name: 'Pankrachnid', challengeRating: 4 },
+        ].map(({ name, challengeRating }) => ({
+            name,
+            challengeRating,
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571400#p571400'
+        })),
+        ...[
+            { name: 'Rattakonig', challengeRating: 11 },
+            { name: 'Rattattattat', challengeRating: 4 },
+        ].map(({ name, challengeRating }) => ({
+            name,
+            challengeRating,
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571504#p571504'
+        })),
+    ]
+        .map(({ name, challengeRating, link }) => ({
+            name,
+            challengeRating,
+            author: 'Prak',
+            link,
+            relatedLinks: [{ title: 'Pokedex Redone 2022', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=57904' }],
+        })),
     ...pokedexRedoneMonsters,
 ]

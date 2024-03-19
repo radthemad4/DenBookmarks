@@ -617,21 +617,6 @@ export const uncategorizedItems: Entry[] = [
             link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=52516#p52516'
         }
     }),
-    ...[
-        'Plane of Force',
-        'Amphisbaena',
-    ].map((value) => {
-        return {
-            name: value,
-            author: "Calibron",
-            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=75286#p75286'
-        }
-    }),
-    {
-        name: "Big Stick",
-        author: "Calibron",
-        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=75298#p75298",
-    },
     {
         name: "Revising Tome Armor",
         author: "Josh_Kablack",
@@ -798,5 +783,14 @@ export const uncategorizedItems: Entry[] = [
         name: "Grand Soupsmith's Paddle",
         author: "Prak",
         link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=567360#p567360',
+    },
+    {
+        name: "Pokeballs",
+        author: "Prak",
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571470#p571470',
+        relatedLinks: [
+            { title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },
+            { title: 'Pokedex Redone 2022', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=57904' }
+        ],
     },
 ];
