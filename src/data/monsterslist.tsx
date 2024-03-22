@@ -1266,7 +1266,7 @@ export const monsters: MonsterEntry[] = [
             link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571400#p571400'
         })),
         ...[
-            { name: 'Rattakonig', challengeRating: 11 },
+            { name: 'Rattakonig', challengeRating: 7 },
             { name: 'Rattattattat', challengeRating: 4 },
         ].map(({ name, challengeRating }) => ({
             name,
