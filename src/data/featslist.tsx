@@ -1297,6 +1297,12 @@ export const feats: Entry[] = [
             link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=561323#p561323',
         }
     }),
+    {
+        name: "Multibattle [General]",
+        author: "Prak",
+        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=571544#p571544",
+        relatedLinks: [{ title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },],
+    },
 ];
 
 export const featCollections: Entry[] = [

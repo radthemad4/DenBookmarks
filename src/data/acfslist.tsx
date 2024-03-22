@@ -263,6 +263,18 @@ export const acfLists: ACFList[] = (() => {
             ]
         },
         {
+            name: 'Nychthemeron Mage, Kaelik',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=58095',
+            acfs: [
+                {
+                    name: 'Nythecemon Trainer',
+                    author: 'Kaelik',
+                    link: 'https://files.catbox.moe/v7rsya.png',
+                    relatedLinks: [{ title: 'Pokémaster', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)/The_Pok%C3%A9master#Pok.C3.A9master_Class' }]
+                },
+            ]
+        },
+        {
             name: 'Paladin, IGTN',
             link: 'https://dnd-wiki.org/wiki/Paladin,_Tome_%283.5e_Class%29',
             acfs: [
