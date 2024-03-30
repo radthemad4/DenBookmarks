@@ -1282,6 +1282,32 @@ export const monsters: MonsterEntry[] = [
             challengeRating,
             link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571544#p571544'
         })),
+        ...[
+            { name: 'Archen', challengeRating: 4 },
+            { name: 'Tyrunt', challengeRating: 4 },
+            { name: 'Amaura', challengeRating: 4 },
+        ].map(({ name, challengeRating }) => ({
+            name,
+            challengeRating,
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571612#p571612'
+        })),
+        ...[
+            { name: 'Smibble', challengeRating: 4 },
+            { name: 'Kwartzeed', challengeRating: 4 },
+        ].map(({ name, challengeRating }) => ({
+            name,
+            challengeRating,
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571614#p571614'
+        })),
+        ...[
+            { name: 'Yamask', challengeRating: 4 },
+            { name: 'Cofagrigus', challengeRating: 4 },
+            { name: 'Galarian Yamask', challengeRating: 4 },
+        ].map(({ name, challengeRating }) => ({
+            name,
+            challengeRating,
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571614#p571614'
+        })),
     ]
         .map(({ name, challengeRating, link }) => ({
             name,
