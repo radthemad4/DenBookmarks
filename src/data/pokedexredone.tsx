@@ -555,7 +555,80 @@ export const pokedexRedoneMonsters: MonsterEntry[] = [
       author: 'Koumei',
       link,
       challengeRating,
-      relatedLinks: [{ title: 'Pokedex Redone 2022', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=57904' }],
     };
   }),
+
+
+
+
+  ...[
+    ...[
+      { name: 'Shieldon', challengeRating: 4 },
+      { name: 'Tirtouga', challengeRating: 4 },
+    ].map(({ name, challengeRating }) => ({
+      name,
+      challengeRating,
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571544#p571544'
+    })),
+    ...[
+      { name: 'Archen', challengeRating: 4 },
+      { name: 'Tyrunt', challengeRating: 4 },
+      { name: 'Amaura', challengeRating: 4 },
+    ].map(({ name, challengeRating }) => ({
+      name,
+      challengeRating,
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571612#p571612'
+    })),
+    ...[
+      { name: 'Yamask', challengeRating: 4 },
+      { name: 'Cofagrigus', challengeRating: 4 },
+      { name: 'Galarian Yamask', challengeRating: 4 },
+      { name: 'Runerigus', challengeRating: 4 },
+    ].map(({ name, challengeRating }) => ({
+      name,
+      challengeRating,
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571614#p571614'
+    })),
+  ]
+    .map(({ name, challengeRating, link }) => ({
+      name,
+      challengeRating,
+      author: 'Prak',
+      link,
+    })),
+];
+
+export const pokedexRedoneFakemon: MonsterEntry[] = [
+  ...[
+    ...[
+      { name: 'Sparanea', challengeRating: 1 },
+      { name: 'Pankrachnid', challengeRating: 4 },
+    ].map(({ name, challengeRating }) => ({
+      name,
+      challengeRating,
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571400#p571400'
+    })),
+    ...[
+      { name: 'Rattakonig', challengeRating: 7 },
+      { name: 'Rattattattat', challengeRating: 4 },
+    ].map(({ name, challengeRating }) => ({
+      name,
+      challengeRating,
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571504#p571504'
+    })),
+    ...[
+      { name: 'Smibble', challengeRating: 4 },
+      { name: 'Kwartzeed', challengeRating: 4 },
+    ].map(({ name, challengeRating }) => ({
+      name,
+      challengeRating,
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571614#p571614'
+    })),
+  ]
+    .map(({ name, challengeRating, link }) => ({
+      name,
+      challengeRating,
+      author: 'Prak',
+      link,
+    })),
 ];
