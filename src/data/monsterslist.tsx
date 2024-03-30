@@ -1276,7 +1276,7 @@ export const monsters: MonsterEntry[] = [
         })),
         ...[
             { name: 'Shieldon', challengeRating: 4 },
-            { name: 'Tirtuga', challengeRating: 4 },
+            { name: 'Tirtouga', challengeRating: 4 },
         ].map(({ name, challengeRating }) => ({
             name,
             challengeRating,
@@ -1303,6 +1303,7 @@ export const monsters: MonsterEntry[] = [
             { name: 'Yamask', challengeRating: 4 },
             { name: 'Cofagrigus', challengeRating: 4 },
             { name: 'Galarian Yamask', challengeRating: 4 },
+            { name: 'Runerigus', challengeRating: 4 },
         ].map(({ name, challengeRating }) => ({
             name,
             challengeRating,
