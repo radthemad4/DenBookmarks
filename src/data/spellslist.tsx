@@ -543,6 +543,11 @@ export const spells: Entry[] = [
         author: 'Prak',
     },
     {
+        name: "Toxic Deluge (Cleric 8, Druid 7, Sorcerer/Wizard 8)",
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571646#p571646',
+        author: 'Prak',
+    },
+    {
         name: "Dispel Magic (Bard 3, Cleric 3, Druid 4, Magic 3, Paladin 3, Sorcerer/Wizard 3)",
         link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=478092#p478092',
         author: 'Kaelik',

@@ -600,6 +600,25 @@ export const pokedexRedoneMonsters: MonsterEntry[] = [
 
 export const pokedexRedoneFakemon: MonsterEntry[] = [
   ...[
+    {
+      name: 'Charmander',
+      challengeRating: 0.5,
+    },
+    {
+      name: 'Charmeleon',
+      challengeRating: 4,
+    },
+    {
+      name: 'Charizard',
+      challengeRating: 7,
+    },
+  ].map(({ name, challengeRating }) => ({
+    name: `Sevii ${name}`,
+    challengeRating,
+    author: 'Koumei',
+    link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=558612#p558612',
+  })),
+  ...[
     ...[
       { name: 'Sparanea', challengeRating: 1 },
       { name: 'Pankrachnid', challengeRating: 4 },
@@ -624,6 +643,24 @@ export const pokedexRedoneFakemon: MonsterEntry[] = [
       challengeRating,
       link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571614#p571614'
     })),
+    ...[
+      { name: 'Flanaessian Meowth', challengeRating: 0.5 },
+      { name: 'Bezekir', challengeRating: 8 },
+      { name: 'Displeast', challengeRating: 6 },
+    ].map(({ name, challengeRating }) => ({
+      name,
+      challengeRating,
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571624#p571624'
+    })),
+    ...[
+      { name: 'Stomtyke', challengeRating: 3 },
+      { name: 'Stomtaiko', challengeRating: 8 },
+      { name: 'Displeast', challengeRating: 6 },
+    ].map(({ name, challengeRating }) => ({
+      name,
+      challengeRating,
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571646#p571646'
+    })),
   ]
     .map(({ name, challengeRating, link }) => ({
       name,
@@ -631,4 +668,5 @@ export const pokedexRedoneFakemon: MonsterEntry[] = [
       author: 'Prak',
       link,
     })),
+
 ];

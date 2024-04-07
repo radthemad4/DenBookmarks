@@ -258,10 +258,12 @@ export const monsters: MonsterEntry[] = [
         ...[
             { name: "Bozak Draconian", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=502375#p502375" },
             { name: "Hill Giant", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=383040#p383040" },
+            { name: "Lynel", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=571734#p571734" },
             { name: "Nightmare", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=446912#p446912" },
             { name: "Nymph", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=424982#p424982" },
             { name: "Phoelarch", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=455980#p455980" },
             { name: "Slime", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=498990#p498990" },
+            { name: "Tsucora", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=571723#p571723" },
             { name: "Visorak", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=468579#p468579" },
             { name: "Young Adult Dragon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=483328#p483328" },
             { name: "Kenmun", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=547487#p547487" },
