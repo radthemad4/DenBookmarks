@@ -541,7 +541,15 @@ export const pokedexRedoneMonsters: MonsterEntry[] = [
         challengeRating: 0.5,
       },
       {
+        name: 'Alolan Meowth',
+        challengeRating: 0.5,
+      },
+      {
         name: 'Persian',
+        challengeRating: 6,
+      },
+      {
+        name: 'Alolan Persian',
         challengeRating: 6,
       },
     ].map(({ name, challengeRating }) => ({
