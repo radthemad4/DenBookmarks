@@ -2217,4 +2217,9 @@ export const baseClasses: Entry[] = [
         author: "Kaelik",
         link: "http://www.tgdmb.com/phpBB3/viewtopic.php?t=58095",
     },
+    {
+        name: "Fighter",
+        author: "Kaelik",
+        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?t=58101",
+    },
 ];
