@@ -162,6 +162,7 @@ export const monsters: MonsterEntry[] = [
             { name: "Nigawarai", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=498964#p498964" },
             { name: "Nupperibo", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=571564#p571564" },
             { name: "Positive Mephit", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=387184#p387184" },
+            { name: "Putto", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=571918#p571918" },
             { name: "Spyglass Archon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=383572#p383572" },
             { name: "Very Young Dragon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=483328#p483328" },
             { name: "Frogzard", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=564402#p564402" },
