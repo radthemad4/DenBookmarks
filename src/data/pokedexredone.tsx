@@ -545,11 +545,19 @@ export const pokedexRedoneMonsters: MonsterEntry[] = [
         challengeRating: 0.5,
       },
       {
+        name: 'Galarian Meowth',
+        challengeRating: 0.5,
+      },
+      {
         name: 'Persian',
         challengeRating: 6,
       },
       {
         name: 'Alolan Persian',
+        challengeRating: 6,
+      },
+      {
+        name: 'Perrserker',
         challengeRating: 6,
       },
     ].map(({ name, challengeRating }) => ({
@@ -596,6 +604,15 @@ export const pokedexRedoneMonsters: MonsterEntry[] = [
       name,
       challengeRating,
       link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571614#p571614'
+    })),
+    ...[
+      { name: 'Litwick', challengeRating: 1 },
+      { name: 'Lampent', challengeRating: 4 },
+      { name: 'Displeast', challengeRating: 8 },
+    ].map(({ name, challengeRating }) => ({
+      name,
+      challengeRating,
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571646#p571646'
     })),
   ]
     .map(({ name, challengeRating, link }) => ({
