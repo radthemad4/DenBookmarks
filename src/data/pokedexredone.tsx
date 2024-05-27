@@ -579,6 +579,11 @@ export const pokedexRedoneMonsters: MonsterEntry[] = [
       challengeRating,
       link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=572149#p572149',
     })),
+    {
+      name: 'Castform',
+      challengeRating: 2,
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=572206#p572206',
+    },
   ].map(({ name, challengeRating, link }) => {
     return {
       name,
