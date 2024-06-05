@@ -1262,6 +1262,25 @@ export const monsters: MonsterEntry[] = [
             challengeRating: 3,
         }
     }),
+    ...[
+        {
+            name: 'Half-Fiend Wasp',
+            challengeRating: 5,
+        },
+        {
+            name: 'Hawkwasp Devil',
+            challengeRating: 10,
+        },
+        {
+            name: 'Greater Advespa',
+            challengeRating: 10,
+        },
+    ].map(({ name, challengeRating }) => ({
+        name,
+        challengeRating,
+        author: 'Prak',
+        link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=572328#p572328'
+    })),
     ...pokedexRedoneMonsters.map((value) => ({
         ...value, relatedLinks: [{ title: 'Pokedex Redone 2022', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=57904' }],
     })),
