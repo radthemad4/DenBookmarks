@@ -354,6 +354,7 @@ export const monsters: MonsterEntry[] = [
             { name: "Ice Golem", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=424983#p424983" },
             { name: "Incarnate", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=471560#p471560" },
             { name: "Khayal", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=416181#p416181" },
+            { name: "Maelephant", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=572542#p572542" },
             { name: "Mature Adult Dragon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=483328#p483328" },
             { name: "Marid", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=413005#p413005" },
             { name: "Nighthaunter", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=511925#p511925" },

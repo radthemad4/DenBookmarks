@@ -192,7 +192,7 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         },
         {
             name: 'Devil: Amnizu PrC: Fugitive Hunter of Baator',
-            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544105#p544105',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544108#p544108',
             minimumStartingLevel: 9
         },
         ...[

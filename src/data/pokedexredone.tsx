@@ -622,16 +622,16 @@ export const pokedexRedoneMonsters: MonsterEntry[] = [
     ].map(({ name, challengeRating }) => ({
       name,
       challengeRating,
-      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571614#p571614'
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571615#p571615'
     })),
     ...[
       { name: 'Litwick', challengeRating: 1 },
       { name: 'Lampent', challengeRating: 4 },
-      { name: 'Displeast', challengeRating: 8 },
+      { name: 'Chandelure', challengeRating: 8 },
     ].map(({ name, challengeRating }) => ({
       name,
       challengeRating,
-      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571646#p571646'
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=572137#p572137'
     })),
   ]
     .map(({ name, challengeRating, link }) => ({
@@ -699,7 +699,6 @@ export const pokedexRedoneFakemon: MonsterEntry[] = [
     ...[
       { name: 'Stomtyke', challengeRating: 3 },
       { name: 'Stomtaiko', challengeRating: 8 },
-      { name: 'Displeast', challengeRating: 6 },
     ].map(({ name, challengeRating }) => ({
       name,
       challengeRating,
