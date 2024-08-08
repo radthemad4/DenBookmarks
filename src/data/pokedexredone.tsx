@@ -704,6 +704,14 @@ export const pokedexRedoneFakemon: MonsterEntry[] = [
       challengeRating,
       link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571646#p571646'
     })),
+    ...[
+      { name: 'Fossil Yamask', challengeRating: 4 },
+      { name: 'Deinorygus', challengeRating: 8 },
+    ].map(({ name, challengeRating }) => ({
+      name,
+      challengeRating,
+      link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=571615#p571615'
+    })),
   ]
     .map(({ name, challengeRating, link }) => ({
       name,

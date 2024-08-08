@@ -308,7 +308,7 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         },
         {
             name: 'Deva: Movanic PrC: Worldly Dominion',
-            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544229#p544229',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544230#p544230',
             minimumStartingLevel: 11
         },
         {
@@ -503,7 +503,7 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
         },
         {
             name: 'Inevitable: Zelekhut PrC: Enforcer of Justice',
-            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544704#p544704',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544708#p544708',
             minimumStartingLevel: 11
         },
         {
