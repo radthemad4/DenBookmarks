@@ -1216,6 +1216,11 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=565928#p565928',
             minimumStartingLevel: 8
         },
+        {
+            name: "Terlen PrC: Great Fang of the Sky",
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=565928#p565928',
+            minimumStartingLevel: 5
+        },
     ].map(({ name, link, minimumStartingLevel }) => {
         return {
             name,
