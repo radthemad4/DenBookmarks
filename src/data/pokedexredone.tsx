@@ -589,7 +589,7 @@ export const pokedexRedoneMonsters: MonsterEntry[] = [
         name: 'Eevee',
         challengeRating: 0.5,
       },
-      ...['Vaporeon', 'Flareon', 'Jolteon', 'Espeon', 'Umbreon'].map((name) => ({
+      ...['Vaporeon', 'Flareon', 'Jolteon', 'Espeon', 'Umbreon', 'Glaceon', 'Leafeon', 'Sylveon'].map((name) => ({
         name,
         challengeRating: 8,
       })),
