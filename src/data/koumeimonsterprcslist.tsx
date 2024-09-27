@@ -521,11 +521,16 @@ export const koumeiMonsterPrcs: PrestigeClassEntry[] = [
             link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544744#p544744',
             minimumStartingLevel: 8
         },
-        {
-            name: 'Lillend PrC: Divine Muse',
-            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544750#p544750',
-            minimumStartingLevel: 9
-        },
+        ...[
+            { name: 'Divine Muse', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=544750#p544750' },
+            { name: 'Azata of Artistry', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=573197#p573197' },
+        ].map(({ name, link }) => {
+            return {
+                name: `Lillend PrC: ${name}`,
+                link,
+                minimumStartingLevel: 9
+            }
+        }),
         {
             name: 'Manticore PrC: Manticore Scout',
             link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=544769#p544769',

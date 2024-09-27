@@ -446,7 +446,7 @@ export const scalingFeats: Entry[] = [
             link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=447148#p447148',
         }
     }),
-    ...['Damned soul [Aura]', 'Evil Magnitude',].map((name) => {
+    ...['Damned soul [Aura]',].map((name) => {
         return {
             name,
             author: 'Prak',
