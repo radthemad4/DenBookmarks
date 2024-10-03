@@ -1180,6 +1180,8 @@ export const baseClasses: Entry[] = [
         name: 'Spellthief',
         author: 'RelentlessImp',
         link: 'http://tgdmb.com/phpBB3/viewtopic.php?t=56079',
+        wikiLink: 'https://dnd-wiki.org/wiki/Spellthief_(Tome)',
+        note: 'wiki link is more recent'
     },
     {
         name: 'Sphereless Carthaz Conduit',
