@@ -298,4 +298,9 @@ export const backgrounds: Entry[] = [
         author: "Darth Rabbit",
         link: "https://drive.google.com/uc?export=view&id=1_vkH-ZmLl_blhFZeFjLv4YvZzwa4diFn",
     },
+    {
+        name: `Cursed Child`,
+        author: "Prak",
+        link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=573361#p573361",
+    },
 ];
