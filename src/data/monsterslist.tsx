@@ -495,6 +495,7 @@ export const monsters: MonsterEntry[] = [
             { name: "Marid, Noble", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=413438#p413438" },
             { name: "Memitim", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=498988#p498988" },
             { name: "Planetar", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384306#p384306" },
+            { name: "Protean, Hegessik", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=573407#p573407" },
             { name: "Pyreen", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=549108#p549108" },
             { name: "Qorrash, Noble", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=416902#p416902" },
             { name: "Sea Giant", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=380244#p380244" },
