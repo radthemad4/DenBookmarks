@@ -377,7 +377,6 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
-            { name: "Arcanaloth", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=383986#p383986" },
             { name: "Asura", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=483326#p483326" },
             { name: "Deepspawn", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=510243#p510243" },
             { name: "Dogai", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=491650#p491650" },
@@ -399,6 +398,7 @@ export const monsters: MonsterEntry[] = [
         }),
         ...[
             { name: "Amnizu", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=547647#p547647" },
+            { name: "Arcanaloth", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=383986#p383986" },
             { name: "Aspect of Bahamut", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=537828#p537828" },
             { name: "Aspect of Nerull", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=471391#p471391" },
             { name: "Astral Deva", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384171#p384171" },
@@ -489,7 +489,6 @@ export const monsters: MonsterEntry[] = [
             { name: "Gelugon", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384633#p384633" },
             { name: "Goristro", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=384176#p384176" },
             { name: "Hellfire Wyrm", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=456390#p456390" },
-            { name: "Invisible", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=510670#p510670" },
             { name: "Justicator", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=383585#p383585" },
             { name: "Khayal, Noble", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=416353#p416353" },
             { name: "Marid, Noble", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=413438#p413438" },
@@ -788,19 +787,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=279467#p279467',
-                challengeRating: challengeRating,
-            };
-        }),
-        ...[
-            { name: 'Klink', challengeRating: 1 },
-            { name: 'Klang', challengeRating: 5 },
-            { name: 'Klingklang', challengeRating: 10 },
-        ].map(({ name, challengeRating }) => {
-            return {
-                name,
-                author: 'Koumei',
-                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=279467#p279467',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=279582#p279582',
                 challengeRating: challengeRating,
             };
         }),
@@ -823,7 +810,7 @@ export const monsters: MonsterEntry[] = [
             return {
                 name,
                 author: 'Koumei',
-                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=279812#p279812',
+                link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=280015#p280015',
                 challengeRating: challengeRating,
             };
         }),
@@ -860,7 +847,6 @@ export const monsters: MonsterEntry[] = [
         ...[
             { name: 'Croagunk', challengeRating: 4 },
             { name: 'Toxicroak', challengeRating: 10 },
-            { name: 'Emboar', challengeRating: 11 },
         ].map(({ name, challengeRating }) => {
             return {
                 name,
