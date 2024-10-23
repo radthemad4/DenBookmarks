@@ -113,6 +113,7 @@ export const monsters: MonsterEntry[] = [
         ...[
             { name: 'Bohrak-Va', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=471073#p471073' },
             { name: 'Cactoid', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=472405#p472405' },
+            { name: 'Dremora', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=573531#p573531' },
             { name: 'Gria', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=457540#p457540' },
             { name: 'Kappa', link: 'http://tgdmb.com/phpBB3/viewtopic.php?p=489536#p489536' },
             { name: 'Leg Eater', link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=548506#p548506' },

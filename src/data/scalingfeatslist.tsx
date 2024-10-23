@@ -1756,4 +1756,9 @@ export const scalingFeats: Entry[] = [
         author: 'Kaelik',
         link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=570810#p570810',
     },
+    {
+        name: 'Master Artisan [Skill] [Leadership]',
+        author: 'Lokathor',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=55252',
+    },
 ];

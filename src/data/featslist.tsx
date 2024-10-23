@@ -1303,6 +1303,16 @@ export const feats: Entry[] = [
         link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=571544#p571544",
         relatedLinks: [{ title: 'Pokémon d20', link: 'https://dnd-wiki.org/wiki/Pok%C3%A9mon_d20_(3.5e_Sourcebook)' },],
     },
+    ...[
+        'Scribe Scroll [Item Creation]', 'Brew Potion [Item Creation]',
+        'Craft Magical Arms and Armor [Item Creation]', 'Craft Wondrous Item [Item Creation]',
+    ].map((name) => {
+        return {
+            name,
+            author: 'Lokathor',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?t=55252',
+        }
+    }),
 ];
 
 export const featCollections: Entry[] = [

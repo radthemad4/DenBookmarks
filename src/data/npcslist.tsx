@@ -97,6 +97,11 @@ export const npcs: MonsterEntry[] = [
             link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=432510#p432510',
             challengeRating: 5,
         },
+        {
+            name: 'Dremora Warrior 1',
+            link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=573531#p573531',
+            challengeRating: 1,
+        },
     ].map(({ name, link, challengeRating }) => {
         return {
             name,
