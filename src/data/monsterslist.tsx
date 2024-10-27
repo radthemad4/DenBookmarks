@@ -159,6 +159,7 @@ export const monsters: MonsterEntry[] = [
             }
         }),
         ...[
+            { name: "Bacchae", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=573666#p573666" },
             { name: "Chaos Fury", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=572144#p572144" },
             { name: "Draugr", link: "http://tgdmb.com/phpBB3/viewtopic.php?p=464931#p464931" },
             { name: "Nigawarai", link: "http://www.tgdmb.com/phpBB3/viewtopic.php?p=498964#p498964" },
