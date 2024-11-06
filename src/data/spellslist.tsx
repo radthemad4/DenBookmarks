@@ -575,5 +575,10 @@ export const spells: Entry[] = [
         name,
         link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=569802#p569802',
         author: 'Kaelik',
-    }))
+    })),
+    {
+        name: "Unholy Transformation (Cleric 7, Sorcerer/Wizard 8)",
+        author: 'Wiseman',
+        link: 'http://www.tgdmb.com/phpBB3/viewtopic.php?p=573876#p573876',
+    },
 ];
